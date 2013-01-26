@@ -1,0 +1,47 @@
+Title:					Data Backups, Part I
+Author:					W. Howard Buddin, Jr., Ph.D.
+Web:					http://neuropsychnow.com
+Date:               	12/09/2012
+Tags:					Data, Tech, Backup 
+Base Header Level:  	1
+
+There are two types of computer users: those who *have* lost data, and those who *will* lose data. As such, this point cannot be overemphasized: **back up your data**. More generally and preferable, back up everything on your computer. Beginning a couple of years ago, the prices on Hard Disk Drives (HDD) began to drop. And then they plummetted. There is no shortage of sites where a 1 TB HDD can be found for $100 or less, like [right here](http://www.newegg.com/Product/Product.aspx?Item=N82E16822178245). What is important here is this: there is little excuse to not have a backup of your computer, and there is *no* excuse to not have a backup of your most important files. As a practicing clinician, these files should largely be your reports. 
+
+## Beyond Family Pictures
+
+Beyond precious moments of days gone by, there are other important things to backup. Things you've spent good money on, like the scoring or testing programs you've installed on your office computer(s). Sure, you know right where those install discs are (*or do you?*), but what about the license keys needed to activate the programs? The key may or may not be in the case with the disc. Even if you have both of those, there's another risk. Some developers allow one install per purchase, and that's it. So, even if your computer crashes and you have the disc and key needed for an install, you'll get an unpleasant surprise when you actually try to perform the software installation: a message that you've exceeded the maximum number of allowed installations. "What?!?" you say? That's right. Developers of expensive software are going to protect their interests, meaning that unless you've properly uninstalled the software first (the method varies, but usually involves *un*-registering the installation before removing it from the machine) a "simple" re-installation is not so simple. You may need to call the developer/publisher's customer service. They may or may not be helpful or friendly. They may or may not tell you that you need to purchase *another* license key. Your mileage may vary. 
+
+## Best-Case Scenario
+
+Even if things go well with manually re-installing all of your software, the best case scenario is that you've lost *hours* of time. Easily. The best-case scenario, following a crash with no backup, assumes the following: 
+
+1. You were able to successfully diagnose and correct the reason for the computer's failure/crash yourself[^1]
+2. You were able to successfully re-install the computer's operating system
+3. You were able to update the base operating system to the most recent version, with all necessary drivers and security patches
+4. You are able to configure network settings to connect to the Internet[^2]
+5. You have all installation discs/downloads (in the form of disk images)
+6. You have necessary license keys
+7. The developer has not blocked a re-install or has permitted a re-install with the same key
+
+That's all. It's all but certain few, if any, clinicians can claim that they're certain they could meet those assumptions. The way around this "best case" is to have an air-tight backup plan. The Internet is [flush with examples](https://duckduckgo.com/?q=computer+backup+strategies) of how to configure a backup plan, and discussing all the ways by which one can configure a strategy is far beyond this post. This is in part due to the fact that the "correct" strategy is user-dependent. 
+
+## Backup Media
+
+* Backup strategies effectively begin here: with the media, or type of device on which you'll be storing your data. Like all other components of a good strategy, what you'll use is determined by what and how often you'll be backing up your data. 
+
+* **Optical Discs and USB** 
+	* Both optical discs (i.e., CD, DVD) and USB flash (or "thumb") drives can serve to store relatively small backups. Such backups will likely consist of your most important files, photos, videos, passwords, etc. 
+	* **Optical discs** are great for archival purposes. Some types can be written only once, whereas others can be rewritten, which allows for updating of contents. Two pitfalls associated with this medium are (1) risk of scratching and (2) degradation of the aluminum (or, in some cases, gold) surface of the disc over time. If you plan on archiving to a disc and storing it away in a case, neither of these should be of any real, immediate concern. 
+	* **USB drives** are more flexible than optical media, in that they can be written to as many times and as often as you'd like. They are more susceptible to the hazards of day-to-day life, though, as you're more likely to tote them around with you. Shortcomings inculde broken connectors, accidental file erasure (by *you*), and loss of the drive itself. 
+
+* **Internal, External, and Networked Hard Disk Drives (HDD)**
+	* **Hard Disk Drives (HDDs)** come in immense array of storage capacities, and generally are one of two form-factors: (1) 3.5" ("desktop" size) or (2) 2.5" ("laptop" size). The smaller, laptop form factor may come in a case, and is generally "portable." Such a drive affords the portability of a USB drive, but offers many times more storage. 
+	* HDDs can be attached directly by cable or indirectly by being "wired in" to a network (referred to as Network Attached Storage or [NAS](https://en.wikipedia.org/wiki/Network-attached_storage)). 
+
+In the next post, we'll discuss some of the differences in types of backups and synchronization services. Until that post, take some time to explore the various backup options, and see if you can identify which strategy might be best suited to your needs. 
+
+
+[^1]: Remember, this is *best* case scenario, meaning you didn't take it to a repair facility to be fixed. That's extra time *and* money.
+
+[^2]: That fancy-pants, enterprise-class, HIPAA-compliant network you had *Dork Squad* set up? Here is where you get to see how good it is. If you don't know what a rotating, 24-bit hexadecimal WPA2 pre-shared key is, you're pretty much screwed. 
+

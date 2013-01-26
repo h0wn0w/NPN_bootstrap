@@ -1,0 +1,51 @@
+Title:				Procrastinate More
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+CSS:                ../../css/layout.css
+Date:               12/13/2012 
+Tags:               Behavior, ADHD, Motivation
+Base Header Level:  1
+
+
+Procrastination is a human behavior that causes [stress and negative consequences](https://www.amherst.edu/media/view/230062/original/procrastinating.pdf), but is also very difficult to extinguish. For those who want to procrastinate less, it is vital to understand the factors that contribute to procrastination, as well as those that will increase the probability of the desired behavior: getting "in the zone" much earlier than typical. 
+
+[Strong predictors of procrastination](http://studiemetro.au.dk/fileadmin/www.studiemetro.au.dk/Procrastination_2.pdf) include:
+
+- Task aversiveness/desirability
+- impulsiveness
+- distractibility
+- Various facets of conscientiousness
+- Sensitivity to delay
+
+These are all captured by the [*Temporal Motivation Theory*](http://webapps2.ucalgary.ca/~steel/images/Integrating.pdf) and ["procrastination equation"](http://studiemetro.au.dk/fileadmin/www.studiemetro.au.dk/Procrastination_2.pdf):
+
+U = (E x V)/(S x D) 
+
+where **U** (utility) is the desire to perform a particular task. **U** is highest when tasks are desirable, highly rewarding (high in **E**xpectancy and **V**alue), and can (or need to) be accomplished right away (short **D**elay). One's level of impulsivity, distractibility, and self-control (**S**, or sensitivity to delay) will dictate how easy (or not) it is to delay gratification or engage in tasks that are not entirely desirable.
+
+If the equation is accurate, procrastination can be diminished by making tasks more desirable or altering one's characteristics. Things to try include:
+
+- Breaking large overwhelming tasks into doable subtasks (It's sort of cliché, but logical and may increase task desirability).
+- Pay attention to your own behavior and recognize when you are being impulsive. Then try to defuse the situation. If a distracting thought enters your mind, write it down and go back to the task at hand.
+- Try a [procrastination dash](http://www.43folders.com/2005/10/11/procrastination-hack-1025)
+- [Premack's Principle](http://en.wikipedia.org/wiki/Premack's_principle)
+- Practice good office hygiene. Turn off phone, close distracting applications like email, twitter, Facebook, web browsers. The world will not come to an end if you are off the grid for an hour (especially after [Dec. 21](http://www.december212012.com/))
+- Paradoxically, try to procrastinate as much as possible. 
+
+Importantly, recognize that procrastination behavior develops overtime and will not go away over night. THERE IS NO EASY FIX. Identify what works for you and let go of what doesn't. Revisit the procrastination equation, but don't spend too much time trying to figure this out. Get to work!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

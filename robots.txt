@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /cgi
+Disallow: /datatables
+Disallow: /js
+Disallow: /php
+Disallow: /img
+

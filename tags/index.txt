@@ -1,0 +1,7 @@
+Title:				index
+Author:				W. Howard Buddin, Jr., Ph.D.
+Web:				http://neuropsychnow.com
+CSS:                               ../../css/layout.css
+Date:                             121412 
+Tags:                            
+Base Header Level:        

@@ -1,0 +1,18 @@
+<!--#if expr="$DOCUMENT_NAME = blog.html" -->
+<!--#include virtual="../cgi/pages_in_category.cgi" -->
+<!--#include virtual="../cgi/similar_pages.cgi" -->
+<!--#elif expr="$DOCUMENT_NAME = archives.html" -->
+<!--#else -->
+<!--#include virtual="../cgi/similar_pages.cgi" -->
+<!--#include virtual="../cgi/comments.cgi" -->
+<!--#endif -->
+</div>
+</div>
+
+<!--#include file="sidebar.html" -->
+
+</div>
+
+<!--#include virtual="blogfoot.html" -->
+
+</div>

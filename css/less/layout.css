@@ -1,0 +1,125 @@
+/*	CSS System
+
+	Portions modified from from:
+	http://matthewjamestaylor.com/blog/ultimate-multi-column-liquid-layouts-em-and-pixel-widths
+
+	by Matthew James Taylor
+
+
+	Remainder Copyright (c) 2010 Fletcher T. Penney
+		<http://fletcherpenney.net/>
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* NOTE: This file is created with [LESS](http://lesscss.org/). To convert it
+to CSS, you must process it with the lessc tool.
+
+Alternatively, you can look at the measurements section and calculate the
+changes you wish to make, and modify `layout.css` by hand.
+
+Option 1 may be easier if you plan on making changes frequently.
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* This removes the border around the viewport in old versions of IE */
+
+  /* Minimum width of layout - remove line if not required */
+
+  /* The min-width property does not work in old versions of Internet Explorer */
+
+  /*min-width: 60em;*/
+  text-align: center;
+}
+div {
+  text-align: left;
+}
+.header {
+  background-position: -10px 0px;
+  position: relative;
+  padding: 10px 10px 0px 10px;
+  max-width: 60em;
+  margin: 1.75em auto 0em auto;
+}
+.wrapper {
+  position: relative;
+  /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+
+  width: 100%;
+  /* width of whole page */
+
+  min-width: 59em;
+  clear: both;
+  overflow: hidden;
+  /* This chops off any overhanging divs */
+
+  max-width: 59em;
+  margin: 0 auto;
+  margin-bottom: 1.75em;
+}
+.innerwrapper {
+  float: left;
+  width: 200%;
+  position: relative;
+}
+.contentwrapper {
+  position: relative;
+  padding-bottom: 1em;
+}
+.content {
+  max-width: 37em;  /* originally 35em, but I changed to accomodate titles */
+  overflow: hidden;
+  margin: 0 2.5em 0 16.5em;
+}
+.sidebar {
+  width: 14em;
+  position: relative;
+  padding-top: 40px;    /*added to lower this below the navbar*/
+}
+.footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  min-width: 59em;
+  font-size: 0.75em;
+}
+.rightmenu .innerwrapper {
+  margin-left: -14em;
+  right: 100%;
+}
+.rightmenu .contentwrapper {
+  float: left;
+  left: 50%;
+}
+.rightmenu .sidebar {
+  float: right;
+  left: 11.5em;
+}
+.leftmenu .innerwrapper {
+  left: 19em;
+}
+.leftmenu .contentwrapper {
+  float: right;
+  right: 24em;
+}
+.leftmenu .content {
+  position: relative;
+  right: 100%;
+}
+.leftmenu .sidebar {
+  float: left;
+  right: 16.5em;
+}

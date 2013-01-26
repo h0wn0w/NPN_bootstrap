@@ -1,0 +1,33 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	
+	<title>What Data Is And Is Not</title>
+	<meta name="author" content="W. Howard Buddin Jr., Ph.D.">
+	<meta name="web" content="http://neuropsychnow.com">
+	<meta name="date" content="12/25/2012">
+	<meta name="tags" content="Data, Statistics, Research">
+	<meta name="category" content="Research">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">What Data Is And Is Not</h1>
+<div class="date">12/25/2012</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" --><!--#include virtual="${Base_URL}/cgi/pages_in_category.cgi" -->
+
+<p>The Guardian has an excellent post on <a href="http://www.guardian.co.uk/news/datablog/2012/may/31/data-journalism-focused-critical">what data is and is not</a>. The post&#8217;s author, <a href="http://www.guardian.co.uk/profile/jonathan-gray">Jonathan Gray</a>, makes several excellent points. Among them is the near axiomatic truth that conclusions are frequently rolled out by entities that don&#8217;t really understand what the underlying data are really saying. </p>
+
+<p><a href="http://www.cbssports.com/nfl/blog/mike-freeman/18992637/study-nfl-players-living-longer-than-general-population">CBS Sports</a> posted an article about NFL players and their longevity, etc., when compared to the rest of us. This is an excellent example of data analysis gone completely wrong. In a nutshell, the CBS article seems to present compelling data for greater longevity of football players as compared to the general public. Unfortunately, if you don&#8217;t have training in research methodology and/or statistics, you would have not ever known what you were really looking at. This is not uncommon, even among those of us with standard graduate-level statistics coursework.
+Here&#8217;s the table presented in the article linked above: </p>
+
+<figure>
+<img src="../../img/nfltable.png" alt=""></figure>
+
+
+
+<p>Although it&#8217;s not stated in the article, the data comparisons made were clearly performed using a Chi-square analysis, which is a type of descriptive, non-parametric statistical analysis used to analyze nominal or ordinal data and determine if there are any differences between the number of events observed and the number that were expected. The number of observations expected can be defined by the user, or can be gleaned from the existing data. Descriptive analyses like Chi-square tell us something about the makeup of <em>k</em> groups of <em>n</em> size. This is in comparison to inferential statistical analyses that can help understand the &#8220;how&#8221; and &#8220;why&#8221; questions about the relationships between groups and/or associated variables. Now let&#8217;s talk a bit more about the content rather than somewhat esoteric definitions.</p>
+
+<p>In this study, a Chi-square was the appropriate choice for what the researchers were looking for (i.e., differences between Us and Them); however, Chi-square should generally be used as a preliminary analysis to determine if sample sizes between groups are statistically significantly different. This information is then used to inform us as to whether groups are too different in size or makeup for other, inferential analyses. In other words, it seems that the researchers effectively stopped before they ever really got going. For the kind of question being asked here, they should have gone much, much further than a Chi-square. It&#8217;s well beyond the scope of this post to do a full critique of the study, but an analysis that yielded <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC478551/">hazard</a> or <a href="http://www.cancer.gov/dictionary?CdrID=618614">risk</a> ratios through some form of regression (e.g., discriminant function analysis, Cox regression) would have been a logical next step. Click on those links for a quick read, and I think you&#8217;ll agree that the descriptions (a) sound a lot like they fit with the NFL study, and (b) seem like they go a bit deeper than merely asking &#8220;are groups <em>A</em> and <em>B</em> different?&#8221; These two analyses represent better, more detailed methods for answering such questions. The conclusions and findings offered on CBS&#8217; blog are, unfortunately, misleading and wrong-headed. </p>
+
+<p>The take-home message is to be careful when you see data presented like this. To paraphrase Jonathan Gray, just because anyone can go around and get all this great data doesn&#8217;t mean they should. Why? Because we/they/you probably don&#8217;t have the context and training necessary to make sense of what the data are really saying. </p>
+
+<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+</html>

@@ -1,0 +1,7 @@
+Title:				Medical Record Review
+Author:				W. Howard Buddin Jr., Ph.D.
+Web:				http://neuropsychnow.com
+Date:                   01/21/2013 
+Tags:                   Records, PHI, Report Writing, Reports
+Base Header Level:      1
+

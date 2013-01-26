@@ -1,0 +1,35 @@
+<!--#if expr='"$HTTPS" = "on"' -->
+<!--#set var="HTTP_WIRE_PROTOCOL" value="https" -->
+<!--#else -->
+<!--#set var="HTTP_WIRE_PROTOCOL" value="http" -->
+<!--#endif -->
+<base href="<!--#echo var="HTTP_WIRE_PROTOCOL" -->://<!--#echo var="HTTP_HOST" --><!--#echo var="Base_URL" -->/"/>
+<link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="../css/bootstrap-responsive.css" type="text/css" />
+<link href="./css/less/layout.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="../css/bootstrap-responsive.min.css" type="text/css" /> -->
+<link rel="icon" href="./img/favicon.png" type="image/png" />
+
+<!-- <link rel="stylesheet" href="./css/layout.css" type="text/css" /> -->
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://neuropsychnow.com/atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Atom - Comments" href="http://neuropsychnow.com/atom-comments.xml" />
+<link rel="icon" href="./img/favicon.png" type="image/png" />
+
+<style>
+
+/*offset the OpenID Login button just a bit*/
+
+input {
+  margin: 10px;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+</style>
+
+<script type="text/javascript" src="cgi/commenter.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/twitter-bootstrap-hover-dropdown.js"></script>
+<!-- <script src="../js/bootstrap.min.js"></script> -->
+

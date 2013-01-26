@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Neuropsych Now Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="blog">
+    <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
+    <meta name="tags" content="">
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/less/layout.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+    <!-- The google search css -->
+    <link href="./css/minimalist.css" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.png" type="image/png" />
+    
+    <style>
+     /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 80px;
+      padding-bottom: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+
+    /*for the blog sidebar and footer
+    ____________________________________________________*/
+    .sidebar {
+    width: 14em;
+    position: relative;
+    /*float: right;*/
+    }
+    .footer {
+      text-align: center;
+    }
+    .div.hero-unit {
+      float: left;
+    }
+
+    /*Google custom search field */
+
+    .cse .gsc-control-cse,
+    .gsc-control-cse {
+      padding: 1em;
+      /*width: auto;*/
+      width: 50%;
+    }
+    .cse .gsc-control-wrapper-cse,
+    .gsc-control-wrapper-cse {
+      width: 50%;
+    }
+    .cse .gsc-branding,
+    .gsc-branding {
+      display: none;
+    }
+    .cse.gsc-control-cse div,
+    .gsc-control-cse div {
+      position: normal;
+    }
+
+/*    RESPONSIVE STYLES
+    =======================================*/
+/*get the navbar to cooperate on mobile versions*/
+    @media (max-width: 979px) {
+      .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
+    }
+
+    @media (max-width: 767px) {
+      .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+      }
+    }
+
+    </style>
+   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+   <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+  <body>
+
+<!--#include virtual="./templates/navbar.html" -->
+
+<!-- Main body starts here -->
+
+    <div class="container">
+      <div class="hero-unit" style="background-color: #f1f3f3">
+
+      <h1 style="color: red;">Neuropsych Now Blog</h1>
+    
+      <!--#include virtual="cgi/latest_stories.cgi" -->
+      </div>
+      <!--#include virtual="./templates/shortfoot.html" -->
+      
+      <!--#include virtual="./templates/mainfoot.html" -->
+      
+    </div> <!-- /.container -->
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+
+  </body>
+</html>

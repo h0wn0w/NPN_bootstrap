@@ -1,0 +1,24 @@
+Title:						Reconsider Word
+Author:						W. Howard Buddin, Jr., Ph.D.
+Web:						http://neuropsychnow.com
+Date:                     	12/11/2012 
+Tags:                     	Word, Texteditor, Productivity
+Base Header Level:        	1
+
+Ask yourself a few quick questions: 
+
+* How often do you really need a full-featured word processor? 
+* How often would a "simple" text editor get the job done? 
+* What is a word processor, and how is it different from a text editor?
+
+That last question is one that most people (a) have never thought to ask, and (b) probably can't effectively answer. The short answer is that a word processor is for typsetting/formatting text, and a text editor is for writing/authoring text. Now ask yourself another question: when writing reports, are you formatting or writing? Correct - you're writing. Of course, you can author text in either of those two applications, right? So, at the end of the day, what's the difference between them? Isn't *Word* way better than a relatively featureless text editor? Let's examine that last question. 
+
+Let's start answering that question by looking at not your desktop computer, but your mobile device(s). You all but certainly have a touchscreen phone that affords you computing power that none of us dreamed possible just a few years ago. If you own a tablet, it's probably an iPad.[^1] Thus, you at least have the *ability* to access and work on files in "the cloud," which can increase your efficiency.[^2] The problem is, if you're writing all of your reports with Microsoft *Word*, your options are limited. Like, number-of-movie-theaters-in-Greenland limited. If you really want to get serious work done on the road, a text editor is the only way to go. In fact, if you want to get serious work done on your desktop computer, the same holds true. 
+
+If you want to edit *Word* (.doc or .docx files) on your iPad or iPhone, [here are your choices](http://www.macworld.com/article/1151397/word_ipad.html). If you work with plain text files (.txt), [iOS text editors](http://brettterpstra.com/ios-text-editors/) you have far more choices. If you don't have time to go through those two links, here's a summary: there are 78 text editors for iOS devices as compared to eight that will handle *Word* files. Of those eight, only one is free. The benefits of using plain text files for report writing extend beyond the mobile realm, though: plain text files will open on any computer and/or operating system that has ever been made. The same cannot be said about *Word* files. So, if you're looking for a *truly* portable way to write your reports, there is no better choice than plain text. Of course, you'll want your reports to have a professional fit and finish, and that is when a word processor should come into the workflow. When you're done with writing the report, simply cut and paste the text into *Word* and format as necessary. 
+
+<!-- Many, if not most, offices, practices, and individuals still use Microsoft Word. It seems like this venerable application has been around forever - a stalwart - and *will* be around forever. Think back and try to remember another word processor called [*Word Perfect*](http://www.corel.com/corel/product/index.jsp?pid=prod4720105&cid=catalog20038&segid=6400043). If you're able to remember this program, then you may also remember it was the *Word* of its day. It seemed that we'd be authoring articles, reports, etc., with the *.wp* extension forever. That was until Microsoft Word became the *defacto* king of word processors in the late 1990's and early 2000's, riding along with the rest of Microsoft to the top of the computing world. *Word* was embraced as the Next Great Thing.  -->
+
+[^1]: If marketing numbers are even close to accurate
+
+[^2]: The HIPAA implications of this will be discussed in a later post
