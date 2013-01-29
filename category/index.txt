@@ -1,7 +1,7 @@
 Title:				Tech
 Author:				W. Howard Buddin Jr., Ph.D.
 Web:				http://neuropsychnow.com
-Date:                   01/04/13 
+Date:                   01/04/2013 
 Tags:                   Tech
 Base Header Level:      1
 
