@@ -8,7 +8,8 @@
 	<meta name="web" content="http://neuropsychnow.com">
 	<meta name="date" content="01/16/2013">
 	<meta name="tags" content="Data, Tables, Reports, Statistics, Multimarkdown">
-<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<!--#include virtual="${Base_URL}/templates/head.html" -->
+    <link rel="stylesheet" href="../../css/bootstrap-lightbox.css" type="text/css" media="screen" /></head>
 <body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Excel Spreadsheet Building Blocks I: Equations</h1>
 <div class="date">01/16/2013</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
 
@@ -28,9 +29,20 @@
 
 <figure><div><img src="../../img/facesheet1.png" alt="Figure 1. Excel Facesheet" id="figure1.excelfacesheet" style="width:auto;">
 <figcaption>Figure 1. Excel Facesheet</figcaption></div>
+
+<a data-toggle="lightbox" href="#fig1">Enlarge Figure 1</a>
+<div id="fig1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-header'>
+        <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+    </div>
+    <div class='lightbox-content'>
+        <img src="../../img/facesheet1.png">
+    </div>
+</div>
+
 <!-- figure modal -->
 <!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn btn-small" data-toggle="modal">Enlarge Figure 1</a>
+<!-- <a href="#myModal" role="button" class="btn btn-small" data-toggle="modal">Enlarge Figure 1</a>
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
@@ -42,7 +54,7 @@
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
-</div>  </figure>       
+</div> -->  </figure>       
 
 <h2 id="equations">Equations</h2>
 
@@ -54,9 +66,19 @@
 <img src="../../img/functionequation1.png" alt="Figure 2. IQ Equation" id="figure2.iqequation" style="width:600px;">
 <figcaption>Figure 2. IQ Equation</figcaption>
 
+<a data-toggle="lightbox" href="#fig2">Enlarge Figure 2</a>
+<div id="fig2" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class='lightbox-header'>
+        <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
+    </div>
+    <div class='lightbox-content'>
+        <img src="../../img/functionequation1.png">
+    </div>
+</div>
+
 <!-- figure modal -->
 <!-- Button to trigger modal -->
-<a href="#myModal2" role="button" class="btn btn-small" data-toggle="modal">Enlarge Figure 2</a>
+<!-- <a href="#myModal2" role="button" class="btn btn-small" data-toggle="modal">Enlarge Figure 2</a>
 <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModal2Label" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
@@ -68,7 +90,7 @@
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
-</div>
+</div> -->
 </figure>
 
 
@@ -105,5 +127,8 @@
 </div>
 
 
-<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+<!--#include virtual="${Base_URL}/templates/footer.html" -->
+
+<script type="text/javascript" language="Javascript" src="../../js/bootstrap-lightbox.js"></script>
+</body>
 </html>
