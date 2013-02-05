@@ -1,13 +1,13 @@
-Title:  			Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST
-Author:				S. Marc Testa, Ph.D.
-Web:				http://neuropsychnow.com
-Date:                   01/16/2013
-Tags:                    Data tables, Reports, statistics, multimarkdown 
-Base Header Level:      1
+Title:	Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST
+Author:	S. Marc Testa, Ph.D.
+Web:	http://neuropsychnow.com
+Date:	01/16/2013
+Tags:	Data tables, Reports, statistics, multimarkdown 
+Base Header Level:	1
 
 # Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST #
 
-In this 2nd of 3 Excel guides, we review two functions that are extremely useful if you want to convert a standard score (like a z score or T-score) to a percentile. In [Part 1] of the series, we demonstrated how a regression-based normative (RBN) equation can be embedded in a spreadsheet to calculate an estimated IQ score. We stopped short, however, and did not convert the IQ score to a percentile. To carryout such a conversion,   the Excel function NORMDIST is used. There is also NORM**<u>S</u>**DIST, which would be useful only for converting a z score to a percentile. Both functions, NORM**<u>S</u>**DIST and NORMDIST, are reviewed below. If you would like to practice along at home, [the spreadsheet can be found here.]
+In this 2nd of 3 Excel guides, we review two functions that are extremely useful if you want to convert a standard score (like a z score or T-score) to a percentile. In [Part 1] of the series, we demonstrated how a regression-based normative (RBN) equation can be embedded in a spreadsheet to calculate an estimated IQ score. We stopped short, however, and did not convert the IQ score to a percentile. To carryout such a conversion, the Excel function NORMDIST is used. There is also NORM**<u>S</u>**DIST, which would be useful only for converting a z score to a percentile. Both functions, NORM**<u>S</u>**DIST and NORMDIST, are reviewed below. If you would like to practice along at home, [the spreadsheet can be found here.]
 
 ![Figure 1. Excel Facesheet]
 
@@ -55,7 +55,7 @@ Thus, the formula:
 
     =NORMDIST(40, 50, 10, TRUE)*100
 
-Will result in the value "16". 
+Will result in the value "16".
 
 In the sample spreadsheet (FIgure 3), cell C12 contains an IQ value of 123 and we would like to convert this to a percentile in cell E12. The formula is:
 
@@ -67,8 +67,8 @@ The equation above converts cell C12 to a percentile (94) based on a scale that 
 
 The next post in the Excel Table series will show you how to use the LOOKUP functions and explain a little about formatting for MultiMarkdown output.
 
-[the spreadsheet can be found here.]:http://d.pr/f/B1QC
-[Figure 1. Excel Facesheet]:../../img/facesheet1.png width=800px
-[Figure 2. NORMSDIST equations]:../../img/normdistLookup1.png width=600px
-[Figure 3. NORMDIST equation]:../../img/normdistLookup5.png width=600px
+[the spreadsheet can be found here.]:http://d.pr/f/B1QC 
+[Figure 1. Excel Facesheet]:../../img/facesheet1.png width=800px 
+[Figure 2. NORMSDIST equations]:../../img/normdistLookup1.png width=600px 
+[Figure 3. NORMDIST equation]:../../img/normdistLookup5.png width=600px 
 [Part 1]:http://neuropsychnow.com/2013/01/ExcelSpreadsheetBuildingBlocks1Equations
