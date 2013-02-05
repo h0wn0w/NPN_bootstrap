@@ -2,7 +2,7 @@ Title:	Excel Spreadsheet Building Blocks II: NORMSDIST and NORMDIST
 Author:	S. Marc Testa, Ph.D.
 Web:	http://neuropsychnow.com
 Date:	01/16/2013
-Tags:	Data tables, Reports, Statistics, Multimarkdown 
+Tags:	Data, Tables, Reports, Statistics, Multimarkdown 
 Base Header Level:	1
 
 <!-- # Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST # -->

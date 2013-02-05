@@ -7,8 +7,8 @@
 	<meta name="author" content="S. Marc Testa, Ph.D.">
 	<meta name="web" content="http://neuropsychnow.com">
 	<meta name="date" content="01/16/2013">
-	<meta name="tags" content="Data tables, Reports, Statistics, Multimarkdown">
-<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+	<meta name="tags" content="Data Tables, Reports, Statistics, Multimarkdown">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head><link rel="stylesheet" href="../../css/bootstrap-lightbox.css" type="text/css" media="screen" /></head>
 <body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Excel Spreadsheet Building Blocks II: NORMSDIST and NORMDIST</h1>
 <div class="date">01/16/2013</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
 
@@ -18,10 +18,10 @@
 
 <figure>
 <img src="../../img/facesheet1.png" alt="Figure 1. Excel Facesheet" id="figure1.excelfacesheet" style="width:800px;">
-<figcaption>Figure 1. Excel Facesheet</figcaption></figure>
+<figcaption>Figure 1. Excel Facesheet</figcaption>
 
-<a data-toggle="lightbox" href="#fig1">Enlarge Figure 1</a>
-<div id="fig1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+<a data-toggle="lightbox" href="#exc2fig1">Enlarge Figure 1</a>
+<div id="exc2fig1" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
     <div class='lightbox-header'>
         <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
     </div>
@@ -29,7 +29,7 @@
         <img src="../../img/facesheet1.png">
     </div>
 </div>
-
+</figure>
 
 <h2 id="normusudistandnormdist">NORM<strong><u>S</u></strong>DIST and NORMDIST</h2>
 
@@ -46,10 +46,10 @@
 
 <figure>
 <img src="../../img/normdistLookup1.png" alt="Figure 2. NORMSDIST equations" id="figure2.normsdistequations" style="width:600px;">
-<figcaption>Figure 2. NORMSDIST equations</figcaption></figure>
+<figcaption>Figure 2. NORMSDIST equations</figcaption>
 
-<a data-toggle="lightbox" href="#fig2">Enlarge Figure 2</a>
-<div id="fig2" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+<a data-toggle="lightbox" href="#exc2fig2">Enlarge Figure 2</a>
+<div id="exc2fig2" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
     <div class='lightbox-header'>
         <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
     </div>
@@ -57,6 +57,7 @@
         <img src="../../img/normdistLookup1.png">
     </div>
 </div>
+</figure>
 
 
 <p>Simply type this formula in the cell you want the percentile to appear (here, E15 ) and replace the &#8220;z&#8221; with the actual z score value or the cell reference that contains the z score (here, I15). The resultant value, after multiplying by 100, will be a percentile (in this case 35th %ile).</p>
@@ -108,10 +109,10 @@
 
 <figure>
 <img src="../../img/normdistLookup5.png" alt="Figure 3. NORMDIST equation" id="figure3.normdistequation" style="width:600px;">
-<figcaption>Figure 3. NORMDIST equation</figcaption></figure>
+<figcaption>Figure 3. NORMDIST equation</figcaption>
 
-<a data-toggle="lightbox" href="#fig2">Enlarge Figure 3</a>
-<div id="fig3" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+<a data-toggle="lightbox" href="#exc2fig3">Enlarge Figure 3</a>
+<div id="exc2fig3" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
     <div class='lightbox-header'>
         <button type="button" class="close" data-dismiss="lightbox" aria-hidden="true">&times;</button>
     </div>
@@ -119,10 +120,14 @@
         <img src="../../img/normdistLookup5.png">
     </div>
 </div>
+</figure>
 
 
 
 <p>The next post in the Excel Table series will show you how to use the LOOKUP functions and explain a little about formatting for MultiMarkdown output.</p>
 
-<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+<!--#include virtual="${Base_URL}/templates/footer.html" -->
+
+<script type="text/javascript" language="Javascript" src="../../js/bootstrap-lightbox.js"></script>
+</body>
 </html>
