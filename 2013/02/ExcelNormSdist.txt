@@ -1,12 +1,11 @@
-Title:	Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST
+Title:	Excel Spreadsheet Building Blocks II: NORMSDIST and NORMDIST
 Author:	S. Marc Testa, Ph.D.
 Web:	http://neuropsychnow.com
 Date:	01/16/2013
-Tags:	Data tables, Reports, statistics, multimarkdown 
+Tags:	Data tables, Reports, Statistics, Multimarkdown 
 Base Header Level:	1
 
-# Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST #
-
+<!-- # Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST # -->
 In this 2nd of 3 Excel guides, we review two functions that are extremely useful if you want to convert a standard score (like a z score or T-score) to a percentile. In [Part 1] of the series, we demonstrated how a regression-based normative (RBN) equation can be embedded in a spreadsheet to calculate an estimated IQ score. We stopped short, however, and did not convert the IQ score to a percentile. To carryout such a conversion, the Excel function NORMDIST is used. There is also NORM**<u>S</u>**DIST, which would be useful only for converting a z score to a percentile. Both functions, NORM**<u>S</u>**DIST and NORMDIST, are reviewed below. If you would like to practice along at home, [the spreadsheet can be found here.]
 
 ![Figure 1. Excel Facesheet]
