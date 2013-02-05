@@ -5,11 +5,13 @@
     <title>Neuropsych Now Titles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="Neuropsych Now" content="">
+    <meta name="tags" content="Main, Titles, State Of The Field">
+    <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
 
     <!-- Le styles -->
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link rel="icon" href="./img/favicon.png" type="image/png" />
     <style type="text/css">
     
@@ -19,104 +21,15 @@
 
     body {
       padding-top: 80px;
-      padding-bottom: 60px;
-      color: #5a5a5a;
+      font-family: 'News Cycle', sans-serif;
     }
 
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
+ /*get the navbar to cooperate on mobile versions landscape and portrait*/
+    @media (max-width: 979px) {
+      .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
+      .container-hero-unit { margin-top:70px;}
     }
 
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
-
-      /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /* Carousel base class */
-    .carousel {
-      margin-bottom: 60px;
-    }
-
-    .carousel .container {
-      position: relative;
-      z-index: 9;
-    }
-
-    .carousel-control {
-      height: 80px;
-      margin-top: 0;
-      font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      background-color: transparent;
-      border: 0;
-    }
-
-    .carousel .item {
-      height: 500px;
-    }
-    .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 500px;
-    }
-
-    .carousel-caption {
-      background-color: transparent;
-      position: static;
-      max-width: 550px;
-      padding: 0 20px;
-      margin-top: 200px;
-    }
-    .carousel-caption h1,
-    .carousel-caption .lead {
-      margin: 0;
-      line-height: 1.25;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    }
-    .carousel-caption .btn {
-      margin-top: 10px;
-    }
     </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -126,29 +39,34 @@
   </head>
 
   <body>
-    <!--#include virtual="./templates/navbar.html" -->
-
-    <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1 style="color: red;">Neuropsych Now Titles</h1>
-        <p>Welcome, and thank you for visiting Neuropsych Now!<br> Our mission is to provide accurate and reliable information on topics germane to the study and practice of neuropsychology. Each title is broken down into two sections:
-          <ul>
-            <li>1. A brief review of the fundamentals and history of the topic.</li>
-            <li>2. Discussion of the most current literature on the topic</li>
-          </ul>
+    <!--#include virtual="${Base_URL}templates/navbar.html" -->
+<div class="container-fluid">
+<h1 style="color: red;">Neuropsych Now Titles</h1>
+</div>
+    <div class="container-fluid">
+      <div class="hero-unit" style="background-color:#fff">
+        <div class="row-fluid">
+          <div class="span12">
+        <p>Our mission is to provide accurate and reliable information on topics germane to the study and practice of neuropsychology. Each title is broken down into two sections:
+          <ol>
+            <li>A brief review of the fundamentals and history of the topic.</li>
+            <li>Discussion of the most current literature on the topic</li>
+          </ol>
         This scheme provides benefits of both a text book (fundamentals) and primary sources (concensus).<br>
          Titles will be available for purchase from the iTunes store, Amazon and direct download from Neuropsych Now. 
         </p>
+        </div>
+        </div>
+        </div>
 
 
 <!--         <p><a class="btn btn-primary btn-large" href="http://www.amazon.com">Purchase & Subscribe &raquo;</a></p> -->
-      </div> <!-- end hero unit -->
+      </div><!-- end hero unit -->
   <hr>
-    <!--#include virtual="./templates/mainfoot.html" -->
 
     </div> <!-- /container -->
+
+    <!--#include virtual="./templates/mainfoot.html" -->
 
     <!-- Le javascript
     ================================================== -->
