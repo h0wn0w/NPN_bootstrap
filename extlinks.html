@@ -9,10 +9,13 @@
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
 
     <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
+
     <link rel="icon" href="./img/favicon.png" type="image/png" />
+
     <style>
      
             /* GLOBAL STYLES
@@ -26,49 +29,43 @@
       font-family: 'News Cycle', sans-serif;
     }
 
+            /* Sticky footer styles
+      -------------------------------------------------- */
 
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
 
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
 
-    }
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
 
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
 
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
     </style>
     
 
@@ -81,11 +78,17 @@
   <body>
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
-    <div class="container">
+    <div class="container-fluid" style="background-color:#efefef;">
+      <!-- <div class="hero-unit" style="background-color:#fff"> -->
+        <div class="row-fluid">
+          <div class="span12">
+      <h1 style="color: red; text-align: center;">Useful Links</h1>
+      <p class="lead" style="text-align: center;">Below are links to various resources. Please <a href="mailto:howard.buddin@gmail.com?subject=Please consider adding this to the list of "Useful Links"">contact us</a> if you have a suggestion for other links.</p>
+      </div>
+      </div>
+    </div><!-- end top container -->
+    <div class="container-fluid" style="background-color:#efefef;">
       <div class="hero-unit" style="background-color:#fff">
-
-      <h1 style="color: red;">Useful Links</h1>
-      <p>Below are links to various resources. Please <a href="mailto:howard.buddin@gmail.com?subject=Please consider adding this to the list of "Useful Links"">contact us</a> if you have a suggestion for other links.</p>
       <h3 style="text-align:center;">Organizations</h3>
         <ul>
           <li><a href="http://theaacn.org/" target="_blank">American Academy of Clinical Neuropsychology</a></li>
@@ -122,9 +125,13 @@
           <li><a href="http://www.the-ins.org/jins">Journal of the International Neuropsychological Society</a></li>
         </ul>
     </div>
-  <!--#include virtual="./templates/mainfoot.html" -->
+ 
     </div> <!-- /container -->
 
+    <div class="container">
+        <!-- Neuropsych Now Footer for docs at root -->
+<!--#include virtual="./templates/mainfoot.html" -->
+      </div>
 
     <!-- Le javascript
     ================================================== -->

@@ -9,8 +9,10 @@
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
 
     <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
     <link rel="icon" href="./img/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="./css/herobody.css">
     
@@ -18,13 +20,10 @@
     
     body {
       /*font-size: 16px;*/
+      font-family: 'News Cycle', sans-serif;
     }
 
-    /*get the navbar to cooperate on mobile versions landscape and portrait*/
-    @media (max-width: 979px) {
-      .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
-      .container-hero-unit { margin-top:70px;}
-    }
+    
     /*insert any other local styles here*/
 
     /*[class*="span"] {
@@ -49,7 +48,7 @@
 
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row-fluid">
         <div class="span12" style="background: #f1f3f4; padding: 20px;">
           <h1 style="color: red;">About Neuropsych Now</h1>
@@ -125,8 +124,8 @@
 </div> 
 <!-- </div>/container -->
 
+    <div class="container-fluid">
   <div class="footnotes">
-    <div class="container">
 <hr />
 <ol>
 

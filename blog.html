@@ -8,6 +8,7 @@
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
     <meta name="tags" content="">
 
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link href="./css/less/layout.css" rel="stylesheet">
@@ -26,7 +27,8 @@
       padding-bottom: 60px;
       padding-left: 20px;
       padding-right: 20px;
-      color: #5a5a5a;
+      /*color: #5a5a5a;*/
+      font-family: 'News Cycle', sans-serif;
     }
 
     /* CUSTOMIZE THE NAVBAR
@@ -45,6 +47,7 @@
     }
     .div.hero-unit {
       float: left;
+
     }
 
     /*Google custom search field */
@@ -95,18 +98,24 @@
 
 <!-- Main body starts here -->
 
-      <div class="hero-unit" style="background-color: #f1f3f3">
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-color:#efefef;">
+      <div class="row-fluid">
+      <div class="span12">
+        <h1 style="color: red; text-align: center;">Neuropsych Now Blog</h1>
+      </div>
+      </div>
+    </div>
 
-      <h1 style="color: red;">Neuropsych Now Blog</h1>
-    
+<div class="container-fluid" style="background-color:#efefef;">
+      <div class="hero-unit" style="background-color: #fff;">    
       <!--#include virtual="cgi/latest_stories.cgi" -->
       </div>
     </div> <!-- /.container -->
-    <div class="container-fluid">
-          <!--#include virtual="./templates/shortfoot.html" -->
-          
-          <!--#include virtual="./templates/mainfoot.html" --></div>
+   
+    <div class="container">
+               
+      <!--#include virtual="./templates/mainfoot.html" -->
+    </div>
       
 
 
