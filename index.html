@@ -36,12 +36,6 @@
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
-    
-
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
     /* Carousel base class */
     .carousel {
       margin-bottom: 60px;
@@ -90,8 +84,6 @@
       margin-top: 10px;
     }
 
-
-
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
@@ -138,7 +130,6 @@
       line-height: 1;
       letter-spacing: -1px;
     }
-
 
 
     /* RESPONSIVE CSS
@@ -248,7 +239,7 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
         <div class="item active">
           <img src="./img/slide1.gif" alt="">
@@ -368,7 +359,8 @@
       !function ($) {
         $(function(){
           // carousel demo
-          $('#myCarousel').carousel()
+          $('#myCarousel').carousel(
+            {interval: false});
         })
       }(window.jQuery)
     </script>
