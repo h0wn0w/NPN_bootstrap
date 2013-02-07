@@ -11,6 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="icon" href="./img/favicon.png" type="image/png" />
     <style>
@@ -24,54 +25,7 @@
       color: #5a5a5a;
       font-family: 'News Cycle', sans-serif;
     }
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /*from here to next major head renders, smaller, bolder text. Remove to get tighter fonts*/
-
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
-    }
-
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
+    
 
     /* Featurettes
     ------------------------- */
@@ -181,13 +135,9 @@
         <h2 class="featurette-heading" style="text-align:center;" "line-height: 40px;">A Work In Progress<span class="muted" style="text-align:right;"> Worth Waiting For.</span></h2>
           <p class="lead" style="text-align:center;" >Coming in Autumn 2013...</p>
 
-        <img class="featurette-image" src="./img/underconst.png">
-      </hr>
+        <img src="./img/underconst.png">
+      <!-- </hr> -->
       </div>
-      
-      <!--#include virtual="./templates/shortfoot.html" -->
-
-      <!-- /END THE FEATURETTES -->
 
       <!--#include virtual="./templates/mainfoot.html" -->
       

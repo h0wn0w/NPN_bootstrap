@@ -12,18 +12,21 @@
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap-lightbox.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css" media="screen" />
 
     <style>
       body {
-        padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
-        font-family: 'Oxygen', sans-serif;
+        padding-top: 80px; /* 60px to make the container go all the way to the bottom of the topbar */
         font-family: 'News Cycle', sans-serif;
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         /*background-color: #efefef;*/
       }
+
+      div.img {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      vertical-align: middle;
+    }
 
       .hero-unit {
 /*        padding: 60px;*/
@@ -68,6 +71,19 @@
         /* The html and body elements cannot have any padding or margin. */
       }
 
+      /*.navbar-inner {
+      background-color: #ffffff;
+      }
+
+      .navbar-wrapper {
+      background-color: #ffffff;
+      }*/
+
+      .navbar .container {
+      width: auto;
+      background-color: #ffffff;
+      }
+
       /* Wrapper for page content to push down footer */
       #wrap {
         min-height: 100%;
@@ -95,6 +111,25 @@
           padding-right: 20px;
         }
       }
+ /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing {
+    }
+
+    .marketing .span4 {
+      text-align: justify;
+    }
+    .marketing h2 {
+      font-weight: normal;
+      text-align: center;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
     </style>
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -104,69 +139,88 @@
     <![endif]-->
 
   </head>
-
   <body>
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
-  
-  <!-- <img src="./img/slide2.gif" alt="" style="position:relative;"> -->
-  <!-- <img src="./img/logo.png" alt="" style="position:relative;"> -->
 
-  <!-- <div class="container-fluid" style="height:400px;"> -->
-  <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="./img/slide2.gif" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>State Of The Field</h1>
-<!--               <p class="lead">Be the Master of your devices and systems. Not the servant.</p> -->
-              <!-- <a class="btn btn-large btn-primary" href="#">Subscribe today</a> -->
-            </div>
-          </div>
-        </div>
-
- <!--  <div class="container-fluid">
+<div class="container-fluid">
       <div class="row-fluid">
-      <ul class="thumbnails"> 
-       <li class="span4">
-        <!-- <a href="" class="thumbnail">
-         <img src="./img/logosmall.png" alt="State of the Field">
+        <div class="span4">
+          <img src="./img/dti.png">
+        </div>
+        <div class="span8">
+          <h1 style="font-size: 56px; line-height: 1.05em">YOU'RE A NEUROPSYCHOLOGIST <h1 class="muted">IN A FIELD OF EVER-CHANGING INFORMATION</h1> </h1>
+          <h4 style="font-size: 28px; line-height: 1.5em;">Neuropsych Now Is Here To Help You Keep Up</h4><br>
+         <!--  <br> For clinicians.<br>
+          <br> For students.<br> 
+          <br> <em>FOR YOU.</em> -->
+      </div> 
+    </div>
+     </div> 
 
-         <h2>State Of The Field</h2>
-         </a>
-       </li>
-       <li class="span4">
-        <div class="thumbnail">
-         <img data-src="holder.js/300x500" alt="">
-         <h2>Resources</h2>
-         </div>
-       </li>
-       <li class="span4">
-        <div class="thumbnail">
-         <img data-src="holder.js/300x500" alt="">
-          <h2>Blog</h2>
-          </div>
-       </li>
-     </ul>
-      </div>  -->
-    
-</div> 
-</div>  
-      
- <div id="wrap">
+  <div class="hero-unit" style="background-color: #efefef;">
+      <div class="row-fluid">
+        <div class="span4">
+          <a href="./titles.html" style="color: red;">
+          <!-- <div class="thumbnail">
+          <img data-src="holder.js/140x140"> -->
+          <h2>State of the Field</h2>
+          </a> 
+          <p>Concise guides and books representing the current consensus of the field. On your laptop, on your mobile, on <em>your</em> time</p>
+          <!-- </div>  -->
+        </div><!-- /.span4 -->
 
-      <div id="push"></div>
+        <div class="span4">
+          <a href="./aboutus.html" style="color: red;">
+          <h2>Benefits</h2>
+          </a>
+          <p>No more scouring chapters or looking for high-quality, peer-reviewed studies. Now your resources are never outdated.</p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <a href="./neuroapps.html" style="color: red;">
+          <h2>Resources</h2>
+          </a>
+          <p>Articles, calculators, apps and more. Already curated for you.</p>
+      </div><!-- /.row -->
+    </div>
     </div>
 
-    
+    <div class="hero-unit" style="background-color: #ccffff;">
+      <div class="row-fluid">
+      <h3>What is the value of Neuropsych Now?</h3>  
+      <p>Not convinced that easy access to the most current information is important? Consider this quote from Alexander &amp; Roberts (1998):</p>
+
+      <blockquote style="font-family: Futura; font-style: italic; ">
+      &#8220;The field of clinical psychology is diverse and informational material continually becomes available in a multitude of places. Because the half-life of psychological knowledge is brief, the need for updating and accessing resources is nearly constant for both researchers and practitioners alike.&#8221;<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></blockquote>
+      </div>
+    </div>
+
+
+<!-- <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <h2>more sidebar</h2>
+      <p class="lead">sidebar</p>
+
+    </div>
+    <div class="span10">
+      <h1>main</h1>
+      <p>more main</p>
+
+    </div>
+  </div>
+</div> -->
+      
+ <div id="wrap">
+      <div id="push"></div> 
       <div class="container">
         <!-- Neuropsych Now Footer for docs at root -->
 <!--#include virtual="./templates/mainfoot.html" -->
       </div>
+      </div>
     
-
-</div>
+  
 
     <!-- Le javascript
     ================================================== -->
