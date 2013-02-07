@@ -50,3 +50,11 @@
     .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
     .container-hero-unit { margin-top:70px;}
   }
+
+    .navbar-search {
+    /*position: absolute;*/
+    /*float: right;*/
+    margin-top: 0px;
+    margin-left: 650px;
+    margin-bottom: 10px;
+    }
