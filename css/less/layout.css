@@ -81,7 +81,8 @@ div {
 }
 .content {
   max-width: 37em;  /* originally 35em, but I changed to accomodate titles */
-  overflow: hidden;
+  /*overflow: hidden;*/
+  overflow: auto;
   margin: 0 2.5em 0 16.5em;
 }
 .sidebar {

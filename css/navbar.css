@@ -4,35 +4,32 @@
     /*from here to next major head renders, smaller, bolder text. Remove to get tighter fonts*/
 
     /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
+   /* .navbar-wrapper {
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
-    }
+      margin-top: 0px;
+      margin-bottom: -90px; 
+    }*/
 
     /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
+    /*.navbar .navbar-inner {
       border: 0;
       font-size: 16px;
       -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
          -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
               box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
+    }*/
 
     /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+    /*.navbar .brand {
+      padding: 14px 20px 16px; 
       font-size: 18px;
       font-weight: bold;
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
+    }*/
 
     /* Navbar links: increase padding for taller navbar */
     .navbar .nav > li > a {
@@ -42,8 +39,21 @@
     /* Offset the responsive button for proper vertical alignment */
     .navbar .btn-navbar {
       margin-top: 10px;
+      /*i added this margin-right*/
+      margin-right: 40px;
     }
 
+    /*hovering over mobile menu items*/
+    .navbar-inverse .btn-navbar {
+      color: #000000;
+      /*background-color: #ffffff;*/
+    }
+
+   .navbar-inverse .nav-collapse .nav > li > a:hover,
+   .navbar-inverse .nav-collapse .dropdown-menu a:hover {
+    color: rgb(211, 54, 130);
+    background-color: rgb(181, 137, 0);
+  }
     /*to help out with responsinveness on mobile devices*/
 
     @media (max-width: 979px) {
@@ -51,10 +61,79 @@
     .container-hero-unit { margin-top:70px;}
   }
 
-    .navbar-search {
-    /*position: absolute;*/
-    /*float: right;*/
-    margin-top: 0px;
-    margin-left: 650px;
-    margin-bottom: 10px;
+   /*tons of changes to get the navbar with transparent/white background
+        ================================================= */
+
+      .navbar-inner {
+      border: none;
+      }
+
+      .navbar-inverse .navbar-inner {
+      /*background-color: #ffffff;*/
+      background-color: rgb(7,54,66);
+      background-image: none;
+      background-repeat: repeat-x;
+      border-color: none;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+      }
+
+      .navbar .brand {
+      font-size: 24px;
+      text-shadow: 0px;
+      padding: 13px 20px 17px;
+      }     
+
+      .navbar .container {
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: rgb(7,54,66);
+      font-size: 16px;
+      /*font-weight: 200;*/
+      /*color: #000000;*/
+      }
+
+      .navbar-inverse .nav > li > a:hover {
+      /*color: #ffffff;*/
+      color: rgb(181, 137, 0);
+      text-shadow: 0;
+      }
+
+      .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+      .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+      .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+      color: rgb(211, 54, 130);
+      background-color: rgb(181, 137, 0);
+      }
+
+      .navbar-inverse .brand,
+      .navbar-inverse .nav > li > a {
+      color: #999999;
+      text-shadow: 0px;
+      }
+
+      .navbar-inverse .brand:hover,
+      .navbar-inverse .nav > li > a:hover {
+      color: rgb(211, 54, 130);
+      background-color: rgb(181, 137, 0);
+      }
+
+      /*finally, the search field
+      ==============================================*/
+
+      .navbar-inverse .navbar-search .search-query {
+      color: #ffffff;
+      background-color: transparent;
+      border-color: #999999;
+      }
+
+       .navbar-search .search-query {
+    padding: 4px 14px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
     }

@@ -5,11 +5,11 @@
 <!--#endif -->
 <base href="<!--#echo var="HTTP_WIRE_PROTOCOL" -->://<!--#echo var="HTTP_HOST" --><!--#echo var="Base_URL" -->/"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
-<link rel="stylesheet" href="../css/bootstrap-responsive.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="../css/navbar.css">
-<link href="./css/less/layout.css" rel="stylesheet">
-<link rel="icon" href="./img/favicon.png" type="image/png" />
+<link rel="stylesheet" href="../css/navbar.css" type="text/css" />
+<link href="../css/less/layout.css" rel="stylesheet" />
 
 <link rel="alternate" type="application/atom+xml" title="Atom" href="http://neuropsychnow.com/atom.xml" />
 <link rel="alternate" type="application/atom+xml" title="Atom - Comments" href="http://neuropsychnow.com/atom-comments.xml" />
@@ -20,6 +20,11 @@
 /*this accomodates the fixed navbar*/
 body {
 	padding-top: 60px;
+	font-family: 'News Cycle', sans-serif;
+}
+
+p {
+	font-size: 14px;
 }
 
 /*offset the OpenID Login button just a bit*/
@@ -31,6 +36,7 @@ input {
 }
 
 </style>
+<link rel="stylesheet" href="../css/bootstrap-responsive.css" type="text/css" />
 
 <script type="text/javascript" src="cgi/commenter.js"></script>
 <script src="../js/jquery.js"></script>

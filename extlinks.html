@@ -11,8 +11,9 @@
     <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
+    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css" media="screen" /> -->
+
 
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
@@ -24,9 +25,11 @@
 
     body {
       padding-top: 80px;
-      padding-bottom: 60px;
+      /*padding-bottom: 60px;*/
       color: #5a5a5a;
       font-family: 'News Cycle', sans-serif;
+      font-size: 18px;
+     /* background-color: #999999; */
     }
 
             /* Sticky footer styles
@@ -67,7 +70,7 @@
       }
 
     </style>
-    
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -77,18 +80,33 @@
 
   <body>
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
-
-    <div class="container-fluid" style="background-color:#efefef;">
-        <!-- <div class="row-fluid">
-          <div class="span12"> -->
-            <div class="page-header">
-      <h1 style="color: red; text-align: center;">Useful Links</h1>
-      <p class="lead" style="text-align: center;">Below are links to various resources. Please <a href="mailto:howard.buddin@gmail.com?subject=Please consider adding this to the list of "Useful Links"">contact us</a> if you have a suggestion for other links.</p>
+<div class="class container-fluid">
+    <div class="page-header">
+      <div class="row-fluid">
+        <div class="span4">
+          <h1 style="color: red; font-size: 60px; text-align: center">Useful Links</h1>
+        </div>
+        <div class="span8">
+          <p class="lead" >Below are links to various resources. The categories are collapsed in order to make navigating the list a little easier. Just click (or tap for mobile users) on a category name to expand its list. Click/tap the category name again if you want to collapse the menu.
+          <br>
+          Please <a href="mailto:howard.buddin@gmail.com?subject=Please consider adding this to the list of "Useful Links"">contact us</a> if you have a suggestion for other links.</p>
+        </div>
       </div>
-    </div><!-- end top container -->
-    <div class="container-fluid" style="background-color:#efefef;">
-      <div class="hero-unit" style="background-color:#fff">
-      <h3 style="text-align:center;">Organizations</h3>
+        </div>
+  </div><!-- end top container -->
+
+    <div class="container-fluid" style="background-color:transparent;">
+<!--       <div class="hero-unit">
+        <div class="row-fluid"> -->
+<div class="accordion" id="extlinks">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="false" href="#extlinks1">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Organizations</h3>
+      </a>
+    </div>
+    <div id="extlinks1" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://theaacn.org/" target="_blank">American Academy of Clinical Neuropsychology</a></li>
           <li><a href="http://www.theabcn.org/" target="_blank">The American Board of Clinical Neuropsychology</a></li>
@@ -98,7 +116,18 @@
           <li><a href="http://www.the-ins.org/" target="_blank">The International Neuropsychological Society</a></li>
           <li><a href="http://www.nanonline.org/" target="_blank">National Academy of Neuropsychology</a></li>
         </ul>
-        <h3 style="text-align:center;">Resources for Clinicians and Students</h3>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#extlinks" href="#extlinks2">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Resources for Clinicians and Students</h3>
+      </a>
+    </div>
+    <div id="extlinks2" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://www.theaacn.org/positionpapers.aspx">American Academy of Clinical Neuropsychology: Position Papers</a></li>
           <li><a href="http://www.theaacn.org/studymaterial.aspx">American Academy of Clinical Neuropsychology: Board Certification Study Materials</a></li>
@@ -111,21 +140,47 @@
           <li><a href="http://www.fmrib.ox.ac.uk/education/fmri/introduction-to-fmri/" target="_blank">The Nuffield Department of Clinical Neurosciences: Introduction to fMRI</a></li>
           <li><a href="http://www.med.harvard.edu/AANLIB/home.html" target="_blank">The Whole Brain Atlas</a></li>
         </ul>
-      <h3 style="text-align:center;">Listservs</h3>
+      </div>
+    </div>
+  </div>  
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#extlinks" href="#extlinks3">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Listservs</h3>
+      </a>
+    </div>
+    <div id="extlinks3" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://www.neurolist.com/" target="_blank">Npsych Listserv</a> online form for membership request</li>
-          <li id="npsych"><a href="mailto:listserv@tc.umn.edu?subject=SUBSCRIBE PED-NPSY _YOUR FIRST NAME AND LAST NAME HERE_" rel="tooltip" title="Simply replace the text _YOUR FIRST NAME AND LAST NAME HERE_ with your information" html="true" data-animation="true">Click here </a>to join the Peds Psych listserv.</li>
+          <li id="npsych"><a href="mailto:listserv@tc.umn.edu?subject=SUBSCRIBE PED-NPSY _YOUR FIRST NAME AND LAST NAME HERE_" rel="#tooltip" title="Simply replace the text _YOUR FIRST NAME AND LAST NAME HERE_ with your information" html="true" data-animation="true">Click here </a>to join the Peds Psych listserv.</li>
           <li>Interested in Joining the <a href="mailto:bsachs@vcu.edu?subject=WIN Listserv">Women in Neuropsychology Listserv</a>? Click the link to send an email to Dr. Bonnie Sachs for more information.</li>
         </ul>
-        <h3 style="text-align:center;">Journals</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#extlinks" href="#extlinks4">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Journals</h3>
+      </a>
+    </div>
+    <div id="extlinks4" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://acn.oxfordjournals.org/">Archives of Clinical Neuropsychology</a></li>
           <li><a href="http://www.tandfonline.com/toc/ntcn20/current">The Clinical Neuropsychologist</a></li>
           <li><a href="http://www.the-ins.org/jins">Journal of the International Neuropsychological Society</a></li>
         </ul>
+      </div>
     </div>
- 
-    </div> <!-- /container -->
+  </div>
+</div>
+</div>
+<!-- </div>
+</div> -->
 
     <div class="container">
         <!-- Neuropsych Now Footer for docs at root -->
@@ -139,9 +194,17 @@
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
     <script type="text/javascript">
-      $('npsych').tooltip(
-        {data-animation="true" html="true"}
-        );
+      $(document).ready(function (){
+        // $("[rel=tooltip]").tooltip({animation:true});
+        $('#tooltip').tooltip({animation:true});
+      });
     </script>
+    
+    
+     // function() {
+      
+      // .collapse({toggle: true});
+    
+   // }
   </body>
 </html>

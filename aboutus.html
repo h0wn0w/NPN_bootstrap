@@ -11,31 +11,57 @@
     <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
     <link rel="icon" href="./img/favicon.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="./css/herobody.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/herobody.css"> -->
     
     <style type="text/css">
     
     body {
-      /*font-size: 16px;*/
+      font-size: 18px;
+      padding-top: 80px;
       font-family: 'News Cycle', sans-serif;
     }
 
-    
-    /*insert any other local styles here*/
+    /* Sticky footer styles
+      -------------------------------------------------- */
 
-    /*[class*="span"] {
-      float: left;
-      min-height: 1px;
-      margin-left: 20px;
-      margin-right: 0px;
-      padding-left: 20px;
-      padding-right: -20px;
-    }*/
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 50%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
  
   </style>
+  <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -47,20 +73,33 @@
   <body>
 
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
+  <div class="class container-fluid">
+    <div class="class page-header">
+      <div class="row-fluid">
+        <div class="span4">
+          <h1 style="color: red; text-align: center; font-size: 60px; line-height: 1.25em">About Neuropsych Now</h1>
+        </div>
+        <div class="span8">
+          <h4 class="lead">We love what we do. </h4>
+          <br>
+          <p class="lead"><b>Neuropsych Now</b> was designed to bring you as much information as possible, as easily as possible. That's why we have made it <em>the</em> resource for continually updated and accurate information about topics in the field of neuropsychology, built for students and clinicians alike.</p>
+        </div>
+      </div>
+        </div>
+  </div><!-- end top container -->
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span12" style="background: #f1f3f4; padding: 20px;">
-          <h1 style="color: red;">About Neuropsych Now</h1>
-          <p><b>Neuropsych Now</b> is <em>the</em> resource for continually updated and accurate information about topics in the field of neuropsychology, and is built for students and clinicians alike.</p>
+        <div class="span12">
+          <h1 style="color: red; text-align: center;">So what do we do, exactly? </h1>
         </div>
       </div>
       
       <!-- <div class="thumbnail"> -->
-      <div class="row-fluid"> 
+      <div class="row-fluid" style="background-color: #ccffff;"> 
         <div class="span8">
-          <h2 style="text-align: center; color: red;">Books</h2>
-          <p><h5>Everything old is new again.</h5> And again. And again. That's because we've crafted <a href="titles.html">downloadable books</a> that cover the fundamentals of neuropsychology in a comprehensible, searchable format that can be read on <em>any</em> mobile device. Want more? We offer an a la carte subscription that allows you to download only the titles that you want, and nothing you don't. And it gets better. Your subscription to any <em><b>Neuropsych Now</b></em> title allows you to receive any changes or updates that we make to the publication for the term of your subscription.<br>
+          <h2 style="text-align: center; color: red;">Books & Guides</h2>
+          <p><h3>Everything old is new again.</h3> And again. And again. That's because we've crafted <a href="titles.html">downloadable books</a> that cover the fundamentals of neuropsychology in a comprehensible, searchable format that can be read on <em>any</em> mobile device. Want more? We offer an a la carte subscription that allows you to download only the titles that you want, and nothing you don't. And it gets better. Your subscription to any <em><b>Neuropsych Now</b></em> title allows you to receive any changes or updates that we make to the publication for the term of your subscription.<br>
           All for free.</p>
         </div>
         <div class="span3 offset1">
@@ -70,7 +109,7 @@
       <!-- </div> -->
           
        <!--  <div class="thumbnail"> -->
-        <div class="row-fluid">
+        <div class="row-fluid" style="background-color: #fffacd;">
           <div class="span4">
             <img src="./img/slices.png">
           </div>
@@ -85,8 +124,9 @@
     <!--</div>-->
       
     
-    <hr>
-    <div class="row">
+    <!-- <hr>
+    <div class="container-fluid">
+    <div class="row-fluid">
       <h3>What is the value of Neuropsych Now?</h3>  
       <p>Not convinced that easy access to the most current information is important? Consider this quote from Alexander &amp; Roberts (1998):</p>
 
@@ -94,6 +134,7 @@
       <p style="font-family: Futura; font-style: italic;">&#8220;The field of clinical psychology is diverse and informational material continually becomes available in a multitude of places. Because the half-life of psychological knowledge is brief, the need for updating and accessing resources is nearly constant for both researchers and practitioners alike.&#8221;<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a> </p>
       </blockquote>
     </div>
+    </div> -->
 
 
       <!-- </div>
@@ -124,7 +165,7 @@
 </div> 
 <!-- </div>/container -->
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
   <div class="footnotes">
 <hr />
 <ol>
@@ -135,10 +176,16 @@
 
 </ol>
     </div>
-  </div>
+  </div> -->
 
-<!--#include virtual="./templates/mainfoot.html" -->      
+<div id="wrap">
+      <div id="push"></div>
+    </div>
 
+      <div class="container">
+        <!-- Neuropsych Now Footer for docs at root -->
+        <!--#include virtual="./templates/mainfoot.html" -->
+      </div>
 
 
     <!-- Le javascript

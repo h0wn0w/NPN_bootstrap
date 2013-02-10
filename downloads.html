@@ -11,7 +11,6 @@
     <!-- Les styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
@@ -20,12 +19,18 @@
     /*local styles go here*/
     body {
       padding-top: 80px;
-      padding-bottom: 60px;
       color: #5a5a5a;
       font-family: 'News Cycle', sans-serif;
+      font-size: 18px;
     }
     
+    h3 {
+      text-align: center;
+    }
+
+
     </style>
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -37,19 +42,30 @@
   <body>
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
-
-    <div class="container-fluid" style="background-color:#efefef;">
-     <!--  <div class="row-fluid">
-        <div class="span12"> -->
-          <div class="page-header">
-        <h1 style="color: red; text-align: center;">Downloads</h1>
-        <p class="lead; text-align: center;" >This is a listing of <em>non-copyright protected</em> Neuropsychology resources. Click on the respective links below to download.</p>
+<div class="container-fluid">
+  <div class="page-header">
+        <div class="row-fluid">
+          <div class="span4">
+            <h1 style="color: red; text-align: center; font-size: 60px; line-height: 1.25em">Downloads</h1>
+          </div>
+          <div class="span8">
+            <p class="lead">This is a listing of <em>non-copyright protected</em> Neuropsychology resources. The categories are collapsed in order to make navigating the list a little easier. Just click (or tap for mobile users) on a category name to expand its list. Click/tap the category name again if you want to collapse the menu.Click on the respective links within each category to download directly to your device. 
+            Please note that these downloads are sometimes in a zipped archive (.zip) format. If they do not automagically open, especially on a desktop or laptop, just double-click the .zip file and your computer should "unpack" the contents of the file.  </p>
+          </div>
+        </div>
     </div>
-  </div><!-- end title container -->
+  </div><!-- end top container -->
       
-    <div class="container-fluid" style="background-color:#efefef;">
-      <div class="hero-unit" style="background-color:#fff">
-      <h3 style="text-align:center;">Testing & Protocols</h3>
+    <div class="container-fluid" style="background-color: transparent;">
+      <div class="accordion" id="downloads">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#downloads" href="#down1">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Testing & Protocols</h3>
+      </a>
+    </div>
+    <div id="down1" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://d.pr/f/TXoj">Aid to Capacity Evaluation (ACE)</a></li>
           <li><a href="http://d.pr/PSRf">Calibrated Neuropsychological Normative System (CNNS-SP)</a> - Links to other non-copyrighted test forms</li>
@@ -57,7 +73,18 @@
           <li><a href="http://d.pr/f/g5VB">St. Louis University Mental State Examination (SLUMS)</a></li>
           <li><a href="http://d.pr/f/Fvwq">Trail Making Test (A & B)</a></li>
         </ul>
-      <h3>Templates, Calculators, and Converters</h3>
+      </div>
+    </div>
+  </div>
+
+<div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#downloads" href="#down2">
+        <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Templates, Calculators, & Converters</h3>
+      </a>
+    </div>
+    <div id="down2" class="accordion-body collapse">
+      <div class="accordion-inner">
         <ul>
           <li><a href="http://d.pr/f/B1QC">Excel Template for Patient Data</a></li>
           <li><a href="http://d.pr/f/UYIR">Peterson et al. Criteria For Mild Cognitive Impairment</a></li>
@@ -66,12 +93,19 @@
           <li><a href="http://d.pr/f/Jefr">Ruff RNBI Calculator</a></li>
           <li><a href="http://d.pr/f/YuV7">Standard Score Converter</a></li>
         </ul>
+      </div>
     </div>
-    </div>
-<!-- Neuropsych Now Footer for docs at root -->
-<!--#include virtual="./templates/mainfoot.html" -->
+  </div> <!-- end of list 2 -->
+</div> <!-- end of accordion -->
+</div> <!-- end of bottom container -->
+    
+  
 
-    </div> <!-- /container -->
+<div class="container">
+  <!-- Neuropsych Now Footer for docs at root -->
+  <!--#include virtual="./templates/mainfoot.html" -->
+</div>
+
 
     <!-- Le javascript
     ================================================== -->
@@ -79,5 +113,9 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+    <script>
+     // $('.down').collapse({toggle: true});
+     $('.down').collapse({toggle: true});
+   </script>
   </body>
 </html>
