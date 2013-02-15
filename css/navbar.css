@@ -31,13 +31,47 @@
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
     }*/
 
+    /* navbar: main container and elements
+        ================================================= */
+
+      .navbar .brand {
+      font-size: 24px;
+      text-shadow: 0px;
+      margin-left: 10px;
+/*      padding: 13px 20px 17px;*/
+      padding: 10px;
+      }     
+
+      .navbar .container {
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+/*      background-color: rgb(0,43,56);*/
+      background-color: transparent;
+      font-size: 16px;
+      /*font-weight: 200;*/
+      /*color: #000000;*/
+      }
+
+      .navbar-inner {
+      border: none;
+      }
+
+      .navbar-inverse .navbar-inner {
+      background-color: #333333;
+      background-image: none;
+      background-repeat: repeat-x;
+      border-color: none;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+      }
+
     .navbar {
       
     }
 
     /* Navbar links: increase padding for taller navbar */
     .navbar .nav > li > a {
-      padding: 15px 20px;
+      padding: 18px 20px;
     }
 
     /* Offset the responsive button for proper vertical alignment */
@@ -58,57 +92,40 @@
     @media (max-width: 979px) {
     .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
     .container-hero-unit { margin-top:70px;}
-  }
+  }   
 
-   /*tons of changes to get the navbar with transparent/white background
-        ================================================= */
+      /* navbar: menu items and their dropdowns
+      ====================================================== */
 
-      .navbar-inner {
-      border: none;
-      }
-
-      .navbar-inverse .navbar-inner {
-      /*background-color: #ffffff;*/
-      background-color: rgb(0,43,56);
-      background-image: none;
-      background-repeat: repeat-x;
-      border-color: none;
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-      }
-
-      .navbar .brand {
-      font-size: 24px;
-      text-shadow: 0px;
-      padding: 13px 20px 17px;
-      }     
-
-      .navbar .container {
-      width: 100%;
-      padding-right: 20px;
-      padding-left: 20px;
-      background-color: rgb(0,43,56);
-      font-size: 16px;
-      /*font-weight: 200;*/
-      /*color: #000000;*/
-      }
-background-color: rgb(131,148,150);
       .navbar-inverse .nav > li > a:hover {
-      /*color: #ffffff;*/
-      color: rgb(181, 137, 0);
+      /*color: rgb(181, 137, 0);
+      text-shadow: 0;*/
+      }
+
+      .navbar-inverse .brand:hover {
+        color: rgb(238,232,213);
+        background-color: rgb(0,43,56);
+        text-shadow: 0;
+      }
+
+      .navbar-inverse .nav > li > a:hover {
+      color: rgb(238,232,213);
+      background-color: transparent;
       text-shadow: 0;
       }
 
-      .navbar-inverse .nav-collapse .nav > li > a:hover,
+      .navbar-inverse .nav-collapse .nav > li > a:hover
       .navbar-inverse .nav-collapse .dropdown-menu a:hover {
       color: rgb(238,232,213);
-      background-color: rgb(0,43,56);
+      background-color: transparent;
+      padding-bottom: 20px;
       }
 
       .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
       .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
       .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
       color: rgb(238,232,213);
-      background-color: rgb(0,43,56);
+      background-color: transparent;
       }
 
       /* brand or logo on lefthand side of navbar */
@@ -118,11 +135,7 @@ background-color: rgb(131,148,150);
       text-shadow: 0px;
       }
 
-      .navbar-inverse .brand:hover,
-      .navbar-inverse .nav > li > a:hover {
-      color: rgb(238,232,213);
-      background-color: rgb(0,43,56);
-      }
+      
 
       /*finally, the search field
       ==============================================*/
