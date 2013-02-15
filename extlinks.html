@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css" media="screen" /> -->
 
-
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
     <style>
@@ -41,36 +40,9 @@
         /* The html and body elements cannot have any padding or margin. */
       }
 
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
-
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
-
+      
     </style>
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -89,7 +61,7 @@
         <div class="span8">
           <p class="lead" >Below are links to various resources. The categories are collapsed in order to make navigating the list a little easier. Just click (or tap for mobile users) on a category name to expand its list. Click/tap the category name again if you want to collapse the menu.
           <br>
-          Please <a href="mailto:howard.buddin@gmail.com?subject=Please consider adding this to the list of "Useful Links"">contact us</a> if you have a suggestion for other links.</p>
+          Please contact us if you have a suggestion for other links.</p>
         </div>
       </div>
         </div>
@@ -98,10 +70,11 @@
     <div class="container-fluid" style="background-color:transparent;">
 <!--       <div class="hero-unit">
         <div class="row-fluid"> -->
-<div class="accordion" id="extlinks">
+<div id="extlinks" class="accordion">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="false" href="#extlinks1">
+      <!-- <a class="accordion-toggle" data-toggle="collapse" data-parent="#extlinks" href="#extlinks1"> -->
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#extlinks" href="#extlinks1">
         <h3 style="text-align:center;"><i class="icon-chevron-down"></i> Organizations</h3>
       </a>
     </div>
@@ -200,11 +173,11 @@
       });
     </script>
     
-    
-     // function() {
-      
-      // .collapse({toggle: true});
-    
-   // }
+   <script src="">
+    $(document).ready(function() {
+      $('.extlinks').collapse({toggle: true});
+    });
+
+</script> 
   </body>
 </html>

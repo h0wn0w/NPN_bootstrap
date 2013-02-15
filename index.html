@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
     <title>Neuropsych Now</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -10,29 +10,91 @@
 
     <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
-    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="./css/jquery-ui.css" type="text/css" media="screen" /> -->
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
-     <link rel="icon" href="./img/favicon.png" type="image/png" />
+
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="./img/favicon.png" type="image/png" />
 
     <style>
+    /* really the main stuff goes here 
+    ============================================================ */
       body {
-        padding-top: 60px; 
         font-family: 'News Cycle', sans-serif;
-        /*background-image:url('./img/braincells.png');
-        background-repeat:no-repeat;*/
+        /*background-image:url('./img/braincellsrevmed.png');
+        background-repeat:no-repeat;
+        background-position:center; */
+      }
+
+      #logo {
+        padding-top: 60px;
       }
 
       h1 {
         font-family: 'Oxygen', sans-serif;
+        /*color: #E60075;*/
+        color: rgb(42,161,152);
       }
 
+      .navbar .brand {
+        margin-left: 10px;
+        padding: 10px;
+      }
+
+      #rowmenu {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.5em;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      #rowmenu > a:hover {
+        color: rgb(181, 137, 0);
+      }
+
+      .span2 {
+        /*padding-right: 10px;
+        padding-left: 10px;*/
+        font-size: 20px;
+      }
+
+      .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
 
          /* Sticky footer styles
       -------------------------------------------------- */
 
       html,
       body {
-        height: 100%;
+        height: 50%;
         /* The html and body elements cannot have any padding or margin. */
       }
 
@@ -40,7 +102,7 @@
       #wrap {
         min-height: 50%;
         height: auto !important;
-        height: 100%;
+        height: 50%;
         /* Negative indent footer by it's height */
         margin: 0 auto -60px;
       }
@@ -54,92 +116,169 @@
         background-color: #f5f5f5;
       }
 
+     /* nav-collapse.collapse>a>ul>li>a {
+        color: rgb(181, 137, 0);
+        }*/
+     
     </style>
-     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+     <link href="./css/bootstrap-responsive.min.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    </head>
 
-  </head>
-  <body>
-<!-- The standard Neuropsych Now navbar for docs at root -->
-<!--#include virtual="${Base_URL}templates/navbar.html" -->
+    <body>
+<!-- NAVBAR
+    ================================================== -->
+<div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
 
-<!-- <div class="container-fluid">
-  <div class="page-header">
-    <div class="row-fluid">
-      <div class="span8">
-          <h1 style="font-size: 42px; line-height: 1.05em">NEUROPSYCHOLOGY</h1> <h1 class="muted">IS A FIELD OF EVER-CHANGING INFORMATION</h1> 
-          <h1 style="font-size: 42px; line-height: 1em; color: #E60075">Neuropsych Now</h1> 
-          <h4 class="muted" style="font-size: 36px; line-height: 1em;">Changes With It</h4>
-        </div>
-        </div>
-      </div>
-  </div> -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
+            <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <!-- <span class="icon-bar"></span> -->
+              <!-- <span class="icon-bar"></span> -->
+            </a>
+            <a class="brand" href="./index.html"><img src="./img/logotextmini.png" alt="Neuropsych Now Logo"></a>
+            <!-- Responsive Navbar 2: Place all navbar contents to be collapsed within .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="dropdown">
+                  <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">State Of The Field Guides<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="./titles.html">All Neuropsych Now Titles</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Individual Titles</li>
+                    <li><a href="./underconstruction.html">Alzheimer's Disease</a></li>
+                    <li><a href="./underconstruction.html">Report Writing</a></li>
+                    <li><a href="./underconstruction.html">Report Writing: Tech</a></li>
+                    <li><a href="./underconstruction.html">HIPAA: In The Cloud</a></li>
+                    <li><a href="./underconstruction.html">Executive Functioning</a></li>
+                  </ul>
+                </li>                               
+                <li class="dropdown">
+                  <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Tools<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="./tools.html">Resources Guide</a></li>
+                    <li class="divider"></li>
+                    <li><a href="./neuroapps.html">Neuro iOS Apps</a></li>
+                    <li><a href="./downloads.html">Downloads</a></li>
+                    <li><a href="./extlinks.html">External Links</a></li>
+                    <li><a href="./ceu.html">Continuing Education</a></li>
+                  </ul>
+                </li>
+                <li><a href="./blog.html">Articles</a></li>
+                <li><a href="./aboutus.html">About</a></li>
+                <li><a href="./contactus.html">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+      </div> <!-- /.container -->
+    </div>
+    </div><!-- /.navbar-wrapper -->
 
-  <div class="container">
-    <img src="./img/logo.png" alt="">
-  </div>
+        <!-- Main Body Content -->
+	 <div id="wrap">
+        <div id="landingPage">
+            <div class="container-fluid">
+                <div class="row-fluid" style="margin-bottom: 40px;">
+                    <div class="span8 offset1">
+                        <div id="home-header" class="row">
+                            <div class="introduction">
 
+                            <h1 style="font-size: 50px; line-height: 1.05em;">NEUROPSYCH NOW</h1> <h1 class="muted" style="font-size: 28px;">knowledge and tools to keep you</h1> 
+                            <h1 style="font-size: 42px; line-height: 1em; color: #E60075">AHEAD OF THE CURVE</h1>
+                            <!-- <h4 class="muted" style="font-size: 36px; line-height: 1em;">HAS THE FIELD GUIDE</h4> -->
+                            </div>    
+                        </div>
+                    </div>
+                </div>
 
+                <div class="row-fluid">
+                    <div class="span4 offset4">
+                        <form class="form-search" action="/search/">
+                            <div class="input-append">
+                            <input type="text" class="search-query" name="query" placeholder="Search Neuropsych Now">
+                            <button type="submit" class="btn btn-info"><i class="icon-search icon-white"></i> </button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+
+    <!-- start navbar -->
+           <!--      <div id="rowmenu" class="row-fluid">
+            <div class="navbar-wrapper">
+            <div class="navbar">
+            <div class="navbar navbar-fixed-top">
+                        <div class="span2 offset1">
+                            <a href="./titles.html" style="color:rgb(181, 137, 0);">Guides</a>
+                        </div>
+                    <div class="span2">
+                        <a href="./tools.html">Resources</a>
+</div>                               
+                    <div class="span2">
+                        <a href="./blog.html" style="color:rgb(203,75,22)"> Blog</a>
+                    </div>
+                    <div class="span2">
+                        <a href="./aboutus.html" style="color:rgb(108,113,196)">About</a>
+                    </div>
+                    <div class="span2">
+                      <a href="./contactus.html">Contact</a>
+                    </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+                
+                
 
 <div class="container-fluid">
-  <div class="hero-unit">
-      <div class="row-fluid">
-        <div class="span4">
-          <a href="./titles.html">
-            <h2 style="text-align: center">State of the Field Guides</h2>
-          </a>
-          <p style="text-align: center;">Concise guides and books representing the current consensus of the field. On your laptop, on your mobile, on <em>your</em> time</p> 
-        </div><!-- /.span4 -->
+<div class="row-fluid">
+        <div class="span12">                
+                <hr class="featurette-divider">
 
-        <div class="span4">
-          <a href="./tools.html">
-          <h2 style="text-align: center">Resources</h2>
-          </a>
-          <p style="text-align: center;">Articles, calculators, apps and more. Curated and waiting for you.</p>
-      </div><!-- /.span4 -->
-
-        <div class="span4">
-          <a href="./aboutus.html">
-          <h2 style="text-align: center">The Blog: Archive of Information</h2>
-          </a>
-          <p style="text-align: center;">Current topics. Innovative perspectives.</p>
-        </div><!-- /.span4 -->
-    </div>
-    </div>
-    </div>
-
-<d5iv class="container-fluid">
-    <div class="hero-unit" style="background-color: #ccffff;">
-      <div class="row-fluid">
-        <div class="span12">
-        <h3>What is the value of Neuropsych Now?</h3>  
-        <p>Not convinced that easy access to the most current information is important? Consider this quote from Alexander &amp; Roberts (1998):</p>
-        
-      <blockquote style="font-family: Futura; font-style: italic; ">
-      &#8220;The field of clinical psychology is diverse and informational material continually becomes available in a multitude of places. Because the half-life of psychological knowledge is brief, the need for updating and accessing resources is nearly constant for both researchers and practitioners alike.&#8221;<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></blockquote>
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="./img/sketch.png">
+        <h2 class="featurette-heading">The Latest Developments In Clinical Topics: <span class="muted"><a href="./underconstruction.html">Alzheimer's Disease</a></span></h2>
       </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="./img/cloudsblue.png">
+        <h2 class="featurette-heading">Up On HIPAA Policy? <span class="muted"><a href="./underconstruction.html">HIPAA: In the Cloud</a></span></h2>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="./img/LaTeX.png">
+        <h2 class="featurette-heading">Do More Than Just Power Up Your Computer:<span class="muted"> <a href="./underconstruction.html">Report Writing Tech</a></span></h2>
       </div>
     </div>
   </div>
-
- <div class="container-fluid">
-  <div class="footnotes">
-<hr />
-<ol>
-
-<li id="fn:1">
-<p>Kristi Alexander, Michael C. Roberts (1998) Informational Sources in Clinical Psychology, In (Eds.): Alan S. Bellack and Michel Hersen, <em>Comprehensive Clinical Psychology</em>, Pergamon, Oxford, 67&#8211;86, ISBN 9780080427072, DOI:10.1016/B0080&#8211;4270(73)00174&#8211;7. <a href="http://www.sciencedirect.com/science/article/pii/B0080427073001747">http://www.sciencedirect.com/science/article/pii/B0080427073001747</a> <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
-</li>
-
-</ol>
-    </div>
   </div>
+                        
 
-    <div id="wrap">
+                    
+                  <!--   <div class="clearfix"></div>
+                
+                    <div class="clearfix"></div> -->
+
+       
       <div id="push"></div>
     </div>
 
@@ -147,14 +286,10 @@
         <!-- Neuropsych Now Footer for docs at root -->
         <!--#include virtual="./templates/mainfoot.html" -->
       </div>
-  
+        
+        <!-- site-wide javascript is in main footer -->
+        <!-- add any page-specific javascript here -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
 
-  </body>
+    </body>
 </html>

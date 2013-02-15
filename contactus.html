@@ -9,14 +9,53 @@
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
 
     <!-- Le styles -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/navbar.css">
     <link rel="icon" href="./img/favicon.png" type="image/png" /> 
 
     <style>
       body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        font-family: 'News Cycle', sans-serif;
+        padding-top: 80px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+
+          /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
       }
 
     /*get the navbar to cooperate on mobile versions landscape and portrait*/
@@ -26,6 +65,8 @@
     }      
     
     </style>
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -38,14 +79,46 @@
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="./templates/navbar.html" -->
 
-    <div class="container">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span4"><h1 style="color:red;">Contact Us</h1></div>
+        <div class="span8">
+      <p class="lead">One of our goals at Neuropsych Now is to grow and change through your feedback.</p>
+<P>We REALLY want to hear from you, so If you have a question, comment, or suggestion about any of our services, products, the site, or anything else, please let us know! Just click <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+"\\\\,l=x.length;for(i=0;i<l;i++){if(i>(75+y))y*=2;y%=127;o+=String.fromChar" +
+"Code(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\/#.;\\\\\\\\\\\"\\\\5?&}#'" +
+"?#=54s~a?\\\\\\\\177\\\\\\\\010\\\\\\\\023\\\\\\\\007\\\\\\\\005Y9D\\\\\\\\" +
+"n\\\\\\\\t\\\\\\\\000\\\\\\\\006\\\\\\\\037\\\\\\\\003W\\\\\\\\017\\\\\\\\0" +
+"13\\\\\\\\035\\\\\\\\030\\\\\\\\0343\\\\\\\\032\\\\\\\\020\\\\\\\\003\\\\\\" +
+"\\005\\\\\\\\027\\\\\\\\t\\\\\\\\t\\\\\\\\002\\\\\\\\037\\\\\\\\025\\\\\\\\" +
+"020ov=pqglbk}7mihjmqryO65b~lu\\\\\\\\177&@?]sIBI\\\\\\\\003PJ\\\\\\\\006DGG" +
+"^JOY\\\\\\\\016ZCm\\\\\\\\020\\\\\\\\r\\\\\\\\\\\\\\\\PDR\\\\\\\\004\\\\\\\\"+
+"026[\\\\\\\\005\\\\\\\\036\\\\\\\\024\\\\\\\\005\\\\\\\\017{\\\"\\\\,75)\\\""+
+"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l" +
+"=+l;x=+x{yrt{)05=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i ra" +
+"v{)x(f noitcnuf\")"                                                          ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
 
-      <h1 style="color:red;">Contact Us</h1>
+ to send us an email. That's all we ask of you - no registration or forms to complete - just plain and simple feedback, on your terms and your time.</p></div>
+      </div>
+      
+  <div id="wrap">
+      <div id="push"></div>
+    </div>
 
-      <h4>One of our goals at Neuropsych Now is to grow and change through your feedback, and we&#8217;d love to hear from you. If you have a question, comment, or suggestion, please feel free to contact us! Just click <a href="mailto:howard.buddin@gmail.com?subject=Neuropsych%20Now%20Admin">here</a> to send us an email.</h4>
 
+<div class="container">
 <!-- Neuropsych Now Footer for docs at root -->
 <!--#include virtual="./templates/mainfoot.html" -->
+</div>
+
 
     </div> <!-- /container -->
 
