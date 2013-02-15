@@ -1,0 +1,10 @@
+Title: Neuropsych Now
+
+<!--#include virtual="${Base_URL}templates/mainhead.html" -->
+<!--#include virtual="${Base_URL}templates/navbar.html" -->
+
+<div id="wrap" markdown="1">
+<div class="row-fluid" markdown="1">
+# welcome to Neuropsych Now! #
+
+<!--#include virtual="${Base_URL}templates/mainfoot.html" -->
