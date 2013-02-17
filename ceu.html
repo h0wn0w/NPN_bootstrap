@@ -5,18 +5,15 @@
     <title>Continuing Education</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta name="tags" content="Continuing Education">
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
 
     <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
-    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
 
     <style>
-     
-     /* body {
-        padding-top: 60px;  60px to make the container go all the way to the bottom of the topbar 
-      }*/
      
       /* GLOBAL STYLES
     -------------------------------------------------- */
@@ -28,51 +25,52 @@
       font-family: 'News Cycle'
     }
 
+        /* Sticky footer styles
+      -------------------------------------------------- */
 
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
+      html,
+      body {
+        height: 50%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
 
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 50%;
+        height: auto !important;
+        height: 50%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+    /*get the navbar to cooperate on mobile versions landscape and portrait*/
+    @media (max-width: 979px) {
+      .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
+      .container-hero-unit { margin-top:70px;}
     }
-    .navbar-wrapper .navbar {
 
-    }
-
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
-    }
     </style>
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -84,14 +82,20 @@
   <body>
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="./templates/navbar.html" -->
-
-    <div class="container">
-      <div class="hero-unit">
-
-      <h1 style="color: red;">Continuing Education Units</h1>
-      <p>Content<br> More content.</p>
-
+<div id="wrap">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span4"><h1 style="color:red;">Continuing Education Units</h1></div>
+        <div class="span8">
+          <h3 class="lead" style="text-align: center; font-size: 50px;">COMING SOON</h3>
+        </div>
       </div>
+    </div>
+    <div id="push"></div>
+    </div>
+
+
+    <div>
       <!-- Neuropsych Now Footer for docs at root -->
 <!--#include virtual="./templates/mainfoot.html" -->
     </div> <!-- /container -->

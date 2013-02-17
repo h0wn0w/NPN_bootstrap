@@ -124,46 +124,7 @@
 
   <body>
 
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="../index.html">Neuropsych Now</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../aboutus.html">About Us</a></li>
-                <li><a href="../blog.html">Blog</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Topics <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="../titles.html">All Neuropsych Now Titles</a></li>
-                      <li class="divider"></li>
-                      <li class="nav-header">Individual Titles</li>
-                    <li><a href="./ad.html">Alzheimer's Disease</a></li>
-                    <li><a href="./reportwriting.html">Report Writing</a></li>
-                    <li><a href="./reportech.html">Report Writing: Tech</a></li>
-                    <li class="active"><a href="./hipaacloud.html">HIPAA: In The Cloud</a></li>
-                    <li><a href="./execfunc.html">Executive Functioning</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
+        <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
     <div class="container">
 

@@ -12,6 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="icon" href="./img/favicon.png" type="image/png" /> 
 
     <style>
@@ -25,15 +26,15 @@
 
       html,
       body {
-        height: 100%;
+        height: 75%;
         /* The html and body elements cannot have any padding or margin. */
       }
 
       /* Wrapper for page content to push down footer */
       #wrap {
-        min-height: 100%;
+        min-height: 75%;
         height: auto !important;
-        height: 100%;
+        height: 75%;
         /* Negative indent footer by it's height */
         margin: 0 auto -60px;
       }
@@ -62,6 +63,10 @@
     @media (max-width: 979px) {
       .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
       .container-hero-unit { margin-top:70px;}
+    }
+
+    .span2 {
+      text-align: center;
     }      
     
     </style>
@@ -78,38 +83,46 @@
   <body>
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="./templates/navbar.html" -->
-
+  <div id="wrap">
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span4"><h1 style="color:red;">Contact Us</h1></div>
+        <div class="span4">
+          <h1 style="color:red;">Contact Us</h1>
+        </div>
         <div class="span8">
-      <p class="lead">One of our goals at Neuropsych Now is to grow and change through your feedback.</p>
-<P>We REALLY want to hear from you, so If you have a question, comment, or suggestion about any of our services, products, the site, or anything else, please let us know! Just click <script type="text/javascript">
+          <p class="lead">Question? Comment? Suggestion?</p>
+          <br>
+          <p class="lead">Let us know!</p>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span2 offset3">
+          <p class="lead"><i class="icon-twitter"></i><a href="http://twitter.com/NeuropsychNow"> twitter</a></p>
+        </div>
+        <div class="span2"><p class="lead"><i class="icon-envelope-alt"></i> <script type="text/javascript">
 //<![CDATA[
 <!--
-var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-"\\\\,l=x.length;for(i=0;i<l;i++){if(i>(75+y))y*=2;y%=127;o+=String.fromChar" +
-"Code(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\/#.;\\\\\\\\\\\"\\\\5?&}#'" +
-"?#=54s~a?\\\\\\\\177\\\\\\\\010\\\\\\\\023\\\\\\\\007\\\\\\\\005Y9D\\\\\\\\" +
-"n\\\\\\\\t\\\\\\\\000\\\\\\\\006\\\\\\\\037\\\\\\\\003W\\\\\\\\017\\\\\\\\0" +
-"13\\\\\\\\035\\\\\\\\030\\\\\\\\0343\\\\\\\\032\\\\\\\\020\\\\\\\\003\\\\\\" +
-"\\005\\\\\\\\027\\\\\\\\t\\\\\\\\t\\\\\\\\002\\\\\\\\037\\\\\\\\025\\\\\\\\" +
-"020ov=pqglbk}7mihjmqryO65b~lu\\\\\\\\177&@?]sIBI\\\\\\\\003PJ\\\\\\\\006DGG" +
-"^JOY\\\\\\\\016ZCm\\\\\\\\020\\\\\\\\r\\\\\\\\\\\\\\\\PDR\\\\\\\\004\\\\\\\\"+
-"026[\\\\\\\\005\\\\\\\\036\\\\\\\\024\\\\\\\\005\\\\\\\\017{\\\"\\\\,75)\\\""+
-"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l" +
-"=+l;x=+x{yrt{)05=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i ra" +
-"v{)x(f noitcnuf\")"                                                          ;
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=110){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")2,\\\"V\\\\\\\\PCKV600\\\\IY010\\\\n\\\\300\\\\410\\\\" +
+"500\\\\a|100\\\\+4420\\\\y04/&$< $5100\\\\n!%*',j330\\\\{ (7+5`530\\\\bPSX4" +
+"20\\\\NWY^VM@B^BZKClECDLF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\\\771\\\\dle" +
+"rejg\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;" +
+"++y)2<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"  ;
 while(x=eval(x));
 //-->
 //]]>
 </script>
-
- to send us an email. That's all we ask of you - no registration or forms to complete - just plain and simple feedback, on your terms and your time.</p></div>
+</p>
+</div>
+        <div class="span2">
+          <p class="lead"><i class="icon-facebook"></i><a href="http://www.facebook.com/pages/Neuropsych-Now/213658415438863"> facebook</a></p>
+        </div>
       </div>
-      
-  <div id="wrap">
+
+        </div><!-- /container -->   
+      </div><!-- wrap -->
+  
       <div id="push"></div>
     </div>
 
@@ -118,9 +131,6 @@ while(x=eval(x));
 <!-- Neuropsych Now Footer for docs at root -->
 <!--#include virtual="./templates/mainfoot.html" -->
 </div>
-
-
-    </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
