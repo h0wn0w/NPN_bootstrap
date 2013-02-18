@@ -4,8 +4,18 @@ Title: Neuropsych Now
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
 <div id="wrap" markdown="1">
-<div class="row-fluid" markdown="1">
+<div class="container-fluid" markdown="1">
 	<div class="row-fluid" markdown="1">
 # About the Guides and Books #
+
+<p class="lead" style="padding-top: 40px;" markdown="1">
+	Our primary goal is to produce focused, easily accessible information on various topics central to the study and practice of neuropsychology. We call these titles *"State of the Field"*, because they are written, from beginning to end, using only information from the most recent, highest quality keystone studies that define the state of the art in neuropsychology. Each begins with a discussion of fundamentals, guiding you through core points of the topic. Following this is a review of systematically chosen articles that define the current concensus of the field. 
+</p>
+      <div class="hero-unit" style="background-color:#fff">
+        <div class="row-fluid">
+          <div class="span12">
+            <p>The majority of our productions will be approximately 5,000 words in length. We call them "Guides," as they are designed to guide you through a very focused topic. Occasionally, we'll release a work of greater depth and breadth. These will be on the order of 8,000 words or more. </p>
+            <hr>  
+        <p>
 
 <!--#include virtual="${Base_URL}templates/mainfoot.html" -->
