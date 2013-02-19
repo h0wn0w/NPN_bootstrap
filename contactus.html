@@ -26,15 +26,15 @@
 
       html,
       body {
-        height: 75%;
+        height: 85%;
         /* The html and body elements cannot have any padding or margin. */
       }
 
       /* Wrapper for page content to push down footer */
       #wrap {
-        min-height: 75%;
+        min-height: 85%;
         height: auto !important;
-        height: 75%;
+        height: 85%;
         /* Negative indent footer by it's height */
         margin: 0 auto -60px;
       }
@@ -81,9 +81,9 @@
   </head>
 
   <body>
+  <div id="wrap">
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="./templates/navbar.html" -->
-  <div id="wrap">
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span4">
@@ -126,11 +126,9 @@ while(x=eval(x));
       <div id="push"></div>
     </div>
 
-
-<div class="container">
 <!-- Neuropsych Now Footer for docs at root -->
 <!--#include virtual="./templates/mainfoot.html" -->
-</div>
+
 
     <!-- Le javascript
     ================================================== -->
