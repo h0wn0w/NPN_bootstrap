@@ -12,6 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css">    
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
     <style>
@@ -29,13 +30,13 @@
 
       html,
       body {
-        height: 60%;
+        height: 100%;
         /* The html and body elements cannot have any padding or margin. */
       }
 
       /* Wrapper for page content to push down footer */
       #wrap {
-        min-height: 50%;
+        min-height: 100%;
         height: auto !important;
         height: 100%;
         /* Negative indent footer by it's height */
@@ -72,6 +73,7 @@
 </head>
 
 <body>
+  <div id="wrap">
 	<!-- The standard Neuropsych Now navbar for docs at root -->
 	<!--#include virtual="${Base_URL}templates/navbar.html" -->
 
@@ -104,14 +106,14 @@
 		</div>
 	</div>
 
-	<div id="wrap">
+	
       <div id="push"></div>
     </div>
 
-      <div class="container">
+  
         <!-- Neuropsych Now Footer for docs at root -->
         <!--#include virtual="./templates/mainfoot.html" -->
-      </div>
+  
       
         <!-- add any page-specific javascript here 
         ==================================================== -->
