@@ -1,14 +1,17 @@
-Title: Neuropsych Now
+<!DOCTYPE html>
+<html lang="en">
+Title: Ass Bag
 
 <!--#include virtual="${Base_URL}templates/mainhead.html" -->
 <body>
-<!--#include virtual="${Base_URL}templates/navbar.html" -->
 
-<!-- <div id="wrap" markdown="1"> -->
+<div id="wrap" markdown="1">
+<!--#include virtual="${Base_URL}templates/navbar.html" -->
 	<div class="container-fluid" markdown="1">
-<div class="row-fluid" markdown="1">
+	<div class="row-fluid" markdown="1">
 
 # welcome to Neuropsych Now! #
+You are an ass bag. 
 
 </div>
 </div>
