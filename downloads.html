@@ -11,7 +11,8 @@
     <!-- Les styles -->
     <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="./css/npn.css" type="text/css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">    
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
     <style type="text/css">
@@ -21,7 +22,6 @@
       padding-top: 80px;
       color: #5a5a5a;
       font-family: 'News Cycle', sans-serif;
-      font-size: 18px;
     }
     
     h3 {
@@ -40,6 +40,7 @@
   </head>
 
   <body>
+    <div id="wrap">
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 <div class="container-fluid">
@@ -100,12 +101,12 @@
 </div> <!-- end of accordion -->
 </div> <!-- end of bottom container -->
     
-  
+<div id="push"></div>
+    </div>
 
-<div class="container">
   <!-- Neuropsych Now Footer for docs at root -->
   <!--#include virtual="./templates/mainfoot.html" -->
-</div>
+
 
 
     <!-- Le javascript
