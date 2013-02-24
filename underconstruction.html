@@ -24,7 +24,7 @@
       padding-top: 60px;
       /*color: #5a5a5a;*/
       font-family: 'News Cycle', sans-serif;
-      font-size: 16px;
+      
     }
 
     #sign {
@@ -37,57 +37,11 @@
       /*padding-right: 25%*/
       /*position: relative;*/
     }
-    
 
-    /* Featurettes
-    ------------------------- */
-
-    
-
-    /* RESPONSIVE CSS
-    -------------------------------------------------- */
-
-    /*@media (max-width: 979px) {
-
-      .container.navbar-wrapper {
-        margin-bottom: 0;
-        width: auto;
-      }
-      .navbar-inner {
-        border-radius: 0;
-        margin: -20px 0;
-      }
-
-      .carousel .item {
-        height: 500px;
-      }
-      .carousel img {
-        width: auto;
-        height: 500px;
-      }
-
-      .featurette {
-        height: auto;
-        padding: 0;
-      }
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        display: block;
-        float: none;
-        max-width: 40%;
-        max-width: 80%;        
-        margin: 0 auto 20px;
-        padding: 40px;
-      }
-    }*/
-
-    /*@media (max-width: 767px) {
-
-      .navbar-inner {
-        margin: 0;*/
-      }
-
+    #note {
+      font-size: 16px;
     }
+  
     </style>
 
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
@@ -99,6 +53,7 @@
   </head>
 
   <body>
+    <div id="wrap">
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
 <div class="class container-fluid">
@@ -106,7 +61,7 @@
     <div class="row-fluid">
       <h2 class="featurette-heading" style="text-align:center; font-size: 48px; line-height: 1.25em;">A Work In Progress<br>
         <span class="muted" style="text-align:right;"> Worth Waiting For.</span></h2>
-        <p>
+        <p id="note">
         Titles will be available for purchase from the iTunes store and Amazon beginning in Autumn 2013. Please <script type="text/javascript">
 //<![CDATA[
 <!--
@@ -138,9 +93,10 @@ while(x=eval(x));
         </div>
 
 
-      <div class="container">
+  <div id="push"></div>
+    </div>
         <!--#include virtual="./templates/mainfoot.html" -->
-      </div>
+  
          
 
     <!-- Le javascript
