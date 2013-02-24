@@ -8,12 +8,49 @@
     <link rel="stylesheet" href="./css/bootstrap-responsive.min.css" type="text/css" />
 
 		<link rel="icon" href="./img/favicon.png" type="image/png" />
+
+    <style>
+    #general{
+    float:left;
+    width:30%;
+    }
+
+    strong{
+      display:block;
+      font-weight:bold;
+      text-decoration:underline;
+    }
+
+    em{
+      color:red;
+      font-style:italic;
+    }
+    
+    #address, 
+    #coords{
+      float:right;
+      width:60%;
+      clear:right;
+      margin-bottom:10px;
+    }
+    
+    #gbox{
+      border:1px solid #ccc;
+      padding:10px;
+      font-size:12px;
+    }
+    </style>
+
 	</head>
-<body style="width:35em;">
+<!--<body style="width:35em;">-->
+<body>
+
+<div id="wrap">
+<div class="container-fluid">
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 <h3>Notice</h3>
 
-<p>You seem to be having problems with your Internet machine. Perhaps this is a sign of neurocognitive decline. Consider a visit to the nearest neuropsychologist for an examination.</p>
+<p style="width:35em;">You seem to be having problems with your Internet machine. Perhaps this is a sign of neurocognitive decline. Consider a visit to the nearest neuropsychologist for an examination.</p>
 
 <style type="text/css">
   #goog-wm { }
@@ -23,15 +60,55 @@
   #goog-wm ul li { }
   #goog-wm li.search-goog { display: block; }
 </style>
+
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
   var GOOG_FIXURL_SITE = 'http://neuropsychnow.com/';
 </script>
 <script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
+<div id="gbox">
+  <div id="general"><strong>general</strong></div>
+  <div id="address"><strong>address</strong></div>
+  <div id="coords"><strong>coords</strong></div>
+</div>
+
 <h3>Alternative Links</h3>
 
 <p><a href="/">Back to the home page</a></p>
+</div>
+<div id="push"></div>
+</div>
     <!--#include virtual="./templates/mainfoot.html" -->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+    <script>
+    if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(a) {
+        for (var t in a)
+        {
+            $('#general').append( '<em>' + t + '</em> : ' + a[t] + '<br/>');
+        }
+        
+        if (a.address)
+        {
+            for (var t in a.address){
+                $('#address').append( '<em>' + t + '</em> : ' + a.address[t] + '<br/>');
+            }
+        }
+        
+        if (a.coords)
+        {
+            for (var t in a.coords){
+                $('#coords').append( '<em>' + t + '</em> : ' + a.coords[t] + '<br/>');
+            }
+        }
+  });
+ }
+else
+{alert('navigator.geolocation not supported.');}
+</script>
 </body>
 </html>
