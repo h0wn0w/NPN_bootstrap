@@ -1,36 +1,3 @@
-/* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /*from here to next major head renders, smaller, bolder text. Remove to get tighter fonts*/
-
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-   /* .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 0px;
-      margin-bottom: -90px; 
-    }*/
-
-    /* Remove border and change up box shadow for more contrast */
-    /*.navbar .navbar-inner {
-      border: 0;
-      font-size: 16px;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }*/
-
-    /* Downsize the brand/project name a bit */
-    /*.navbar .brand {
-      padding: 14px 20px 16px; 
-      font-size: 18px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }*/
-
     /* navbar: main container and elements
         ================================================= */
 
@@ -133,8 +100,6 @@
       text-shadow: 0px;
       }
 
-      
-
       /*finally, the search field
       ==============================================*/
 
@@ -207,3 +172,40 @@
     input::-webkit-input-placeholder {
       color: #999;
     }*/
+
+              /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 85%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 85%;
+        height: auto !important;
+        height: 85%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      /*#footer {
+        background-color: #f5f5f5;
+      }*/
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
