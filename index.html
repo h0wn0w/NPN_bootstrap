@@ -13,7 +13,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="./css/jquery-ui.css" type="text/css" media="screen" /> -->
     <link rel="stylesheet" href="./css/npn.css" type="text/css" media="screen" />
-
+    <link rel="stylesheet" href="./css/font-awesome.min.css">    
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="icon" href="./img/favicon.png" type="image/png" />
 
@@ -56,15 +56,10 @@
         color: rgb(181, 137, 0);
       }
 
-      .span2 {
-        /*padding-right: 10px;
-        padding-left: 10px;*/
-        font-size: 20px;
-      }
-
       .featurette-divider {
       margin: 80px 0; /* Space out the Bootstrap <hr> more */
     }
+    
     .featurette {
       padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
@@ -89,33 +84,6 @@
       letter-spacing: -1px;
     }
 
-         /* Sticky footer styles
-      -------------------------------------------------- */
-
-      html,
-      body {
-        height: 50%;
-        /* The html and body elements cannot have any padding or margin. */
-      }
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 50%;
-        height: auto !important;
-        height: 50%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
-
      /* nav-collapse.collapse>a>ul>li>a {
         color: rgb(181, 137, 0);
         }*/
@@ -130,6 +98,7 @@
     </head>
 
     <body>
+         <div id="wrap">
 <!-- NAVBAR
     ================================================== -->
 <div class="navbar-wrapper">
@@ -187,7 +156,6 @@
     </div><!-- /.navbar-wrapper -->
 
         <!-- Main Body Content -->
-	 <div id="wrap">
         <div id="landingPage">
             <div class="container-fluid">
                 <div class="row-fluid" style="margin-bottom: 40px;">
@@ -275,10 +243,10 @@
       <div id="push"></div>
     </div>
 
-      <div class="container">
+    
         <!-- Neuropsych Now Footer for docs at root -->
         <!--#include virtual="./templates/mainfoot.html" -->
-      </div>
+
           
         <!-- add any page-specific javascript here
      ==================================================== -->
