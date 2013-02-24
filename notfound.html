@@ -10,35 +10,7 @@
 		<link rel="icon" href="./img/favicon.png" type="image/png" />
 
     <style>
-    #general{
-    float:left;
-    width:30%;
-    }
-
-    strong{
-      display:block;
-      font-weight:bold;
-      text-decoration:underline;
-    }
-
-    em{
-      color:red;
-      font-style:italic;
-    }
     
-    #address, 
-    #coords{
-      float:right;
-      width:60%;
-      clear:right;
-      margin-bottom:10px;
-    }
-    
-    #gbox{
-      border:1px solid #ccc;
-      padding:10px;
-      font-size:12px;
-    }
     </style>
 
 	</head>
@@ -67,12 +39,6 @@
 </script>
 <script type="text/javascript" src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
-<div id="gbox">
-  <div id="general"><strong>general</strong></div>
-  <div id="address"><strong>address</strong></div>
-  <div id="coords"><strong>coords</strong></div>
-</div>
-
 <h3>Alternative Links</h3>
 
 <p><a href="/">Back to the home page</a></p>
@@ -84,31 +50,7 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
-    <script>
-    if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(a) {
-        for (var t in a)
-        {
-            $('#general').append( '<em>' + t + '</em> : ' + a[t] + '<br/>');
-        }
-        
-        if (a.address)
-        {
-            for (var t in a.address){
-                $('#address').append( '<em>' + t + '</em> : ' + a.address[t] + '<br/>');
-            }
-        }
-        
-        if (a.coords)
-        {
-            for (var t in a.coords){
-                $('#coords').append( '<em>' + t + '</em> : ' + a.coords[t] + '<br/>');
-            }
-        }
-  });
- }
-else
-{alert('navigator.geolocation not supported.');}
+    
 </script>
 </body>
 </html>
