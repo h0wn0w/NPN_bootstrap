@@ -1,9 +1,9 @@
 Title:				"Dementia, Behavior, Disease, Neuropathology"
 Author:				S. Marc Testa, Ph.D.
 Web:				http://neuropsychnow.com
-CSS:                               ../../css/layout.css
-Date:                             021713 
-Tags:                           Terminology, nomenclture, Conceptualization, behavior vs. disease, dementia, neuropathology
+CSS:                ../../css/layout.css
+Date:               02/17/2013 
+Tags:               Terminology, Nomenclture, Conceptualization, Behavior vs. Disease, Dementia, Neuropathology
 Base Header Level:        2
 
 Warning! You are entering a soapbox zone...
