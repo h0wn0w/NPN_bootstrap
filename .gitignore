@@ -1,3 +1,4 @@
 .htaccess
 boot.*
 git-credential-helper/
+search/
