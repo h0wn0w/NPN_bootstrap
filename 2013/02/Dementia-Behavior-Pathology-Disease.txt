@@ -1,0 +1,19 @@
+Title:				"Dementia, Behavior, Disease, Neuropathology"
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+CSS:                ../../css/layout.css
+Date:               02/17/2013 
+Tags:               Terminology, Nomenclture, Conceptualization, Behavior vs. Disease, Dementia, Neuropathology
+Base Header Level:        2
+
+Warning! You are entering a soapbox zone...
+
+Dementia is a term that is misused at an alarming rate. Overtime, the term dementia has evolved to reflect **inaccurately** a disease entity that is permanent, progressive, and nearly interchangeable with Alzheimer's disease, frontotemporal degeneration, etc.
+
+The concept and term dementia refers to:
+
+>a state of acquired intellectual deterioration which significantly interferes with an individual’s personal, social and occupational roles.
+
+Importantly, someone with Alzheimer's disease (i.e. a neuropathological entity) may or may not be classified as having "dementia". 
+
+>The presence of dementia would then denote a stage of the disorder at which symptoms have become so severe that activities of daily living are significantly compromised.
