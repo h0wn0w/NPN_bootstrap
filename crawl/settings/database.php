@@ -1,8 +1,8 @@
 <?php
-	$database="sphider";
-	$mysql_user = "root";
+	$database="";
+	$mysql_user = "";
 	$mysql_password = ""; 
-	$mysql_host = "localhost";
+	$mysql_host = "";
 	$mysql_table_prefix = "";
 
 
