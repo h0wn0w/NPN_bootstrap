@@ -6,3 +6,7 @@ Disallow: /php
 Disallow: /img
 Disallow: /templates
 Disallow: /crawl
+<<<<<<< HEAD
+=======
+
+>>>>>>> a23cb789a646dbe2168f93638f7dc7025fc3db4c
