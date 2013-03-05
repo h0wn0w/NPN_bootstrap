@@ -744,6 +744,7 @@ a.forgot-password:hover {
 ----------------------------------------- */
 #landingPage {
 	background: url('../img/braincellsrevmed.png');
+	/*background: url('../img/indexbglogocopy.png');*/
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 900px;
