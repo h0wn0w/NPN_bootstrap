@@ -5,4 +5,4 @@ Disallow: /js
 Disallow: /php
 Disallow: /img
 Disallow: /templates
-
+Disallow: /crawl

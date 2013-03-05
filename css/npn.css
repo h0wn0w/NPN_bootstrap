@@ -191,10 +191,11 @@
 /*blog pages - head, header, foot */    
 
   #articlebody {
-    max-width: 37em;  /* originally 35em, but I changed to accomodate titles */
+    font-size: 16px;
+    /*max-width: 37em;*/  /* originally 35em, but I changed to accomodate titles */
   /*overflow: hidden;*/
-  overflow: auto;
-  margin: 0 2.5em 0 16.5em;
+  /*overflow: auto;*/
+  /*margin: 0 0 0 10.5em;*/
   }
 
 

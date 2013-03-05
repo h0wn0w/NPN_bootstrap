@@ -1,8 +1,8 @@
 <?php
-	$database="";
-	$mysql_user = "";
-	$mysql_password = ""; 
-	$mysql_host = "";
+	$database="soich";
+	$mysql_user = "npnow";
+	$mysql_password = "park47&trunk"; 
+	$mysql_host = "serchin.db";
 	$mysql_table_prefix = "";
 
 
