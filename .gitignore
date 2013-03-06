@@ -1,3 +1,5 @@
 .htaccess
 boot.*
 git-credential-helper/
+sphider/settings/*
+sphider/admin/*
