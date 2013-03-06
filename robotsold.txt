@@ -5,8 +5,11 @@ Disallow: /js
 Disallow: /php
 Disallow: /img
 Disallow: /templates
+<<<<<<< HEAD
 Disallow: /crawl
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a43d8b87ab3c4c76e23b3cf64ceb881077d9d900
 
 >>>>>>> a23cb789a646dbe2168f93638f7dc7025fc3db4c
