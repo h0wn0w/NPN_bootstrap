@@ -5,7 +5,8 @@
 * By Ando Saabas          ando(a t)cs.ioc.ee
 ********************************************/
 
-	$includes = array('./include', 'include', '../include');
+	// $includes = array('./include', 'include', '../include');
+	$includes = array('./include', 'include', '../include', 'sphider/include', './sphider/include', '../sphider/include');
 	if( !in_array($include_dir, $includes) )  {
        die("Illegal include.");
 	} 
