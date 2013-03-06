@@ -1,9 +1,9 @@
 <?php
-	$database="sphider";
-	$mysql_user = "root";
-	$mysql_password = ""; 
-	$mysql_host = "localhost";
-	$mysql_table_prefix = "";
+	$database="npnlook";
+	$mysql_user = "npnow";
+	$mysql_password = "park47&trunk"; 
+	$mysql_host = "serchin.db";
+	$mysql_table_prefix = "thx";
 
 
 

@@ -1,0 +1,5 @@
+.htaccess
+boot.*
+git-credential-helper/
+search/
+robots.txt
