@@ -1,5 +1,3 @@
 .htaccess
 boot.*
 git-credential-helper/
-robots.txt
-crawl/
