@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css">    
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="icon" href="./img/favicon.png" type="image/png" />
-
+    
+    
     <style>
     /* really the main stuff goes here 
     ============================================================ */
@@ -89,7 +90,7 @@
      /* nav-collapse.collapse>a>ul>li>a {
         color: rgb(181, 137, 0);
         }*/
-     
+     @import url("./sphider/include/js_suggest/SuggestFramework.css");
     </style>
      <link href="./css/bootstrap-responsive.min.css" rel="stylesheet" />
 
@@ -201,13 +202,16 @@
 
                 <div class="row-fluid">
                     <div class="span4 offset4">
-                        <form class="form-search" action="./sphider/search.php" method="get">
-                            <div class="input-append">
+                <!--#include virtual="${Base_URL}nsearch.php" -->
+
+                        <!-- <form class="form-search" action="npnsearch.php" method="get"> -->
+                        <!-- <form action="npnsearch.php" method="get">
+                            <div class="input-append"> -->
                             <!-- <input type="text" class="search-query" name="query" placeholder="Search Neuropsych Now"> -->
-                            <input type="text" class="search-query" placeholder="Search Neuropsych Now" value="" action="include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">
+                            <!-- <input type="text" class="search-query" placeholder="Search Neuropsych Now" value="" action="./include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">
                             <button type="submit" class="btn btn-info"><i class="icon-search icon-white"></i> </button>
                             </div>
-                        </form>
+                        </form> -->
                         </div>
                     </div>
                 </div>
