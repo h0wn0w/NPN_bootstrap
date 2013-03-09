@@ -44,10 +44,10 @@ require_once("$include_dir/categoryfuncs.php");
 
 include "$settings_dir/conf.php";
 
-// include "$template_dir/$template/header.html";
-// include "$template_dir/searchhead.html";
-// include "$template_dir/searchheader.html";
-// include "$template_dir/navbar.html";
+// include "$template_dir/header.html";
+include "$template_dir/searchhead.html";
+include "$template_dir/searchheader.html";
+include "$template_dir/navbar.html";
 include "$language_dir/$language-language.php";
 
 
@@ -148,5 +148,7 @@ switch ($search) {
 		}
 	break;
 	}
+
+include "$template_dir/mainfoot.html";
 
 ?>

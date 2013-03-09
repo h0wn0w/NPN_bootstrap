@@ -61,7 +61,7 @@ $word_upper_bound	= 100;
 $index_numbers		= 1;
 
 // if this value is set to 1, word in domain name and url path are also indexed,// so that for example the index of www.php.net returns a positive answer to query 'php' even 	// if the word is not included in the page itself.
-$index_host		 = 0;
+$index_host		 = 1;
 
 
 // Wether to index keywords in a meta tag 
@@ -80,16 +80,16 @@ $index_xls	= 0;
 $index_ppt	= 0;
 
 //executable path to pdf converter
-$pdftotext_path	= 'c:\temp\pdftotext.exe';
+$pdftotext_path	= 'c:\\temp\\pdftotext.exe';
 
 //executable path to doc converter
-$catdoc_path	= 'c:\temp\catdoc.exe';
+$catdoc_path	= 'c:\\temp\\catdoc.exe';
 
 //executable path to xls converter
-$xls2csv_path	= 'c:\temp\xls2csv';
+$xls2csv_path	= 'c:\\temp\\xls2csv';
 
 //executable path to ppt converter
-$catppt_path	= 'c:\temp\catppt';
+$catppt_path	= 'c:\\temp\\catppt';
 
 // User agent string 
 $user_agent			 = 'Sphider';
@@ -98,7 +98,7 @@ $user_agent			 = 'Sphider';
 $min_delay			= 0;
 
 // Use word stemming (e.g. find sites containing runs and running when searching for run) 
-$stem_words			= 0;
+$stem_words			= 1;
 
 // Strip session ids (PHPSESSID, JSESSIONID, ASPSESSIONID, sid) 
 $strip_sessids			= 1;
@@ -127,7 +127,7 @@ $links_to_next		 = 9;
 $show_meta_description = 1;
 
 // Advanced query form, shows and/or buttons
-$advanced_search	= 0;
+$advanced_search	= 1;
 
 // Query scores are not shown if set to 0
 $show_query_scores	 = 1;	
@@ -153,7 +153,7 @@ $suggest_enabled		= 1;
 $suggest_history		= 1;
 
 // Search for suggestions in keywords 
-$suggest_keywords		= 0;
+$suggest_keywords		= 1;
 
 // Search for suggestions in phrases 
 $suggest_phrases		= 0;

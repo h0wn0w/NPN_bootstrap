@@ -1,8 +1,11 @@
 <br/>
-<!--#include virtual="${Base_URL}searchhead.html" -->
-<!--#include virtual="${Base_URL}searchheader.html" -->
-<div class="container-fluid">
-</div>
+
+
+
+<div id="searchresult" class="container-fluid">
+	<!-- <div class="row-fluid">
+		<div class="span8"> -->
+
 <?php 
 extract($search_results);
 ?>
@@ -122,8 +125,9 @@ extract($search_results);
 
 <div class="divline">
 </div>
-<div id="powered_by">
-<!--If you want to remove this, please donate to the project at http://www.sphider.eu/donate.php--> 		
-<?php poweredby()?>
 </div>
+</div> <!-- no span. bad span -->
+</div> <!-- end row-fluid -->
+</div> <!-- end container-fluid -->
+<!--#include virtual="${Base_URL}templates/mainfoot.html" -->
 
