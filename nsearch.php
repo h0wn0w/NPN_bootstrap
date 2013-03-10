@@ -148,7 +148,6 @@ switch ($search) {
 		}
 	break;
 	}
-
-include "$template_dir/mainfoot.html";
+	
 
 ?>
