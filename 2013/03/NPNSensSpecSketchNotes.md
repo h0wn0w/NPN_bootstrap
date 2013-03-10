@@ -27,4 +27,4 @@ That is all for now. Next time: negative and positive predictive values.
  
 
 
-[fig_id]: ../../img/Sensitivity-specificity-misclassification.png
+[fig_id]: ../../img/Sensitivity-specificity-misclassification.png width=600px
