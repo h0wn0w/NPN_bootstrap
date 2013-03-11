@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Copyright (C) 2010  Fletcher T. Penney <fletcher@fletcherpenney.net>
 #
@@ -88,9 +88,9 @@ sub index_file {
 		my $data = <FILE>;
 		close FILE;
 
-	if ($data =~ /<meta\s*name="Date"\s*content="(.*?)"\/>/i) {
+		if ($data =~ /<meta\s*name="Date"\s*content="(.*?)"\/>/i) {
 			$date = $1;
-			$date =~ s/(\d\d)\/(\d\d)\/(\d\d\d\d).*?(\d\d:\d\d:\d\d).*/$3-$1-$2T$4-04:00/;
+			$date =~ s/(\d?\d)\/(\d\d)\/(\d\d\d\d).*?(\d\d:\d\d:\d\d).*/$3-$1-$2T$4-04:00/;
 		}
 		if ($data =~ /<h1 class="page-title">(.*)<\/h1>/) {
 			my $title = $1;
