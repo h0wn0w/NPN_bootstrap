@@ -80,11 +80,6 @@
 			<xsl:if test="/html/head/meta[translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = 'tags']/@content != ''">
 				<xsl:text disable-output-escaping="yes"><![CDATA[<!--#include virtual="${Base_URL}/cgi/tags.cgi" -->]]></xsl:text>
 			</xsl:if>
-			<!-- added for Neuropsych Now -->
-			<xsl:if test="/html/head/meta[translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = 'category']/@content != ''">
-				<xsl:text disable-output-escaping="yes"><![CDATA[<!--#include virtual="${Base_URL}/cgi/pages_in_category.cgi" -->]]></xsl:text>
-			</xsl:if>
-			<!-- end add -->
 			<xsl:apply-templates select="@*|node()"/>
 			<xsl:text disable-output-escaping="yes"><![CDATA[<!--#include virtual="${Base_URL}/templates/footer.html" -->]]></xsl:text>
 		</xsl:copy>

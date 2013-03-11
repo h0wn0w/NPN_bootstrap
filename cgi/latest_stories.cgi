@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Copyright (C) 2010  Fletcher T. Penney <fletcher@fletcherpenney.net>
 #
@@ -28,7 +28,7 @@ my $debug = 0;			# Enables extra output for debugging
 
 local $/;
 
-my $max_count = 15;		# sets maximum number of entries to display
+my $max_count = 15;
 
 print "Content-type: text/html\n\n";
 
@@ -84,8 +84,7 @@ sub index_file {
 	if ($filepath =~ /$site_root\/(\d\d\d\d)\/(\d\d)\/.*\.html$/) {
 		my $year = $1;
 		my $month = $2;
-		my $day = $3;
-		# my $day = "";
+		my $day = "";
 
 		open (FILE, "<$filepath");
 		my $data = <FILE>;
