@@ -19,9 +19,9 @@
           <h1 style="color: red; text-align: center; font-size: 60px; line-height: 1.25em">Articles</h1>
         </div>
         <div class="span8">
-          <p class="lead">Neuropsych Now articles cover a variety of topics, some of which you're unlikely to find in any other neuropsychology news source. We also write about solid, clinical fundamentals. No matter what, we're sure you'll find something you like. 
+          <p class="lead">Neuropsych Now articles cover a variety of topics, from solid, clinical fundamentals to those you're unlikely to find in any other neuropsychology news source. No matter what, we're sure you'll find something you like. 
           <br>
-          We want you to help make our articles a varied source of information! If you'd like to submit an article from your area of expertise, or on a topic that you think others will find interesting, plese contact <script type="text/javascript">
+          If you would like to submit an article from your area of expertise, or on a topic that you think others will find interesting, plese contact <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
@@ -74,7 +74,12 @@ while(x=eval(x));
 <div class="container-fluid" style="background-color: transparent;">
       <div class="hero-unit">
       <div class="row-fluid">    
-      <!--#include virtual="cgi/latest_stories.cgi" -->
+      <div class="span8">
+        <!--#include virtual="cgi/latest_stories.cgi" -->
+      </div>
+      <div class="span4">
+        <!--#include virtual="./templates/sidebaralt.html" -->
+      </div>
       </div>
       </div>
     </div> <!-- /.container -->
