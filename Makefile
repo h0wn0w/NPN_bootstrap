@@ -7,7 +7,7 @@
 # NOTE: MultiMarkdown 3.0 must be installed for this to work.
 #
 
-srcfiles := $(filter-out cgi/* templates/* css/* images/* datatables/* robots.txt, sphider/* $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
+srcfiles := $(filter-out cgi/* templates/* css/* images/* datatables/* sphider/* robots.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
 
 htmlfiles := $(patsubst %.txt, %.html, $(srcfiles))
 
