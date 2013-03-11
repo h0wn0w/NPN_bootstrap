@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Copyright (C) 2010  Fletcher T. Penney <fletcher@fletcherpenney.net>
 #
@@ -90,7 +90,7 @@ foreach my $match (sort {$matches{$b} <=> $matches{$a}} keys %matches) {
 		$score = $matches{$match} if ($debug);
 		$match =~ s/^\///;
 		$match =~ s/(index)?\.html//;
-		$content .= "<li><a href=\"$match\">$title</a></li>$score\n";
+		$content .= "<li><a href=\"/$match\">$title</a></li>$score\n";
 	}
 	$count++;
 }

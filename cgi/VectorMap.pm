@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # based on Search::VectorSpace
 #	<http://www.perl.com/pub/a/2003/02/19/engine.html>

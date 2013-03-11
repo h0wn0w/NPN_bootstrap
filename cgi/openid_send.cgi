@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Based on code in Net::OpenID::Consumer by Brad Fitzpatrick
 #

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # MultiMarkdown -- A modification of John Gruber's original Markdown
 #	that adds new features and an output format that can more readily

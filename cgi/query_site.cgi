@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 # Copyright (C) 2010  Fletcher T. Penney <fletcher@fletcherpenney.net>
 #
@@ -87,10 +87,3 @@ sub find_pages {
 	my $filepath = $File::Find::name;
 	$map->add_file($filepath) if ($filepath =~ /\.txt$/);
 }
-
-# Not MMD-CMS original
-# I added this to look for other matches in .html files
-# sub find_pages {
-# 	my $filepath = $File::Find::name;
-# 	$map->add_file($filepath) if ($filepath =~ /\.html$/);
-# }
