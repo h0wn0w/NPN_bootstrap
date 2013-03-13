@@ -109,7 +109,7 @@ sub find_pages {
 					$match = 0 if $tags !~ /(\A|,)\s*$_\s*(,|\Z)/i;
 				}
 				$filepath =~ s/(\A$site_root|(\/index)?\.html$)//g;
-				$filepath =~ s/^\///;
+				#$filepath =~ s/^\///;
 				$data =~ /<title>(.*?)<\/title>/;
 				$content .= "<li><a href=\"$filepath\">$1</a></li>\n" if $match;
 			}
