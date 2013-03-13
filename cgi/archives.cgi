@@ -56,7 +56,7 @@ if ($requested_url =~ /^\/?(\d\d\d\d).*?(\d\d)/) {
 				my ($title, $date) = ($1,"");
 				if ($data =~ /<meta\s*name="Date"\s*content="(.*?)"\/>/i) {
 					$date = $1;
-					$date =~ s/(\d?\d)\/(\d\d)\/(\d\d\d\d).*/$3.$1.$2/;
+					$date =~ s/(\d\d)\/(\d\d)\/(\d\d\d\d).*/$3.$1.$2/;
 				}
 				$filepath =~ /$site_root\/(.*).html/;
 				$pages{$date}{$title} = "$1";

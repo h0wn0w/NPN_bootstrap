@@ -158,8 +158,19 @@
     }
   }
 
+/*larger body font when needed
+============================================ */
+
+#wedo .container-fluid h1 {
+      font-size: 18px;
+    }
+
+#wedo p, ul, ul > li a {
+      font-size: 16px;
+    }
+
 /*for the footer
-============================================*/
+============================================ */
 
   #footlogo {
     /*margin-right: 30px;
@@ -202,6 +213,13 @@
     padding: 60px 80px 80px 80px;
     /*padding-right: 80px;*/
     font-size: 16px;
+  }
+
+  /*dividers within accordians*/
+
+  #dropdiv {
+    font-size: 20px;
+    color: red;
   }
 
 
