@@ -161,13 +161,13 @@
 /*larger body font when needed
 ============================================ */
 
-#wedo .container-fluid h1 {
-      font-size: 18px;
-    }
+  #wedo .container-fluid h1 {
+        font-size: 18px;
+      }
 
-#wedo p, ul, ul > li a {
-      font-size: 16px;
-    }
+  #wedo p, ul, ul > li a {
+        font-size: 16px;
+      }
 
 /*for the footer
 ============================================ */
