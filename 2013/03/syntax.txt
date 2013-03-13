@@ -17,7 +17,7 @@ SPSS's real power comes from writing out syntax for your analyses. Doing it this
 
 ## How To Get Started ##
 
-Ask any programmer how to get started writing code, and they will give you some variation of the following: "Just start programming." They're right. There is no replacement for actually *doing* this sort of thing. That being said, we might be able to get you started in the right direction:[^2]   
+Ask any programmer how to get started writing code, and they will give you some variation of the following: "Just start programming." They're right. There is no replacement for actually *doing* this sort of thing. That being said, we might be able to get you started in the right direction[^2]:   
 
 1. Pick a test to run. ANOVA, Generalized Linear Model, Least Squares - it doesn't matter which one - for our purposes they're all the same
 2. Set any parameters you wish. Minimally, you should make sure to set enough parameters to make sure the "OK" button is *not* greyed out (make sure to ***NOT*** click "OK"). This tells you that you've adequately specified the model. Other than that, there really aren't any restrictions. 
@@ -36,6 +36,7 @@ This reverse-engineering approach is a great way to gain familiarity with syntax
 
 
 [^1]: Assuming you save the syntax files, which you should always do
+
 [^2]: These instructions apply to SPSS/PASW only
 
 
