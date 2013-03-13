@@ -1,0 +1,44 @@
+Title:		Syntax & Efficient Data Analysis
+Author: 	W. Howard Buddin Jr., Ph.D.
+Web:		http://neuropsychnow.com
+Date:		03/12/2013
+Tags:		Applications, Statistics, Data, Syntax, Text Editor
+
+It's a good bet that if you're doing research in an institution such as a hospital that you're using something like [SPSS][1] or [Stata][2] to run your stats. These are pretty powerful statistical packages (though, nothing like the amazing ["R"][3]) and are fairly user-friendly as they have a decent Graphical User Interface, or "GUI," that lets users access common statistical functions. Here's the rub, though: if this is your *mode d'emploi*, then you're missing out. Like, really missing out.
+
+## How's that? ##
+
+SPSS's real power comes from writing out syntax for your analyses. Doing it this way can be extremely daunting, especially if you're unfamiliar with programming, but offers many advantages, including:
+
+* Running multiple tests in one pass (or *all* of them, if you plan well and have some luck to go along)
+* Many functions are available through syntax that cannot be accessed directly through the GUI
+* Easily change the parameters of an analysis without having to go back through a series of windows and dropdown menus
+* You have a record of exactly what you did.[^1] 
+
+## How To Get Started ##
+
+Ask any programmer how to get started writing code, and they will give you some variation of the following: "Just start programming." They're right. There is no replacement for actually *doing* this sort of thing. That being said, we might be able to get you started in the right direction:[^2]   
+
+1. Pick a test to run. ANOVA, Generalized Linear Model, Least Squares - it doesn't matter which one - for our purposes they're all the same
+2. Set any parameters you wish. Minimally, you should make sure to set enough parameters to make sure the "OK" button is *not* greyed out (make sure to ***NOT*** click "OK"). This tells you that you've adequately specified the model. Other than that, there really aren't any restrictions. 
+3. Lower left hand corner. "Paste" button. Click it. Now. 
+4. If you didn't already have a syntax editor window open, then SPSS opens one for you and pastes in the syntax for the test you specified. 
+	* *Bonus round:* repeat the above steps with any number of other tests, pasting them into the syntax editor one by one. When you have entered the ones you want, select all and either click on the green triangle/play/run icon, or push `ctrl-r` (Windows users) or `command-r` (Mac users). 
+	* *Bonus, bonus round:* the SPSS syntax editor (for versions 18 and higher) has one great feature called "code completion," which does exactly what it says: you start typing code and it helps you complete the line by giving you suggestions.
+	* *Bonus, bonus, bonus round:* text editor savvy? Try using it instead of the SPSS syntax editor. As great as code completion is, <a href="https://vimeo.com/61684931" title=""> nothing beats multiple cursors</a>. 
+
+This reverse-engineering approach is a great way to gain familiarity with syntax. From here, you can start to experiment with different commands and functions. Also, the Syntax Reference (available from the "Help" menu) is your friend. Your very, very, long and technical friend, to be sure, but a friend nonetheless. Learning to write your tests with syntax will make you a far more efficient and surefooted researcher. It presents with a bit of a learning curve, but is absolutely worth the payoff. 
+
+
+
+
+
+
+
+[^1]: Assuming you save the syntax files, which you should always do
+[^2]: These instructions apply to SPSS/PASW only
+
+
+[1]: http://www-01.ibm.com/software/analytics/spss/. 
+[2]: http://www.stata.com/
+[3]: http://cran.r-project.org/
