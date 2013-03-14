@@ -5,7 +5,6 @@
     <title>Neuropsych Now</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="tags" content="">
     <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
     
     <script type="text/javascript" src="./sphider/include/js_suggest/SuggestFramework.js"></script>
@@ -44,20 +43,6 @@
         margin-left: 10px;
         padding: 10px;
       }*/
-
-      #rowmenu {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 1.5em;
-        text-align: center;
-        color: #ffffff;
-      }
-
-      #rowmenu > a:hover {
-        color: rgb(181, 137, 0);
-      }
 
       .featurette-divider {
       margin: 80px 0; /* Space out the Bootstrap <hr> more */
@@ -116,73 +101,7 @@
 
     <body>
          <div id="wrap">
-<!-- NAVBAR
-    ================================================== -->
-<div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
-            <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <!-- <span class="icon-bar"></span> -->
-              <!-- <span class="icon-bar"></span> -->
-            </a>
-            <a class="brand" href="./index.html"><img src="./img/logotextmini.png" alt="Neuropsych Now Logo"></a>
-            <!-- Responsive Navbar 2: Place all navbar contents to be collapsed within .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="dropdown">
-                  <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Guides & Books<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="./titles.html">All Neuropsych Now Titles</a></li>
-                    <li class="divider"></li>
-                    <li class="nav-header">Individual Titles</li>
-                    <li><a href="./underconstruction.html">Alzheimer's Disease</a></li>
-                    <li><a href="./underconstruction.html">Report Writing</a></li>
-                    <li><a href="./underconstruction.html">Report Writing: Tech</a></li>
-                    <li><a href="./underconstruction.html">HIPAA: In The Cloud</a></li>
-                    <li><a href="./underconstruction.html">Executive Functioning</a></li>
-                  </ul>
-                </li>   
-
-                <!-- "Tools" dropdown -->                            
-                <li class="dropdown">
-                  <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Tools<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="./tools.html">Resources Guide</a></li>
-                    <li class="divider"></li>
-                    <li><a href="./neuroapps.html">Neuro iOS Apps</a></li>
-                    <li><a href="./downloads.html">Assessment Resources</a></li>
-                    <li><a href="./extlinks.html">External Links</a></li>
-                    <li><a href="./ceu.html">Continuing Education</a></li>
-                  </ul>
-                </li>
-                <li><a href="./articles.html">Articles</a></li>
-                
-                <!-- "About" dropdown -->
-                <li class="dropdown">
-                  <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">About<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="./aboutus.html">Neuropsych Now</a></li>
-                    <li><a href="./aboutguides.html">Guides & Books</a></li>
-                    <li><a href="./aboutsite.html">This Site</a></li>
-                  </ul>
-                </li>
-
-                <li><a href="./contactus.html">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-      </div> <!-- /.container -->
-    </div>
-    </div><!-- /.navbar-wrapper -->
+<!--#include virtual="${Base_URL}templates/navbar.html" -->
 
     <!-- Main Body Content -->
     <div id="landingPage">
@@ -200,33 +119,14 @@
                 </div>
             </div>
 
-            <div class="row-fluid">
+            <!-- <div class="row-fluid">
                 <div class="span4 offset4">
-                  <p><i class="icon-search icon-large icon-spin" style="color:white"></i> <a class="btn btn-primary btn-large" href="./nsearch.php">Search Neuropsych Now</a></p>
-                  <!-- <form class="form-search" action="npnsearch.php" method="get"> -->
-                    <!-- <form action="npnsearch.php" method="get">
-                        <div class="input-append"> -->
-                        <!-- <input type="text" class="search-query" name="query" placeholder="Search Neuropsych Now"> -->
-                        <!-- <input type="text" class="search-query" placeholder="Search Neuropsych Now" value="" action="./include/js_suggest/suggest.php" columns="2" autocomplete="off" delay="1500">
-                        <button type="submit" class="btn btn-info"><i class="icon-search icon-white"></i> </button>
-                        </div>
-                    </form> -->
+                  <p><i class="icon-search icon-large icon-spin" style="color:white"></i> <a class="btn btn-primary btn-large" href="./nsearch.php">Search Neuropsych Now</a></p> -->
                     </div>
                 </div>
             </div>
             </div>
             <div class="clearfix"></div>
-
-<!--       <div class="container-fluid">
-        <div class="row-fluid">
-          <div class="span8">
-            include virtual="cgi/latest_stories.cgi"
-          </div>
-          <div class="span4">
-            include virtual="./templates/sidebaralt.html"
-          </div>
-        </div>  row 
-      </div>  articles container  -->
 
             <div class="container-fluid"> <!-- start featurettes container -->
               <div class="row-fluid">

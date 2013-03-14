@@ -95,6 +95,7 @@ $database_funcs = Array ("database" => "default");
 		<li><a href="admin.php?f=statistics" id="<?php print $stat_funcs[$f]?>">Statistics</a> </li>
 		<li><a href="admin.php?f=database" id="<?php print $database_funcs[$f]?>">Database</a></li>
 		<li><a href="admin.php?f=24" id="default">Log out</a></li>
+		<li><a href="../../index.html" id="default">Neuropsych Now Home</a></li>
 		</ul>
 	</div>
 	<div id="main">
