@@ -149,5 +149,5 @@ switch ($search) {
 	break;
 	}
 	
-
+require("$template_dir/searchfooter.html");
 ?>
