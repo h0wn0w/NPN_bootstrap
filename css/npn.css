@@ -25,7 +25,8 @@
   }
 
   .navbar-inverse .navbar-inner {
-  background-color: #333333;
+  /*background-color: #333333;*/
+  background-color: #404A80;
   background-image: none;
   background-repeat: repeat-x;
   border-color: none;
