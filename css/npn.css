@@ -185,6 +185,34 @@
   #football {
     color: #809933;
   }
+
+  #mainfoot {
+    background-color: #031544;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    /*border-top-style: solid;
+    border-width: 8px;
+    border-color: ;*/
+  }
+
+  #mainfoot a {
+    color: #4C96C6;
+    font-size: 16px;
+  }
+
+  #mainfoot i {
+    /*color: #FFDA80;*/
+    color: #DDDD1C;
+  }
+
+  #mainfoot p {
+    color: #EAE6FF;
+  }
+
+  #mainfoot h4 {
+    color: #EAE6FF;
+  }
   
 /*page specific styles
 ============================================ */
@@ -204,6 +232,17 @@
     font-size: 18px;
     }
 
+  #extlinks a {
+    /*color: #3600FF;*/
+  }
+
+  /*dividers within accordians - both pages*/
+
+  #dropdiv {
+    font-size: 20px;
+    color: #E43632;
+  }
+
 /*blog pages - head, header, foot */    
 
   #articlebody {
@@ -220,15 +259,6 @@
     /*padding-right: 80px;*/
     font-size: 16px;
   }
-
-  /*dividers within accordians*/
-
-  #dropdiv {
-    font-size: 20px;
-    color: red;
-  }
-
-
 
 /* make the search field responsive
 ================================================== */
