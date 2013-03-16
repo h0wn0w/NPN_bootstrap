@@ -218,6 +218,11 @@
 /*page specific styles
 ============================================ */
 
+/*index landing page*/
+  #hometitle {
+    text-shadow: 1px 1px 1px #ccc;
+  }
+
 /*downloads page*/
   #npnaccordian {
     text-align: center;
