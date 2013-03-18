@@ -3,3 +3,4 @@ boot.*
 git-credential-helper/
 sphider/admin/*
 sphider/settings/*
+.DS_Store
