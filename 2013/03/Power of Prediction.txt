@@ -1,9 +1,8 @@
-Title:	"The Power of Prediction"
-Author:	S. Marc Testa
+Title:	The Power of Prediction
+Author:	S. Marc Testa, Ph.D.
 Web:	http://neuropsychnow.com
-Date:	03/11/13 
-Tags:	Positive predictive power, negative predictive power, diagnostic classification, clinical decision making, sketch notes
-
+Date:	03/11/2013 
+Tags:	Classification, Clinical Decision Making, Negative, Positive, Power, Predictive Power, Sensitivity, Sketchnotes, Specificity, Statistics
 
 Knowing how well a test can detect the presence (sensitivity) or absence (specificity) of a condition is only part of the diagnostic classification battle. Suppose an individual scores in the "positive" range on a measure that can detect malingering 30% of the time (sensitivity) and correctly rule out malingering 90% of the time (specificity). How confident are you that this person's score is a true positive and not a false positive? This is where *negative and positive predictive power* (NPP and PPP) are useful (see Figure for basic depiction).
   
