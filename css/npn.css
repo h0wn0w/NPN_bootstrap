@@ -178,15 +178,6 @@
 /*for the footer
 ============================================ */
 
-  #footlogo {
-    /*margin-right: 30px;
-    padding-right: 20px;*/
-  }
-
-  #football {
-    color: #809933;
-  }
-
   #mainfoot {
     background-color: #031544;
     padding-top: 10px;
@@ -208,11 +199,8 @@
     color: #DDDD1C;
   }
 
+  #mainfoot h4, 
   #mainfoot p {
-    color: #EAE6FF;
-  }
-
-  #mainfoot h4 {
     color: #EAE6FF;
   }
   
@@ -220,8 +208,50 @@
 ============================================ */
 
 /*index landing page*/
+
   #hometitle {
-    text-shadow: 1px 1px 1px #ccc;
+    margin-top: 100px;
+  }
+
+  #hometitle h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    /*line-height: 1.0em;*/
+    /*color: rgb(42,161,152);*/
+    /*color: #FF7400;*/
+    color: #33CCCC;
+  }
+
+  #hometitle h3 {
+    font-family: 'Lato', sans-serif;
+    color: #BF3030;
+    text-align: center;
+  }
+
+  #hometitle a {
+    color: #FFD073;
+  }
+
+  #container-accent {
+    padding-top: 180px;
+    height: 150px;
+    /*padding-left: 12%;*/
+    /*padding-bottom: 80px;*/
+    text-align: center;
+  }
+
+  #container-accent h3 {
+    font-family: 'Lato', sans-serif;
+    color: #FF9640;
+    text-align: center;
+  }
+
+  #container-accent a {
+    color: #33CCCC;
+  }
+
+  #container-accent a:hover {
+    color: #050A32;
   }
 
 /*downloads page*/
