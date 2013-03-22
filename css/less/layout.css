@@ -48,8 +48,8 @@ div {
   text-align: left;
 }
 
-#articlebody {
-  text-align: left;
+#articlebody p {
+  text-align: justify;
 }
 
 .header {

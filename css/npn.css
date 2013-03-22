@@ -78,7 +78,7 @@ Support Independent Developers.
   }   
 
 /* navbar: menu items and their dropdowns
-  ====================================================== */
+====================================================== */
 
   .navbar-inverse .nav > li > a:hover {
   /*color: rgb(181, 137, 0);
@@ -121,8 +121,8 @@ Support Independent Developers.
     padding: 10px 40px 0 0;
   }
 
-  /*finally, the search field
-  ==============================================*/
+/* finally, the search field
+========================================= */
 
   .navbar-inverse .navbar-search .search-query {
   color: #ffffff;
@@ -142,8 +142,8 @@ Support Independent Developers.
   line-height: 1;
   }
 
-          /* Sticky footer styles
-  -------------------------------------------------- */
+/* Sticky footer styles
+========================================= */
 
   html,
   body {
@@ -179,14 +179,14 @@ Support Independent Developers.
     }
   }
 
-/*larger body font when needed
+/* larger body font when needed
 ============================================ */
 
-/*  #wedo .container-fluid h1 {
-        font-size: 18px;
+  #wedo {
+        font-size: 16px;
       }
 
-  #wedo p, ul, ul > li a {
+/*  #wedo p, ul, ul > li a {
         font-size: 16px;
       }*/
 
@@ -284,7 +284,7 @@ Support Independent Developers.
     }
 
 /*external links
-==========================*/
+========================================= */
 
   #extlinks {
     font-size: 18px;
@@ -301,8 +301,8 @@ Support Independent Developers.
     color: #E43632;
   }
 
-/*articles page
-==========================*/
+/* articles index page
+========================================= */
 
   #articlelist {
     padding: 0 0 0 40px;
@@ -310,8 +310,8 @@ Support Independent Developers.
     line-height: 1.5em;
   }
 
-/*blog pages - head, header, foot
-==========================*/    
+/* articles pages - head, header, foot
+========================================= */    
 
   #articlebody {
     font-size: 16px;
@@ -330,5 +330,16 @@ Support Independent Developers.
     padding: 60px 80px 80px 80px;
     /*padding-right: 80px;*/
     font-size: 16px;
+  }
+
+  /* random class for narrow page width
+  ========================================= */
+
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  .container-narrow > hr {
+    margin: 30px 0;
   }
 
