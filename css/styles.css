@@ -744,7 +744,7 @@ a.forgot-password:hover {
 ----------------------------------------- */
 #landingPage {
 	/*background: url('../img/braincellsrevmed.png');*/
-	/*background: url('../img/blueblur.jpg');*/
+	background: url('../img/spiral.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 900px;
@@ -754,7 +754,8 @@ a.forgot-password:hover {
 	/*color: #fff;*/
 }
 #landingPage #home-header {
-	margin-top: 125px;
+	/*margin-top: 125px;*/
+	margin-top: 60px; /*fixed for NPN*/
 }
 #landingPage ul#home-nav {
 	list-style: none;

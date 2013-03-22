@@ -44,9 +44,14 @@ body {
   /*min-width: 60em;*/
   text-align: center;
 }
-div {
+/*div {
+  text-align: left;
+}*/
+
+#articlebody {
   text-align: left;
 }
+
 .header {
   background-position: -10px 0px;
   position: relative;
