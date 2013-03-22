@@ -743,18 +743,19 @@ a.forgot-password:hover {
    Landing Page
 ----------------------------------------- */
 #landingPage {
-	background: url('../img/braincellsrevmed.png');
-	/*background: url('../img/indexbglogocopy.png');*/
+	/*background: url('../img/braincellsrevmed.png');*/
+	background: url('../img/spiral.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 900px;
 	/*color: #FFF;*/
 }
 #landingPage a:hover {
-	color: #fff;
+	/*color: #fff;*/
 }
 #landingPage #home-header {
-	margin-top: 125px;
+	/*margin-top: 125px;*/
+	margin-top: 60px; /*fixed for NPN*/
 }
 #landingPage ul#home-nav {
 	list-style: none;

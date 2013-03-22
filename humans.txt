@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Buildanizer, Co-Designer: W. Howard Buddin Jr., Ph.D.				
+	Twitter: @hbuddin
+
+    Co-Designer: S. Marc Testa, Ph.D.					
+    Twitter: @frontalobes
+
+# THANKS
+
+    MultiMarkdown CMS: Fletcher Penney, M.D.
+    Twitter: @MultiMarkdown
+
+# TECHNOLOGY COLOPHON #
+
+	Last updated: 3.17.13
+    Main site parts: Twitter-Bootstrap, MultiMarkdown Content Management System
+    Secondary site parts: jQuery, DataTables, FontAwesome, Sphider
+
