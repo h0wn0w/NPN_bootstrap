@@ -44,12 +44,12 @@ body {
   /*min-width: 60em;*/
   text-align: center;
 }
-/*div {
+div {
   text-align: left;
-}*/
+}
 
-#articlebody {
-  text-align: left;
+#articlebody p {
+  text-align: justify;
 }
 
 .header {

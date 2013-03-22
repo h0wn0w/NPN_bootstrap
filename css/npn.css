@@ -206,6 +206,7 @@ Support Independent Developers.
 
   #mainfoot a {
     /*color: #4C96C6;*/
+    text-align: center;
     color: #3F5CAB;
     font-size: 16px;
   }
@@ -217,6 +218,7 @@ Support Independent Developers.
 
   #mainfoot h4, 
   #mainfoot p {
+    text-align: center;
     color: #EAE6FF;
   }
   
