@@ -786,7 +786,8 @@ a.forgot-password:hover {
 #landingPage h1 {
 	font-weight: 700;
 	font-size: 42px;
-	line-height: 46px;
+	/*line-height: 46px;*/
+	line-height: 1.2em;
 }
 #landingPage h2 {
 	font-weight: 300;

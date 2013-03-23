@@ -234,7 +234,7 @@ Support Independent Developers.
   #hometitle h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 72px;
-    /*line-height: 1.0em;*/
+    line-height: 1.5em;
     /*color: rgb(42,161,152);*/
     /*color: #FF7400;*/
     color: #33CCCC;
@@ -251,10 +251,10 @@ Support Independent Developers.
   }
 
   #container-accent {
-    padding-top: 5%;
+    padding: 15px 0 15px 0;
     text-align: center;
     margin-top: 20%;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #container-accent h1 {
@@ -321,7 +321,7 @@ Support Independent Developers.
     /*overflow: hidden;*/
     /*overflow: auto;*/
     margin: 2.0em 2.0em 0 2.0em;
-    padding-left: 20px;
+    padding-left: 12%;
   }
 
   #maintext {
