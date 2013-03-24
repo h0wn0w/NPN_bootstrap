@@ -13,6 +13,181 @@ Support Independent Developers.
 
 */
 
+/*body style*/
+
+body {
+  /*background: #3c4657;*/
+  font-family: 'News Cycle', sans-serif;
+  padding-top: 80px;
+  /*background: url('/img/patterns/furley_bg.png');*/
+}
+
+/* larger body font when needed
+============================================ */
+
+  #wedo {
+        font-size: 16px;
+      }
+
+/*  #wedo p, ul, ul > li a {
+        font-size: 16px;
+      }*/
+
+/*for the footer
+============================================ */
+
+  #mainfoot {
+    background-color: #031544;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    /*border-top-style: solid;
+    border-width: 8px;
+    border-color: ;*/
+  }
+
+  #mainfoot a {
+    /*color: #4C96C6;*/
+    text-align: center;
+    color: #3F5CAB;
+    font-size: 16px;
+  }
+
+  #mainfoot i {
+    /*color: #FFDA80;*/
+    color: #DDDD1C;
+  }
+
+  #mainfoot h4, 
+  #mainfoot p {
+    text-align: center;
+    color: #EAE6FF;
+  }
+  
+/*page specific styles
+============================================ */
+
+/*index landing page*/
+
+  #hometitle {
+    margin-top: 80px;
+  }
+
+  #hometitle h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.5em;
+    /*color: rgb(42,161,152);*/
+    /*color: #FF7400;*/
+    color: #33CCCC;
+  }
+
+  #hometitle h3 {
+    font-family: 'Lato', sans-serif;
+    color: #BF3030;
+    text-align: center;
+  }
+
+  #hometitle a {
+    color: #FFD073;
+  }
+
+  #container-accent {
+    padding: 15px 0 15px 0;
+    text-align: center;
+    margin-top: 20%;
+    /*padding-bottom: 5%;*/
+  }
+
+  #container-accent h1 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  #container-accent h3 {
+    font-size: 38px;
+    color: #FF4040;
+    text-align: center;
+  }
+
+  #container-accent a {
+    font-size: 28px;
+    color: #006363;
+  }
+
+  #container-accent a:hover {
+    color: #050A32;
+  }
+
+/*downloads page*/
+  #npnaccordian {
+    text-align: center;
+    }
+
+  #downloads {
+    font-size: 18px;
+    }
+
+/*external links
+========================================= */
+
+  #extlinks {
+    font-size: 18px;
+    }
+
+  #extlinks a {
+    /*color: #3600FF;*/
+  }
+
+  /*dividers within accordians - both pages*/
+
+  #dropdiv {
+    font-size: 20px;
+    color: #E43632;
+  }
+
+/* articles index page
+========================================= */
+
+  #articlelist {
+    padding: 0 0 0 40px;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+
+/* articles pages - head, header, foot
+========================================= */    
+
+  #articlebody {
+    font-size: 16px;
+    /*max-width: 37em;*/  /* originally 35em, but I changed to accomodate titles */
+    /*overflow: hidden;*/
+    /*overflow: auto;*/
+    margin: 2.0em 2.0em 0 2.0em;
+    padding-left: 12%;
+  }
+
+  #maintext {
+    max-width: 40em;
+  }
+
+  #searchresult {
+    padding: 60px 80px 80px 80px;
+    /*padding-right: 80px;*/
+    font-size: 16px;
+  }
+
+  /* random class for narrow page width
+  ========================================= */
+
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+
 /* navbar: main container and elements; overrides bootstrap
     ================================================= */
 
@@ -41,7 +216,8 @@ Support Independent Developers.
 
   .navbar-inverse .navbar-inner {
   /*background-color: #333333;*/
-  background-color: #031544;
+  background-color: #3c4657;
+  /*background-color: #031544;*/
   background-image: none;
   background-repeat: repeat-x;
   border-color: none;
@@ -178,170 +354,3 @@ Support Independent Developers.
       padding-right: 20px;
     }
   }
-
-/* larger body font when needed
-============================================ */
-
-  #wedo {
-        font-size: 16px;
-      }
-
-/*  #wedo p, ul, ul > li a {
-        font-size: 16px;
-      }*/
-
-/*for the footer
-============================================ */
-
-  #mainfoot {
-    background-color: #031544;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    text-align: center;
-    /*border-top-style: solid;
-    border-width: 8px;
-    border-color: ;*/
-  }
-
-  #mainfoot a {
-    /*color: #4C96C6;*/
-    text-align: center;
-    color: #3F5CAB;
-    font-size: 16px;
-  }
-
-  #mainfoot i {
-    /*color: #FFDA80;*/
-    color: #DDDD1C;
-  }
-
-  #mainfoot h4, 
-  #mainfoot p {
-    text-align: center;
-    color: #EAE6FF;
-  }
-  
-/*page specific styles
-============================================ */
-
-/*index landing page*/
-
-  #hometitle {
-    margin-top: 100px;
-  }
-
-  #hometitle h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 72px;
-    line-height: 1.5em;
-    /*color: rgb(42,161,152);*/
-    /*color: #FF7400;*/
-    color: #33CCCC;
-  }
-
-  #hometitle h3 {
-    font-family: 'Lato', sans-serif;
-    color: #BF3030;
-    text-align: center;
-  }
-
-  #hometitle a {
-    color: #FFD073;
-  }
-
-  #container-accent {
-    padding: 15px 0 15px 0;
-    text-align: center;
-    margin-top: 20%;
-    /*padding-bottom: 5%;*/
-  }
-
-  #container-accent h1 {
-    font-family: 'Lato', sans-serif;
-  }
-
-  #container-accent h3 {
-    font-size: 38px;
-    color: #FF4040;
-    text-align: center;
-  }
-
-  #container-accent a {
-    font-size: 28px;
-    color: #006363;
-  }
-
-  #container-accent a:hover {
-    color: #050A32;
-  }
-
-/*downloads page*/
-  #npnaccordian {
-    text-align: center;
-    }
-
-  #downloads {
-    font-size: 18px;
-    }
-
-/*external links
-========================================= */
-
-  #extlinks {
-    font-size: 18px;
-    }
-
-  #extlinks a {
-    /*color: #3600FF;*/
-  }
-
-  /*dividers within accordians - both pages*/
-
-  #dropdiv {
-    font-size: 20px;
-    color: #E43632;
-  }
-
-/* articles index page
-========================================= */
-
-  #articlelist {
-    padding: 0 0 0 40px;
-    font-size: 18px;
-    line-height: 1.5em;
-  }
-
-/* articles pages - head, header, foot
-========================================= */    
-
-  #articlebody {
-    font-size: 16px;
-    /*max-width: 37em;*/  /* originally 35em, but I changed to accomodate titles */
-    /*overflow: hidden;*/
-    /*overflow: auto;*/
-    margin: 2.0em 2.0em 0 2.0em;
-    padding-left: 12%;
-  }
-
-  #maintext {
-    max-width: 40em;
-  }
-
-  #searchresult {
-    padding: 60px 80px 80px 80px;
-    /*padding-right: 80px;*/
-    font-size: 16px;
-  }
-
-  /* random class for narrow page width
-  ========================================= */
-
-  .container-narrow {
-    margin: 0 auto;
-    max-width: 700px;
-  }
-  .container-narrow > hr {
-    margin: 30px 0;
-  }
-
