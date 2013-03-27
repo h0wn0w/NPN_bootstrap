@@ -13,7 +13,8 @@ Support Independent Developers.
 
 */
 
-/*body style*/
+/*body and main styles
+============================================ */
 
 body {
   /*background: #3c4657;*/
@@ -21,6 +22,8 @@ body {
   padding-top: 80px;
   /*background: url('/img/patterns/furley_bg.png');*/
 }
+
+
 
 /* larger body font when needed
 ============================================ */
@@ -37,7 +40,8 @@ body {
 ============================================ */
 
   #mainfoot {
-    background-color: #031544;
+    /*background-color: #031544;*/
+    background-color: #3c4657;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
@@ -45,6 +49,10 @@ body {
     /*border-top-style: solid;
     border-width: 8px;
     border-color: ;*/
+  }
+
+  #mainfoot div {
+    text-align: center;
   }
 
   #mainfoot a {
@@ -152,7 +160,11 @@ body {
   #articlelist {
     padding: 0 0 0 40px;
     font-size: 18px;
-    line-height: 1.5em;
+    /*line-height: 1.5em;*/
+  }
+
+  #articlelist li {
+    line-height: 24px;
   }
 
 /* articles pages - head, header, foot
@@ -216,7 +228,7 @@ body {
 
   .navbar-inverse .navbar-inner {
   /*background-color: #333333;*/
-  background-color: #3c4657;
+  background-color: #3c4657;            /*this is the main background color*/
   /*background-color: #031544;*/
   background-image: none;
   background-repeat: repeat-x;
@@ -354,3 +366,10 @@ body {
       padding-right: 20px;
     }
   }
+
+  /*tables tables tables  - minified and hard to read
+  ========================================= */
+
+  table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:'News Cycle', sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:'News Cycle', sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:'News Cycle', sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:'News Cycle', sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+
+  /*body {background:#faf9f5;color:#333;font-family: Palatino, Georgia, serif; font-size:16px;line-height:170%;text-align:justify; padding: 20px} */

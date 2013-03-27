@@ -2,7 +2,7 @@ Title:		Use Microsoft Word's AutoCorrect Feature to Expand Text
 Author: 	W. Howard Buddin Jr., Ph.D.
 Web:		http://neuropsychnow.com
 Date:		03/11/2013
-Tags:		Applications, MAC OS X, Productivity, Reports, Report Writing, Tech, Technology, Word 
+Tags:		Applications, Mac, Productivity, Reports, Report Writing, Tech, Technology, Word 
 
 We've [talked before] about our relative disdain for Microsoft Word.  The grim reality (for us, anyway) is that most institutions still expect to get and receive reports that are composed in Word. Such is the way. All hope is not lost, though, even if you're working on a locked-down Dell PC on which you can neither add nor delete software. 
 We've also [covered text expansion before], but that was using an application that was made for that specific purpose. One of our favorite tricks for getting Word to play nice and make report writing faster is to "trick it" into doing text expansion. This means that you type one or two keystrokes, and "Presto!" The result is anything from one word to an entire report template!
