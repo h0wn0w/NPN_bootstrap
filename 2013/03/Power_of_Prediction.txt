@@ -24,7 +24,7 @@ It is important to remember that diagnostic classification is not just about sen
 
 
 
-[1]: The negative predictive value suggests that slightly more than half of the negative test results are accurate (90/(90+70)=56%).
+[^1]: The negative predictive value suggests that slightly more than half of the negative test results are accurate (90/(90+70)=56%).
 
 [fig_id]: ../../img/nppPPP.png width=600px
 
