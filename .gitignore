@@ -1,6 +1,7 @@
 .htaccess
 boot.*
 git-credential-helper/
+php/
 sphider/admin/*
 sphider/settings/database.php
 .DS_Store
