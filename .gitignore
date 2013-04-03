@@ -1,4 +1,5 @@
 .htaccess
+.htpasswd
 boot.*
 git-credential-helper/
 php/
