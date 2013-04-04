@@ -46,8 +46,8 @@ include "$settings_dir/conf.php";
 
 // include "$template_dir/header.html";
 include "$template_dir/searchhead.html";
-include "$template_dir/searchheader.html";
 include "$template_dir/navbar.html";
+include "$template_dir/searchheader.html";
 include "$language_dir/$language-language.php";
 
 

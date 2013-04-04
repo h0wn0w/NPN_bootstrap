@@ -144,25 +144,24 @@
 <!-- Call Neuropsych Now Navbar -->
 <!--#include virtual="./templates/navbar.html" -->
 
-    <div class="container">
-    	<div class="dataTables_length">
-    
-        <h1 style="color: red; text-align: center;">iOS Apps For Neuropsychologists</h1>
-        <h3>Notes</h3>
+    <div class="container-fluid">
+    	<!-- <div class="dataTables_length"> -->
+    	<div class="page-header">
+    		<div class="row-fluid">
+    			<div class="span4">
+    				<h1 id="pageheader">iOS Apps</h1>
+    			</div>
+    			<div class="span8">
+    				<h3 style="text-align:center">Please Note:</h3>
         <ul style="text-align:left;">
-        	<li>We have not tried all of these applications, nor do we intend to. Any particular app's inclusion does not equate to an endorsement by Neuropsych Now. This table is what it is: a quick reference list with links to each application's App Store page. Enjoy!</li>
-        	<li>Apps are marked as "iPhone" or "iPad" based on whether a platform-specific version has been developed.</li>
-        	<!-- <li>This table is sortable and searchable: 
-        		<ul>
-        		<li>Click the header for each column to sort by descending order; click again to sort by ascending order.</li> 
-    			<li>This table can be searched by any column's parameters.</li>
-    			</ul>
-    		</li> -->
+        	<li>We have not tried all of these applications, nor do we intend to. Any particular app's inclusion does not equate to an endorsement by Neuropsych Now. This table is what it is: a quick reference list with links to each application's App Store page.</li>
         	<li>App store reviews often have poor <b>sensitivity</b> as they're sometimes "reviewed" by the app's own developers using bogus accounts. <b>Specificity</b> can be reduced when people leave negative reviews that do not necessarily reflect an app's functionality (e.g., <em>"this app sux because it does not have a purple icon and purple iz the best colur"</em>). Occasionally, though, an app will have a clear trail of valid, negative reviews. Any such app was excluded.</li>
         </ul>
-	<!-- 	</div>
-		</li>
-    </ul> -->
+    			</div>
+    		</div>
+    	</div>
+        
+	
 <!-- Button to trigger modal -->
 <a href="#myModal" role="button" class="btn btn-small" data-toggle="modal">Table Help</a>
  
@@ -179,6 +178,7 @@
   		<ul>
   			<li>Click the word in the header of each column to sort by descending order; click again to sort by ascending order.</li> 
     		<li>This table can be searched by any column's parameters. Simply begin typing your query in the "Search" box, and the list will update on-the-fly as it narrows with each character.</li>
+    		<li>Apps are marked as "iPhone" or "iPad" based on whether a platform-specific version has been developed. When an app is marked as both iPad and iPhone, it means that it is "universal," and will work on both devices. </li>
     	</ul>
     </li>
   </ul>
@@ -188,12 +188,9 @@
     <!-- <button class="btn btn-primary">Save changes</button> -->
   </div>
 </div>            
-</div>
-<!-- </div> -->
-     
-<!--	</div> <!-- /container 
-<div class="jumbotron"> -->
-	<!-- <table class="table table-hover table-bordered table-condensed"> -->
+ <!-- end of dataTables length -->
+
+<div class="dataTables_length">
 <div id="neuroapps">
 
 <!-- Begin the table -->
@@ -418,7 +415,8 @@
 </tr>
 		</tbody>
 		</table>
-	</div>
+	</div> <!-- neuroapps id -->
+</div> <!-- end dataTables -->
 
 	</div> <!-- End table class -->
 </div> <!-- /jumbotron -->

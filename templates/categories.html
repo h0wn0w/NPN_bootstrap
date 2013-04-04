@@ -45,7 +45,7 @@
 		<?php foreach ($cat_info['main_list'] as $_key => $_val){
 			$col_width=100/$cat_columns?>
 			<td width="<?php print $col_width?>%"> 
-				<a href="?catid=<?php print $_val['category_id']?>" class="main_cat1"><?php print $_val['category']?></a><br>&nbsp;&nbsp;
+				<a id="cat_table" href="?catid=<?php print $_val['category_id']?>" class="main_cat1"><?php print $_val['category']?></a><br>&nbsp;&nbsp;
 				<?php if (is_array($_val['sub'])) {
 				foreach ($_val['sub'] as $__key => $__val){?>
 					<!-- only 3 subcategories -->
