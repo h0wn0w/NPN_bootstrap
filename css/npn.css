@@ -109,7 +109,6 @@ overrides bootstrap
 ========================================== */
 
   .navbar {
-    
   }
 
   .navbar .brand {
@@ -317,7 +316,7 @@ Listed in alpha order
     max-width: 40em;
   }
 
-  #maintext p, ul, li {
+  #maintext p, #maintext ul, #maintext li {
     font-size: 18px;
     line-height: 1.3em;
     max-width: 40em;
@@ -426,4 +425,28 @@ Listed in alpha order
 
   .btn-small {
 
+  }
+
+/* search-form
+========================================= */
+
+  #tabcent {
+    padding-top:40px;
+  }
+
+  #cat_table {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #cat_main {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    line-height: 1.7em;
+  }
+
+  input[type="radio"] {
+    margin: 5px;
   }
