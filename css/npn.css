@@ -302,24 +302,28 @@ Listed in alpha order
 ========================================= */    
 
   #articlebody {
-    /*max-width: 37em;   originally 35em, but I changed to accomodate titles */
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    max-width: 40em;
+    max-width: 58em;
     /*overflow: hidden;*/
     /*overflow: auto;*/
-    max-width: 58em;
-    margin: 2.0em 2.0em 0 2.0em;
-    padding-left: 12em;
+    /*margin: 2.0em 2.0em 0 2.0em;
+    padding-left: 10px;
+    padding-right: 10px;*/
   }
 
   #maintext {
-    font-size: 18px;
+    /*font-size: 18px;
     line-height: 1.3em;
-    max-width: 40em;
+    max-width: 40em;*/
   }
 
   #maintext p, #maintext ul, #maintext li {
-    font-size: 18px;
+/*    font-size: 18px;
     line-height: 1.3em;
-    max-width: 40em;
+    max-width: 40em;*/
   }
 
   #searchresult {
@@ -351,7 +355,7 @@ Listed in alpha order
   }
 
   #hometitle h4 {
-    /*margin-top: 210px;*/
+    margin-top: 210px;
     text-align: right;
     padding-right: 20px;
     font-family: 'Raleway', sans-serif;
@@ -390,6 +394,28 @@ Listed in alpha order
 
   #container-accent a:hover {
     color: #050A32;
+  }
+
+  #indexfeature {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #feature1 {
+    
+  }
+
+  #feature2 {
+    background: #f1f1f1;
+    padding: 120px 0px 120px 0px;
+  }
+
+  #feature2 .featurette-image {
+    padding-top: 120px;
+  }
+
+  #feature3 {
+
   }
 
 /* downloads page

@@ -1,11 +1,11 @@
 User-agent: *
 Disallow: /cgi
-Disallow: /cgiold
 Disallow: /css
 Disallow: /datatables
 Disallow: /font
 Disallow: /img
 Disallow: /js
 Disallow: /php
+Disallow: /sphider
 Disallow: /templates
 
