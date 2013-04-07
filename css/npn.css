@@ -22,7 +22,7 @@ CLASSES
 
   .container-narrow {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 720px;
   }
   .container-narrow > hr {
     margin: 30px 0;
@@ -54,26 +54,13 @@ body {
 }
 
 
-
 /* larger body font when needed
 ============================================ */
 
   #wedo {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.3em;
     /*background-color: #fcffcc;*/
-  }
-
-  #wedo ul>li {
-    text-align: center;
-  }
-
-  #wedo ul>li>a {
-/*    color: #2a687d;*/
-    color: #1a0f50;
-  }
-
-  #wedo ul>li>a:hover {
-    color: #000c28A
   }
 
 /* for the footer
@@ -342,6 +329,27 @@ Listed in alpha order
     font-size: 16px;
   }
 
+/*About Us
+============================================ */
+
+  #aboutus {
+    font-size: 16px;
+    /*background-color: #fcffcc;*/
+  }
+
+  #aboutus ul>li {
+    text-align: center;
+  }
+
+  #aboutus ul>li>a {
+/*    color: #2a687d;*/
+    color: #1a0f50;
+  }
+
+  #aboutus ul>li>a:hover {
+    color: #000c28A
+  }
+
 /* index landing page
 ============================================ */
 
@@ -407,8 +415,8 @@ Listed in alpha order
   }
 
   #indexfeature {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   #feature1 {
