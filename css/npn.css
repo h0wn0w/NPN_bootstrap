@@ -59,12 +59,22 @@ body {
 ============================================ */
 
   #wedo {
-        font-size: 16px;
-      }
+    font-size: 16px;
+    /*background-color: #fcffcc;*/
+  }
 
-/*  #wedo p, ul, ul > li a {
-        font-size: 16px;
-      }*/
+  #wedo ul>li {
+    text-align: center;
+  }
+
+  #wedo ul>li>a {
+/*    color: #2a687d;*/
+    color: #1a0f50;
+  }
+
+  #wedo ul>li>a:hover {
+    color: #000c28A
+  }
 
 /* for the footer
 ============================================ */
