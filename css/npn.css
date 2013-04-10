@@ -1,15 +1,18 @@
 /*
-Welcome to npn.css!
+Welcome to the Neuropsych Now CSS!
 This work is licensed under a CC ND-NA 3.0 License. 
 This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it work for a profit. 
 Support Open Source.
 Support Independent Developers.
 
-/   /   ///   /   /
-//  /   /  /  //  /
-/ / /   ///   / / /
-/  //   /     /  //
-/   /   /     /   /
+|      |   |**    |      |
+|\     |   |  **  |\     |
+| \    |   |    * | \    |
+|  \   |   |  **  |  \   |
+|   \  |   |**    |   \  |
+|    \ |   |      |    \ |
+|     \|   |      |     \|
+|      |   |      |      |
 
 */
 
@@ -67,15 +70,11 @@ body {
 ============================================ */
 
   #mainfoot {
-    /*background-color: #031544;*/
     background-color: #3c4657;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
     text-align: center;
-    /*border-top-style: solid;
-    border-width: 8px;
-    border-color: ;*/
   }
 
   #mainfoot div {
@@ -83,16 +82,13 @@ body {
   }
 
   #mainfoot a {
-    /*color: #4C96C6;*/
     text-align: center;
-    /*color: #3F5CAB;*/
     color: #8E99AB;
     font-size: 16px;
   }
 
   #mainfoot i {
     color: #C1A48F;
-    /*color: #DDDD1C;*/
   }
 
   #mainfoot h4, 
@@ -123,8 +119,6 @@ overrides bootstrap
   /* background-color: rgb(0,43,56);*/
   background-color: transparent;
   font-size: 16px;
-  /*font-weight: 200;*/
-  /*color: #000000;*/
   }
 
   .navbar-inner {
@@ -132,9 +126,7 @@ overrides bootstrap
   }
 
   .navbar-inverse .navbar-inner {
-  /*background-color: #333333;*/
   background-color: #3c4657;            /*this is the main background color*/
-  /*background-color: #031544;*/
   background-image: none;
   background-repeat: repeat-x;
   border-color: none;
@@ -156,7 +148,6 @@ overrides bootstrap
   /*hovering over mobile menu items*/
   .navbar-inverse .btn-navbar {
     color: #000000;
-    /*background-color: #ffffff;*/
   }
 
   /*to help out with responsinveness on mobile devices*/
@@ -211,6 +202,8 @@ overrides bootstrap
   }
 
 /* finally, the search field
+Note: this is no longer in use. Should probably
+delete these lines
 ========================================= */
 
   .navbar-inverse .navbar-search .search-query {
@@ -254,10 +247,7 @@ overrides bootstrap
   #footer {
     height: 60px;
   }
-  /*#footer {
-    background-color: #f5f5f5;
-  }*/
-
+  
   /* Lastly, apply responsive CSS fixes as necessary */
   @media (max-width: 767px) {
     #footer {
@@ -269,6 +259,7 @@ overrides bootstrap
   }
 
   /*tables tables tables  - minified and hard to read
+  courtesy of [Brett Terpstra](http://www.brettterpstra.com)
   ========================================= */
 
   table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:'News Cycle', sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:'News Cycle', sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:'News Cycle', sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:'News Cycle', sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
@@ -279,7 +270,7 @@ overrides bootstrap
 /* ============================================ 
 PAGE-SPECIFIC STYLES
 Based on id
-Listed in alpha order
+Listed in alpha order - sort of (order is important!)
 ============================================ */
 
 /* articles - index page
@@ -298,10 +289,11 @@ Listed in alpha order
 /* articles pages - head, header, foot
 ========================================= */    
 
-  #articlebody {
+  #articlebody,
+  #articlebody p {
     font-family: 'Lora', serif;
-    font-size: 16px;
-    line-height: 1.3em;
+    font-size: 18px;
+    line-height: 1.7em;
     max-width: 40em;
     max-width: 58em;
     /*overflow: hidden;*/
@@ -309,6 +301,10 @@ Listed in alpha order
     /*margin: 2.0em 2.0em 0 2.0em;
     padding-left: 10px;
     padding-right: 10px;*/
+  }
+
+  #articlebody li {
+    font-size: 16px;
   }
 
   #maintext {
