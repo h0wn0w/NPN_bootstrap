@@ -108,29 +108,19 @@
         </div>
       </div>
 
-    <!-- <div id="hometitle" class="container-fluid">
-    <div id="container-accent" class="row-fluid">
-      <div class="span4" style="background: url('/img/patterns/cream_dust.png'); background-size:80px 80px;"><h3>Get<a href="titles.html"> Guides & Books</a></h3></div>
-      <div class="span4"><h3>Browse<a href="tools.html"> Helpful Tools & Resources</a></h3></div>
-      <div class="span4"><h3>Read<a href="articles.html"> Articles</a></h3></div>
-    </div>
-    </div> -->
-    <!--  -->
-<!-- style="background: url('/img/patterns/cream_dust.png'); opacity:0.6;" -->
-
-  <div id="container-accent" class="container-narrow" style="background: url('/img/patterns/paper_fibers_op.png');" >
+    <div id="container-accent" class="container-narrow" style="background: url('/img/patterns/paper_fibers_op.png');" >
     <div class="row-fluid">
-    <div class="span4" >
+    <div id="tab" class="span4" >
         <h3>Get
           <br>
           <a href="titles.html"> Guides & Books</a></h3>
       </div>
-      <div class="span4">
+      <div id="tab" class="span4">
         <h3>Browse 
           <br>
           <a href="tools.html">Tools & Resources</a></h3>
       </div>
-      <div class="span4"><h3>Read 
+      <div id="tab" class="span4"><h3>Read 
         <br>
         <a href="articles.html" >Articles</a></h3>
       </div>
@@ -199,11 +189,21 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
-    <script src="/js/jquery.backstretch.min.js"></script>
+    <!-- // <script src="/js/jquery.backstretch.min.js"></script> -->
    <script type="text/javascript">
     // $.backstretch("/img/braincellsrevmed.png");
     // </script>
-  
+    <script type="text/javascript">
+    $(document).ready(function() {
+      var tab= "tab1";
+      $('#tab').mouseenter(function() {
+        $(this).fadeTo('fast', 1);
+      });
+      $('#tab').mouseleave(function() {
+        $(this).fadeTo('fast', 0.5);
+      });
+    });
+    </script>
 
-    </body>
+</body>
 </html>

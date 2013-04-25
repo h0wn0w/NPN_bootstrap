@@ -417,6 +417,10 @@ Listed in alpha order - sort of (order is important!)
     padding-left: 20px;
   }
 
+  #tab {
+    opacity: 0.5;
+  }
+
   #feature1 {
     
   }
