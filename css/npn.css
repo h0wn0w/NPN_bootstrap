@@ -387,6 +387,7 @@ Listed in alpha order - sort of (order is important!)
   }
 
   #container-accent {
+    background: url('/img/patterns/paper_fibers_op.png'); 
     padding: 15px 0 15px 0;
     text-align: center;
     margin-top: 20%;
@@ -398,7 +399,7 @@ Listed in alpha order - sort of (order is important!)
   }
 
   #container-accent h3 {
-    font-size: 38px;
+    font-size: 42px;
     color: #FF4040;
     text-align: center;
   }

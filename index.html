@@ -108,19 +108,19 @@
         </div>
       </div>
 
-    <div id="container-accent" class="container-narrow" style="background: url('/img/patterns/paper_fibers_op.png');" >
+    <div id="container-accent" class="container-narrow"  >
     <div class="row-fluid">
-    <div id="tab" class="span4" >
+    <div id="tab1" class="span4" >
         <h3>Get
           <br>
           <a href="titles.html"> Guides & Books</a></h3>
       </div>
-      <div id="tab" class="span4">
+      <div id="tab2" class="span4">
         <h3>Browse 
           <br>
           <a href="tools.html">Tools & Resources</a></h3>
       </div>
-      <div id="tab" class="span4"><h3>Read 
+      <div id="tab3" class="span4"><h3>Read 
         <br>
         <a href="articles.html" >Articles</a></h3>
       </div>
@@ -195,11 +195,11 @@
     // </script>
     <script type="text/javascript">
     $(document).ready(function() {
-      var tab= "tab1";
-      $('#tab').mouseenter(function() {
+      $('#tab1, #tab2, #tab3').fadeTo('fast', 0.5);
+      $('#tab1, #tab2, #tab3').mouseenter(function() {
         $(this).fadeTo('fast', 1);
       });
-      $('#tab').mouseleave(function() {
+      $('#tab1, #tab2, #tab3').mouseleave(function() {
         $(this).fadeTo('fast', 0.5);
       });
     });
