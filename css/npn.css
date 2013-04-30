@@ -14,6 +14,8 @@ Support Independent Developers.
 |     \|   |      |     \|
 |      |   |      |      |
 
+howard make css
+
 */
 
 /* =========================================
@@ -98,7 +100,8 @@ body {
   }
 
 /* navbar: main container and elements; 
-overrides bootstrap
+overrides bootstrap, which, for me, was fucking
+hard to do.
 ========================================== */
 
   .navbar {
@@ -315,7 +318,9 @@ Listed in alpha order - sort of (order is important!)
     max-width: 40em;*/
   }
 
-  #maintext p, #maintext ul, #maintext li {
+  #maintext p, 
+  #maintext ul, 
+  #maintext li {
 /*    font-size: 18px;
     line-height: 1.3em;
     max-width: 40em;*/
