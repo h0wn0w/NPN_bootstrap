@@ -2,7 +2,7 @@ Title:						Reconsider Word
 Author:						W. Howard Buddin, Jr., Ph.D.
 Web:						http://neuropsychnow.com
 Date:                     	12/11/2012 
-Tags:                     	Word, Texteditor, Productivity
+Tags:                     	Applications, Text, Editor, Productivity
 Base Header Level:        	1
 
 Ask yourself a few quick questions: 
