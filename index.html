@@ -113,7 +113,7 @@
     <div id="tab1" class="span4" >
         <h3>Get
           <br>
-          <a href="titles.html"> Guides & Books</a></h3>
+          <a href="titles.html" > Guides & Books</a></h3>
       </div>
       <div id="tab2" class="span4">
         <h3>Browse 
@@ -141,7 +141,7 @@
 
     <div class="clearfix"></div>
 
-    <div id="indexfeature" class="container-fluid"> <!-- start featurettes container -->
+    <div class="container-fluid"> <!-- start featurettes container -->
       <div class="row-fluid">
         <div class="span12">
           <hr class="featurette-divider">
@@ -191,10 +191,12 @@
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
     <!-- // <script src="/js/jquery.backstretch.min.js"></script> -->
    <script type="text/javascript">
-    // $.backstretch("/img/braincellsrevmed.png");
-    // </script>
+    $('#tab1, #tab2, #tab3').hover(function(){
+      $(this).toggleClass('white');
+    });
+   </script>
     <script type="text/javascript">
-    $(document).ready(function() {
+/*    $(document).ready(function() {
       $('#tab1, #tab2, #tab3').fadeTo('fast', 0.5);
       $('#tab1, #tab2, #tab3').mouseenter(function() {
         $(this).fadeTo('fast', 1);
@@ -202,7 +204,7 @@
       $('#tab1, #tab2, #tab3').mouseleave(function() {
         $(this).fadeTo('fast', 0.5);
       });
-    });
+    });*/
     </script>
 
 </body>
