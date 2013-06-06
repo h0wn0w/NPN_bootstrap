@@ -94,6 +94,7 @@ body {
 
   #mainfoot h4, 
   #mainfoot p {
+    text-align: center;
     color: #EAE6FF;
   }
 
@@ -294,8 +295,8 @@ Listed in alpha order - sort of (order is important!)
 /* articles pages - head, header, foot
 ========================================= */    
 
-  #articlebody {
-    /*padding-top: 60px;*/
+  #articlebody h1, h2, h3 {
+    font-family: 'News Cycle', sans-serif;
   }
   
   #articlebody,
