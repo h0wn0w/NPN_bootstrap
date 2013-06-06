@@ -79,12 +79,11 @@ body {
     text-align: center;
   }
 
-  #mainfoot div {
+  #mainfoot div p a h4 {
     text-align: center;
   }
 
   #mainfoot a {
-    text-align: center;
     color: #8E99AB;
     font-size: 16px;
   }
@@ -95,7 +94,6 @@ body {
 
   #mainfoot h4, 
   #mainfoot p {
-    text-align: center;
     color: #EAE6FF;
   }
 
@@ -209,7 +207,7 @@ Note: this is no longer in use. Should probably
 delete these lines
 ========================================= */
 
-  .navbar-inverse .navbar-search .search-query {
+ /* .navbar-inverse .navbar-search .search-query {
     color: #ffffff;
     background-color: transparent;
     border-color: #999999;
@@ -225,7 +223,7 @@ delete these lines
     font-size: 13px;
     font-weight: normal;
     line-height: 1;
-  }
+  }*/
 
 /* Sticky footer styles
 ========================================= */
@@ -274,7 +272,7 @@ delete these lines
 PAGE-SPECIFIC STYLES
 Based on id
 Listed in alpha order - sort of (order is important!)
-============================================ */
+=============================================== */
 
 /* articles - index page
 ========================================= */
@@ -287,6 +285,10 @@ Listed in alpha order - sort of (order is important!)
 
   #articlelist li {
     line-height: 24px;
+  }
+
+  input, textarea, .uneditable-input {
+    width: auto;
   }
 
 /* articles pages - head, header, foot
@@ -303,9 +305,7 @@ Listed in alpha order - sort of (order is important!)
     line-height: 1.7em;
     max-width: 40em;
     max-width: 58em;
-    /*margin: 2.0em 2.0em 0 2.0em;
-    padding-left: 10px;
-    padding-right: 10px;*/
+    margin: 0 auto;
   }
 
   #articlebody li {
@@ -356,6 +356,15 @@ Listed in alpha order - sort of (order is important!)
 /* index landing page
 ============================================ */
 
+  .white {
+    width: 250px;
+    height: 100px;
+    background-color: #eee;
+    opacity: 0.5;
+    border:1px solid #eee;
+    border-radius:15px;
+  }
+
   #hometitle {
     margin-top: 80px;
   }
@@ -392,7 +401,7 @@ Listed in alpha order - sort of (order is important!)
   }
 
   #container-accent {
-    background: url('/img/patterns/paper_fibers_op.png'); 
+    /*background: url('/img/patterns/paper_fibers_op.png'); */
     padding: 15px 0 15px 0;
     text-align: center;
     margin-top: 20%;
@@ -418,11 +427,6 @@ Listed in alpha order - sort of (order is important!)
     color: #050A32;
   }
 
-  #indexfeature {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
   #tab {
     opacity: 0.5;
   }
@@ -433,7 +437,7 @@ Listed in alpha order - sort of (order is important!)
 
   #feature2 {
     background: #f1f1f1;
-    padding: 120px 0px 120px 0px;
+    padding: 120px 0;
   }
 
   #feature2 .featurette-image {
@@ -476,7 +480,7 @@ Listed in alpha order - sort of (order is important!)
 ========================================= */
 
   .btn-small {
-
+    margin: 0 0 1.0em 0;
   }
 
 /* search-form
