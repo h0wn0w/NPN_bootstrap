@@ -72,6 +72,7 @@ body {
 ============================================ */
 
   #mainfoot {
+    z-index: 10;
     background-color: #3c4657;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -520,3 +521,106 @@ Listed in alpha order - sort of (order is important!)
   }
 }
 
+/* Drawer
+======================================== */
+
+/* Show "Left" drawer for the "Right" drawer */
+.snapjs-right .snap-drawer-left {
+  display: block;
+  right: 0;
+  left: auto;
+}
+
+/* Hide the actual "Right" drawer */
+.snapjs-right .snap-drawer-right {
+  display: none;
+}
+
+.scrollable{
+  overflow: auto;
+  -webkit-transition-property: top, bottom;
+  -moz-transition-property: top, bottom;
+  transition-property: top, bottom;
+  -webkit-transition-duration: .2s, .2s;
+  -moz-transition-duration: .2s, .2s;
+  transition-duration: .2s, .2s;
+  -webkit-transition-timing-function: linear, linear;
+  -moz-transition-timing-function: linear, linear;
+  transition-timing-function: linear, linear;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snapjs-right .left-drawer,
+.snapjs-left .right-drawer {
+    display: none;
+}
+
+#open-left {
+  background: url(../images/open.png) center center no-repeat;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+/* Show the translucent white "Toggle" boxes in the demo */
+.toggler {
+  width: 80%;
+  background: rgba(255,255,255,0.5);
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Default demo styles */
+.snap-content {
+  /*background: #BFC7D8;*/
+  background: #ffffff;
+}
+
+.snap-drawers {
+  background: #323949;
+}
+
+.snap-drawer {
+  background: #323949;
+  color: #eee;
+}
+
+.snap-drawer h3 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 15px;
+}
+
+.snap-drawer h4 {
+  padding: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+}
+
+.snap-drawer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.snap-drawer li > a {
+  display: block;
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #000;
+  text-decoration: none;
+  color: #ccc;
+  text-indent: 20px;
+}
+
+.snap-drawer p {
+  opacity: 0.5;
+  padding: 15px;
+  font-size: 12px;
+}

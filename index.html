@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">    
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/snap.css" />
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     
     
@@ -88,7 +89,9 @@
     </head>
 
 <body>
+  <!--#include virtual="${Base_URL}templates/drawer.html" --> 
   <div id="wrap">
+    <div id="content" class="snap-content">
   <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
     <!-- Main Body Content -->
@@ -182,12 +185,13 @@
             <br>
             Freakishly Advanced Search</a></span></h2>
         </div>
-      </div>
-    </div>
-  </div>
+      </div> <!-- end bottom container for featurettes -->
+    <!-- </div>
+  </div> -->
 
   <div id="push"></div>
-</div>
+  </div> <!-- end content for drawer -->
+</div> <!-- end wrap -->
 
         <!-- Neuropsych Now Footer for docs at root -->
         <!--#include virtual="./templates/mainfoot.html" -->
@@ -198,12 +202,24 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+    <script src="./js/snap.min.js"></script>
     <!-- // <script src="/js/jquery.backstretch.min.js"></script> -->
-   <script type="text/javascript">
+    <script type="text/javascript">
     $('#tab1, #tab2, #tab3').hover(function(){
       $(this).toggleClass('white');
+     });
+    </script>
+    <script>
+    var snapper = new Snap({ 
+        element:document.getElementById('content'),
+        disable: 'right' 
     });
-   </script>
+    </script>  
+    <script src="./js/jquery-ui.custom.js">
+    $(document).ready(function(){
+      $('#extlinks1').selectable();
+    });
+    </script> 
 
 </body>
 </html>
