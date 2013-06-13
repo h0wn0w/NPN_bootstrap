@@ -9,13 +9,13 @@
 
     <script type="text/javascript" src="./sphider/include/js_suggest/SuggestFramework.js"></script>
     <script type="text/javascript">window.onload = initializeSuggestFramework;</script>
-    <!-- Le styles -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:400,700,500,600|News+Cycle' rel='stylesheet' type='text/css'>
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="./css/jquery-ui.css" type="text/css" media="screen" /> -->
     <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">    
-    <link href="/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/snap.css" />
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     
     
@@ -88,9 +88,11 @@
 </script>
     </head>
 
-    <body>
-         <div id="wrap">
-<!--#include virtual="${Base_URL}templates/navbar.html" -->
+<body>
+  <!--#include virtual="${Base_URL}templates/drawer.html" --> 
+  <div id="wrap">
+    <div id="content" class="snap-content">
+  <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
     <!-- Main Body Content -->
     <div id="landingPage">
@@ -99,7 +101,7 @@
           <div class="span8 offset1">
             <div id="home-header" class="row">
               <div id="hometitle" class="introduction"> <!-- title distance from top -->
-                <h1 style="font-size: 60px; color: #fff;">NEUROPSYCH NOW</h1> <h1 class="muted" style="font-size: 28px; color:#FF7400">knowledge and tools to keep you</h1>
+                <h1 style="font-size: 62px; color: #fff;">NEUROPSYCH NOW</h1>  <blockquote><h2 style="color: #fff;">is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span></h2></blockquote><h1 class="muted" style="font-size: 28px; color:#FF7400">knowledge and tools to keep you</h1>
                 <h1 style="font-size: 60px;">AHEAD OF THE CURVE</h1>
                 <!-- style="line-height: 1em; color: #88413F" -->
               </div>
@@ -108,77 +110,88 @@
         </div>
       </div>
 
-    <div id="container-accent" class="container-narrow"  >
-    <div class="row-fluid">
-    <div id="tab1" class="span4" >
-        <h3>Get
-          <br>
-          <a href="titles.html" > Guides & Books</a></h3>
-      </div>
-      <div id="tab2" class="span4">
-        <h3>Browse 
-          <br>
-          <a href="tools.html">Tools & Resources</a></h3>
-      </div>
-      <div id="tab3" class="span4"><h3>Read 
-        <br>
-        <a href="articles.html" >Articles</a></h3>
-      </div>
-    </div>
-    </div>
-  
-  
-  <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
-    <div class="row-fluid">
-    <span>
-      <h3 style="color: #33CCCC; text-align: center;" ><a href="#feature1">Scroll Down To Learn More About Neuropsych Now</a> <i class="icon-arrow-down" style="color:white"></i> </h3>
-    </span>
-  </div>
-  </div>
-
-
-</div>
-
-    <div class="clearfix"></div>
-
-    <div class="container-fluid"> <!-- start featurettes container -->
+    <div id="container-accent" class="container-narrow">
       <div class="row-fluid">
-        <div class="span12">
-          <hr class="featurette-divider">
-          <div style="text-align: center;">
-            <h1>Neuropsych Now</h1> 
-            <h2 >is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span></h2>
-          </div>
-          </div>
-        </div>
-          <hr class="featurette-divider">
-          <div id="feature1" class="featurette">
-            <img class="featurette-image pull-right" src="./img/sketch.png">
-            <h2 class="featurette-heading">Download Concise Guides About The Latest Developments In Clinical Topics: <span class="muted"><a href="./underconstruction.html">Primary Progressive Aphasia</a></span></h2>
-          </div>
-          <!-- <hr class="featurette-divider"> -->
-          <div id="feature2" class="featurette">
-            <img class="featurette-image pull-left" src="./img/cloudsblue.png">
-            <h2 class="featurette-heading">Up On HIPAA Policy? Get The Information You Want From Neuropsych Now. <span class="muted">Fast.</span>
+        <div id="tab1" class="span4" >
+          <h3>Get
             <br>
-            <span class="muted"><a href="./underconstruction.html">HIPAA: In the Cloud</a></span></h2>
-          </div>
-          <!-- <hr class="featurette-divider"> -->
-          <div id="feature3" class="featurette">
-            <img class="featurette-image pull-right" src="./img/LaTeX.png" style="padding-top: 120px;">
-            <h2 class="featurette-heading">Do More Than Just Power Up Your Computer. 
-              <br>
-              Learn More With <span class="muted"> <a href="./underconstruction.html">
-              <br>
-              Report Writing Tech</a></span></h2>
-          </div>
+            <a href="titles.html" > Guides & Books</a>
+          </h3>
+        </div>
+        <div id="tab2" class="span4">
+          <h3>Browse 
+            <br>
+            <a href="tools.html">Tools & Resources</a>
+          </h3>
+        </div>
+        <div id="tab3" class="span4"><h3>Read 
+          <br>
+          <a href="articles.html" >Articles</a></h3>
         </div>
       </div>
     </div>
-              
-              
-      <div id="push"></div>
+
+    <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
+      <div class="row-fluid">
+        <span>
+          <h3 style="color: #33CCCC; text-align: center;" ><a href="#feature1">Scroll Down To Learn More About Neuropsych Now</a> <i class="icon-arrow-down" style="color:white"></i> </h3>
+        </span>
+      </div>
     </div>
+  </div>
+  <div class="clearfix"></div>
+
+
+  <div class="container-fluid"> <!-- start featurettes container -->
+    <div class="row-fluid">
+      <div class="span12">
+        <hr class="featurette-divider">
+        <div style="text-align: center;">
+          <h1>Looking For Something?</h1> 
+          <!-- <h2>is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span></h2> -->
+        </div>
+        </div>
+      </div>
+        <!-- <hr class="featurette-divider"> -->
+        <div id="feature1" class="featurette">
+          <img class="featurette-image pull-right" src="./img/sketch.png">
+          <!-- <h2 class="featurette-heading">Download Concise Guides About The Latest Developments In Clinical Topics: <span class="muted"><a href="./underconstruction.html">Primary Progressive Aphasia</a></span></h2> -->
+          <h2 class="featurette-heading">Download Converters, Scoring Calculators, And More: <span class="muted"><a href="./downloads.html">Assessment Resources</a></span></h2>
+        </div>
+        <!-- <hr class="featurette-divider"> -->
+        <div id="feature2" class="featurette">
+          <img class="featurette-image pull-left" src="./img/cloudsblue.png">
+          <!-- <h2 class="featurette-heading">Up On HIPAA Policy? Get The Information You Want From Neuropsych Now. <span class="muted">Fast.</span>
+          <br>
+          <span class="muted"><a href="./underconstruction.html">HIPAA: In the Cloud</a></span></h2> -->
+          <h2 class="featurette-heading">Find An iOS App To Enhance Your Clinical Skill Set.<span class="muted"> Like A Boss.</span>
+          <br>
+          <span class="muted"><a href="./neuroapps.html">Neuro iOS Apps</a></span></h2>
+        </div>
+        <!-- <hr class="featurette-divider"> -->
+        <div id="feature3" class="featurette">
+          <img class="featurette-image pull-right" src="./img/LaTeX.png" style="padding-top: 120px;">
+          <h2 class="featurette-heading">Do More Than Just Power Up Your Computer. 
+            <br>
+            Learn More With <span class="muted"> <a href="./articles.html">
+            <br>
+            Neuropsych Now Articles</a></span></h2>
+        </div>
+        <div id="feature4" class="featurette">
+          <img class="featurette-image pull-left" src="./img/spyglass_small.png" style="padding-top: 120px; padding-right: 8em;" >
+          <h2 class="featurette-heading">Looking For More?  
+            <br>
+            Find it. <span class="muted">Now. <a href="./nsearch.php">
+            <br>
+            Freakishly Advanced Search</a></span></h2>
+        </div>
+      </div> <!-- end bottom container for featurettes -->
+    <!-- </div>
+  </div> -->
+
+  <div id="push"></div>
+  </div> <!-- end content for drawer -->
+</div> <!-- end wrap -->
 
         <!-- Neuropsych Now Footer for docs at root -->
         <!--#include virtual="./templates/mainfoot.html" -->
@@ -189,23 +202,24 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+    <script src="./js/snap.min.js"></script>
     <!-- // <script src="/js/jquery.backstretch.min.js"></script> -->
-   <script type="text/javascript">
+    <script type="text/javascript">
     $('#tab1, #tab2, #tab3').hover(function(){
       $(this).toggleClass('white');
-    });
-   </script>
-    <script type="text/javascript">
-/*    $(document).ready(function() {
-      $('#tab1, #tab2, #tab3').fadeTo('fast', 0.5);
-      $('#tab1, #tab2, #tab3').mouseenter(function() {
-        $(this).fadeTo('fast', 1);
-      });
-      $('#tab1, #tab2, #tab3').mouseleave(function() {
-        $(this).fadeTo('fast', 0.5);
-      });
-    });*/
+     });
     </script>
+    <script>
+    var snapper = new Snap({ 
+        element:document.getElementById('content'),
+        disable: 'right' 
+    });
+    </script>  
+    <script src="./js/jquery-ui.custom.js">
+    $(document).ready(function(){
+      $('#extlinks1').selectable();
+    });
+    </script> 
 
 </body>
 </html>
