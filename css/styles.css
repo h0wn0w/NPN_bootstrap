@@ -760,7 +760,7 @@ a.forgot-password:hover {
 }
 #landingPage #home-header {
 	/*margin-top: 125px;*/
-	margin-top: 60px; /*fixed for NPN*/
+	/*margin-top: 60px;*/ /*fixed for NPN, then commented; too much*/
 }
 #landingPage ul#home-nav {
 	list-style: none;
