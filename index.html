@@ -131,13 +131,13 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
+    <!-- <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
       <div class="row-fluid">
         <span>
           <h3 style="color: #33CCCC; text-align: center;" ><a href="#feature1">Scroll Down To Learn More About Neuropsych Now</a> <i class="icon-arrow-down" style="color:white"></i> </h3>
         </span>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="clearfix"></div>
 
@@ -210,9 +210,20 @@
      });
     </script>
     <script>
+    var addEvent = function addEvent(element, eventName, func) {
+      if (element.addEventListener) {
+        return element.addEventListener(eventName, func, false);
+    } else if (element.attachEvent) {
+        return element.attachEvent("on" + eventName, func);
+    }
+  };
     var snapper = new Snap({ 
         element:document.getElementById('content'),
         disable: 'right' 
+    });
+
+    addEvent(document.getElementById('contact'), 'click', function(){
+      snapper.open('left');
     });
     </script>  
     <script src="./js/jquery-ui.custom.js">
