@@ -536,6 +536,10 @@ Listed in alpha order - sort of (order is important!)
   display: none;
 }
 
+.snap-drawer-left {
+  padding-top: 40px;
+}
+
 .scrollable{
   overflow: auto;
   -webkit-transition-property: top, bottom;
@@ -581,7 +585,8 @@ Listed in alpha order - sort of (order is important!)
 }
 
 .snap-drawers {
-  background: #323949;
+  /*background: #323949;*/
+  background: #3c4657;
 }
 
 .snap-drawer {
