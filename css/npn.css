@@ -1,7 +1,7 @@
 /*
 Welcome to the Neuropsych Now CSS!
 This work is licensed under a CC ND-NA 3.0 License. 
-This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it work for a profit. 
+This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it for a profit. 
 Support Open Source.
 Support Independent Developers.
 
@@ -29,6 +29,7 @@ CLASSES
     margin: 0 auto;
     max-width: 720px;
   }
+  
   .container-narrow > hr {
     margin: 30px 0;
   }
@@ -45,10 +46,6 @@ body {
   font-family: 'News Cycle', sans-serif;
   padding-top: 80px;
   /*background: url('/img/patterns/furley_bg.png');*/
-}
-
-#pageheader {
-  /*background: url('/img/spiral.png');*/
 }
 
 #pageheader h1 {
@@ -72,7 +69,6 @@ body {
 ============================================ */
 
   #mainfoot {
-    z-index: 10;
     background-color: #3c4657;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -204,31 +200,12 @@ hard to do.
     padding: 10px 40px 0 0;
   }
 
-/* finally, the search field
-Note: this is no longer in use. Should probably
-delete these lines
-========================================= */
-
- /* .navbar-inverse .navbar-search .search-query {
-    color: #ffffff;
-    background-color: transparent;
-    border-color: #999999;
-  }
-
-  .navbar-search .search-query {
-    padding: 4px 14px;
-    margin-bottom: 4px;
-    margin-top: 8px;
-    margin-right: 30px;
-    width: 130px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1;
-  }*/
-
 /* Sticky footer styles
 ========================================= */
+
+  * {
+    margin: 0;
+  }
 
   html,
   body {
@@ -239,6 +216,7 @@ delete these lines
   /* Wrapper for page content to push down footer */
   #wrap {
     min-height: 100%;
+    /* these next two are just for IE 6 */
     height: auto !important;
     height: 100%;
     /* Negative indent footer by it's height */
@@ -249,6 +227,7 @@ delete these lines
   #push,
   #footer {
     height: 60px;
+    clear: both;
   }
   
   /* Lastly, apply responsive CSS fixes as necessary */
@@ -261,7 +240,7 @@ delete these lines
     }
   }
 
-  /*tables tables tables  - minified and hard to read
+  /* tables tables tables  - minified and hard to read
   courtesy of [Brett Terpstra](http://www.brettterpstra.com)
   ========================================= */
 
@@ -334,7 +313,7 @@ Listed in alpha order - sort of (order is important!)
     font-size: 16px;
   }
 
-/*About Us
+/*About Us page
 ============================================ */
 
   #aboutus {
@@ -355,7 +334,7 @@ Listed in alpha order - sort of (order is important!)
     color: #000c28A
   }
 
-/* index landing page
+/* Main Index page
 ============================================ */
 
   .white {
@@ -453,7 +432,7 @@ Listed in alpha order - sort of (order is important!)
     /*background-color: ;*/
   }
 
-/* downloads page
+/* Downloads page
 ========================================= */
   #npnaccordian {
     text-align: center;
@@ -463,7 +442,7 @@ Listed in alpha order - sort of (order is important!)
     font-size: 18px;
     }
 
-/*external links
+/* External links page
 ========================================= */
 
   #extlinks {
@@ -521,111 +500,4 @@ Listed in alpha order - sort of (order is important!)
   }
 }
 
-/* Drawer
-======================================== */
 
-/* Show "Left" drawer for the "Right" drawer */
-.snapjs-right .snap-drawer-left {
-  display: block;
-  right: 0;
-  left: auto;
-}
-
-/* Hide the actual "Right" drawer */
-.snapjs-right .snap-drawer-right {
-  display: none;
-}
-
-.snap-drawer-left {
-  padding-top: 40px;
-}
-
-.scrollable{
-  overflow: auto;
-  -webkit-transition-property: top, bottom;
-  -moz-transition-property: top, bottom;
-  transition-property: top, bottom;
-  -webkit-transition-duration: .2s, .2s;
-  -moz-transition-duration: .2s, .2s;
-  transition-duration: .2s, .2s;
-  -webkit-transition-timing-function: linear, linear;
-  -moz-transition-timing-function: linear, linear;
-  transition-timing-function: linear, linear;
-  -webkit-overflow-scrolling: touch;
-}
-
-.snapjs-right .left-drawer,
-.snapjs-left .right-drawer {
-    display: none;
-}
-
-#open-left {
-  background: url(../images/open.png) center center no-repeat;
-  display: block;
-  width: 44px;
-  height: 44px;
-}
-
-/* Show the translucent white "Toggle" boxes in the demo */
-.toggler {
-  width: 80%;
-  background: rgba(255,255,255,0.5);
-  margin: 0 auto;
-  position: relative;
-  top: 70px;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Default demo styles */
-.snap-content {
-  /*background: #BFC7D8;*/
-  background: #ffffff;
-}
-
-.snap-drawers {
-  /*background: #323949;*/
-  background: #3c4657;
-}
-
-.snap-drawer {
-  background: #323949;
-  color: #eee;
-}
-
-.snap-drawer h3 {
-  font-size: 36px;
-  font-weight: normal;
-  margin: 15px;
-}
-
-.snap-drawer h4 {
-  padding: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 0;
-}
-
-.snap-drawer ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.snap-drawer li > a {
-  display: block;
-  border-bottom: 1px solid rgba(0,0,0, 0.1);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #000;
-  text-decoration: none;
-  color: #ccc;
-  text-indent: 20px;
-}
-
-.snap-drawer p {
-  opacity: 0.5;
-  padding: 15px;
-  font-size: 12px;
-}

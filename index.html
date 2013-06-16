@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/font-awesome.min.css">    
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/snap.css" />
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     
     
@@ -89,9 +88,7 @@
     </head>
 
 <body>
-  <!--#include virtual="${Base_URL}templates/drawer.html" --> 
   <div id="wrap">
-    <div id="content" class="snap-content">
   <!--#include virtual="${Base_URL}templates/navbar.html" -->
 
     <!-- Main Body Content -->
@@ -131,14 +128,15 @@
       </div>
     </div>
 
-    <!-- <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
+    <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); " >
       <div class="row-fluid">
         <span>
           <h3 style="color: #33CCCC; text-align: center;" ><a href="#feature1">Scroll Down To Learn More About Neuropsych Now</a> <i class="icon-arrow-down" style="color:white"></i> </h3>
         </span>
       </div>
-    </div> -->
+    </div>
   </div>
+
   <div class="clearfix"></div>
 
 
@@ -186,11 +184,10 @@
             Freakishly Advanced Search</a></span></h2>
         </div>
       </div> <!-- end bottom container for featurettes -->
-    <!-- </div>
+<!--     </div>
   </div> -->
 
   <div id="push"></div>
-  </div> <!-- end content for drawer -->
 </div> <!-- end wrap -->
 
         <!-- Neuropsych Now Footer for docs at root -->
@@ -202,35 +199,14 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
-    <script src="./js/snap.min.js"></script>
-    <!-- // <script src="/js/jquery.backstretch.min.js"></script> -->
+    
     <script type="text/javascript">
     $('#tab1, #tab2, #tab3').hover(function(){
       $(this).toggleClass('white');
      });
     </script>
-    <script>
-    var addEvent = function addEvent(element, eventName, func) {
-      if (element.addEventListener) {
-        return element.addEventListener(eventName, func, false);
-    } else if (element.attachEvent) {
-        return element.attachEvent("on" + eventName, func);
-    }
-  };
-    var snapper = new Snap({ 
-        element:document.getElementById('content'),
-        disable: 'right' 
-    });
+    
 
-    addEvent(document.getElementById('contact'), 'click', function(){
-      snapper.open('left');
-    });
-    </script>  
-    <script src="./js/jquery-ui.custom.js">
-    $(document).ready(function(){
-      $('#extlinks1').selectable();
-    });
-    </script> 
 
 </body>
 </html>
