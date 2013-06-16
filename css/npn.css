@@ -34,6 +34,15 @@ CLASSES
     margin: 30px 0;
   }
 
+  .container-wide {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-wide > .featurette {
+    padding: 120px 20px;
+  }
+
 /* =========================================
 STYLES
 ========================================= */
@@ -100,7 +109,8 @@ overrides bootstrap, which, for me, was fucking
 hard to do.
 ========================================== */
 
-  .navbar {
+  .navbar .nav {
+    float: none;
   }
 
   .navbar .brand {
@@ -203,10 +213,10 @@ hard to do.
 /* Sticky footer styles
 ========================================= */
 
-  * {
+/*  * {
     margin: 0;
   }
-
+*/
   html,
   body {
     height: 100%;
@@ -417,19 +427,17 @@ Listed in alpha order - sort of (order is important!)
 
   #feature2 {
     background: #f1f1f1;
-    padding: 120px 0;
+    /*padding: 120px 0;*/
   }
 
   #feature2 .featurette-image {
-    padding-top: 120px;
+    /*padding-top: 120px;*/
   }
 
   #feature3 {
-
   }
 
   #feature4 {
-    /*background-color: ;*/
   }
 
 /* Downloads page
