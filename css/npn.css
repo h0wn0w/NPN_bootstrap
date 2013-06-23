@@ -345,6 +345,15 @@ Listed in alpha order - sort of (order is important!)
 /* Main Index page
 ============================================ */
 
+#landingPage {
+  background: url('../img/bookshelf.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
   .white {
     width: 250px;
     height: 100px;
