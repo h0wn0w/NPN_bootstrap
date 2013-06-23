@@ -54,6 +54,8 @@ body {
   /*background: #3c4657;*/
   font-family: 'News Cycle', sans-serif;
   padding-top: 80px;
+  padding-left: 0;
+  padding-right: 0;
   /*background: url('/img/patterns/furley_bg.png');*/
 }
 
@@ -79,8 +81,9 @@ body {
 
   #mainfoot {
     background-color: #3c4657;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
     margin-top: 20px;
     text-align: center;
   }
@@ -160,7 +163,6 @@ hard to do.
   }
 
   /*to help out with responsinveness on mobile devices*/
-
   @media (max-width: 979px) {
   .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
   .container-hero-unit { margin-top:70px;}
@@ -213,10 +215,6 @@ hard to do.
 /* Sticky footer styles
 ========================================= */
 
-/*  * {
-    margin: 0;
-  }
-*/
   html,
   body {
     height: 100%;
