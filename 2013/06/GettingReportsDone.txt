@@ -1,9 +1,9 @@
-Title:		Getting Reports Done
-Author:		S. Marc Testa, Ph.D.
-Web:		http://neuropsychnow.com
+Title:				Getting Reports Done
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
 Date:               06/21/2013 
-Tags:              Reports, workflow, dictation, productivity
-Base Header Level:        1
+Tags:              	Reports, workflow, dictation, productivity
+Base Header Level:  1
 
 Every once in a while, it's a good idea to consider if you are working as efficiently as possible. If you are prone to tinkering, however, this can be tricky business. *Trying to improve your productivity does not mean you are being more productive.* 
 
