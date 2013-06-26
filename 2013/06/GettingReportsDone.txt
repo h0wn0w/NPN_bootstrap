@@ -1,0 +1,44 @@
+Title:				Getting Reports Done
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+Date:               06/21/2013 
+Tags:              	Reports, workflow, dictation, productivity
+Base Header Level:  1
+
+Every once in a while, it's a good idea to consider if you are working as efficiently as possible. If you are prone to tinkering, however, this can be tricky business. *Trying to improve your productivity does not mean you are being more productive.* 
+
+When is it reasonable to spend time critiquing your own workflow to see how you can improve? For trainees, the perfect opportunity is between clinical placements. For practicing clinicians, consider using a an hour each night over a long weekend to examine your report writing process.
+
+There are various aspects to consider including:
+
+- Acceptable turnaround time
+- Protecting time to write
+- Actual writing process
+- Content and report length
+- Implementation of new technology, e.g. dictation, spreadsheets or scoring software
+
+
+## Acceptable Turnaround & Protecting Writing Time ##
+
+This is a topic that almost every neuropsychologist I talk to struggles with to some degree. I've noticed that when most physicians have a clinic, they seem to get their reports completed that day or the next. Neuropsychologists? Not so much. Why is this? Perhaps, many neuropsychologists view the time a patient is being examined as "free" and use the time to catch up on other tasks with the plan of getting back to the report for that day's patient "some other time" The problem is, however, that "other time" is probably not well-defined.
+
+In my own process, I've realized that when I evaluate a case, I need to focus my all of my attention that day on completing the report. In other words, no meetings, no research. Whenever I actually do this, my report turnaround improves, my time is protected and I am better able to attend to non-clinical tasks on days I am not evaluating a patient. 
+
+##Actual Writing Process
+
+I am not the fastest typist in the world, so I've tried to develop a workflow that acknowledges that, and allows me to write a solid first draft of a report the day I see a patient (even without assistance from a psychometrist or trainee). First, I've organized my interview and paperwork in a manner that mirrors the order of the final report. This allows me to dictate the history and [text expand](http://neuropsychnow.com/2013/01/Mentalstatus) the behavioral observations fairly easily. When possible, I try to dictate immediately after the interview and will ask a patient complete a self-report inventory before I administer tests. By dictating the history this way, the information is fresh and I can identify any information that needs to be followed up.
+
+Once testing is completed, I score the battery and create a table for the report. This can be time consuming, but doesn't have to be. I've created an excel-based scoring sheet that "grabs" test data from a standardized scoring program (like the [CNNS from PAR, Inc.](http://www4.parinc.com/Products/Product.aspx?ProductID=CNNS)) and generates a formatted table that can be pasted into an electronic medical record. Once the table is complete, I dictate the Review of Findings (i.e., the "Results") and the Formulation and Recommendations.
+
+As recommended by John Clease, letting an idea ["bake"](http://www.fastcocreate.com/1680999/4-lessons-in-creativity-from-john-cleese) can enhance creativity and help solve problems. This "behind the scenes" process is certainly applicable to [report writing](http://neuropsychnow.com/2013/04/letitbake). At times, my frequent rumination about cases leads to slightly altered formulations and I rarely finalize a report the day of an evaluation. Therefore, it is important to schedule time to review, [proofread](http://www.adaptivepath.com/ideas/quick-tip-let-your-computer-do-the-proof-reading), and finalize cases.
+
+
+## Content and Report Length ##
+
+Do you know how referral sources read your report? My bet that is most skip to the Formulation and do not even read the history. It is more likely that most will read an entire 3 or 4 page document than one that is 7, 8 or 20 pages long. It is always important to [know your audience](http://neuropsychnow.com/2012/12/Know_Your_Audience) and determine if a lengthy report will be clinically useful or not.  
+
+## Implementation of New Technology ##
+
+Using new technology is fun. Some technology can help improve your work product drastically. Other technologies have promise, but do not deliver. Start slowly and don't get too immersed in the tinkering that will potentially be a big waste of time.
+
+At the end of the day, our goal as neuropsychologists is to provide quality and efficient patient care. Taking time once or twice a year to review and critique your workflow, and talk to others about theirs, could benefit you and your patients in the long run.
