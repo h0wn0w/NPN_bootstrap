@@ -52,8 +52,7 @@ STYLES
 
 body {
   /*background: #3c4657;*/
-  /*font-family: 'News Cycle', sans-serif;*/
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
@@ -505,6 +504,82 @@ Listed in alpha order - sort of (order is important!)
   h1 {
     word-wrap: break-word;
   }
+}
+
+/* -----------------------------------------
+   Landing Page
+----------------------------------------- */
+#landingPage {
+	/*background: url('../img/braincellsrevmed.png');*/
+/*	background: url('../img/bgblue.jpg');*/
+	background: url('../img/bookshelf.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	
+	/*height: 900px;*/
+	/*color: #FFF;*/
+}
+#landingPage a:hover {
+	/*color: #fff;*/
+}
+#landingPage #home-header {
+	/*margin-top: 125px;*/
+	/*margin-top: 60px;*/ /*fixed for NPN, then commented; too much*/
+}
+#landingPage ul#home-nav {
+	list-style: none;
+}
+#landingPage ul#home-nav li {
+	float: left;
+	margin-left: 40px;
+	line-height: 76px;
+}
+#landingPage ul#home-nav li a {
+	font-size: 18px;
+	color: #fff;
+}
+#landingPage ul#home-nav li a:hover {
+	color: #00aeff;
+	text-decoration: none;
+}
+#landingPage .introduction {
+	margin-top: 70px
+}
+#landingPage .introduction a.button {
+	margin-top: 25px;
+	display: inline-block;
+}
+#landingPage .introduction a.button:hover {
+	text-decoration: none;
+}
+#landingPage h1 {
+	font-weight: 700;
+	font-size: 42px;
+	/*line-height: 46px;*/
+	line-height: 1.2em;
+}
+#landingPage h2 {
+	font-weight: 300;
+	font-size: 18px;
+}
+.landing-modal.modal {
+	width: 450px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+.landing-modal .modal-header h3 {
+	margin-left: 15px;
+	font-size: 18px;
+}
+.landing-modal .modal-body {
+	max-height: 450px;
+}
+.landing-modal .modal-body form {
+	margin-left: 50px;
 }
 
 
