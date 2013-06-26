@@ -52,7 +52,8 @@ STYLES
 
 body {
   /*background: #3c4657;*/
-  font-family: 'News Cycle', sans-serif;
+  /*font-family: 'News Cycle', sans-serif;*/
+  font-family: 'proxima-nova', sans-serif;
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
