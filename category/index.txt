@@ -1,8 +1,0 @@
-Title:				Tech
-Author:				W. Howard Buddin Jr., Ph.D.
-Web:				http://neuropsychnow.com
-Date:                   01/04/2013 
-Tags:                   Tech
-Base Header Level:      1
-
-This is the Tech category. It will represent one of several top-level categories. 
