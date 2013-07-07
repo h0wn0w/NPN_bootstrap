@@ -22,7 +22,7 @@ howard make css
 CLASSES
 ========================================= */
 
-/* class for narrow page width
+/* narrow and wide page widths
   ========================================= */
 
   .container-narrow {
@@ -44,19 +44,17 @@ CLASSES
   }
 
 /* =========================================
-STYLES
+MOSTLY GLOBAL STYLES
 ========================================= */
 
 /*body and main styles
 ============================================ */
 
 body {
-  /*background: #3c4657;*/
   font-family: 'News Cycle', sans-serif;
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
-  /*background: url('/img/patterns/furley_bg.png');*/
 }
 
 #pageheader h1 {
@@ -65,7 +63,6 @@ body {
   font-size: 50px;
   line-height: 1.25em
 }
-
 
 /* larger body font when needed
 ============================================ */
@@ -345,14 +342,23 @@ Listed in alpha order - sort of (order is important!)
 /* Main Index page
 ============================================ */
 
-  .white {
-    width: 250px;
-    height: 100px;
-    background-color: #eee;
-    opacity: 0.5;
-    border:1px solid #eee;
-    border-radius:15px;
-  }
+#landingPage {
+  background: url('../img/bookshelf.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.white {
+  width: 250px;
+  height: 100px;
+  background-color: #eee;
+  opacity: 0.5;
+  border:1px solid #eee;
+  border-radius:15px;
+}
 
   #hometitle {
     margin-top: 80px;
@@ -362,8 +368,6 @@ Listed in alpha order - sort of (order is important!)
     font-family: 'Raleway', sans-serif;
     font-size: 72px;
     line-height: 1.5em;
-    /*color: rgb(42,161,152);*/
-    /*color: #FF7400;*/
     color: #33CCCC;
   }
 
@@ -391,9 +395,10 @@ Listed in alpha order - sort of (order is important!)
 
   #container-accent {
     /*background: url('/img/patterns/paper_fibers_op.png'); */
+    background-color: #2C3340;
     padding: 15px 0 15px 0;
     text-align: center;
-    margin-top: 10%;
+    /*margin-top: 2%;*/
   }
 
   #container-accent h1 {
@@ -402,13 +407,15 @@ Listed in alpha order - sort of (order is important!)
 
   #container-accent h3 {
     font-size: 42px;
-    color: #FF4040;
+    /*color: #FF4040;*/
+    color: #CC2D14;   /*pulled this from NPN main on Kuler*/
     text-align: center;
   }
 
   #container-accent a {
     font-size: 28px;
-    color: #006363;
+    /*color: #006363;*/
+    color: #00E5FF;   /*from Kuler, as above*/
   }
 
   #container-accent a:hover {
@@ -469,9 +476,9 @@ Listed in alpha order - sort of (order is important!)
 /* neuroapps page
 ========================================= */
 
-  .btn-small {
+/*  .btn-small {
     margin: 0 0 1.0em 0;
-  }
+  }*/
 
 /* search-form
 ========================================= */
