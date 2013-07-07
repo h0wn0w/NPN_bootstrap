@@ -351,14 +351,14 @@ Listed in alpha order - sort of (order is important!)
   background-size: 100% 100%;
 }
 
-  .white {
-    width: 250px;
-    height: 100px;
-    background-color: #eee;
-    opacity: 0.5;
-    border:1px solid #eee;
-    border-radius:15px;
-  }
+.white {
+  width: 250px;
+  height: 100px;
+  background-color: #eee;
+  opacity: 0.5;
+  border:1px solid #eee;
+  border-radius:15px;
+}
 
   #hometitle {
     margin-top: 80px;
@@ -395,9 +395,10 @@ Listed in alpha order - sort of (order is important!)
 
   #container-accent {
     /*background: url('/img/patterns/paper_fibers_op.png'); */
+    background-color: #2C3340;
     padding: 15px 0 15px 0;
     text-align: center;
-    margin-top: 10%;
+    /*margin-top: 2%;*/
   }
 
   #container-accent h1 {
