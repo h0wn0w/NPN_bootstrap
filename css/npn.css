@@ -407,13 +407,15 @@ Listed in alpha order - sort of (order is important!)
 
   #container-accent h3 {
     font-size: 42px;
-    color: #FF4040;
+    /*color: #FF4040;*/
+    color: #CC2D14;   /*pulled this from NPN main on Kuler*/
     text-align: center;
   }
 
   #container-accent a {
     font-size: 28px;
-    color: #006363;
+    /*color: #006363;*/
+    color: #00E5FF;   /*from Kuler, as above*/
   }
 
   #container-accent a:hover {
