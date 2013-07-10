@@ -1,0 +1,37 @@
+Title:		 			Mental Status Snippet
+Author: 				S. Marc Testa, Ph.D.
+Date:					07/10/2013
+Tags: 					Mac, Productivity, Reports, Technology, Writing
+Base Header Level:      1
+
+We neuropsychologists perform repetitive tasks all day long....perseverative? Sometimes, it can feel that way. Luckily, there are great tools that make these jobs more automatic. One such tool is [Text Expander for Mac OS](http://smilesoftware.com/TextExpander/index.html). Text Expander allows you to pair "snippets" of text (like your address) with abbreviations that you create (like *”addy”*). So, instead of typing your address every time you need to, you can simply type *”addy”*, and voilà...your address appears.
+
+One very handy feature of Text Expander is forms. This feature allows you to pair an abbreviation with a form-based snippet. So, suppose you Thus, when writing a Mental Status section you can type *”msout”* to generate the following form:
+
+
+>Initial Abbreviation to activate snippet
+
+![](../../img/abbrev.png)
+
+Then, fill in as appropriate:
+>Empty Form:
+
+![](../../img/empt.png)
+
+
+>Filled Form:
+
+![](../../img/filled.png)
+
+
+Note, when different fields have the same label, completing one field, fills in the rest (e.g. all fields with “*Gender*”, will be filled with “she”).
+Once the form is complete, you can tailor the rest for the individual case:
+
+>End result:
+
+![](../../img/result.png)
+
+
+
+
+
