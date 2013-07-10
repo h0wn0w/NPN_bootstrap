@@ -43,6 +43,10 @@ CLASSES
     padding: 120px 20px;
   }
 
+  div.tags {
+    margin-bottom: 2em;
+  }
+
 /* =========================================
 MOSTLY GLOBAL STYLES
 ========================================= */
