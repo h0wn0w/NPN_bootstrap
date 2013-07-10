@@ -517,6 +517,20 @@ Listed in alpha order - sort of (order is important!)
   }
 }
 
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 /* -----------------------------------------
    Landing Page
 ----------------------------------------- */
