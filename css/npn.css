@@ -108,6 +108,10 @@ body {
     color: #EAE6FF;
   }
 
+  #footlogo {
+    text-align: center;
+  }
+
 /* navbar: main container and elements; 
 overrides bootstrap, which, for me, was fucking
 hard to do.
