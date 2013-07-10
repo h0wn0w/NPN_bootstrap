@@ -47,6 +47,18 @@
 </li>
 </ol>
 
+<br>
+
+<div class="row-fluid">
+<div class="videoUiWrapper thumbnail">
+  <video id="st2" width="370" height="214">
+    <source src="../../img/stSPSS.mp4" type="video/mp4">
+  </video>
+</div>
+</div>
+
+<br>
+
 <p>This reverse-engineering approach is a great way to gain familiarity with syntax. From here, you can start to experiment with different commands and functions. Also, the Syntax Reference (available from the &#8220;Help&#8221; menu) is your friend. Your very, very, long and technical friend, to be sure, but a friend nonetheless. Learning to write your tests with syntax will make you a far more efficient and surefooted researcher. It presents with a bit of a learning curve, but is absolutely worth the payoff. </p>
 
 <div class="footnotes">
@@ -65,5 +77,17 @@
 </div>
 
 
-<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+<!--#include virtual="${Base_URL}/templates/footer.html" -->
+
+<script type="text/javascript" language="Javascript" src="../../js/jquery.video-ui.js">
+$('st2').videoUI({
+	'playMedia':true,
+	'progressMedia':true,
+	'timerMedia':true
+	'fullscreenMedia':true,
+	'autoHide':false
+})(jQuery);
+</script>
+
+</body>
 </html>
