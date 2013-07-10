@@ -1,8 +1,0 @@
-Title:				Medical Record Review
-Author:				W. Howard Buddin Jr., Ph.D.
-Web:				http://neuropsychnow.com
-Date:                   01/21/2013 
-Tags:                   Records, PHI, Report Writing, Reports
-Base Header Level:      1
-
-Reviewing medical records can be a time-consuming, tedious process. This is particularly true if you're reviewing records for a medicolegal case. 

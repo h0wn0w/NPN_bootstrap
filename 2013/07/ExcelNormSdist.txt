@@ -1,0 +1,73 @@
+Title:				Excel Spreadsheet Building Blocks II: NORMSDIST and NORMDIST
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+Date:				07/10/2013
+Tags:				Data, Multimarkdown, Reports, Statistics, Tables 
+Base Header Level:	1
+
+<!-- # Excel Spreadsheet Building Blocks II: NORM**<u>S</u>**DIST and NORMDIST # -->
+In this 2nd of 3 Excel guides, we review two functions that are extremely useful if you want to convert a standard score (like a z score or T-score) to a percentile. In [Part 1] of the series, we demonstrated how a regression-based normative (RBN) equation can be embedded in a spreadsheet to calculate an estimated IQ score. We stopped short, however, and did not convert the IQ score to a percentile. To carryout such a conversion, the Excel function NORMDIST is used. There is also NORM**<u>S</u>**DIST, which would be useful only for converting a z score to a percentile. Both functions, NORM**<u>S</u>**DIST and NORMDIST, are reviewed below. If you would like to practice along at home, [the spreadsheet can be found here.]
+
+![Figure 1. Excel Facesheet]
+
+## NORM**<u>S</u>**DIST and NORMDIST ##
+NORMSDIST or NORMDIST are extremely useful because they obviate the need to lookup tabled percentiles. Lets start with NORM-**S**-DIST, since it is more straightforward than NORMDIST.
+
+### NORM**<U>S</U>**DIST ###
+
+NORMSDIST is used to covert a z score to a percentile. The function is:
+
+        =NORMSDIST(z)*100
+
+In the sample spreadsheet, NORMSDIST is used in cells E15, E16, and E17 to convert a z score calculated in cells I15, I16 and I17 (more on how those z score were computed in a future post about the LOOKUP function).
+
+![Figure 2. NORMSDIST equations]
+
+Simply type this formula in the cell you want the percentile to appear (here, E15 ) and replace the "z" with the actual z score value or the cell reference that contains the z score (here, I15). The resultant value, after multiplying by 100, will be a percentile (in this case 35th %ile).
+
+    =NORMSDIST(I15)*100
+
+To see if you understand, try entering z scores of -1, 0, and +1 and see if each result is 16, 50, and 84.  
+
+####Embedded NORMSDIST computations
+In the spreadsheet, a z score was computed in a separate cell (I15). However, this is an unnecessary step because the z score can be computed within NORMSDIST. The formula to convert an actual test score to a z score could have referenced the examinee's scores and the normative mean and standard deviations directly like this:
+
+        =NORMSDIST((C15-J15)/K15)*100
+
+Which wound also return a value of 35.
+
+###"NORMDIST"
+
+NORMDIST is used to convert a standardized score, like a T-score (M=50, SD=10) or scaled score (M=10, SD=3), to a percentile. The formula is:
+
+        =NORMDIST(x, mean, standard deviation, cumulative)*100
+
+where:
+
+* "x" = the number or cell you want to convert (e.g. a T-score of 40)
+* Mean = the mean of the scale you are converting from (in this case 50)
+* SD = the standard deviation of the scale you are converting from (in this case 10).
+* Cumulative will typically remain in the default mode of 1 or true.
+* The function should be multiplied by 100, otherwise the result will be a decimal. 
+
+Thus, the formula:
+
+    =NORMDIST(40, 50, 10, TRUE)*100
+
+Will result in the value "16".
+
+In the sample spreadsheet (FIgure 3), cell C12 contains an IQ value of 123 and we would like to convert this to a percentile in cell E12. The formula is:
+
+    =NORMDIST(C12, 100, 15, 1)*100
+
+The equation above converts cell C12 to a percentile (94) based on a scale that has a mean of 100 and an SD of 15.
+
+![Figure 3. NORMDIST equation]
+
+The next post in the Excel Table series will show you how to use the LOOKUP functions and explain a little about formatting for MultiMarkdown output.
+
+[the spreadsheet can be found here.]:http://d.pr/f/B1QC 
+[Figure 1. Excel Facesheet]:../../img/facesheet1.png width=800px 
+[Figure 2. NORMSDIST equations]:../../img/normdistLookup1.png width=600px 
+[Figure 3. NORMDIST equation]:../../img/normdistLookup5.png width=600px 
+[Part 1]:http://neuropsychnow.com/2013/01/ExcelSpreadsheetBuildingBlocks1Equations

@@ -1,0 +1,46 @@
+Title:		Use Microsoft Word's AutoCorrect Feature to Expand Text
+Author: 	W. Howard Buddin Jr., Ph.D.
+Web:		http://neuropsychnow.com
+Date:		07/10/2013
+Tags:		Applications, Mac, Productivity, Reports, Writing, Tech, Word 
+
+We've [talked before] about our relative disdain for Microsoft Word.  The grim reality (for us, anyway) is that most institutions still expect to get and receive reports that are composed in Word. Such is the way. All hope is not lost, though, even if you're working on a locked-down Dell PC on which you can neither add nor delete software. 
+We've also [covered text expansion before], but that was using an application that was made for that specific purpose. One of our favorite tricks for getting Word to play nice and make report writing faster is to "trick it" into doing text expansion. This means that you type one or two keystrokes, and "Presto!" The result is anything from one word to an entire report template!
+
+Here's how it works. [^1]
+
+## How To: The Basics ##
+1. Open up Word's "Preferences" (Mac OS X) or "Options" (Windows) menu.  
+2. Select the "AutoCorrect" tab from the available menu options. You'll see two blank fields as shown in the screenshot below: "Replace:" and "With:". While these are already pre-populated with the default Word settings, you are free to add your own. This is, in our experience, not common knowledge.  
+
+![Word's Preferences/Options Menu][exec]  
+3. Think of a word or phrase that you frequently type, like "executive functioning." This is going to be your target. Now, think of a short way to express that, preferably in a way that is sane and easy to remember. This will be your "shortcut" that you'll type instead of the word(s). Here, we'll use ";ef" (the `;` is prepended to set it apart from other words that begin with "ef," such as "effort"). Type that in the "Replace:" field. Now, type "executive functioning" in the "With:" field.  
+![Entering Fields][fields]  
+4. Click "Add" followed by "OK" (or "Apply" for Windows users).
+
+That's it! Next time you type out ";ef" it will expand automatically to read "executive functioning." This trick can be expanded on to include anything you would rather not type, including *entire, formatted report sturctures*, headings and all. 
+
+Here's how to get that to work.
+
+## How To: Advanced ## 
+
+1. Open up a Word document and type out the text you want to have expanded. Let's use a signature line as an example. 
+2. Now select the text you've just typed.
+3. Open Word's preferences/options as described above, and select the "AutoCorrect" tab. This time, however, you'll see that the "Formatted Text" radio button is selected and the "With:" field has been populated with your formatted signature line!  
+![Formatted Text Replacement][format]  
+4. Enter whatever key combination you'd like to use as your shortcut (short and easy to remember are optimal), then apply the changes. 
+
+Done and done. Like we said, Word is not our favorite; however, with a little effort and some "hacking," you can make it work for you. 
+
+
+
+
+
+[talked before]: http://neuropsychnow.com/2012/12/ReconsiderWord
+[covered text expansion before]: http://neuropsychnow.com/2013/01/Mentalstatus
+
+[exec]: ../../img/autocorrect.png width=400px
+[fields]: ../../img/execfunc.png width=400px
+[format]: ../../img/formattext.png width=400px
+
+[^1]: Note: the screenshots we've used here are from Microsoft Office 2011 for Mac
