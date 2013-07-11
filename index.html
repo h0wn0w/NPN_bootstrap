@@ -23,16 +23,35 @@
       
     body {
       padding-top: 40px;
-      font-family: 'News Cycle', sans-serif;
-      /*font-family: 'proxima-nova';*/
     }
 
     #logo {
       padding-top: 60px;
     }
 
-    .featurette-divider {
-      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    #nn {
+      font-size: 4.429em;
+      color: #fff;
+    }
+
+    #knowledge {
+      font-size: 2.0em; 
+      color:#FF7400;
+    }
+
+    #ahead {
+      font-size: 4.286em;
+      color: #33CCCC;
+    }
+
+    #hello h1 {
+      font-size: 3.0em;
+    }
+
+    @media (max-width: 480px) {
+      #nn, #ahead {
+        font-size: 3.3em;
+      }
     }
     
     .featurette {
@@ -40,6 +59,7 @@
       padding-bottom: 120px;
       overflow: hidden; /* Vertically center images part 2: clear their floats. */
     }
+
     .featurette-image {
       margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     }
@@ -48,6 +68,7 @@
     .featurette-image.pull-left {
       margin-right: 40px;
     }
+
     .featurette-image.pull-right {
       margin-left: 40px;
     }
@@ -60,9 +81,6 @@
       letter-spacing: -1px;
     }
 
-      /*nav-collapse.collapse>a>ul>li>a {
-        color: rgb(181, 137, 0);
-        }*/
      @import url("./sphider/include/js_suggest/SuggestFramework.css");
     </style>
      <link href="./css/bootstrap-responsive.css" rel="stylesheet" />
@@ -97,9 +115,8 @@
           <div class="span8 offset1">
             <div id="home-header" class="row">
               <div id="hometitle" class="introduction"> <!-- title distance from top -->
-                <h1 style="font-size: 62px; color: #fff;">NEUROPSYCH NOW</h1>  <h1 class="muted" style="font-size: 28px; color:#FF7400">knowledge and tools to keep you</h1>
-                <h1 style="font-size: 60px;">AHEAD OF THE CURVE</h1>
-                <!-- style="line-height: 1em; color: #88413F" -->
+                <h1 id="nn">NEUROPSYCH NOW</h1><h1 id="knowledge" class="muted" >knowledge and tools to keep you</h1>
+                <h1 id="ahead">AHEAD OF THE CURVE</h1>
               </div>
             </div>
           </div>
@@ -109,7 +126,7 @@
 <div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); opacity: 0.8;" >
     <div class="row-fluid" style="color: #fff;">
       <div class="span8 offset1">
-          <h1 style="color: #33CCCC;" >What We Do</h1><h2>Neuropsych Now is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span>
+          <h1 id="hello;" style="color: #33CCCC;">What We Do</h1><h2>Neuropsych Now is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span>
       </div>
     </div>
     </div>

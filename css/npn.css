@@ -23,7 +23,7 @@ CLASSES
 ========================================= */
 
 /* narrow and wide page widths
-  ========================================= */
+=========================================== */
 
   .container-narrow {
     margin: 0 auto;
@@ -368,90 +368,89 @@ Listed in alpha order - sort of (order is important!)
   border-radius:15px;
 }
 
-  #hometitle {
-    margin-top: 80px;
-  }
+#hometitle {
+  margin-top: 80px;
+}
 
-  #hometitle h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 72px;
-    line-height: 1.5em;
-    color: #33CCCC;
-  }
+#hometitle h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  /*color: #33CCCC;*/
+}
 
-  #hometitle h3 {
-    font-family: 'Lato', sans-serif;
-    color: #BF3030;
-    text-align: center;
-  }
+#hometitle h3 {
+  font-family: 'Lato', sans-serif;
+  color: #BF3030;
+  text-align: center;
+}
 
-  #hometitle h4 {
-    margin-top: 210px;
-    text-align: right;
-    padding-right: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    /*color: rgb(42,161,152);*/
-    /*color: #FF7400;*/
-    color: #BF3030;
-  }
+#hometitle h4 {
+  margin-top: 210px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  /*color: rgb(42,161,152);*/
+  /*color: #FF7400;*/
+  color: #BF3030;
+}
 
-  #hometitle a {
-    color: #FFD073;
-  }
+#hometitle a {
+  color: #FFD073;
+}
 
-  #container-accent {
-    /*background: url('/img/patterns/paper_fibers_op.png'); */
-    background-color: #2C3340;
-    padding: 15px 0 15px 0;
-    text-align: center;
-    /*margin-top: 2%;*/
-  }
+#container-accent {
+  /*background: url('/img/patterns/paper_fibers_op.png'); */
+  background-color: #2C3340;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  /*margin-top: 2%;*/
+}
 
-  #container-accent h1 {
-    font-family: 'Lato', sans-serif;
-  }
+#container-accent h1 {
+  font-family: 'Lato', sans-serif;
+}
 
-  #container-accent h3 {
-    font-size: 42px;
-    /*color: #FF4040;*/
-    color: #CC2D14;   /*pulled this from NPN main on Kuler*/
-    text-align: center;
-  }
+#container-accent h3 {
+  font-size: 42px;
+  /*color: #FF4040;*/
+  color: #CC2D14;   /*pulled this from NPN main on Kuler*/
+  text-align: center;
+}
 
-  #container-accent a {
-    font-size: 28px;
-    /*color: #006363;*/
-    color: #00E5FF;   /*from Kuler, as above*/
-  }
+#container-accent a {
+  font-size: 28px;
+  /*color: #006363;*/
+  color: #00E5FF;   /*from Kuler, as above*/
+}
 
-  #container-accent a:hover {
-    color: #050A32;
-  }
+#container-accent a:hover {
+  color: #050A32;
+}
 
-  #tab {
-    opacity: 0.5;
-  }
+#tab {
+  opacity: 0.5;
+}
 
-  #feature1 {
-    
-  }
+#feature1 {
+  
+}
 
-  #feature2 {
-    background: #f1f1f1;
-    /*padding: 120px 0;*/
-  }
+#feature2 {
+  background: #f1f1f1;
+  /*padding: 120px 0;*/
+}
 
-  #feature2 .featurette-image {
-    /*padding-top: 120px;*/
-  }
+#feature2 .featurette-image {
+  /*padding-top: 120px;*/
+}
 
-  #feature3 {
-  }
+#feature3 {
+}
 
-  #feature4 {
-  }
+#feature4 {
+}
 
 /* Downloads page
 ========================================= */
@@ -515,11 +514,12 @@ Listed in alpha order - sort of (order is important!)
 /* Responsive fixes (?)
 ========================================= */
 
-@media (max-width: 480px) {
-  h1 {
+/*@media (max-width: 480px) {
+  #hometitle h1 {
+    font-size: 3.3em;
     word-wrap: break-word;
   }
-}
+}*/
 
 @media (max-width: 767px) {
   body {
@@ -584,7 +584,7 @@ Listed in alpha order - sort of (order is important!)
 }
 #landingPage h1 {
 	font-weight: 700;
-	font-size: 42px;
+	/*font-size: 42px;*/
 	/*line-height: 46px;*/
 	line-height: 1.2em;
 }
