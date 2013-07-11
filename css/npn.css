@@ -299,7 +299,8 @@ Listed in alpha order - sort of (order is important!)
     line-height: 1.7em;
     max-width: 40em;
     max-width: 58em;
-    margin: 0 auto;
+    margin: 0 auto 1.618em auto;
+    /*margin: 0 auto;*/
   }
 
   #articlebody li {

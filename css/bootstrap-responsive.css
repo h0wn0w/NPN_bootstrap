@@ -949,7 +949,8 @@
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 0;   /*gets rid of annoying space*/
   }
   .navbar-fixed-bottom {
     margin-top: 20px;
