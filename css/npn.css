@@ -527,6 +527,11 @@ Listed in alpha order - sort of (order is important!)
     padding-right: 0px;
     padding-left: 0px;
   }
+
+  .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 979px) {
