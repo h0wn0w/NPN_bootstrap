@@ -8,4 +8,5 @@ Disallow: /js
 Disallow: /php
 Disallow: /sphider
 Disallow: /templates
+Sitemap: http://neuropsychnow.com/sitemap.xml
 
