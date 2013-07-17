@@ -135,10 +135,10 @@ $show_query_scores	 = 1;
 
 
  // Display category list
-$show_categories	 = 1;
+$show_categories	 = 0;
 
 // Length of page description given in results page
-$desc_length		= 250;
+$desc_length		= 200;
 
 // Show only the 2 most relevant links from each site (a la google)
 $merge_site_results		= 0;
