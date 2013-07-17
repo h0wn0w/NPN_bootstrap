@@ -1,8 +1,7 @@
 .htaccess
 .htpasswd
-boot.*
-git-credential-helper/
-php/
+boot.sublime-project
+boot.sublime-workspace
 sphider/admin/*
 sphider/settings/database.php
 .DS_Store
