@@ -8,7 +8,13 @@
 	<meta name="web" content="http://neuropsychnow.com">
 	<meta name="date" content="07/10/2013">
 	<meta name="tags" content="Applications, Data, Statistics, Syntax, Text Editor">
-<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<!--#include virtual="${Base_URL}/templates/head.html" -->
+	<link href="css/video-js.css" rel="stylesheet" type="text/css">
+	<script src="js/video.js"></script>
+	<script>
+	videojs.options.flash.swf = "video-js.swf";
+	</script>
+	</head>
 <body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Syntax &amp; Efficient Data Analysis</h1>
 <div class="date">07/10/2013</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
 
@@ -42,7 +48,7 @@
 <li>
 <em>Bonus, bonus round:</em> the SPSS syntax editor (for versions 18 and higher) has one great feature called &#8220;code completion,&#8221; which does exactly what it says: you start typing code and it helps you complete the line by giving you suggestions.</li>
 <li>
-<em>Bonus, bonus, bonus round:</em> text editor savvy? Try using it instead of the SPSS syntax editor. As great as code completion is, <a href="https://vimeo.com/61684931" title=""> nothing beats multiple cursors</a>.</li>
+<em>Bonus, bonus, bonus round:</em> text editor savvy? Try using it instead of the SPSS syntax editor. As great as code completion is, nothing beats multiple cursors:</li>
 </ul>
 </li>
 </ol>
@@ -50,15 +56,13 @@
 <br>
 
 <div class="row-fluid">
-<div class="videoUiWrapper thumbnail">
-  <video id="st2" width="370" height="214">
+  <video id="st2" class="video-js vjs-default-skin" controls preload="auto" width="420" height="264">
     <source src="../../img/stSPSS.mp4" type="video/mp4">
+	<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>
   </video>
 </div>
-</div>
-
+  
 <br>
-
 <p>This reverse-engineering approach is a great way to gain familiarity with syntax. From here, you can start to experiment with different commands and functions. Also, the Syntax Reference (available from the &#8220;Help&#8221; menu) is your friend. Your very, very, long and technical friend, to be sure, but a friend nonetheless. Learning to write your tests with syntax will make you a far more efficient and surefooted researcher. It presents with a bit of a learning curve, but is absolutely worth the payoff. </p>
 
 <div class="footnotes">
@@ -76,19 +80,9 @@
 </ol>
 </div>
 
-
 <!--#include virtual="${Base_URL}/templates/footer.html" -->
 
 <script src="../../js/jquery.js"></script>
-<script type="text/javascript" language="Javascript" src="../../js/jquery.video-ui.js">
-$('#st2').videoUI({
-	'playMedia':true,
-	'progressMedia':true,
-	'timerMedia':true
-	'fullscreenMedia':true,
-	'autoHide':false
-});
-</script>
 
 </body>
 </html>
