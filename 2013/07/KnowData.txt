@@ -4,7 +4,7 @@ Date:					07/19/2013
 Tags:					Data, Research, Statistics
 Base Header Level:					1
 
-The Guardian has an excellent post on [what data is and is not](http://www.guardian.co.uk/news/datablog/2012/may/31/data-journalism-focused-critical). The post's author, [Jonathan Gray](http://www.guardian.co.uk/profile/jonathan-gray), makes several excellent points. Among them is the near axiomatic truth that conclusions are frequently rolled out by entities that don't really understand what the underlying data are really saying.  
+The Guardian has an excellent post on [what data are and are not](http://www.guardian.co.uk/news/datablog/2012/may/31/data-journalism-focused-critical). The post's author, [Jonathan Gray](http://www.guardian.co.uk/profile/jonathan-gray), makes several excellent points. Among them is the near axiomatic truth that conclusions are frequently rolled out by entities that don't really understand what the underlying data are really saying.  
 
 [CBS Sports](http://www.cbssports.com/nfl/blog/mike-freeman/18992637/study-nfl-players-living-longer-than-general-population) posted an article about NFL players and their longevity, etc., when compared to the rest of us. This is an excellent example of data analysis gone completely wrong. In a nutshell, the CBS article seems to present compelling data for greater longevity of football players as compared to the general public. Unfortunately, if you don't have training in research methodology and/or statistics, you would have not ever known what you were really looking at. This is not uncommon, even among those of us with standard graduate-level statistics coursework.
 Here's the table presented in the article linked above:  
