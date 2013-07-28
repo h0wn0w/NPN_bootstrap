@@ -28,6 +28,7 @@ MOSTLY GLOBAL STYLES
 
 body {
 /*  font-family: 'News Cycle', sans-serif;*/
+  font-family: "proxima-nova";
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
@@ -292,6 +293,7 @@ Listed in alpha order - sort of (order is important!)
 
   #articlebody h1, h2, h3 {
     /*font-family: 'News Cycle', sans-serif;*/
+    font-family: "proxima-nova";
   }
   
   #articlebody,
