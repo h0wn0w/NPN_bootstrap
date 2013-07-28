@@ -289,7 +289,7 @@ Listed in alpha order - sort of (order is important!)
 ========================================= */    
 
   #articlebody h1, h2, h3 {
-    font-family: 'News Cycle', sans-serif;
+    /*font-family: 'News Cycle', sans-serif;*/
   }
   
   #articlebody,
