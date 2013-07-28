@@ -55,7 +55,7 @@ MOSTLY GLOBAL STYLES
 ============================================ */
 
 body {
-  font-family: 'News Cycle', sans-serif;
+/*  font-family: 'News Cycle', sans-serif;*/
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0;
@@ -439,7 +439,7 @@ Listed in alpha order - sort of (order is important!)
 }
 
 #feature2 {
-  /*background: #f1f1f1;*/
+  /*Background: #f1f1f1;*/
   /*padding: 120px 0;*/
 }
 
