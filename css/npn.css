@@ -18,34 +18,6 @@ howard make css
 
 */
 
-/* =========================================
-CLASSES
-========================================= */
-
-/* narrow and wide page widths
-=========================================== */
-
-  .container-narrow {
-    margin: 0 auto;
-    max-width: 720px;
-  }
-  
-  .container-narrow > hr {
-    margin: 30px 0;
-  }
-
-  .container-wide {
-    margin: 0;
-    padding: 0;
-  }
-
-  .container-wide > .featurette {
-    padding: 120px 20px;
-  }
-
-  div.tags {
-    margin-bottom: 2em;
-  }
 
 /* =========================================
 MOSTLY GLOBAL STYLES
@@ -111,6 +83,36 @@ body {
   #footlogo {
     text-align: center;
   }
+
+/* =========================================
+MY CLASSES
+========================================= */
+
+/* narrow and wide page widths
+=========================================== */
+
+  .container-narrow {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+  
+  .container-narrow > hr {
+    margin: 30px 0;
+  }
+
+  .container-wide {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-wide > .featurette {
+    padding: 120px 20px;
+  }
+
+  div.tags {
+    margin-bottom: 2em;
+  }
+
 
 /* navbar: main container and elements; 
 overrides bootstrap, which, for me, was fucking
