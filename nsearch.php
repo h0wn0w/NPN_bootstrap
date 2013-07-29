@@ -46,7 +46,7 @@ include "$settings_dir/conf.php";
 
 // include "$template_dir/header.html";
 include "$template_dir/searchhead.html";
-include "$template_dir/navbar.html";
+// include "$template_dir/navbar.html";
 include "$template_dir/searchheader.html";
 include "$language_dir/$language-language.php";
 
@@ -92,7 +92,7 @@ if ($count_level0) {
 
 
 
-// require_once("$template_dir/$template/search_form.html");
+// require_once("$template_dir/navbar.html");
 require_once("$template_dir/search_form.html");
 
 
