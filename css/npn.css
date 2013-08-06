@@ -417,14 +417,17 @@ input, textarea, .uneditable-input {
 /* articles pages - head, header, foot
 ========================================= */    
 
-#articlebody h1, h2, h3 {
-  font-family: 'News Cycle', sans-serif;
+#articlebody h1 h2 h3 {
+  /*font-family: 'News Cycle', sans-serif;*/
   /*font-family: "proxima-nova";*/
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #articlebody,
 #articlebody p {
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.7em;
   max-width: 58em;
