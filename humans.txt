@@ -6,7 +6,7 @@
 	Buildanizer, Co-Designer: W. Howard Buddin Jr., Ph.D.				
 	Twitter: @hbuddin
 
-    Co-Designer: S. Marc Testa, Ph.D.					
+    Auteur, iOS Tough Guy, Co-Designer: S. Marc Testa, Ph.D.					
     Twitter: @frontalobes
 
 # THANKS
@@ -16,7 +16,7 @@
 
 # TECHNOLOGY COLOPHON #
 
-	Last updated: 3.17.13
+	Last updated: 8.6.13
     Main site parts: Twitter-Bootstrap, MultiMarkdown Content Management System
     Secondary site parts: jQuery, DataTables, FontAwesome, Sphider
 
