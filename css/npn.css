@@ -18,43 +18,20 @@ howard make css
 
 */
 
-/* =========================================
-CLASSES
-========================================= */
-
-/* class for narrow page width
-  ========================================= */
-
-  .container-narrow {
-    margin: 0 auto;
-    max-width: 720px;
-  }
-  
-  .container-narrow > hr {
-    margin: 30px 0;
-  }
-
-  .container-wide {
-    margin: 0;
-    padding: 0;
-  }
-
-  .container-wide > .featurette {
-    padding: 120px 20px;
-  }
 
 /* =========================================
-STYLES
+MOSTLY GLOBAL STYLES
 ========================================= */
 
 /*body and main styles
 ============================================ */
 
 body {
-  /*background: #3c4657;*/
   font-family: 'News Cycle', sans-serif;
+  /*font-family: "proxima-nova";*/
   padding-top: 80px;
-  /*background: url('/img/patterns/furley_bg.png');*/
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #pageheader h1 {
@@ -64,199 +41,354 @@ body {
   line-height: 1.25em
 }
 
-
-/* larger body font when needed
+/* Main Index page
 ============================================ */
 
-  #wedo {
-    font-size: 18px;
-    line-height: 1.3em;
-    /*background-color: #fcffcc;*/
-  }
+#landingPage {
+  background: url('../img/bookshelf.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
 
-/* for the footer
-============================================ */
+#landingPage a:hover {
+  /*color: #fff;*/
+}
 
-  #mainfoot {
-    background-color: #3c4657;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    text-align: center;
-  }
+#landingPage #home-header {
+  /*margin-top: 125px;*/
+  /*margin-top: 60px;*/ /*fixed for NPN, then commented; too much*/
+}
 
-  #mainfoot div p a h4 {
-    text-align: center;
-  }
+#landingPage .introduction {
+  margin-top: 70px
+}
 
-  #mainfoot a {
-    color: #8E99AB;
-    font-size: 16px;
-  }
+#landingPage .introduction a.button {
+  margin-top: 25px;
+  display: inline-block;
+}
 
-  #mainfoot i {
-    color: #C1A48F;
-  }
+#landingPage .introduction a.button:hover {
+  text-decoration: none;
+}
 
-  #mainfoot h4, 
-  #mainfoot p {
-    text-align: center;
-    color: #EAE6FF;
-  }
+#landingPage h1 {
+  font-weight: 700;
+  /*font-size: 42px;*/
+  /*line-height: 46px;*/
+  line-height: 1.2em;
+}
 
-/* navbar: main container and elements; 
-overrides bootstrap, which, for me, was fucking
-hard to do.
+#landingPage h2 {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.white {
+  width: 250px;
+  height: 100px;
+  background-color: #eee;
+  opacity: 0.5;
+  border:1px solid #eee;
+  border-radius:15px;
+}
+
+#hometitle {
+  margin-top: 80px;
+}
+
+#hometitle h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  /*color: #33CCCC;*/
+}
+
+#hometitle h3 {
+  font-family: 'Lato', sans-serif;
+  color: #BF3030;
+  text-align: center;
+}
+
+#hometitle h4 {
+  margin-top: 210px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #BF3030;
+}
+
+#hometitle a {
+  color: #FFD073;
+}
+
+#container-accent {
+  background-color: #2C3340;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  /*margin-top: 2%;*/
+}
+
+#container-accent h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+#container-accent h3 {
+  font-size: 42px;
+  /*color: #FF4040;*/
+  color: #CC2D14;   /*pulled this from NPN main on Kuler*/
+  text-align: center;
+}
+
+#container-accent a {
+  font-size: 28px;
+  color: #00E5FF;   /*from Kuler, as above*/
+}
+
+#container-accent a:hover {
+  color: #050A32;
+}
+
+#tab {
+  opacity: 0.5;
+}
+
+#feature1 {
+}
+#feature2 {
+}
+#feature2 .featurette-image {
+}
+#feature3 {
+}
+#feature4 {
+}
+
+.accordion-inner li {
+  padding-bottom: 0.4em;
+}
+
+/* navbar: main container and elements; overrides bootstrap, which, for me, was hard to do.
 ========================================== */
 
-  .navbar .nav {
-    float: none;
-  }
+.navbar .nav {
+  float: none;
+}
 
-  .navbar .brand {
-  font-size: 24px;
-  text-shadow: 0px;
-  margin-left: 0px;
-  /* padding: 13px 20px 17px;*/
-  padding: 8px;
-  }     
+.navbar .brand {
+font-size: 24px;
+text-shadow: 0px;
+margin-left: 0px;
+/* padding: 13px 20px 17px;*/
+padding: 8px;
+}     
 
-  .navbar .container {
-  width: 100%;
-  padding-right: 20px;
-  padding-left: 0px;
-  /* background-color: rgb(0,43,56);*/
-  background-color: transparent;
-  font-size: 16px;
-  }
+.navbar .container {
+width: 100%;
+padding-right: 20px;
+padding-left: 0px;
+/* background-color: rgb(0,43,56);*/
+background-color: transparent;
+font-size: 16px;
+}
 
-  .navbar-inner {
-  border: none;
-  }
+.navbar-inner {
+border: none;
+}
 
-  .navbar-inverse .navbar-inner {
-  background-color: #3c4657;            /*this is the main background color*/
-  background-image: none;
-  background-repeat: repeat-x;
-  border-color: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-  }
+.navbar-inverse .navbar-inner {
+background-color: #3c4657;            /*this is the main background color*/
+background-image: none;
+background-repeat: repeat-x;
+border-color: none;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
 
-  /* Navbar links: increase padding for taller navbar */
-  .navbar .nav > li > a {
-    padding: 18px 20px;
-  }
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 18px 20px;
+}
 
-  /* Offset the responsive button for proper vertical alignment */
-  .navbar .btn-navbar {
-    margin-top: 10px;
-    /*i added this margin-right*/
-    margin-right: 40px;
-  }
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+  /*i added this margin-right*/
+  margin-right: 40px;
+}
 
-  /*hovering over mobile menu items*/
-  .navbar-inverse .btn-navbar {
-    color: #000000;
-  }
+/*hovering over mobile menu items*/
+.navbar-inverse .btn-navbar {
+  color: #000000;
+}
 
-  /*to help out with responsinveness on mobile devices*/
-
-  @media (max-width: 979px) {
-  .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
-  .container-hero-unit { margin-top:70px;}
-  }   
+/*to help out with responsinveness on mobile devices*/
+@media (max-width: 979px) {
+.navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
+.container-hero-unit { margin-top:70px;}
+}   
 
 /* navbar: menu items and their dropdowns
 ====================================================== */
 
-  .navbar-inverse .nav > li > a:hover {
-    /*color: rgb(181, 137, 0);
-    text-shadow: 0;*/
-  }
+.navbar-inverse .nav > li > a:hover {
+  /*color: rgb(181, 137, 0);
+  text-shadow: 0;*/
+}
 
-  .navbar-inverse .brand:hover {
-    text-shadow: 0;
-  }
+.navbar-inverse .brand:hover {
+  text-shadow: 0;
+}
 
-  .navbar-inverse .nav > li > a:hover {
-    color: rgb(238,232,213);
-    background-color: transparent;
-    text-shadow: 0;
-  }
+.navbar-inverse .nav > li > a:hover {
+  color: rgb(238,232,213);
+  background-color: transparent;
+  text-shadow: 0;
+}
 
-  .navbar-inverse .nav-collapse .nav > li > a:hover
-  .navbar-inverse .nav-collapse .dropdown-menu a:hover {
-    color: rgb(238,232,213);
-    background-color: transparent;
-    padding-bottom: 20px;
-  }
+.navbar-inverse .nav-collapse .nav > li > a:hover
+.navbar-inverse .nav-collapse .dropdown-menu a:hover {
+  color: rgb(238,232,213);
+  background-color: transparent;
+  padding-bottom: 20px;
+}
 
-  .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
-  .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
-  .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
-    color: rgb(238,232,213);
-    background-color: transparent;
-  }
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  color: rgb(238,232,213);
+  background-color: transparent;
+}
 
-  /* brand or logo on lefthand side of navbar */
-  .navbar-inverse .brand,
-  .navbar-inverse .nav > li > a {
-    color: #999999;
-    text-shadow: 0px;
-  }
+/* brand or logo on lefthand side of navbar */
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #999999;
+  text-shadow: 0px;
+}
 
-  /*the search button that I added*/
-  #nav-searchbutton {
-    padding: 10px 40px 0 0;
-  }
+/*the search button that I added*/
+#nav-searchbutton {
+  padding: 10px 40px 0 0;
+}
 
 /* Sticky footer styles
 ========================================= */
 
-/*  * {
-    margin: 0;
-  }
-*/
-  html,
-  body {
-    height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
-  }
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
 
-  /* Wrapper for page content to push down footer */
-  #wrap {
-    min-height: 100%;
-    /* these next two are just for IE 6 */
-    height: auto !important;
-    height: 100%;
-    /* Negative indent footer by it's height */
-    margin: 0 auto -60px;
-  }
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  /* these next two are just for IE 6 */
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
 
-  /* Set the fixed height of the footer here */
-  #push,
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+  clear: both;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
   #footer {
-    height: 60px;
-    clear: both;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  /* Lastly, apply responsive CSS fixes as necessary */
-  @media (max-width: 767px) {
-    #footer {
-      margin-left: -20px;
-      margin-right: -20px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  }
+}
 
-  /* tables tables tables  - minified and hard to read
-  courtesy of [Brett Terpstra](http://www.brettterpstra.com)
-  ========================================= */
+/* larger body font when needed
+============================================ */
 
-  table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:'News Cycle', sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:'News Cycle', sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:'News Cycle', sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:'News Cycle', sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+#wedo {
+  font-size: 18px;
+  line-height: 1.3em;
+  /*background-color: #fcffcc;*/
+}
 
-  /*body {background:#faf9f5;color:#333;font-family: Palatino, Georgia, serif; font-size:16px;line-height:170%;text-align:justify; padding: 20px} */
+/* for the footer
+============================================ */
+
+#mainfoot {
+  background-color: #3c4657;
+  padding: 10px 0 10px 0;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  margin-top: 20px;
+  text-align: center;
+}
+
+#mainfoot div p a h4 {
+  text-align: center;
+}
+
+#mainfoot a {
+  color: #8E99AB;
+  font-size: 16px;
+}
+
+#mainfoot i {
+  color: #C1A48F;
+}
+
+#mainfoot h4, 
+#mainfoot p {
+  text-align: center;
+  color: #EAE6FF;
+}
+
+#footlogo {
+  text-align: center;
+}
+
+/* =========================================
+MY CLASSES
+========================================= */
+
+/* narrow and wide page widths
+=========================================== */
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.container-wide {
+  margin: 0;
+  padding: 0;
+}
+
+.container-wide > .featurette {
+  padding: 120px 20px;
+}
+
+div.tags {
+  margin-bottom: 2em;
+}
+
+/* tables tables tables  - minified and hard to read
+courtesy of [Brett Terpstra](http://www.brettterpstra.com)
+========================================= */
+
+table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:'News Cycle', sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:'News Cycle', sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:'News Cycle', sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:'News Cycle', sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
 
   
 /* ============================================ 
@@ -268,243 +400,175 @@ Listed in alpha order - sort of (order is important!)
 /* articles - index page
 ========================================= */
 
-  #articlelist {
-    padding: 0 0 0 40px;
-    font-size: 18px;
-    /*line-height: 1.5em;*/
-  }
+#articlelist {
+  padding: 0 0 0 40px;
+  font-size: 18px;
+  /*line-height: 1.5em;*/
+}
 
-  #articlelist li {
-    line-height: 24px;
-  }
+#articlelist li {
+  line-height: 24px;
+}
 
-  input, textarea, .uneditable-input {
-    width: auto;
-  }
+input, textarea, .uneditable-input {
+  width: auto;
+}
 
 /* articles pages - head, header, foot
 ========================================= */    
 
-  #articlebody h1, h2, h3 {
-    font-family: 'News Cycle', sans-serif;
-  }
-  
-  #articlebody,
-  #articlebody p {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    line-height: 1.7em;
-    max-width: 40em;
-    max-width: 58em;
-    margin: 0 auto;
-  }
+#articlebody h1 h2 h3 {
+  /*font-family: 'News Cycle', sans-serif;*/
+  /*font-family: "proxima-nova";*/
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
-  #articlebody li {
-    font-size: 16px;
-  }
+#articlebody,
+#articlebody p {
+  /*font-family: 'Lora', serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7em;
+  max-width: 58em;
+  margin: 0 auto 1.618em auto;
+  /*margin: 0 auto;*/
+}
 
-  #maintext {
-    /*font-size: 18px;
-    line-height: 1.3em;
-    max-width: 40em;*/
-  }
+#articlebody li {
+  font-size: 16px;
+}
 
-  #maintext p, 
-  #maintext ul, 
-  #maintext li {
+#maintext {
   /*font-size: 18px;
-    line-height: 1.3em;
-    max-width: 40em;*/
-  }
+  line-height: 1.3em;
+  max-width: 40em;*/
+}
 
-  #searchresult {
-    padding: 60px 80px 80px 80px;
-    /*padding-right: 80px;*/
-    font-size: 16px;
-  }
+#maintext p, 
+#maintext ul, 
+#maintext li {
+/*font-size: 18px;
+  line-height: 1.3em;
+  max-width: 40em;*/
+}
+
+#searchresult {
+  padding: 60px 80px 80px 80px;
+  /*padding-right: 80px;*/
+  font-size: 16px;
+}
 
 /*About Us page
 ============================================ */
 
-  #aboutus {
-    font-size: 16px;
-    /*background-color: #fcffcc;*/
-  }
+#aboutus {
+  font-size: 16px;
+  /*background-color: #fcffcc;*/
+}
 
-  #aboutus ul>li {
-    text-align: center;
-  }
+#aboutus ul>li {
+  text-align: center;
+}
 
-  #aboutus ul>li>a {
-  /*color: #2a687d;*/
-    color: #1a0f50;
-  }
+#aboutus ul>li>a {
+/*color: #2a687d;*/
+  color: #1a0f50;
+}
 
-  #aboutus ul>li>a:hover {
-    color: #000c28A
-  }
-
-/* Main Index page
-============================================ */
-
-  .white {
-    width: 250px;
-    height: 100px;
-    background-color: #eee;
-    opacity: 0.5;
-    border:1px solid #eee;
-    border-radius:15px;
-  }
-
-  #hometitle {
-    margin-top: 80px;
-  }
-
-  #hometitle h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 72px;
-    line-height: 1.5em;
-    /*color: rgb(42,161,152);*/
-    /*color: #FF7400;*/
-    color: #33CCCC;
-  }
-
-  #hometitle h3 {
-    font-family: 'Lato', sans-serif;
-    color: #BF3030;
-    text-align: center;
-  }
-
-  #hometitle h4 {
-    margin-top: 210px;
-    text-align: right;
-    padding-right: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    /*color: rgb(42,161,152);*/
-    /*color: #FF7400;*/
-    color: #BF3030;
-  }
-
-  #hometitle a {
-    color: #FFD073;
-  }
-
-  #container-accent {
-    /*background: url('/img/patterns/paper_fibers_op.png'); */
-    padding: 15px 0 15px 0;
-    text-align: center;
-    margin-top: 10%;
-  }
-
-  #container-accent h1 {
-    font-family: 'Lato', sans-serif;
-  }
-
-  #container-accent h3 {
-    font-size: 42px;
-    color: #FF4040;
-    text-align: center;
-  }
-
-  #container-accent a {
-    font-size: 28px;
-    color: #006363;
-  }
-
-  #container-accent a:hover {
-    color: #050A32;
-  }
-
-  #tab {
-    opacity: 0.5;
-  }
-
-  #feature1 {
-    
-  }
-
-  #feature2 {
-    background: #f1f1f1;
-    /*padding: 120px 0;*/
-  }
-
-  #feature2 .featurette-image {
-    /*padding-top: 120px;*/
-  }
-
-  #feature3 {
-  }
-
-  #feature4 {
-  }
+#aboutus ul>li>a:hover {
+  color: #000c28A
+}
 
 /* Downloads page
 ========================================= */
-  #npnaccordian {
-    text-align: center;
-    }
+#npnaccordian {
+  text-align: center;
+  }
 
-  #downloads {
-    font-size: 18px;
-    }
+#downloads {
+  font-size: 18px;
+  }
 
 /* External links page
 ========================================= */
 
-  #extlinks {
-    font-size: 18px;
-    }
-
-  #extlinks a {
-    /*color: #3600FF;*/
+#extlinks {
+  font-size: 18px;
   }
 
-  /*dividers within accordians - both pages*/
+#extlinks a {
+  /*color: #3600FF;*/
+}
 
-  #dropdiv {
-    font-size: 20px;
-    color: #E43632;
-  }
+/*dividers within accordians - both pages*/
+#dropdiv {
+  font-size: 20px;
+  color: #E43632;
+}
 
 /* neuroapps page
 ========================================= */
 
-  .btn-small {
+/*  .btn-small {
     margin: 0 0 1.0em 0;
-  }
+  }*/
 
 /* search-form
 ========================================= */
 
-  #tabcent {
-    padding-top:40px;
-  }
+#tabcent {
+  padding-top:40px;
+}
 
-  #cat_table {
-    font-size: 16px;
-    text-align: center;
-  }
+#cat_table {
+  font-size: 16px;
+  text-align: center;
+}
 
-  #cat_main {
-    font-size: 20px;
-    font-weight: 700;
-    color: red;
-    text-align: center;
-    line-height: 1.7em;
-  }
+#cat_main {
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+  line-height: 1.7em;
+}
 
-  input[type="radio"] {
-    margin: 5px;
-  }
+input[type="radio"] {
+  margin: 5px;
+}
 
 /* Responsive fixes (?)
 ========================================= */
 
-@media (max-width: 480px) {
-  h1 {
+/*@media (max-width: 480px) {
+  #hometitle h1 {
+    font-size: 3.3em;
     word-wrap: break-word;
+  }
+}*/
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .container-narrow {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 

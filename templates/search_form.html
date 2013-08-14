@@ -1,4 +1,5 @@
-<div id="wrap">
+<?php require_once("$template_dir/navbar.html"); ?>
+		
 <center id="tabcent">
 <table cellpadding="5" cellspacing="1" class="searchBox">
 <tr>
@@ -46,12 +47,11 @@
 	<input type="hidden" name="search" value="1"> 
 	</form>
 		<?php if ($has_categories && $search==1 && $show_categories){?> 
-		<a href="npnsearch.php"><?php print $sph_messages['Categories']?></a>
+		<a href="nsearch.php"><?php print $sph_messages['Categories']?></a>
 		<?php  }?>	   
 	</td>
 
 </tr>
 </table>
 </center>
-<div id="push"></div>
-    </div>
+
