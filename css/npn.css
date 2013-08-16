@@ -45,7 +45,8 @@ body {
 ============================================ */
 
 #landingPage {
-  background: url('../img/bookshelf.png');
+  /*background: url('../img/bookshelf.png');*/
+  background: url('http://nnimages.s3.amazonaws.com/bookshelf.png');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: 100% 100%;
