@@ -2,12 +2,12 @@ Title:				Donate
 Date:				08/15/2013 
 Tags:				
 
-Thank you for considering a donation to Neuropsych Now. Our work here is done as a means to help enhance the field of neuropsychology, and we hope that it continues to grow over time. If you like what you see, and/or have found any of our content and resources to be valuable, please let us know by donating $0.09, or "Nine for Neuropsych Now." That's nine pennies - something that we could've afforded even as *grad students*! 
+Thank you for considering a donation to Neuropsych Now. This site is a means to help enhance the field of neuropsychology, and we hope that it continues to grow over time. If you like what you see, and/or have found value in any of our content and resources, please let us know by donating nine cents to Neuropsych Now. That's just nine pennies, but that amount keeps us running for a day (on average). 
 
-Small donations will help to ensure the future of this site. We presently pay for these costs ourselves, and will continue to do so as long as there is a demand.  
-
-100% of any funds donated will be directly contributed to our operating costs:  
+Small donations will help to ensure the future of this site. We presently pay for these costs ourselves, and will continue to do so as long as there is a demand. Please know that 100% of each donation is used to offset our operating costs, which are:  
 
 1. Site hosting bandwidth at [NearlyFreeSpeech.Net](https://www.nearlyfreespeech.net/) - this is where the Neuropsych Now Web site is hosted.
 2. [Amazon web services](http://aws.amazon.com/) bandwidth - we use Amazon web services as our Content Distribution Network (or CDN) to efficiently serve up media of all types (e.g., images, video). 
+
+No matter what, we sincerely thank everyone for their ongoing support of Neuropsych Now!
 
