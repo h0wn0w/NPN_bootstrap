@@ -37,7 +37,7 @@ fail ('No OpenID')  if ! $openid;
 fail ('Bad OpenID') if $openid =~ /[^a-z0-9\._:\/-]/i;
 
 # Workaround for a known problem with myopenid. Change "http" to "https".
-$openid =~ s@(^http://|^(?!https))@https://@ if $openid =~ /myopenid/;
+# $openid =~ s@(^http://|^(?!https))@https://@ if $openid =~ /myopenid/;
 
 my $csr = Net::OpenID::Consumer->new (
 	# The user agent which sends the openid off to the server.
