@@ -182,7 +182,7 @@ body {
 
 .navbar .brand {
 font-size: 24px;
-text-shadow: 0px;
+text-shadow: none;
 margin-left: 0px;
 /* padding: 13px 20px 17px;*/
 padding: 8px;
@@ -241,13 +241,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', en
 }
 
 .navbar-inverse .brand:hover {
-  text-shadow: 0;
+  text-shadow: none;
 }
 
 .navbar-inverse .nav > li > a:hover {
   color: rgb(238,232,213);
   background-color: transparent;
-  text-shadow: 0;
+  text-shadow: none;
 }
 
 .navbar-inverse .nav-collapse .nav > li > a:hover
@@ -268,7 +268,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', en
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
   color: #999999;
-  text-shadow: 0px;
+  text-shadow: none;
 }
 
 /*the search button that I added*/
@@ -478,7 +478,7 @@ input, textarea, .uneditable-input {
 }
 
 #aboutus ul>li>a:hover {
-  color: #000c28A
+  color: #000c28A;
 }
 
 /* Downloads page
