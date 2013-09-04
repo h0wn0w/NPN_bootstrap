@@ -11,13 +11,11 @@ To accomplish research goals that seek to identify pre-symptomatic phases of Alz
 2. Possible AD dementia, and
 3. Probable or possible AD dementia with evidence of the AD pathophysiological process. 
 
-
-
 Also included are criteria for "Pathophysiologically proved AD dementia," which would be appropriate if
 
 > ...the patient meets the clinical and cognitive criteria for AD dementia...and the neuropathological examination...demonstrates the presence of the AD pathology.
 
-## Memory Impairment as a Defining Characteristic?
+## Memory Impairment as a Defining Characteristic? ##
 
 Although memory impairment is and has been the primary defining feature of AD, it is unlikely that it will continue to be a necessary (it has never been sufficient) condition when diagnosing AD (Mckhann, 2011). Among proposed subtypes are *non-amnestic* types marked prominently by deficits in either language (e.g., word-finding difficulties), spatial cognition (e.g., object agnosia, impaired face, recognition, simultanagnosia, and alexia) or executive dysfunction (e.g., impaired reasoning, judgment, and problem solving). 
 
