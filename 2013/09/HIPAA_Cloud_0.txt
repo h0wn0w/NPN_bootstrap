@@ -1,0 +1,28 @@
+Title:	HIPAA in the Cloud - A Very Short Intro (Part 0)
+Author:	W. Howard Buddin, Jr., Ph.D. & S. Marc Testa, Ph.D.
+Date:	09/09/2013 
+Tags:	Clinical, Data, EMR, HIPAA, HITECH, PHI, Practice
+
+All psychologists have some understanding of HIPAA (The Health Insurance Portability and Accountability Act of 1996) Privacy and Security rules. Indeed, all students since the late nineties should have received at least *some* exposure to HIPAA as part of their graduate education. Advancing technologies, however, have broadened the scope of how Protected Health Information (PHI) is transmitted and stored. Electronic Medical Records (EMR) have, therefore, made HIPAA adherence a very different animal and is a topic that falls under the rubric of "*things they didn't teach you in graduate school*." 
+
+This potential knowledge gap is recognized in the APA's most recent issuance of record keeping guidelines (APA, 2007):[^1]  
+
+>"Advances in technology, especially in electronic record keeping, may create new challenges for psychologists in their efforts to maintain the security of their records (see Guideline 9)."
+
+New challenges, indeed. Between early 2011 and late 2012, nearly 8.2 *million* medical records were compromised in some manner. Among the many threats to PHI are malicious hackers, physician loss, and unintended disclosure. If these numbers seem absurd (8,200,000 cases!), check out the [Privacy Rights Clearinghouse](https://www.privacyrights.org/). (Note: After a report gets generated, scroll down. It's a very, very long page. Each event in which records were compromised is logged, with a description of exactly what was compromised and how it happened.) 
+
+In an effort to avoid compromising electronically-based PHI, the HIPAA HITECH Final Rule of 2013 was put into place on March 26, 2013. Mandatory compliance is expected by September 23, 2013 - *just a few short weeks away*. Each violation of these new rules and regulations could result in a $1.5 million fine. Thus, in addition to ensuring we are ethical about handling our patients' PHI, we should also be sure to avoid what could be a very costly error. 
+
+There is a lot to learn about these regulations and for a not-so-quick overview of almost everything related to HIPAA and HITECH, the index for Health IT [Final Rules & Regulations](http://www.healthit.gov/policy-researchers-implementers/final-rules-regulations) is a good place to start.
+
+As the deadline for compliance with the new HITECH rules approaches, however, we at Neuropsych Now will post articles that:
+
+1. Are of utmost importance [^2] 
+2. Help you identify potential problems in your own practice
+3. Help you perform self audits to ensure you are keeping electronically-basedPHI secure
+
+The first of these articles should be up later this week, so please check back soon!
+
+[^1]: American Psychological Association (2007). Record keeping guidelines. *American Psychologist, 62*(9), 993-1004
+
+[^2]: There was an unholy amount of information to review and filter out - far more than we could ever hope to cover - but we'll include multiple links with each article for further reading and resources. 
