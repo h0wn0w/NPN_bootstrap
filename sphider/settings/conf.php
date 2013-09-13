@@ -32,7 +32,7 @@ Logging settings
 ***********************/
 
 // Should log files be kept
-$keep_log			= 0;
+$keep_log			= 1;
 
 //Log directory, this should be readable and writable
 $log_dir	= 'log';
@@ -138,7 +138,7 @@ $show_query_scores	 = 1;
 $show_categories	 = 1;
 
 // Length of page description given in results page
-$desc_length		= 250;
+$desc_length		= 50;
 
 // Show only the 2 most relevant links from each site (a la google)
 $merge_site_results		= 0;
@@ -156,7 +156,7 @@ $suggest_history		= 1;
 $suggest_keywords		= 1;
 
 // Search for suggestions in phrases 
-$suggest_phrases		= 0;
+$suggest_phrases		= 1;
 
 // Limit number of suggestions 
 $suggest_rows		= 10;
