@@ -8,14 +8,14 @@ Base Header Level:      1
 
 >**Disclaimer:** Neuropsych Now offers the following article and related HIPAA and HITECH articles as sources of information *only*. Articles are not intended to provide definite, complete advice for adherence to the HITECH Final Rule 2013 changes. Neuropsych Now is not providing professional advice, and are *not* HIPAA gurus. 
 
-The [previous post](http://neuropsychnow.com/2013/09/HIPAA_Cloud_1.html) covered  fundamental issues about storing, maintaining, and transferring PHI. This post simply provides you with resources specific to the Privacy & Security rules. 
+The [previous post](http://neuropsychnow.com/2013/09/HIPAA_Cloud_1.html) covered fundamental issues related to storing, maintaining, and transferring PHI. This post provides resources specific to the Privacy & Security rules. 
 
 ## Resources to Read  ##
 
-For the next 3 days, spend 30 minutes each day to read these:
+For the next 3 days, take 30 minutes each day to read these:
 
 * Surprisingly readable, this is a *comprehensive* [Guide to Privacy and Security of Health Information](http://www.healthit.gov/sites/default/files/pdf/privacy/privacy-and-security-guide.pdf) from the Office of the National Coordinator for Health Information Technology. 
-* For an excellent list of resources, head over to their main [resources page](http://www.healthit.gov/providers-professionals/ehr-privacy-security/resources).
+* For an *excellent* list of resources, head over to their main [resources page](http://www.healthit.gov/providers-professionals/ehr-privacy-security/resources).
 * For reference, here is the link to the [HIPAA Health Information Technology page](http://www.hhs.gov/ocr/privacy/hipaa/understanding/special/healthit/index.html). 
 
 ## Resources to Use ##
