@@ -18,7 +18,7 @@ $language			= 'en';
 $template	= 'standard';
 
 //Administrators email address (logs can be sent there)	
-$admin_email		= 'admin@localhost';
+$admin_email		= 'admin@neuropsychnow.com';
 
 // Print spidering results to standard out
 $print_results		= 1;
@@ -32,7 +32,7 @@ Logging settings
 ***********************/
 
 // Should log files be kept
-$keep_log			= 0;
+$keep_log			= 1;
 
 //Log directory, this should be readable and writable
 $log_dir	= 'log';
@@ -80,16 +80,16 @@ $index_xls	= 0;
 $index_ppt	= 0;
 
 //executable path to pdf converter
-$pdftotext_path	= 'c:\\temp\\pdftotext.exe';
+$pdftotext_path	= 'c:\temp\pdftotext.exe';
 
 //executable path to doc converter
-$catdoc_path	= 'c:\\temp\\catdoc.exe';
+$catdoc_path	= 'c:\temp\catdoc.exe';
 
 //executable path to xls converter
-$xls2csv_path	= 'c:\\temp\\xls2csv';
+$xls2csv_path	= 'c:\temp\xls2csv';
 
 //executable path to ppt converter
-$catppt_path	= 'c:\\temp\\catppt';
+$catppt_path	= 'c:\temp\catppt';
 
 // User agent string 
 $user_agent			 = 'Sphider';
@@ -135,10 +135,10 @@ $show_query_scores	 = 1;
 
 
  // Display category list
-$show_categories	 = 1;
+$show_categories	 = 0;
 
 // Length of page description given in results page
-$desc_length		= 250;
+$desc_length		= 50;
 
 // Show only the 2 most relevant links from each site (a la google)
 $merge_site_results		= 0;
@@ -156,7 +156,7 @@ $suggest_history		= 1;
 $suggest_keywords		= 1;
 
 // Search for suggestions in phrases 
-$suggest_phrases		= 0;
+$suggest_phrases		= 1;
 
 // Limit number of suggestions 
 $suggest_rows		= 10;

@@ -1,7 +1,22 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+*.ruby-version
+
+# Others specific to this site build
 .htaccess
 .htpasswd
-boot.sublime-project
-boot.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 sphider/admin/*
 sphider/settings/database.php
 .DS_Store

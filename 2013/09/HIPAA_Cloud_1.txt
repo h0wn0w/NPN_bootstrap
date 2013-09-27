@@ -1,0 +1,53 @@
+Title:	HIPAA in the Cloud - Part 1
+Author:	W. Howard Buddin, Jr., Ph.D. & S. Marc Testa, Ph.D.
+Date:	09/13/2013
+Tags:	Backup, Clinical, Cloud, Data, HIPAA, HITECH, Network, PHI, Practice, Storage
+Base Header Level:	1
+
+
+The Health Insurance Portability and Accountability Act of 1996 (HIPAA) guidelines established the [Privacy Rule](http://www.hhs.gov/ocr/privacy/hipaa/understanding/srsummary.html), which granted federal safeguarding to protected health information (PHI). We are now preparing for a new change: the *HIPAA HITECH Act Final Rule 2013*. The HITECH (which stands for "Health Information Technology for Economic and Clinical Health") Act's biggest change relates to entities referred to as "business associates." One example of a business associate is a billing clearinghouse that handles PHI. The [HIPAA HITECH Act Final Rule 2013](http://www.healthit.gov/policy-researchers-implementers/hitech-act-0) (also referred to as the "Omnibus Rule," among others) went into effect on March 26, 2013. If that date came and went without your knowledge, then it's time for some catch up. The U.S. Department of Health and Human Services (HHS) gave everyone six months to comply. That date, September 23, 2013, is nearly upon us.  
+
+This article is *not* meant to cover this entire act of Congress - for that, please download the complete, 138-page document that discusses revisions [here](http://d.pr/f/Stz7). This article is meant to introduce the topic and to provide you with a few high impact and actionable steps that will help you establish or maintain your compliance with these regulations. So, let's get started... 
+
+## Encryption and PHI ##
+
+So, what can you do to make sure that you're maintaining compliance? 
+
+* **Get familiar with the basics.** The [Privacy Rule and Security Rule](http://d.pr/2AOB) are the main points of focus when thinking about PHI and possible breaches. As we noted in our [introductory article](http://neuropsychnow.com/2013/09/HIPAA_Cloud_0), electronic means of storage and transmission have vastly increased the number of possible points of failure and overall complexity of safely maintaining PHI.
+* **Encrypt electronic PHI (referred to as ePHI).** This is the best way to prevent getting fined by the Office of Health and Human Services (HHS). Importantly, providers are not obligated under the [Breach Notification Rule](http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/index.html) to report a breach to patients *if the compromised data (PHI) that were compromised were encrypted*. This is because it is presumed that the attacker is/will be unable to decrypt the data.
+
+Data encryption is not as imposing as it might sound, and providers who implement this basic security practice are definitely taking a big step in the right direction. So what can you do - *today* - to make sure any ePHI of which you are the custodian are secure?
+ 
+### Encrypt Hard Drives ###
+
+* Encrypt your HDD or "User" folder using:
+	* Windows' built-in encryption software  
+	* File Vault (for Mac OS X), or 
+	* [True Crypt](http://www.truecrypt.org/ "TrueCrypt - Free Open-Source On-The-Fly Disk Encryption Software ...").[^2] 
+
+![][1]
+
+
+### Encrypt Email ###
+
+* *All* non-encrypted email is sent as plain-text. Information transmitted as plain text is incredibly easy to intercept, and there is absolutely no security to prevent anyone from reading it exactly as it was written. [^1] 
+* HIPAA HITECH rules do not explicitly state that email must be encrypted; however, it is pretty much exactly what needs to be done. 
+* How to Encrypt your email:[^3] 
+	* For Windows: [GPG 4 Win](http://gpg4win.org/)
+	* For Mac OS X: [GPG Mail](https://gpgtools.org/index.html)
+	* For Linux: if you are running Linux, then you are probably reading this from your basement and making your own 256-bit ciphers. Even still, here is a link to  [GnuPG](http://www.gnupg.org/download/supported_systems.en.html)
+
+
+## De-Identify PHI ##
+
+* De-identifying PHI can also be very, very effective, especially since HHS recommends it. In fact, HHS have published a set of [guidelines](http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html) to help with the process. 
+
+The information in this article should get you moving toward HITECH compliance. Please don't hesitate to contact us with any other thoughts, ideas or questions about this important, complex topic! We will have more to come as September 23^rd approaches, so remember to check back or subscribe to Articles using our [RSS Atom feed](http://neuropsychnow.com/atom.xml)!
+
+[^1]: Think about this in other contexts, too, like sending your significant other your bank account or other sensitive data.
+
+[^2]: TrueCrypt is *amazing*. In addition to creating simple encrypted folders, it can even create an entire, *hidden* operating system. Downloads are available for many operating systems, which is also nice.  
+
+[^3]: These are all open-source software packages, and are free to download.
+
+[1]: https://s3-us-west-2.amazonaws.com/nnimages/truecrypt.png "" height=408px

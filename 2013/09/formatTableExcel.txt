@@ -1,0 +1,7 @@
+Title:		Formatting Data Tables with Excel
+Author:		S. Marc Testa, Ph.D.
+Web:		http://neuropsychnow.com
+Date:		09/27/2013
+Tags:		Excel, Reports, Writing
+
+One very effective way to turn reports around faster is to use an Excel-based template for scoring or formatting. Though computerized scoring programs (like for the WAIS) make scoring a protocol easy, there may be an additional need to format the output. This screencast demonstrates how to use Excel to "grab" data scored by a scoring program (in this case the Calibrated Neuropsychological Normative System-Software Portfolio; [CNNS-SP](http://www4.parinc.com/Products/Product.aspx?ProductID=CNNS)) and to generate a figure that can be used during a team discussion or in the body of the final report itself. The particular template demonstrated in the screencast is used in a dementia clinic and allows for great efficiency when time is limited. Anyway, enjoy the magic show!

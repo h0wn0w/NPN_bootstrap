@@ -1,0 +1,100 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	
+	<title>HIPAA in the Cloud - Part 1</title>
+	<meta name="author" content="W. Howard Buddin, Jr., Ph.D. &amp; S. Marc Testa, Ph.D.">
+	<meta name="date" content="09/13/2013">
+	<meta name="tags" content="Backup, Clinical, Cloud, Data, HIPAA, HITECH, Network, PHI, Practice, Storage">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">HIPAA in the Cloud - Part 1</h1>
+<div class="author">Written By: W. Howard Buddin, Jr., Ph.D. &amp; S. Marc Testa, Ph.D.</div>
+<div class="date">Published On: 09/13/2013</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
+
+<p>The Health Insurance Portability and Accountability Act of 1996 (HIPAA) guidelines established the <a href="http://www.hhs.gov/ocr/privacy/hipaa/understanding/srsummary.html" target="_blank">Privacy Rule</a>, which granted federal safeguarding to protected health information (PHI). We are now preparing for a new change: the <em>HIPAA HITECH Act Final Rule 2013</em>. The HITECH (which stands for &#8220;Health Information Technology for Economic and Clinical Health&#8221;) Act&#8217;s biggest change relates to entities referred to as &#8220;business associates.&#8221; One example of a business associate is a billing clearinghouse that handles PHI. The <a href="http://www.healthit.gov/policy-researchers-implementers/hitech-act-0" target="_blank">HIPAA HITECH Act Final Rule 2013</a> (also referred to as the &#8220;Omnibus Rule,&#8221; among others) went into effect on March 26, 2013. If that date came and went without your knowledge, then it&#8217;s time for some catch up. The U.S. Department of Health and Human Services (HHS) gave everyone six months to comply. That date, September 23, 2013, is nearly upon us. </p>
+
+<p>This article is <em>not</em> meant to cover this entire act of Congress - for that, please download the complete, 138-page document that discusses revisions <a href="http://d.pr/f/Stz7" target="_blank">here</a>. This article is meant to introduce the topic and to provide you with a few high impact and actionable steps that will help you establish or maintain your compliance with these regulations. So, let&#8217;s get started&#8230; </p>
+
+<h2 id="encryptionandphi">Encryption and PHI</h2>
+
+<p>So, what can you do to make sure that you&#8217;re maintaining compliance? </p>
+
+<ul>
+<li>
+<strong>Get familiar with the basics.</strong> The <a href="http://d.pr/2AOB" target="_blank">Privacy Rule and Security Rule</a> are the main points of focus when thinking about PHI and possible breaches. As we noted in our <a href="http://neuropsychnow.com/2013/09/HIPAA_Cloud_0" target="_blank">introductory article</a>, electronic means of storage and transmission have vastly increased the number of possible points of failure and overall complexity of safely maintaining PHI.</li>
+<li>
+<strong>Encrypt electronic PHI (referred to as ePHI).</strong> This is the best way to prevent getting fined by the Office of Health and Human Services (HHS). Importantly, providers are not obligated under the <a href="http://www.hhs.gov/ocr/privacy/hipaa/administrative/breachnotificationrule/index.html" target="_blank">Breach Notification Rule</a> to report a breach to patients <em>if the compromised data (PHI) that were compromised were encrypted</em>. This is because it is presumed that the attacker is/will be unable to decrypt the data.</li>
+</ul>
+
+<p>Data encryption is not as imposing as it might sound, and providers who implement this basic security practice are definitely taking a big step in the right direction. So what can you do - <em>today</em> - to make sure any ePHI of which you are the custodian are secure?</p>
+
+<h3 id="encryptharddrives">Encrypt Hard Drives</h3>
+
+<ul>
+<li>Encrypt your HDD or &#8220;User&#8221; folder using:
+
+<ul>
+<li>Windows&#8217; built-in encryption software</li>
+<li>File Vault (for Mac OS X), or</li>
+<li>
+<a href="http://www.truecrypt.org/" title="TrueCrypt - Free Open-Source On-The-Fly Disk Encryption Software ..." target="_blank">True Crypt</a>.<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<figure>
+<img src="https://s3-us-west-2.amazonaws.com/nnimages/truecrypt.png" alt="" id="1" style="height:408px;">
+<figcaption></figcaption></figure>
+
+<h3 id="encryptemail">Encrypt Email</h3>
+
+<ul>
+<li>
+<em>All</em> non-encrypted email is sent as plain-text. Information transmitted as plain text is incredibly easy to intercept, and there is absolutely no security to prevent anyone from reading it exactly as it was written. <a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>
+</li>
+<li>HIPAA HITECH rules do not explicitly state that email must be encrypted; however, it is pretty much exactly what needs to be done.</li>
+<li>How to Encrypt your email:<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>
+
+<ul>
+<li>For Windows: <a href="http://gpg4win.org/" target="_blank">GPG 4 Win</a>
+</li>
+<li>For Mac OS X: <a href="https://gpgtools.org/index.html" target="_blank">GPG Mail</a>
+</li>
+<li>For Linux: if you are running Linux, then you are probably reading this from your basement and making your own 256-bit ciphers. Even still, here is a link to <a href="http://www.gnupg.org/download/supported_systems.en.html" target="_blank">GnuPG</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2 id="de-identifyphi">De-Identify PHI</h2>
+
+<ul>
+<li>De-identifying PHI can also be very, very effective, especially since HHS recommends it. In fact, HHS have published a set of <a href="http://www.hhs.gov/ocr/privacy/hipaa/understanding/coveredentities/De-identification/guidance.html" target="_blank">guidelines</a> to help with the process.</li>
+</ul>
+
+<p>The information in this article should get you moving toward HITECH compliance. Please don&#8217;t hesitate to contact us with any other thoughts, ideas or questions about this important, complex topic! We will have more to come as September 23<sup>rd</sup> approaches, so remember to check back or subscribe to Articles using our <a href="http://neuropsychnow.com/atom.xml">RSS Atom feed</a>!</p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1">
+<p>TrueCrypt is <em>amazing</em>. In addition to creating simple encrypted folders, it can even create an entire, <em>hidden</em> operating system. Downloads are available for many operating systems, which is also nice.  <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>Think about this in other contexts, too, like sending your significant other your bank account or other sensitive data. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:3">
+<p>These are all open-source software packages, and are free to download. <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+</html>
