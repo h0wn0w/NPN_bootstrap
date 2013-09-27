@@ -1,9 +1,9 @@
 <?php
-	$database="npnlook";
-	$mysql_user = "root";
-	$mysql_password = "h0wn0w"; 
-	$mysql_host = "localhost";
-	$mysql_table_prefix = "";
+	$database="nplook";
+	$mysql_user = "npnow";
+	$mysql_password = "park47&trunk"; 
+	$mysql_host = "serchin.db";
+	$mysql_table_prefix = "thx";
 
 
 
