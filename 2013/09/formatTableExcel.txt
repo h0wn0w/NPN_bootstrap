@@ -2,7 +2,7 @@ Title:		Formatting Data Tables with Excel
 Author:		S. Marc Testa, Ph.D.
 Web:		http://neuropsychnow.com
 Date:		09/27/2013
-Tags:		Excel, Reports, Writing
+Tags:		Excel, Reports, Screencast, Writing
 
 One very effective way to turn reports around faster is to use an Excel-based template for scoring or formatting. Though computerized scoring programs (e.g., WAIS-IV Scoring Assistant, Q-Local) make scoring a protocol easy, there may be an additional need to format the output.
 
