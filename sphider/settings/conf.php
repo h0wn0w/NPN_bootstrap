@@ -18,7 +18,7 @@ $language			= 'en';
 $template	= 'standard';
 
 //Administrators email address (logs can be sent there)	
-$admin_email		= 'admin@localhost';
+$admin_email		= 'admin@neuropsychnow.com';
 
 // Print spidering results to standard out
 $print_results		= 1;
@@ -80,16 +80,16 @@ $index_xls	= 0;
 $index_ppt	= 0;
 
 //executable path to pdf converter
-$pdftotext_path	= 'c:\\temp\\pdftotext.exe';
+$pdftotext_path	= 'c:\temp\pdftotext.exe';
 
 //executable path to doc converter
-$catdoc_path	= 'c:\\temp\\catdoc.exe';
+$catdoc_path	= 'c:\temp\catdoc.exe';
 
 //executable path to xls converter
-$xls2csv_path	= 'c:\\temp\\xls2csv';
+$xls2csv_path	= 'c:\temp\xls2csv';
 
 //executable path to ppt converter
-$catppt_path	= 'c:\\temp\\catppt';
+$catppt_path	= 'c:\temp\catppt';
 
 // User agent string 
 $user_agent			 = 'Sphider';
@@ -135,7 +135,7 @@ $show_query_scores	 = 1;
 
 
  // Display category list
-$show_categories	 = 1;
+$show_categories	 = 0;
 
 // Length of page description given in results page
 $desc_length		= 50;
