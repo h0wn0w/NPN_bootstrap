@@ -473,6 +473,14 @@
 	<script src="js/bootstrap-modalmanager.js"></script>
  	<script src="js/bootstrap-modal.js"></script>
     <script type="text/javascript" charset="utf-8">
+		/* Table initialisation */
+			$(document).ready(function() {
+				$('#example').dataTable( {
+					"sPaginationType": "bootstrap",
+					"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>"
+				} );
+			} );
+			
 		/* Default class modification */
 			$.extend( $.fn.dataTableExt.oStdClasses, {
 				"sWrapper": "dataTables_wrapper form-inline"
@@ -513,13 +521,7 @@
 		       }
 		     );
 
-		/* Table initialisation */
-			$(document).ready(function() {
-				$('#example').dataTable( {
-					"sPaginationType": "bootstrap",
-					"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>"
-				} );
-			} );
+		
 	</script>
   </body>
 </html>
