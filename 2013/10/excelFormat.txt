@@ -1,10 +1,11 @@
-Title:		Follow up: Excel Table Formatting		 Author:	 	S. Marc Testa, PhD Date:		10/05/2013
-Tags:   		Excel, Data, Presentation, Report Writing
+Title:		Follow up: Excel Table Formatting		 
+Author:	 	S. Marc Testa, PhD 
+Date:		10/05/2013
+Tags:   	Excel, Data, Presentation, Report Writing
 
 Sometimes, to make Excel do what you want, you have to be creative. This article reviews more details of the spreadsheet used in this [screencast], including the use of a "glass" scatterplot, conditional formatting, and macros. The actual spreadsheet can be downloaded [here].[^1]  
 
 To understand what is happening in this spreadsheet, it is important to realize that there is a "glass" or see-through scatterplot placed directly over Column D in the "Results Overview" spreadsheet. The cells of Column D use conditionally formatted "data bars" so that values greater than a T-score of 50 or less than a T-score of 30 are highlighted blue and red, respectively.
-
 
 ## Scatterplot
 The Excel spreadsheet used in the previous [screencast] was informed partially by this [article](http://www.biomedcentral.com/1756-0500/5/52). Basically, the graph is a scatterplot in which only the values plotted against the horizontal axis (the T-scores) are meaningful (see Column G, "Results Overview" spreadsheet). The values on the vertical axis (Column N, "Results Overview" spreadsheet) are place holders that simply help align the data points to the appropriate row.
