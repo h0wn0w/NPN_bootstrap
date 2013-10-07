@@ -1,4 +1,5 @@
-Title:		Follow up: Excel Table Formatting		 Author:	 	S. Marc Testa, PhD Date:		10/{++0++}{>>@whb - 2013.10.05<<}5/2013
+Title:		Follow up: Excel Table Formatting		 Author:	 	S. Marc Testa, PhD
+ Date:		10/{++0++}{>>@whb - 2013.10.05<<}5/2013
 Tags:   		Excel, Data, Presentation, Report Writing
 
 Sometimes, to make Excel do what you want, you have to be creative. This article reviews more details of the spreadsheet used in this [screencast]{--(http://neuropsychnow.com/2013/09/formatTableExcel.html)--}{>>@whb - 2013.10.05<<}, including the use of a "glass" scatterplot, conditional formatting, and macros. The actual spreadsheet can be downloaded [here].{++[^1] ++}{>>@whb - 2013.10.05<<} {--(Note: I've tried to label columns so one can how various parts of the spreadsheet are used for formatting purposes.)--}{>>@whb - 2013.10.05<<}
