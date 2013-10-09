@@ -17,7 +17,7 @@
 .htpasswd
 *.sublime-project
 *.sublime-workspace
-*sphider/admin/*
-*sphider/settings/database.php
+/sphider/admin/*
+/sphider/settings/database.php
 .DS_Store
 sitemap.xml
