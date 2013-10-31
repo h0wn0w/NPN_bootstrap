@@ -1,0 +1,21 @@
+Title:		Text Expansion with Microsoft Word
+Author:		W. Howard Buddin Jr., Ph.D.
+Content:	Article
+Date:       10/30/2013
+Tags:       Practice, Productivity, Reports, Screencast, Workflow, Writing
+
+Writing in plain text is, to us, largely superior to using a full-blown word processor. Plain text *files* are lightweight and versatile. Plain text *editors* are, relative to most word processors, free of questionably useful features, leaving a distraction-free writing environment. In one of our [previous screencasts](http://neuronow.com/2013/08/gettingreportsdone_2), we demonstrated some of the benefits of writing reports with [TextExpander for Mac](http://smilesoftware.com/TextExpander/index.html). 
+
+In case it isn't clear, we think writing with plain text is great.[^1] Unfortunately, the sample size of neuropsychologists writing reports in plain text is probably n = 2. That means that the aforementioned screencast, while clearly *incredibly* fun to watch, may not have been that useful to you. 
+
+This screencast is our attempt to make something that appeals to others - *any* others: we used Microsoft Word as the writing platform. Everyone uses Word, so it made sense to show how we use it, too. 
+
+The expansion snippet shown here is *much* more advanced/complex than the one from the previous TextExpander screencast; it has evolved. While it took a lot of effort to get it working well in MS Word, it affords incredible flexibility. Ultimately, you need only this one snippet to replace all the templates in your arsenal. Writing a peds report or geriatric evaluation? It doesn't matter. This is cohort/referral question agnostic. At least the *method* is, if not the snippet. The snippet evolves with your needs. More on that in an as-yet-to-be-written article.
+
+Oh, yeah, one last thing. Among our goals here at Neuropsych Now are to save you time and effort, and to get resources to you for free, when possible. Well, thanks to some savvy networking and negotiating by Dr. Testa, we have for you a promotional code to save 20% on the purchase price of TextExpander for Mac. Just visit the [Smile Software products page](http://sites.fastspring.com/smile/product/catalog) and click on "Add to Cart" for TextExpander and enter the promo code NPNOW2013 in the "Update Coupon" field on the next page to get the discount. So, THANK YOU Smile Software![^2]
+
+Okay, back to the screencast: enjoy the show!
+
+[^1]: In fact, every article on this web site is written in plain text first. We then use the MultiMarkdown Content Management System (CMS) that drives most of this site to convert it into HTML. If you'd like to see what this (or any) article looks like before it gets rendered, just type `.txt` at the end of the article's URL and press enter/return on your keyboard. Presto! Plain text! Pretty cool, right? 
+
+[^2]: Full disclosure: Dr. Testa and Dr. Buddin are not receiving any form of payment or other incentive from Smile Software for this code. This is not a paid advertisement for Smile Software. The promotional code provided herein was created by Smile Software exclusively for Neuropsych Now and its readers, with no strings attached, which is awesome. 
