@@ -1,0 +1,37 @@
+Title:		Hey, Neuropsychologists: What Does Your Calling Card Look Like?
+Author:		W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.
+Category:       Article
+Date:           11/15/2013 
+Tags:           Practice, Report Writing, Typography
+
+Consider the following idea: a neuropsychologist's report is their calling card. The idea is that your report goes out to the world; it's your emissary. We could extend it a bit further, though, and say that *everything* with which your name is associated and/or over which you have/had some control is your calling card. This might include Web sites, research, and public speaking appearances. As a quick test, head over to your favorite search engine and Google/Bing/DDG [^1] yourself. What do the results look like? Keeping in mind that this is *exactly* what anyone who looks for you would see, are you okay with the results?
+
+You certainly can't control everything about how the public perceives you, but you *can* control just about everything that you produce -- especially your reports. 
+
+In this post, we'd like to talk about something that most neuropsychologists have probably never considered: *typography*. We have found that typography is an important subject in many fields, including several sciences. 
+
+So, what is typography, exactly? 
+
+>"Typography is the visual component of the written word."
+   
+That quote was pulled From “[What is Typography]", which is part of the excellent, concise typography primer [Butterick’s Practical Typography][1]. We have read his guide from wire-to-wire, and cannot say enough about it. More on that in just a bit.
+
+First, though, let's address something that you might be wondering: why does typography matter? Isn't it the *content* of my report that is most important? Well, yes. Mostly. Consider the following  scenario, which plays out all the time. 
+
+>You're interviewing candidates for a job/fellowship/internship. You've made your way down to the final two, both of whom are equally skilled, etc. You lay the C.V.s out side-by-side. One uses MS Word default settings (12pt. Times New Roman, et al.), with lengthy, tightly spaced lines that make reading a chore. The other candidate, however, took the time to create a neat, readable C.V., that was typeset with [LaTeX], and that used a [custom Serif font-face] that she had purchased. 
+
+Of the two, which candidate would you be most likely to choose (again, with all other factors being improbably equal)? Probably the person who appears to have put in some extra effort, without being over-the-top. Heuristics would almost demand that the second candidate is sensibly detail-oriented, has, or knows how to access, uncommon skill sets or resources, and demonstrates an appreciation for how others view her work. 
+
+So, if you might choose a candidate based on the attention to detail that they put forth on a C.V., might someone else not evaluate *your* work similarly? A little bit of good typography could make the difference. 
+
+Again, take a look at [Butterick's guide][1]. You might be surprised to learn that a [tab stop] is not when you've been cut off by the bartender, and that [widow and orphan control] is, well...not what it sounds like it is. 
+
+
+[^1]: DDG = [DuckDuckGo](http://duckduckgo.com); our favorite search engine.
+
+[What is Typography]: http://practicaltypography.com/what-is-typography.html
+[1]: http://practicaltypography.com/
+[LaTeX]: http://www.latex-project.org/ "LaTeX – A document preparation system"
+[custom Serif font-face]: http://www.myfonts.com/fonts/marksimonson/proxima-nova/
+[tab stop]: http://practicaltypography.com/tabs-and-tab-stops.html
+[widow and orphan control]: http://practicaltypography.com/widow-and-orphan-control.html
