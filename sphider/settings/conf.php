@@ -32,7 +32,7 @@ Logging settings
 ***********************/
 
 // Should log files be kept
-$keep_log			= 1;
+$keep_log			= 0;
 
 //Log directory, this should be readable and writable
 $log_dir	= 'log';
