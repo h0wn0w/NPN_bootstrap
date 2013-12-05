@@ -1,0 +1,9 @@
+Title:				Huntington’s Disease - Are Motor Deficits Accurate Clinical Benchmarks? 
+Author:				W. Howard Buddin Jr., Ph.D.
+Category:           Article
+Date:                   12/05/2013 
+Tags:                   Clinical, Diagnostics, Neuropathology, News, Practice
+
+Huntington’s Disease is famous for its familial lineage and choreoform movements. Clinical tests can discern the hallmark motor impairments, but absence of choreoform movements may not necessarily mean absence of the disease. A recent [multi-case study] reviews some of the challenges with clinical diagnostics of HD, and discusses the possibility of reliable detection well in advance of abject pathology. 
+
+[multi-case study]: http://currents.plos.org/hd/article/is-a-motor-criterion-essential-for-the-diagnosis-of-clinical-huntington-disease/
