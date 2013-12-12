@@ -1,0 +1,17 @@
+Title:				TextExpander Snippet Bundle for Neuropsychologists
+Author:				W. Howard Buddin Jr., Ph.D.
+Category:           Article
+Date:                   12/12/2013 
+Tags:                   Applications, Mac, Productivity, Report Writing
+
+I meant to post this a while ago, but for those of you interested, you can grab my TextExpander snippets for neuropsych report writing from GitHub. In case you missed it, these were prominently featured in two of our [screencasts](http://neuropsychnow.com/tags/Screencast).
+
+**The Normal Way:** [Download the .ZIP archive](https://github.com/h0wn0w/Neuropsych-Snippets/archive/master.zip) from GitHub. Once the download is complete, just use TextExpander's menu to open/import them. 
+
+**The Nerdy Way:** Clone the repo from GitHub. To do this, fire up your favorite command line tool and paste in this line:
+
+`git clone https://github.com/h0wn0w/Neuropsych-Snippets.git`
+
+Once that's finished, you're good to go for all future updates! Just run `git pull` or `git fetch` at your leisure, and update your TextExpander library as needed.
+
+Also, as 2013 draws to a close, so does the offer from Smile Software for 20% off a copy of TextExpander! Just visit their [products page](http://sites.fastspring.com/smile/product/catalog) and click on “Add to Cart” for TextExpander and enter the promo code NPNOW2013 in the “Update Coupon” field on the next page to get the discount.
