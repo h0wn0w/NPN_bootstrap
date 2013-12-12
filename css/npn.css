@@ -392,6 +392,20 @@ div.tags {
   margin-bottom: 2em;
 }
 
+/*------------------------------------*\
+    $Lists
+\*------------------------------------*/
+
+/**
+* Override some of the defaults
+*/
+
+.indent {
+  list-style-position: inside;
+}
+
+
+
 /* tables tables tables  - minified and hard to read css
 courtesy of [Brett Terpstra](http://www.brettterpstra.com). 
 The other stuff is from DataTables and me. 
