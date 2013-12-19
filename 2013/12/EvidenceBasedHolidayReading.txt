@@ -1,16 +1,14 @@
-Title:				Evidence-based Holiday Reading
-Author:				S. Marc Testa, Ph.D.
-Web:				http://neuropsychnow.com
-Date:                             12/18/13 
-Tags:                            evidence-based practice
+Title:	Evidence-based Holiday Reading
+Author:	S. Marc Testa, Ph.D.
+Date:	12/18/2013 
+Tags:	Evidence-based, Practice
 Content:	Article
-Base Header Level:        
 
-The holiday times offer a good respite from day-to-day neuropsychology practice. It is also a good opportunity to catch up on themes and topics  that are important to your own clinical practice.  As healthcare practices  are emphasizing quality and evidence-based practice, it seems important for neuropsychologist to understand how we can contribute. There are a number of articles that highlight this important point and are worth reviewing. To understand how all of this may be helpful to clinical practice, read through this ["Thought Experiment"](https://karen-postal.squarespace.com/thought-experiment) over at [Neuropsychology Tool Kit](http://neuropsychologytoolkit.com).
+The holiday times offer a good respite from day-to-day neuropsychology practice. It is also a good opportunity to catch up on themes and topics  that are important to your own clinical practice. As healthcare practices are emphasizing quality and evidence-based practice, it seems important for neuropsychologists to understand how we can contribute. There are a number of articles that highlight this important point and are worth reviewing. To understand how all of this may be helpful to clinical practice, read through this ["Thought Experiment"](https://karen-postal.squarespace.com/thought-experiment) over at [Neuropsychology Tool Kit](http://neuropsychologytoolkit.com).
 
- The first, is an [article](http://www.ncbi.nlm.nih.gov/pubmed/18821179) by Gordon Chelune that provides a very good overview of what an evidence-based neuropsychology report could entail and how  one could begin to track clinical outcomes in a manner that can demonstrate the value of neuropsychological services. ([Here](http://scholar.google.com/scholar?cites=16059754319465616780&amp;as_sdt=20000005&amp;sciodt=0,21&amp;hl=en) is a Google Scholar link that lists sources referencing this paper.
+The first is an [article](http://www.ncbi.nlm.nih.gov/pubmed/18821179) by Gordon Chelune that provides a very good overview of what an evidence-based neuropsychology report could entail and how one could begin to track clinical outcomes in a manner that can demonstrate the value of neuropsychological services. ([Here](http://scholar.google.com/scholar?cites=16059754319465616780&amp;as_sdt=20000005&amp;sciodt=0,21&amp;hl=en) is a Google Scholar link that lists sources referencing this paper.
  
-Two more recent articles from David Loring and Stephen Bowden are available in the latest article section of The Clinical Neuropsychologist. The [first](http://www.tandfonline.com/doi/abs/10.1080/13854046.2013.776636#.UrGtvJFdeao) reviews a method to implement a more evidenced-based approach and clinical practice that helps the clinician evaluate new research findings, improve research quality, and incorporate a way to evaluate the clinical impact of studies into professional development activities. The [second](http://dx.doi.org/10.1080/13854046.2012.762552) is an overview of the STROBE (STrengthening the Reporting of OBservational studies in Epidemiology) criteria and their relevance to the data reporting in neuropsychology research.
+Two more recent articles from David Loring and Stephen Bowden are available in the latest article section of The Clinical Neuropsychologist. The [first](http://www.tandfonline.com/doi/abs/10.1080/13854046.2013.776636#.UrGtvJFdeao) reviews a method to implement a more evidenced-based approach and clinical practice that helps the clinician evaluate new research findings, improve research quality, and incorporate a way to evaluate the clinical impact of studies into professional development activities. The [second](http://dx.doi.org/10.1080/13854046.2012.762552) is an overview of the [STROBE](http://www.strobe-statement.org/ "STROBE Statement: Home") (STrengthening the Reporting of OBservational studies in Epidemiology) criteria and their relevance to the data reporting in neuropsychology research.
 
 As Neuropsychology advocacy is becoming more and more important, we here at NeuroPsych Now will certainly be highlighting studies that demonstrate how neuropsychological assessments can decrease healthcare costs. 
  
