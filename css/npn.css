@@ -29,7 +29,7 @@ howard make css
 * body and main styles
 */
 body {
-  font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   padding-top: 80px;
   padding-left: 0;
   padding-right: 0; }
