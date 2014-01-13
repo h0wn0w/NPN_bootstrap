@@ -1,0 +1,9 @@
+Title:				IQ and Brain Structure
+Author:				W. Howard Buddin Jr., Ph.D.
+Category:           Article
+Date:                   01/11/2014 
+Tags:                   Neuroscience, News, Research
+
+Some interesting findings [here](http://www.ncbi.nlm.nih.gov/m/pubmed/24399044/) regarding IQ and genetics. The authors had a robust sample, too.
+
+>Replication was sought in two additional cohorts (N=670 and 2062). A meta-analytic P-value of 0.003 was found when these were combined with the CAGES consortium. The results suggest that genetic variation in the macromolecular machines formed by membrane-associated guanylate kinase (MAGUK) scaffold proteins and their interaction partners contributes to variation in intelligence.

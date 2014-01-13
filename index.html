@@ -9,12 +9,22 @@
 
     <script type="text/javascript" src="./sphider/include/js_suggest/SuggestFramework.js"></script>
     <script type="text/javascript">window.onload = initializeSuggestFramework;</script>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:400,700,500,600|News+Cycle' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:400,700,500,600|News+Cycle' rel='stylesheet' type='text/css'> -->
+    <script type="text/javascript" src="//use.typekit.net/zlu6vfv.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/css/jquery-ui.css" type="text/css" media="screen" />
+
+    <!-- <link href="/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/nncssjs/css/bootstrap.min.css" type="text/css" media="screen" />
+
+    <!-- <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/nncssjs/css/npn.css" type="text/css" media="screen" />
+
+    <!-- <link rel="stylesheet" href="/css/jquery-ui.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/nncssjs/css/jquery-ui.css" type="text/css" media="screen" />
+
+
     <!-- <link rel="stylesheet" href="/css/font-awesome.min.css">     -->
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="img/touch-icon-iphone.png">
@@ -35,17 +45,17 @@
       padding-top: 60px;
     }
 
-    #nn {
+    .nn {
       font-size: 4.429em;
       color: #fff;
     }
 
-    #knowledge {
+    .knowledge {
       font-size: 2.0em; 
       color:#FF7400;
     }
 
-    #ahead {
+    .ahead {
       font-size: 4.286em;
       color: #33CCCC;
     }
@@ -55,7 +65,7 @@
     }
 
     @media (max-width: 480px) {
-      #nn, #ahead {
+      .nn, .ahead {
         font-size: 3.2em;
       }
     }
@@ -132,8 +142,8 @@
           <div class="span8 offset1">
             <div id="home-header" >
               <div id="hometitle" class="introduction"> <!-- title distance from top -->
-                <h1 id="nn">NEUROPSYCH NOW</h1><h1 id="knowledge" class="muted" >knowledge and tools to keep you</h1>
-                <h1 id="ahead">AHEAD OF THE CURVE</h1>
+                <h1 class="nn">NEUROPSYCH NOW</h1><h1 class="knowledge" class="muted" >knowledge and tools to keep you</h1>
+                <h1 class="ahead">AHEAD OF THE CURVE</h1>
               </div>
             </div>
           </div>
