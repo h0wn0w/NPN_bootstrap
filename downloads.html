@@ -12,17 +12,17 @@
 <!-- The standard Neuropsych Now navbar for docs at root -->
 <!--#include virtual="${Base_URL}templates/navbar.html" -->
 <div class="container-fluid">
-  <div class="page-header">
-        <div class="row-fluid">
+  <div class="page-header row-fluid">
+        <!-- <div class="row-fluid"> -->
           <div class="span4">
-            <h1 style="color: red; text-align: center; font-size: 60px; line-height: 1.25em">Assessment Resources</h1>
+            <h1 style="color: red; text-align: center; line-height: 1.25em">Assessment Resources</h1>
           </div>
           <div class="span8">
             <p class="lead">This is a listing of Neuropsychology resources, many of which are <em>non-copyright protected</em> and are therefore free to distribute and use.</p><br> 
             <p class="lead">The categories are collapsed in order to make navigating the list a little easier. Just click (or tap for mobile users) on a category name to expand or collapse its list. </p><br>
             <p class="lead">Please note that many of these links will redirect you to a downloads page. The downloads may be in a zipped archive (.zip) format. If they do not automatically open after downloading, just double-click the .zip file and your computer should "unpack" the contents of the file.  </p>
           </div>
-        </div>
+        <!-- </div> -->
     </div>
   </div><!-- end top container -->
       
@@ -90,8 +90,7 @@
     <script src="./js/bootstrap.js"></script>
     <script src="./js/twitter-bootstrap-hover-dropdown.min.js"></script>
     <script>
-     // $('.down').collapse({toggle: true});
-     $('.down').collapse({toggle: true});
+     $('#down').collapse({toggle: true});
    </script>
   </body>
 </html>

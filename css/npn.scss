@@ -113,8 +113,10 @@ body {
 }
 
 #landingPage h2 {
-  font-weight: 300;
-  font-size: 18px;
+  font: {
+    weight: 300;
+    size: 18px;
+  }
 }
 
 .white {
@@ -165,7 +167,6 @@ body {
   background-color: #2C3340;
   padding: 15px 0 15px 0;
   text-align: center;
-  /*margin-top: 2%;*/
 }
 
 #container-accent h1 {
@@ -174,7 +175,6 @@ body {
 
 #container-accent h3 {
   font-size: 42px;
-  /*color: #FF4040;*/
   color: #CC2D14;   /*pulled this from NPN main on Kuler*/
   text-align: center;
 }
@@ -276,13 +276,13 @@ body {
 .container-hero-unit { margin-top:70px;}
 }   
 
-/* navbar: menu items and their dropdowns
-====================================================== */
+/*--------------------------------------*\
+    NAVBAR
+\*--------------------------------------*/
 
-.navbar-inverse .nav > li > a:hover {
-  /*color: rgb(181, 137, 0);
-  text-shadow: 0;*/
-}
+/*
+** : menu items and their dropdowns
+*/
 
 .navbar-inverse .brand:hover {
   text-shadow: none;
@@ -457,7 +457,7 @@ courtesy of [Brett Terpstra](http://www.brettterpstra.com).
 The other stuff is from DataTables and me.
 */
 
-table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:'News Cycle', sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:'News Cycle', sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:'News Cycle', sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:'News Cycle', sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:"proxima-nova", sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:"proxima-nova", sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:"proxima-nova", sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:"proxima-nova", sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
 
 
 /*Added for Neuropsych Now to give style and stuff to DataTables*/
@@ -557,7 +557,7 @@ input, textarea, .uneditable-input {
 ========================================= */    
 
 #articlebody h1 h2 h3 {
-  /*font-family: 'News Cycle', sans-serif;*/
+  /*font-family: "proxima-nova", sans-serif;*/
   /*font-family: "proxima-nova";*/
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -692,8 +692,8 @@ input[type="radio"] {
   }
 
   .container-fluid {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .container-narrow {

@@ -121,15 +121,13 @@ body {
 #container-accent {
   background-color: #2C3340;
   padding: 15px 0 15px 0;
-  text-align: center;
-  /*margin-top: 2%;*/ }
+  text-align: center; }
 
 #container-accent h1 {
   font-family: 'Lato', sans-serif; }
 
 #container-accent h3 {
   font-size: 42px;
-  /*color: #FF4040;*/
   color: #CC2D14;
   /*pulled this from NPN main on Kuler*/
   text-align: center; }
@@ -206,12 +204,12 @@ body {
 
   .container-hero-unit {
     margin-top: 70px; } }
-/* navbar: menu items and their dropdowns
-====================================================== */
-.navbar-inverse .nav > li > a:hover {
-  /*color: rgb(181, 137, 0);
-  text-shadow: 0;*/ }
-
+/*--------------------------------------*\
+    NAVBAR
+\*--------------------------------------*/
+/*
+** : menu items and their dropdowns
+*/
 .navbar-inverse .brand:hover {
   text-shadow: none; }
 
@@ -373,7 +371,7 @@ table {
 
 table caption, table col, table colgroup, table table, table tbody, table td, table tfoot, table th, table thead, table tr {
   border-spacing: 0;
-  font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   font-size: 24px; }
 
@@ -382,7 +380,7 @@ table caption {
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   background: rgba(22, 22, 22, 0.75);
   color: #EEE;
   padding: 8px 4px;
@@ -413,7 +411,7 @@ table th, table td {
 
 table th {
   padding-top: 9px;
-  font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 14px;
   font-weight: 700 !important;
   text-transform: uppercase;
@@ -423,7 +421,7 @@ table th {
 table td {
   vertical-align: top;
   border-top: 1px solid #ddd;
-  font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 14px !important; }
 
 table tbody th {
@@ -546,7 +544,7 @@ input, textarea, .uneditable-input {
 /* articles pages - head, header, foot
 ========================================= */
 #articlebody h1 h2 h3 {
-  /*font-family: 'News Cycle', sans-serif;*/
+  /*font-family: "proxima-nova", sans-serif;*/
   /*font-family: "proxima-nova";*/
   font-family: 'Roboto Condensed', sans-serif; }
 
@@ -655,8 +653,8 @@ input[type="radio"] {
     padding-left: 0px; }
 
   .container-fluid {
-    padding-right: 20px;
-    padding-left: 20px; }
+    padding-right: 0px;
+    padding-left: 0px; }
 
   .container-narrow {
     padding-right: 10px;
