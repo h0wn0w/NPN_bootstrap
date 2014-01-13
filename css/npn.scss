@@ -137,14 +137,14 @@ body {
 }
 
 #hometitle h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   line-height: 1.5em;
   /*color: #33CCCC;*/
   /*
 }
 
 #hometitle h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   color: #BF3030;
   text-align: center;
 }
@@ -153,7 +153,7 @@ body {
   margin-top: 210px;
   text-align: right;
   padding-right: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-size: 24px;
   line-height: 1.2em;
   color: #BF3030;
@@ -170,7 +170,7 @@ body {
 }
 
 #container-accent h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: "proxima-nova", sans-serif;
 }
 
 #container-accent h3 {
@@ -557,15 +557,15 @@ input, textarea, .uneditable-input {
 ========================================= */    
 
 #articlebody h1 h2 h3 {
-  /*font-family: "proxima-nova", sans-serif;*/
+  font-family: "proxima-nova", sans-serif;
   /*font-family: "proxima-nova";*/
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
 }
 
 #articlebody,
 #articlebody p {
   /*font-family: 'Lora', serif;*/
-  font-family: 'Roboto', sans-serif;
+  font-family: "proxima-nova", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 1.7em;

@@ -9,7 +9,7 @@
     Auteur, iOS Tough Guy, Co-Designer: S. Marc Testa, Ph.D.					
     Twitter: @frontalobes
 
-# THANKS
+# THANKS/MERÇI/GRACIAS/DANKE/GRAZIE
 
     MultiMarkdown CMS: Fletcher Penney, M.D.
     Twitter: @MultiMarkdown
