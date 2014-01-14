@@ -136,15 +136,15 @@ body {
   margin-top: 80px;
 }
 
-#hometitle h1 {
+#hometitle h1, #hometitle h3, #hometitle h4 {
   font-family: "proxima-nova", sans-serif;
+}
+
+#hometitle h1 {
   line-height: 1.5em;
-  /*color: #33CCCC;*/
-  /*
 }
 
 #hometitle h3 {
-  font-family: "proxima-nova", sans-serif;
   color: #BF3030;
   text-align: center;
 }
@@ -153,7 +153,6 @@ body {
   margin-top: 210px;
   text-align: right;
   padding-right: 20px;
-  font-family: "proxima-nova", sans-serif;
   font-size: 24px;
   line-height: 1.2em;
   color: #BF3030;
@@ -170,7 +169,7 @@ body {
 }
 
 #container-accent h1 {
-  font-family: "proxima-nova", sans-serif;
+  // font-family: "proxima-nova", sans-serif;
 }
 
 #container-accent h3 {
