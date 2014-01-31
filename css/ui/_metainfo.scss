@@ -7,6 +7,7 @@
 */
 
 @import "_boxes";
+@import "_spacing";
 
 $base-font-size: 16px;
 $tall: 2em;
@@ -17,13 +18,13 @@ $tall: 2em;
 	margin: 0 auto;
 }
 
-.author, .date {
-	font-weight: bold;
-}
+// .author, .date {
+// 	font-weight: bold;
+// }
 
 .tags {
 	padding-bottom: $tall;
-	font-weight: bold;
+	// font-weight: bold;
 	> a {
 		padding: 0.2em;
 		color: $white-bright;

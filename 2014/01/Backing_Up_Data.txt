@@ -1,0 +1,66 @@
+Title:		Data Backups, Part I
+Author:		W. Howard Buddin, Jr., Ph.D.
+Category:   Article
+Date:		01/30/2014  
+Tags:   	Security, Tech 
+
+
+### A Very Short Parable
+
+There are two types of computer users: those who *have* lost data, and those who *will* lose data. As such, this point cannot be overemphasized: **back up your data**. 
+
+Inspiring, right? Of course; but, before you rush away to start backing up all of your files and/or drives, you'll want to read just a little more.
+
+## The Basics
+
+The first step in setting up your backup solution is to get squared away with the proper hardware. In this case, a Hard Disk Drive (HDD) is generally the first choice. HDD prices began to drop a couple of years ago - and then they plummeted. There is no shortage of sites where a 1 TeraByte (TB) HDD can be found for $100 or less, like [right here][1]. A TeraByte of storage is enough to hold a lot of reports and outputs from scoring programs. Like **a lot** a lot.  
+
+On top of dirt-cheap storage, both the Windows and Mac operating systems (OS) come with applications built in to the OS that automate the backup process for you. Simply plug in your external drive, and it does the work for you.
+
+Developing your own air-tight backup plan is easier than you might think. Discussing all of the different backup configurations is far beyond this post, partly because of the fact that the "correct" strategy is user-dependent. Never fear: the Internet is [flush with examples][2] of how to configure a backup plan that suits your needs.
+
+
+## Beyond Family Pictures
+
+Clinicians, researchers, students -- everyone has their "most important" files, such as patient reports. There are other important files to backup, though, like scoring or testing programs that can collectively cost thousands of dollars. Things get interesting when (not *if*) one of the programs you rely on goes down with your computer. 
+
+The companies behind those programs are (rightly) going to protect their interests, and there can be some pretty strict limits regarding (re)installation of their wares. You may need to call the developer/publisher's customer service. They may or may not be helpful or friendly. The software developer may or may not allow a *gratis* re-installation of the software, and you might even need to purchase *another* license key at full cost. 
+
+Your mileage may vary. Having one or more backups helps to protect you against this.
+
+## Best-Case Scenario
+
+Your computer just died, quite unexpectedly. Even if things go well with manually re-installing all of your software, the best case scenario is that you've lost *hours* of time. Easily. If you are *sans* backups, the best-case scenario, following a computer crash or other failure, assumes some or all of the following: 
+
+1. You were able to successfully diagnose and correct the reason for the computer's failure/crash yourself
+2. You were able to successfully re-install your computer's operating system
+3. You were able to update the base operating system to the most recent version, with all necessary drivers and security patches
+4. You are able to configure network settings to connect to the Internet
+5. You have all installation discs/downloads (in the form of disk images)
+6. You have necessary license keys
+7. The developer of the software for *Application X* has not blocked a re-install or has permitted a re-install with the same key
+
+Good Times.  
+
+## Backup Media
+
+Backup strategies begin with the media, or type of device on which you'll be storing your data. Like all other components of a good strategy, what you'll use is determined by what and how often you'll be backing up your data. Here is a list of the most common types. 
+
+1. **Optical Discs and USB** - these types of drives can serve to store relatively small backups. Such backups will likely consist of your most important files, photos, videos, passwords, etc. 
+
+	* **Optical discs** are great for archival purposes. Some types can be written only once, whereas others can be rewritten, which allows for updating of contents. Two pitfalls associated with this medium are (1) risk of scratching and (2) degradation of the aluminum (or, in some cases, gold) surface of the disc over time. If you plan on archiving to a disc and storing it away in a case, neither of these should be of any real, immediate concern. 
+	* **USB drives** are more flexible than optical media, in that they can be written to as many times and as often as you'd like. They are more susceptible to the hazards of day-to-day life, though, as you're more likely to tote them around with you. Shortcomings include broken connectors, accidental file erasure (by you), and loss of the drive itself. 
+
+2. **External and Networked HDDs and Solid State Drives (SSD)**
+	* **HDDs** come in an immense array of storage capacities, and generally are one of two form-factors: (1) 3.5" ("desktop" size) or (2) 2.5" ("laptop" size). The smaller, laptop form factor may come in a case, and is generally "portable." Such a drive affords the portability of a USB drive, but offers many times more storage. 
+	* HDDs can be attached directly by cable or indirectly by being "wired in" to a network (referred to as Network Attached Storage or [NAS][3]). 
+	* **SDDs** are a newer kind of drive that relies on flash memory - basically chips and circuit boards - rather than the traditional spinning platters that are the main innards of HDDs. They are smaller, use less power/generate less heat, and have far, far faster read and write speeds. The cost of these drives has come down dramatically in the past two years, but they are still a more expensive option as compared to HDDs.
+
+This is just a very brief overview of data backup strategies. We hope you'll take some time to explore these various backup options, if you haven't already, and get one implemented as soon as possible. After all, you *are* going to lose data at some point, but you absolutely *can* reduce the sting.
+
+The next article in this series will cover the basics of data backup strategies to help you further refine the *how, when, what, and where* elements. Stay tuned!
+
+
+[1]:	http://www.newegg.com/Product/Product.aspx?Item=N82E16822178245
+[2]:	https://duckduckgo.com/?q=computer+backup+strategies
+[3]:	https://en.wikipedia.org/wiki/Network-attached_storage
