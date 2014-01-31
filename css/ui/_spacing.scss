@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $SPACING
+\*------------------------------------*/
+
+/**
+* This provides for tweaking spaces like padding and margins
+*/
+
+// @import "_main-colors";
+// @import "_typography";
+
+$tall-regular: 1.618em;
+$tall: 2em;
+$taller: $tall*1.5;
+$tallest: $tall*2; 
+
+body {
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 25%
+}
+
+.tall {
+	padding: $tall 1.5em; 
+}
+
+.taller {
+	padding: $taller;
+}
+
+.tallest {
+	width: 80%;
+	padding: $tallest;
+}
+
+.tall-narrow {
+	padding: $tall 0em;
+}
