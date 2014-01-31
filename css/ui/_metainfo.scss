@@ -6,7 +6,10 @@
 * Set options exclusive to meta info, such as tags and authors
 */
 
-// @import "_spacing";
+@import "_boxes";
+
+$base-font-size: 16px;
+$tall: 2em;
 
 .article {
 	font-size: $base-font-size +2;
