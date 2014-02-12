@@ -9,11 +9,11 @@ Here at NeuropsychNow, one of our goals is to provide our readers with a way to 
 
 The figure (above) speaks for itself. However, suppose you developed a test to detect the presence of some condition (e.g., malingering, dementia, PTSD, etc.). Of course, you would want to know how well the test can discriminate between those with and without the condition of interest (COI). You would also want to know the rate of false or incorrect classification. The statistical terms used for this type of information include the following:
 
-##Accuracy
+## Accuracy
 - **Sensitivity** - the proportion of individuals with the COI who are correctly detected by the test.
 - **Specificity** - the proportion of individuals who are correctly identified as not having the COI.
 
-##Inaccuracy
+## Inaccuracy
 - **False positive** - the proportion of individuals who are misclassified as having the COI when they don't.
 - **False negative** - the proportion of individuals who are misclassified as ***NOT*** having the COI when they really do.
 

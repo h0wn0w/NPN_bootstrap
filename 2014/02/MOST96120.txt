@@ -1,0 +1,50 @@
+Title: The Memory Orientation Screening Test-96120 (MOST-96120) for iPad
+Author: W. Howard Buddin Jr., Ph.D.
+Date:
+Tags: Assessment, Practice
+
+![](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/MOST92160small.png)
+
+The [Memory Orientation Screening Test-96120][3] (MOST-96120) and the [Memory Orientation Screening Test][2] (MOST) are iPad-administered memory and executive function screening measures created by Mitchell Clionosky, Ph.D., ABPP-CN and Emilymarie Clionosky, M.D.[^2] While the name appears to be a dead giveaway for what these tests measure, more descriptive, perhaps, is the acronym, re-worked: 
+
+* **M**emory of three words
+* **O**rientation to year, season, month, date, day and time
+* **S**equential memory of 12 common household items
+* **T**ime using a pre-drawn clock outline to assess organization and abstraction
+
+The MOST can be purchased in one of two variations – either the [MOST][2] ($49.99) or the [MOST-96120][3] ($9.99). The primary differences between the two are that the MOST is an unlimited use version that offers a clinician report as its output, and the MOST-96120 is a pay-per-administration version that offers both a clinician *and* a family report. More on those reports later. As for the "96120" part of the name, the developers note that their test is:
+> ...configured to meet CMS requirements for “neuropsychological testing administered by a computer with qualified health care professional interpretation and report,” billable under CPT 96120.
+
+[^2]: See the [developer's Web site][1] to learn more about these measures, including references to peer-reviewed articles
+
+## Everything Old Is New Again ##
+
+If you have ever administered the MMSE, SLUMS, or the MoCA, then you are familiar with this testing paradigm (and practically the test itself). Experienced clinicians should have no problem administering the MOST [^name] after just one practice run-through. As stated on the [Web site][1], clinicians can 
+>"...administer and score the MOST in 5 minutes or less..." 
+
+The MOST is not just another bedside screening knock-off, though, as it ships with some unique qualities that set it apart from similar measures. 
+
+First, the length of administration time is roughly five minutes. This makes is a briefer measure as compared to the other, aforementioned screeners, but it still yields a final score of (up to) 29 points, which is similar to the MMSE, SLUMS, and MoCA. Since the MOST primarily measures memory, though, the points are less spread around and shared between the various domains. This means it can potentially capture more of the statistical variance associated with its target pathologies.  
+
+Speaking of domains, the MOST has what at first appeared to be a picture naming task. I contacted Dr. Clionosky about this, curious if there were plans to expand its use as a screener for expressive language problems. The point of this section, as he explained, was to serve as a visual learning task; the pictures were just the visual stimuli component, and not a naming task, *per se*. Dr. Clionosky's reply was: 
+
+> "Sequential memory will pick up naming problems, but not very subtle ones. So, by the time you get to it, you probably have a pretty good idea that there is a language disorder. We designed it to be easy rather than linguistically challenging so that it would be a more distinct test of memory that is disguised as a naming test."
+
+This makes good sense, clinically, and keeps the MOST focused to its core task.
+
+The second unique feature of the MOST is really a two-parter: it generates an on-the-fly report that can be custom-tailored for (1) other healthcare practitioners or (2) the patient's family. Basically, either version of the report contains a summary of the patient's performance, with further discussion and/or recommendations as appropriate for the intended recipient(s). Additionally, both versions of the report can be generated from a single administration, which is nice. For those working in a hospital setting where quick turnaround times are important, this can be a true asset, as it allows conferral of results to other members of a multi-disciplinary team and/or gives a family something concrete, on the spot. 
+
+## Summary ##
+
+The MOST is a validated, easy to administer screener that can be a useful addition to your testing arsenal. Clinicians working on e.g., inpatient geriatric units will find the MOST particularly useful with its almost immediate scoring and report generation features. As a bonus, the test looks and feels like a "native" iPad app, and not something that's been rushed and awkwardly forced onto the platform for the sake of itself. If you are in need of a focused screening measure for day-to-day use, especially one that you can take room-to-room without any additional materials, then the MOST is definitely worth a close look. 
+
+### Disclosure ###
+
+Dr. Mitchell Clionosky provided Dr. Buddin and Dr. Testa each one license for the [MOST-96120][4] app itself with one administration. Currently, single administrations for the MOST-96120 (available via in-app-purchase) are priced at $9.99, but are available to be purchased in discounted blocks, ranging from 10 to 50 administrations.
+
+[1]:	http://www.mosttest.com/
+[2]:	https://itunes.apple.com/us/app/memory-orientation-screening/id489970004?mt=8
+[3]:	https://itunes.apple.com/us/app/most-96120-memory-orientation/id531744571?mt=8
+[4]:	https://itunes.apple.com/us/app/most-96120-memory-orientation/id531744571?mt=8
+
+[^name]: From here forward, "MOST" refers to both versions, collectively, unless otherwise noted
