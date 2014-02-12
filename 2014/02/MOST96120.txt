@@ -5,7 +5,7 @@ Tags: Assessment, Clinical, Practice, Tech
 
 ![](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/MOST92160small.png)
 
-The [Memory Orientation Screening Test-96120][3] (MOST-96120) and the [Memory Orientation Screening Test][2] (MOST) are iPad-administered memory and executive function screening measures created by Mitchell Clionosky, Ph.D., ABPP-CN and Emilymarie Clionosky, M.D.[^2] While the name appears to be a dead giveaway for what these tests measure, more descriptive, perhaps, is the acronym, re-worked: 
+The [Memory Orientation Screening Test-96120][3] (MOST-96120) and the [Memory Orientation Screening Test][2] (MOST) are iPad-administered memory and executive function screening measures created by Mitchell Clionsky, Ph.D., ABPP-CN and Emilymarie Clionsky, M.D.[^2] While the name appears to be a dead giveaway for what these tests measure, more descriptive, perhaps, is the acronym, re-worked: 
 
 * **M**emory of three words
 * **O**rientation to year, season, month, date, day and time
@@ -26,7 +26,7 @@ The MOST is not just another bedside screening knock-off, though, as it ships wi
 
 First, the length of administration time is roughly five minutes. This makes is a briefer measure as compared to the other, aforementioned screeners, but it still yields a final score of (up to) 29 points, which is similar to the MMSE, SLUMS, and MoCA. Since the MOST primarily measures memory, though, the points are less spread around and shared between the various domains. This means it can potentially capture more of the statistical variance associated with its target pathologies.  
 
-Speaking of domains, the MOST has what at first appeared to be a picture naming task. I contacted Dr. Clionosky about this, curious if there were plans to expand its use as a screener for expressive language problems. The point of this section, as he explained, was to serve as a visual learning task; the pictures were just the visual stimuli component, and not a naming task, *per se*. Dr. Clionosky's reply was: 
+Speaking of domains, the MOST has what at first appeared to be a picture naming task. I contacted Dr. Clionsky about this, curious if there were plans to expand its use as a screener for expressive language problems. The point of this section, as he explained, was to serve as a visual learning task; the pictures were just the visual stimuli component, and not a naming task, *per se*. Dr. Clionsky's reply was: 
 
 > "Sequential memory will pick up naming problems, but not very subtle ones. So, by the time you get to it, you probably have a pretty good idea that there is a language disorder. We designed it to be easy rather than linguistically challenging so that it would be a more distinct test of memory that is disguised as a naming test."
 
@@ -40,7 +40,7 @@ The MOST is a validated, easy to administer screener that can be a useful additi
 
 ### Disclosure ###
 
-Dr. Mitchell Clionosky provided Dr. Buddin and Dr. Testa each one license for the [MOST-96120][4] app itself with one administration. Currently, single administrations for the MOST-96120 (available via in-app-purchase) are priced at $9.99, but are available to be purchased in discounted blocks, ranging from 10 to 50 administrations.
+Dr. Mitchell Clionsky provided Dr. Buddin and Dr. Testa each one license for the [MOST-96120][4] app itself with one administration. Currently, single administrations for the MOST-96120 (available via in-app-purchase) are priced at $9.99, but are available to be purchased in discounted blocks, ranging from 10 to 50 administrations.
 
 [1]:	http://www.mosttest.com/
 [2]:	https://itunes.apple.com/us/app/memory-orientation-screening/id489970004?mt=8
