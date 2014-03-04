@@ -1,0 +1,38 @@
+Title:	How To Use Your Mobile Device To Encrypt And Transfer A Dictation
+Author:	S. Marc Testa, PhD
+Category:	Article
+Date:	03/04/2014 
+Tags:	Dictation, Mobile, Reports                   
+
+
+In one of our [previous posts][1], the utility of an app called [Dictamus][2] (since renamed to "Dictate + Connect") was discussed. This app is an excellent way to generate a clear audio file that DragonDictate can transcribe into text. In addition, Dictate + Connect can export an encrypted version of an audio file to be processed on a PC. Potential solutions for exporting a file from Dictate + Connect app to a computer include uploading to Dropbox, email, or connecting directly to a desktop or laptop machine. There is, however, another very secure way to export encrypted audio files: [Transporter][3].
+
+Transporter is a storage device that can be accessed from mobile and desktop devices. It works just like DropBox, but the storage takes place on your own home or office network. Importantly, file transfer is secure[^ftnote1]. 
+
+## Dictate + Connect with Transporter
+
+iOS and Android apps are available that allow youto access Transporter on your mobile device. The presence of the mobile app makes it possible to transfer an audio file from Dictate + Connect to the transporter device.
+
+Here is how to do it:
+
+1. Dictate a case.
+2. Choose "Open in app".
+3. Wait for encryption to occur (which you need to enable in Dictate + Connect settings).
+4. Once encryption is complete, select the Transporter app.
+5. Follow the dialogue and save to the folder of your choice.
+6. The audio file will then show up on your Transporter desktop window (which means it is on your Transporter device in your home or office hard drive.)
+7. Once the file is on your desktop or laptop, run through Dragon to be transcribed. 
+
+![][Open In App]
+
+This workflow offers a very easy and secure way to dictate and transfer patient data in manner that is HIPAA compliant. The audio file is encrypted, the transfer is secure, and the file is saved on a hard drive that exists in your home or office.
+
+[^ftnote1]: Transporter uses industry-standard AES 256-bit encryption for communication among Transporter devices and their clients, which is the same technology that banks use. Unique private keys reside on the individual Transporter units, such that even Connected Data [the company that makes transporter] does not have access to them. The Transporter Desktop apps and Transporter Downloader apps all use this encryption for items in transit. For communication with Connected Data web services, we use Secure Sockets Layer (SSL). 
+
+[1]: http://neuropsychnow.com/2013/08/TranscriptionPeriod "Transcription Period"
+
+[2]: http://www.dictate-connect.com/ "Dictate + Connect"
+
+[3]: http://www.filetransporter.com/ "Your Own Unlimited Private Cloud for $99. No Monthly Fees. | Transporter"
+
+[Open In App]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/openInApp.jpg width=200px
