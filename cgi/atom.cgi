@@ -36,7 +36,7 @@ my $feed = XML::Atom::SimpleFeed->new(
 	title	=> "$host",
 	link	=> "http://$host$ENV{Base_URL}/",
 	link    => { rel => 'self', href => "http://$host$ENV{Base_URL}/atom.xml", },
-	author	=> 'MultiMarkdown CMS',
+	author	=> 'Neuropsych Now',
 );
 
 local $/;
