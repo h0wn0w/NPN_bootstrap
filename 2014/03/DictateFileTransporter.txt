@@ -1,6 +1,7 @@
 Title:	How To Use Your Mobile Device To Encrypt And Transfer A Dictation
 Author:	S. Marc Testa, PhD
-Date:	02/26/14 
+Category:	Article
+Date:	02/26/2014 
 Tags:	Dictation, Mobile, Reports                   
 
 
@@ -24,7 +25,6 @@ Here is how to do it:
 
 ![][Open In App]
 
-
 This workflow offers a very easy and secure way to dictate and transfer patient data in manner that is HIPAA compliant. The audio file is encrypted, the transfer is secure, and the file is saved on a hard drive that exists in your home or office.
 
 [^ftnote1]: Transporter uses industry-standard AES 256-bit encryption for communication among Transporter devices and their clients, which is the same technology that banks use. Unique private keys reside on the individual Transporter units, such that even Connected Data [the company that makes transporter] does not have access to them. The Transporter Desktop apps and Transporter Downloader apps all use this encryption for items in transit. For communication with Connected Data web services, we use Secure Sockets Layer (SSL). 
@@ -35,4 +35,4 @@ This workflow offers a very easy and secure way to dictate and transfer patient 
 
 [3]: http://www.filetransporter.com/ "Your Own Unlimited Private Cloud for $99. No Monthly Fees. | Transporter"
 
-[Open In App]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/openInApp.jpg height=auto  width=20em
+[Open In App]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/openInApp.jpg width=200px
