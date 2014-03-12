@@ -1,0 +1,41 @@
+Title:	Teaching Statistics With Dance
+Author:	W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.
+Category:	Article
+Date:	03/12/2014
+Tags:	News, Statistics
+
+## A Normative Phenomenon 
+
+Statistics courses are a trial to be endured for most graduate students. They are a source of anxiety, and means to help students overcome this anxiety - and to help professors teach this topic more effectively - have been the source of some research (Pan & Tang, 2004).
+
+## An Unorthodox Approach
+
+>Writing about music is like dancing about architecture. - Martin Mull
+
+Once one "gets" statistics, the rules, axioms, and assumptions that hamstring students seem to fall away. What remains are the overarching concepts that allow one to see statistical concepts and approaches in a much more holistic way. [^1] Unfortunately, you can't teach someone to "get it." 
+
+For all the pedagogical approaches, surely no one has tried this: using *dance* to teach statistical concepts.[^2] Two individuals, [Lucy Irving of Middlesex University][6007-001] and [Andy Field of the University of Sussex][6007-002], did just that, though, by creating a series of short videos featuring modern dancers. The dancers choreographically created visual representations of four familiar, and incredibly important, fundamental statistical concepts. If you have twenty minutes or so, you owe it to yourself to give them a viewing. Moreover, for any of you stats professors and/or TAs out there, these are a *must*.
+
+[6007-001]: http://www.mdx.ac.uk/aboutus/staffdirectory/Lucy_Irving.aspx "Lucy Irving"
+[6007-002]: http://www.sussex.ac.uk/profiles/9846 "Prof Andy Field : Staff profiles : University of Sussex"
+
+Here are links to each of the four videos:
+
+### [Sampling and Standard Error](https://www.youtube.com/watch?v=5fGu8hvdZ6s) ###
+
+### [Correlation](http://youtu.be/VFjaBh12C6s) ###
+
+### [Frequency Distributions](http://youtu.be/dr1DynUzjq0) ###
+
+### [Statistical Variance](http://youtu.be/pGfwj4GrUlA) ###
+
+
+***
+
+## References ##
+
+Pan, W. & Tang, M. (2004). Examining the effectiveness of innovative instructional methods on reducing statistics anxiety for graduate students in the social sciences. *Journal of Instructional psychology, 31*(2), 149-159. 
+
+[^1]: To be fair, this is true for just about anything, not just statistics.
+
+[^2]: Now the above quote makes a little more sense!
