@@ -1,0 +1,12 @@
+Title:				Plain Text Data Table Automation for EMRs
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+Date:                10/07/13 
+Tags:                excel, report writing, data tables, automation      
+
+Electronic medical records (EMR) have been used at various institutions for quite some time, but are becoming more prevalent. The VA hospital has been at the forefront of this movement. The attached spreadsheet was developed to generate a  formatted data table that could be used in the CPRS, the default EMR at the VA. Though it has not been used outside of CPRS, it is likely that the data table created by this spreadsheet can be used in most electronic medical records.
+
+This particular [spreadsheet] generates a plaintext file using the native Windows application "Notepad.exe." Over time, a Mac OS version will be developed. This spreadsheet captures data calculated by the Calibrated Neuropsychological Normative System's Software Portfolio ([CNNS-SP]) and also has the capability of incorporating clinician-entered PAI data. There are macros embedded into the spreadsheet that can be viewed by going to `Tools> Macros`.
+
+[spreadsheet]: LINK???
+[CNNS-SP]: http://www4.parinc.com/Products/Product.aspx?ProductID=CNNS
