@@ -1,0 +1,28 @@
+﻿Title:      A Gallery of Neuropsychological Session Art
+Author:     W. Howard Buddin Jr., Ph.D.
+Category:   Article
+Date:       03/28/2014 
+Tags:       Clinical, Mobile, Practice
+
+Recently, we have started working on a few articles that will cover existing and emerging hardware and apps that can provide some degree of enhancement/rehabilitation to individuals with typical and atypical neurocognitive trajectories. In anticipation of these articles, it seemed like a good idea to provide a quick example of how a readily-available app can be used in everyday clinical practice. 
+
+I frequently use an app called [Penultimate](https://itunes.apple.com/cz/app/penultimate/id354098826?mt=8) for both feedback psychoeducation. I like it for these and other purposes, and have received positive feedback from patients. Below are some examples, drawn (literally and figuratively) from clinical cases. [^1]
+I'll stop here.
+
+![\*Scores greater than 50th percentile\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bellRed.png)
+
+![\*Clustering of Abilities\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bellCluster.png)
+
+![\*Potential Mood Variations\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bipolar.png)
+
+![\*Return to Work\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_returnWork-r.png)
+
+![\*Speech Components\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_speech.png)
+
+![\*Cognitive Errors\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_thoughts.png)
+
+![\*Yerkes-Dodson\*](https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_ydc.png)
+
+[^1]: None of the information represents or can be tied to any PHI/PII. 
+
+<!-- infovole.com Textkraft Markdown - DO _NOT_ REMOVE! -->
