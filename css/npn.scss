@@ -33,14 +33,14 @@ $radius: 8px;
 // $width: 70em;
 
 @mixin rounded($vert, $horz, $radius) {
-  border: {
-    style: solid;
-    width: $size;
-    radius: $radius;
-    #{$vert}#{$horz}-radius: $radius;
-  }
-  -moz-border-radius-#{$vert}#{$horz}: $radius;
-  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+	-webkit-border-#{$vert}-#{$horz}-radius: $radius;
+	   -moz-border-radius-#{$vert}#{$horz}: $radius;
+			 border: {
+				style: solid;
+				width: $size;
+				radius: $radius;
+				#{$vert}#{$horz}-radius: $radius;
+			}
 }
 
 /*------------------------------------*\
