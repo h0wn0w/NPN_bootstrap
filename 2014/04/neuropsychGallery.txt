@@ -1,0 +1,44 @@
+Title:      A Gallery of Neuropsychological Session Art
+Author:     W. Howard Buddin Jr., Ph.D.
+Category:   Article
+Date:       04/02/2014
+Tags:       Clinical, Mobile, Practice
+
+We have recently started working on a few articles that will cover existing and emerging hardware and apps that can provide some degree of enhancement/rehabilitation to individuals with typical and atypical neurocognitive trajectories. In anticipation of these articles, it seemed like a good idea to provide a quick example of how a readily-available app can be used in everyday clinical practice. 
+
+I frequently use [Penultimate](https://itunes.apple.com/cz/app/penultimate/id354098826?mt=8) for both feedback psychoeducation. This application provides a blank slate that, in combination with a stylus [^1], affords free-form writing or drawing. Below are some examples, drawn (literally and figuratively) from clinical cases, [^2] of Penultimate in action.
+
+![*Scores greater than 50th percentile*][]
+
+![*Clustering of Abilities*]
+
+![*Potential Mood Variations*]
+
+![*Return to Work*]
+
+![*Speech Components*]
+
+![*Cognitive Errors*]
+
+![*Yerkes-Dodson*]
+
+
+
+[*Scores greater than 50th percentile*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bellRed.png "Scores Greater than 50th percentile" height=400px width=400px
+
+[*Clustering of Abilities*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bellCluster.png "Clustering of Abilities" height=400px width=400px
+
+[*Potential Mood Variations*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_bipolar.png "Potential Mood Variations" height=400px width=400px
+
+[*Return to Work*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_returnWork-r.png "Return to Work" height=400px width=400px
+
+[*Speech Components*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_speech.png "Speech Components" height=400px width=400px
+
+[*Cognitive Errors*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_thoughts.png "Cognitive Errors" height=400px width=400px
+
+[*Yerkes-Dodson*]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/npn_ydc.png "Yerkes-Dodson" height=400px width=400px
+
+
+[^1]: Not required.
+
+[^2]: None of the information represents or can be tied to any PHI/PII. 
