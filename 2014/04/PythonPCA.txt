@@ -4,7 +4,6 @@ Category:		Article
 Date:			04/18/2014
 Tags:			News, Statistics
 
-Principal Components Analysis with Python
 
 Python is a popular scripting language with myriad applications, including running statistical tests. Broadly, the benefit of using a scripting language [^1] to run your stats is that the script can be (re)used across multiple projects, assuming that you want to run, e.g., a T-Test over and over, but with cases unique to each individual project. In other words, it's a predefined code block that only requires you to input cases, variable types, etc. 
 
