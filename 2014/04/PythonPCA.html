@@ -1,0 +1,68 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	
+	<title>Principal Components Analysis with Python</title>
+	<meta name="author" content="W. Howard Buddin Jr., Ph.D.">
+	<meta name="category" content="Article">
+	<meta name="date" content="04/18/2014">
+	<meta name="tags" content="News, Statistics">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Principal Components Analysis with Python</h1>
+<div class="author">Written By: W. Howard Buddin Jr., Ph.D.</div>
+<div class="date">Published On: 04/18/2014</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
+
+<p>Principal Components Analysis with Python</p>
+
+<p>Python is a popular scripting language with myriad applications, including running statistical tests. Broadly, the benefit of using a scripting language <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a> to run your stats is that the script can be (re)used across multiple projects, assuming that you want to run, e.g., a T-Test over and over, but with cases unique to each individual project. In other words, it&#8217;s a predefined code block that only requires you to input cases, variable types, etc. </p>
+
+<p>You may or may not know that SPSS can utilize the power of Python&#8217;s scripting capabilities to run any of its tests. As an example, I use the following to get descriptive statistics for scalar and nominal variables in just about every research project I&#8217;ve worked on for the past few years: </p>
+
+<pre><code>*for scale variables. 
+
+BEGIN PROGRAM PYTHON. 
+import spss 
+string1="DESCRIPTIVES VARIABLES=" 
+N=spss.GetVariableCount() 
+scaleVarList=[]
+for i in xrange(N): 
+    if spss.GetVariableMeasurementLevel(i)=='scale':
+        scaleVarList.append(spss.GetVariableName(i)) 
+string2="."
+spss.Submit([string1, ' '.join(scaleVarList), string2]) 
+END PROGRAM.
+
+*Get frequencies for nominal variables. 
+
+BEGIN PROGRAM PYTHON. 
+import spss 
+string1="FREQUENCIES VARIABLES=" 
+N=spss.GetVariableCount() 
+nominalVarList=[]
+for i in xrange(N): 
+    if spss.GetVariableMeasurementLevel(i)=='nominal':
+        nominalVarList.append(spss.GetVariableName(i)) 
+string2="."
+spss.Submit([string1, ' '.join(nominalVarList), string2]) 
+END PROGRAM.
+</code></pre>
+
+<p>All I have to do is run this from an SPSS syntax window to immediately get the descriptive data for all variables of interest in a dataset.</p>
+
+<p>Python scripting can get a lot more powerful, though. <a href="http://sebastianraschka.com/Articles/2014_pca_step_by_step.html#sc_matrix">This article</a> offers a step-by-step tutorial for using Python to run a Principal Components Analysis (PCA). Although the article features standalone Python scripting, the syntax can be entered and called from within SPSS (which, in turn, makes use of the Python Programmability plugin). You can learn more about the power of Python and SPSS at the <a href="https://www.ibm.com/developerworks/community/blogs/ab16c38e-2f7b-4912-a47e-85682d124d32/tags/python?lang=en">IBM SPSS Developer Works forum</a>.</p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1">
+<p>To be sure, this means <em>any</em> scripting language, not just Python. <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+</html>
