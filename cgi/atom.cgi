@@ -41,8 +41,8 @@ my $feed = XML::Atom::SimpleFeed->new(
 
 local $/;
 
-# my $max_count = 25;
-my $max_count = "";
+my $max_count = 25;
+# my $max_count = "";
 
 # print "Content-type: application/atom+xml\n\n";
 print "Content-type: application/xml\n\n";
