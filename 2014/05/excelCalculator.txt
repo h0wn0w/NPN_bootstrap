@@ -1,0 +1,13 @@
+Title: Screencast: Using Excel to Convert Standardized Scores
+Author:	S. Marc Testa, Ph.D.
+Category:	Article
+Date: 05/23/2014
+Tags:	Excel, Psychometrics, Screencast, Statistics
+
+Here is a screencast showing how to produce a score conversion chart using Excel. The main way to convert a z score to a percentile is to use NORMSDIST\*100. If you wish to convert a T or SS (Standard Score) or ss (Scaled Score) to a percentile, without first converting to a z score, use NORMDIST\*100.
+
+In the screencast, the mean values for each scaled score is entered first (i.e., 0, 100, 10, 50). Then each value representing a 1/3 standard deviation increase is added to the next row. Once the incremental value is set, it is easy to highlight the 1st and 2nd rows and drag to the desired value. The next step converts the z score to a percentile. Double-clicking the topmost cell, fills in the cells below for every filled adjacent row.
+
+To convert a slew of T scores, you can type the T scores down one column, complete the formula for the topmost cell in the adjacent column using NORMDIST*100 and double-click that cell, which will fill in the remaining cells with the appropriate percentile.
+
+Don't forget, Excel is a great psychometric calculator.
