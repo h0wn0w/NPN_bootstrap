@@ -1,6 +1,5 @@
 Title: Screencast: Using Excel to Convert Standardized Scores
 Author:	S. Marc Testa, Ph.D.
-Category:	Article
 Date: 05/23/2014
 Tags:	Excel, Psychometrics, Screencast, Statistics
 
