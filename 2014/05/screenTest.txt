@@ -1,7 +1,0 @@
-Title:				New Screencast Test
-Author:				W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.
-Category:           
-Date:                   06/01/2014 
-Tags:                   Screencast, Test
-
-This is the best test ever. Enjoy the video - it's a great shell script that makes a main directory for a patient, with a couple of subdirectories and files templates. 
