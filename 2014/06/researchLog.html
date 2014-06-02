@@ -1,0 +1,189 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	
+	<title>Tracking Your Research Activity</title>
+	<meta name="author" content="W. Howard Buddin Jr., Ph.D. &amp; S. Marc Testa, Ph.D.">
+	<meta name="category" content="Article">
+	<meta name="date" content="06/02/2014">
+	<meta name="tags" content="Research, Workflow">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Tracking Your Research Activity</h1>
+<div class="author">Written By: W. Howard Buddin Jr., Ph.D. &amp; S. Marc Testa, Ph.D.</div>
+<div class="date">Published On: 06/02/2014</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
+
+<p>When you are working on a research project, do you work through the entire process in one day, wire to wire? Do you conduct your entire literature review, run all your statistical tests, and crank out the final product all at once? Probably not. There can be a lot of time between the beginning and end of a research project, easily on the order of several months, possibly more. The gaps of time between starting and finishing a project can cause problems: take more than a few days between research sessions, and it may take you more time than necessary to reorient yourself to the task. Keeping a research journal or log can serve as a &#8220;second brain,&#8221; and help you and/or your collaborators get back on track with greater efficiency. In the rest of this article, we will cover various ways and means to track your research activities.</p>
+
+<h2 id="likerollingoffalog">Like Rolling Off a Log</h2>
+
+<p>What, exactly, does a research log look like? What sorts of information does/should it contain? These questions are answered easily: it can contain as much or as little information, written in any manner, as you would like it to. There is not a single correct or standard way to document your work for any given day. </p>
+
+<p>A paper written by <a href="http://kieranhealy.org/">Kieran Healy</a> articulates this idea a bit further. Consider this excerpt from his work: <a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
+
+<blockquote>
+<p>For any kind of formal data analysis that leads to a scholarly paper, however you do it, there are some basic principles to adhere to. Perhaps the most important thing is to do your work in a way that leaves a coherent record of your actions. Instead of doing a bit of statistical work and then just keeping the resulting table of results or graphic that you produced, for instance, write down what you did as a documented piece of code. Rather than figuring out but not recording a solution to a problem you might have again, write down the answer as an explicit procedure. Instead of copying out some archival material without much context, file the source properly, or at least a precise reference to it. Why should you bother to do any of this? Because when you inevitably return to your table or figure or quotation nine months down the line, your future self will have been saved hours spent wondering what it was you thought you were doing and where you got that result from.</p>
+</blockquote>
+
+<h3 id="example1:haveitoldyoulatelythatilogyou">Example 1: Have I Told You Lately That I Log You?</h3>
+
+<p>Writing a log/journal is straightforward. You write out what you did that day, in as much or as little detail as you would like. If all you did was add two and two that day, then log that as your day&#8217;s activity. The idea is to just record <em>something</em> about what you did on any given day. What follows is an unedited excerpt from one of the revision logs for the TOMM/IFFI/ACI manuscript.<a href="#fn:1" title="see footnote" class="footnote">[1]</a> Note the &#8220;@done&#8221; tags after some items. <a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a></p>
+
+<pre><code>## to do
+**These should be highlighted in green in the TOMM IFFI manuscript**
+
+* Table 1 redo for descriptives of referral type
+* re-run tests in table 2 to get PPP and NPP
+* revise section under "preliminary analyses" so it correctly states we removed 5 cases for missing PVT values.
+    * this part will include tables 4 and 5
+* The "noncredible_descriptives.sps" file contains syntax that is used in the discussion section. This part may be moot after primary analyses are re-run
+* Page 13 make sure to hit the ROC re-analysis for IFFI 3 @done
+* Need to use world's greatest calculator to get Sens, Spec, PPV and NPV, and accuracy for Table 7
+    * this is NOT in the main file. 
+* need to add non-credible history to "slick23n" and/or "slick23nf" @done
+
+### July 30, 2013
+
+* using updated syntax from last time (slick23nf, renamed to slick23nfbs). The update was that I realized I was continuing to exclude n = 5 people with missing data from "noncredpvt" which slick23nfbs already corrected for. So I got those people back. 
+* Next, I discovered MMPI 2 FBS raw and MMPI 2 RF FBS T scores were lumped together. This affected cases 44 through 60. This meant pulling the two score types apart, calculating a new variable for the new RF cut, then re-running syntax for "noncredpvtfbs" to reflect the change. 
+* Next up was recalculate "slick23nfbs" so that it was updated to reflect the changes from the previous step.
+* Finally, re-do all tests. Results were not great, and didn't make much sense for the TOMM. 
+</code></pre>
+
+<p>As you probably can see, the writing is highly personalized - after all, this is a note to your future self! This, however, is fine, and represents just one way to keep procedures and ideas organized. </p>
+
+<h2 id="sos:saveoursyntax">SOS: Save Our Syntax</h2>
+
+<p>Keeping a research log can be incredibly helpful, but it is not the <em>only</em> way to track your activity. We have <a href="http://neuropsychnow.com/2013/07/syntax">previously mentioned</a> the practice of saving syntax as a component of your research workflow. Writing and saving your syntax/code might seem tedious; however, it provides additional cues and reminders about what you have already done, supplementing any log files. </p>
+
+<h2 id="codered">Code Red</h2>
+
+<p>Having your code to review is useful. Adding <em>comments</em> to your code, though, creates an additional layer of cues. Think of code comments as being akin to the comments that you would use in Microsoft Word&#8217;s Track Changes feature. The biggest difference is that you are making remarks about your own code, rather than commenting on someone else&#8217;s exposition. Here are some guidelines to help you get started on the right foot: </p>
+
+<ol>
+<li>
+<em>Write your comments as clearly and efficiently as possible.</em> Think Ernest Hemingway.</li>
+<li>
+<em>Aim for &#8220;The Goldilocks Zone&#8221;.</em> Try to not over- or under-do it with the number of comments in any one file.</li>
+<li>
+<em>Write on a need-to-know basis.</em> Communicate only what you or someone else would need to know to make sense of your code.</li>
+</ol>
+
+<h3 id="example2:spss">Example 2: SPSS</h3>
+
+<p>Comments can be found in any programming language, SPSS syntax included. SPSS comments are demarcated with a two-character scheme that begins with an asterisk and ends with a period. It looks like this:</p>
+
+<p><code>* Here is a comment about an amazing test that I ran.</code></p>
+
+<p>As a further example, here are some commented procedures used in the recent &#8220;IFFI&#8221; publication:</p>
+
+<pre><code>
+* ======================================================================.
+
+
+* This will generate "table 5". I used this just to get collinearity data.
+* This topmost program was used in the final product. Stats were updated after one IFFI score was found incorrect.
+* Incorrect score was changed from 30 to 20.
+
+REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS COLLIN TOL ZPP
+  /CRITERIA=PIN(.05) POUT(.10)
+  /NOORIGIN 
+  /DEPENDENT slick23short
+  /METHOD=ENTER TOMM_2
+  /METHOD=ENTER TOMM_R
+  /METHOD=ENTER TOMM_ACI_Inv
+  /METHOD=ENTER TOMM_
+
+* ======================================================================.
+
+* Run Kruskal-Wallis and Mann-Whitney to look for differences in diagnoses across MND groups and referral types.
+
+* USE ALL.
+COMPUTE filter_$=(NOT MISSING(noncredshort)) and (NOT (noncredshort=1)) and (NOT (type_of_exam=4)).
+# COMPUTE filter_$=(NOT MISSING(noncredshort)) and (NOT (type_of_exam=4)).
+VARIABLE LABELS filter_$ 'MND_Groups (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+
+*Nonparametric Tests: Independent Samples. 
+
+NPTESTS 
+  /INDEPENDENT TEST (noncredshort) GROUP (slick23short) MANN_WHITNEY 
+  /MISSING SCOPE=ANALYSIS USERMISSING=EXCLUDE
+  /CRITERIA ALPHA=0.05  CILEVEL=95.
+
+* ======================================================================.
+
+* How many credible participants produced 0, 1, 2, or 3 IFFI errors? .
+
+USE ALL.
+COMPUTE filter_$=((slick23short=0) and (TOMM_IFFI=0) or (TOMM_IFFI=1) or (TOMM_IFFI=2) or (TOMM_IFFI=3) and (NOT MISSING(noncredshort)) and (NOT (noncredshort=1)) and (NOT (type_of_exam=4))).
+VARIABLE LABELS filter_$ 'IFFI cred (FILTER)'.
+VALUE LABELS filter_$ 0 'Not Selected' 1 'Selected'.
+FORMATS filter_$ (f1.0).
+FILTER BY filter_$.
+EXECUTE.
+
+FREQUENCIES  TOMM_IFFI
+/HISTOGRAM
+/STATISTICS DEFAULT RANGE.
+
+
+* ======================================================================.
+
+* Those cases that were removed on line 7?. 
+* Get em all back.
+* Reset the database to use all cases.
+
+USE ALL.
+EXECUTE.
+
+* optional output to dedicated Word doc. Uncomment for it to work. Probably should also change the output filename to whatever the date is that the file is being created.
+* OUTPUT EXPORT
+  /CONTENTS  EXPORT=VISIBLE  LAYERS=PRINTSETTING  MODELVIEWS=PRINTSETTING
+  /DOC  DOCUMENTFILE=
+    '/Users/Howard/Documents/Research/TOMM_IFFI/Paper 2/Revision 2/slick23short.doc'
+     NOTESCAPTIONS=YES  WIDETABLES=SHRINK
+     PAGESIZE=INCHES(11.0, 8.5)  TOPMARGIN=INCHES(1.25)  BOTTOMMARGIN=INCHES(1.25)
+     LEFTMARGIN=INCHES(1.0)  RIGHTMARGIN=INCHES(1.0).
+</code></pre>
+
+<p>Code poetry? Well, maybe not quite, but you will <em>feel</em> like a methodological bard as you surely amaze your colleagues with this rock-solid workflow.</p>
+
+<p>Finally, here is a fast recap of the tools in this workflow: </p>
+
+<ol>
+<li>A Research Activity Log that describes each day&#8217;s progress, problems, solutions, <em>ad infinitum</em>
+</li>
+<li>Stored blocks of code/syntax to show what tests you have run <a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>, and</li>
+<li>Code, commented for additional clarity</li>
+</ol>
+
+<p>These additions to your workflow will provide a nice starting point for those of you looking to boost your research productivity. </p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1">
+<p>You can read the rest of this work online at <a href="https://github.com/kjhealy/workflow-paper/blob/master/workflow-apps.org">Github</a>, or download the <a href="http://www.kieranhealy.org/files/misc/workflow-apps.pdf">.pdf version</a> <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>I break things down pretty deeply when it comes to folder (directory) and file organization. Each manuscript revision has its own folder and sub-folders, as needed. Each revision also has its own research log. While this method <em>does</em> result in more bits and pieces on my computer, it allows me to quickly organize, find and access material. Large files have the advantage of containing all information in a single place, but they can become unwieldy and difficult to manage. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:3">
+<p>This also means that you can reuse your code so that you don&#8217;t have to run the same tests over and over through the drop-down menus. Additionally, you can easily make small adjustments to your code if needed. Finally, some code that you write may be reusable, meaning that you can use it to run multiple, discrete tests, needing to change only the variable names. <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+</html>
