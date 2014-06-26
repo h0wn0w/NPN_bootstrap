@@ -1,0 +1,108 @@
+Title:  	The Paperless Neuropsychologist
+Author: 	W. Howard Buddin Jr., Ph.D.
+Category:	Article
+Date:   	06/25/2014
+Tags:   	Productivity, Workflow
+
+## Then ##
+
+
+The year was 1984. Everyone sent reports, invoices, and just about any other paper document by mail. A few years later: enter the fax. These were heady times.
+
+![Those Were the Days] 
+
+
+## Now ##
+
+1984 has been over for a while - for *at least* 10 years, I'd say.
+
+Now, we have The Internet and The Web. Near instantaneous synchronization services. High capacity scanners. Online document storage systems, some of them with encryption.[^1] Are we maximizing the potential of these modern conveniences in day-to-day practice? Anecdotally, it doesn't seem to be the case. So, why not?
+
+## "It's Too (Insert Adjective Describing Presumed Defeat)" ##
+
+Barriers that formerly made it hard to access to the aforementioned technologies (such as financial cost, ease of configuration) have been reduced or eliminated altogether. Indeed, building a web site has even become a nearly trivial matter thanks to [dead-simple][1], drag-and-drop site building tools. The biggest hurdle, in all likelihood, is our own self-doubt.   
+
+## The Hardware ##
+
+We have [written](http://neuropsychnow.com/2013/07/ExcelSpreadsheetBuildingBlocks1Equations) a lot about [software](http://neuropsychnow.com/2013/07/hackWord) and [how we use it](http://neuropsychnow.com/2013/10/expandWord). Now it's time for the machines to get their turn. Please note that I have reviewed some of the hardware that *I* use -- your experiences may be different, and your mileage may vary. Before you read on, though, here are a few quick pieces of "prep" material:
+
+1. Do not try to go back to your earliest records and immediately scan and archive every file. A better approach is to start scanning with your next patient's records. Begin scanning, archiving, etc. from this point forward. Doing so will help to make this project more manageable, and will allow you to work incrementally, identifying problem spots in the workflow as they occur.
+2. Working towards a paperless office, or approximation thereof, is not necessarily an easy task. The setup starts with the hardware, so this article will cover the *what* and *why* of gear. We'll discuss generic and specific components that will get you and your office/practice moving away from the ancient art of file-hunting and towards the modern world of... "wait, where did the file cabinets go?"
+3. If you don't already have them,  
+	* A scanner.
+	* A printer - still necessary, but used more efficiently in a paperless environment.
+	* A fax machine. Or not.
+	* At least one external Hard Disk Drive, or Solid State Drive. Those scans have to be stored somewhere.
+
+
+### The Scanner ###
+
+*What:* The [Fujitsu ScanSnap ix500](http://www.fujitsu.com/us/services/computing/peripherals/scanners/scansnap/scansnap-iX500.html)
+
+
+![ScanSnap][]
+
+
+*Why*
+
+The definite article used above was not carelessly assigned. It is *The* Fujitsu ScanSnap. The Fujitsu ScanSnap ix500 is an incredible sheetfed scanner, period. It's a best-in-class machine, and if you get/have one you probably agree. The ix500 will scan up to 25 pages per minute, *full color, both sides*. You can use it for, well, scanning, including *all* patient records, test protocols and response booklets. It will also take the registration form that your patient's kids crumpled and scan it flawlessly. 
+
+In short, this machine does what it does better than any other scanner we've seen.[^2] 
+ 
+The ix500 will set you back anywhere from roughly $400 to $500, depending on where you get it and whether or not you buy the [Deluxe](http://www.fujitsu.com/us/services/computing/peripherals/scanners/scansnap/scansnap-iX500-deluxe-bundle.html) version or the [Evernote](#) version.[^4]
+
+Of course, all of these files need to be archived *and* backed up. See our [article on backing up your data](http://neuropsychnow.com/2014/01/Backing_Up_Data) for more on that topic. 
+
+### The Printer ###
+
+*What*
+
+A [Canon mf4550](http://www.canon-europe.com/For_Home/Product_Finder/Multifunctionals/Laser/i-SENSYS_MF4550d/ "Canon i-SENSYS MF4550d - i-SENSYS Laser Multifunction Printers ...") multi-function machine for copying and printing. 
+
+*Why*
+
+Apparently, my patients expect to get a full-fledged neuropsychological report mailed to them. So, occasionally, I need to print. And copy. I don't use it for scanning [^5] or faxing. [^6]
+
+Why this one? I inherited it. It performs about as well as most mid-priced multi-functions I've used, though this particular model is deprecated.  
+
+### The Storage ###
+
+You might have cloud storage, but you need to also have an [on-site backup][onSite]. An on-site backup creates redundancy, an important component of a bulletproof system, while also providing total control over, and immediate access to, archives. I personally use a [Western Digital Passport Ultra 500 GB][ultra] drive. I like it for the slim profile, and my experience with Western Digital drives over the years has been very positive.[^7] In the end, pick the drive that works for your price point and needs. 
+
+### The (Non-Existent) Fax ###
+
+*What*
+
+As stated above: none. Since a fax machine is very much a part of the traditional office arsenal, it seemed fitting to also talk about what I *do not* use. 
+
+There *is* a need for faxing capability, though. Even if I chose to fully abandon this mode of communication, other people still use it. So, what is the solution? 
+
+Enter [HelloFax][2], an online fax service that lets you receive and send faxes from just about anywhere. The HelloFax service even allows for sending faxes via email through the use of a robust Application Programming Interface (API). The entry-level tier, at $9.99/300-pages/month, allows for many more pages than I presently need/use. Even at my current average report length, which is +/- seven pages (including an appendix for scores), I could still send about 40 reports per month - far in excess of my current usage. For those with greater needs, additional tiers are available.
+
+*Why*
+
+It's not 1984.
+
+
+[^2]: That you don't have to lease because it would otherwise cost $$$$$. 
+
+[^1]:	aka "The Cloud"
+
+[^4]: As far as I can tell, this version is NOT worth the extra money.
+
+[^5]: I use a Mac, but the mf4550 scanning drivers - and *only* the scanning drivers - are not compatible with Mac OS X. *Caveat Emptor*, ye would-be Canon buyers. Check OS compatibility before buying this or any other peripheral device. 
+
+[^6]: For this, I use the oh-so-glorious service [HelloFax][2] 
+
+[^7]: The customer service is excellent. When I did have a drive failure, it was easy to return the drive, and I got a replacement within just a few days.
+
+
+[Those Were the Days]: http://s3-us-west-2.amazonaws.com/nnimages/Article+Images/van-halen-1984-1.jpg width=400px
+
+[ScanSnap]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/officeGear_2.JPG "ScanSnap Goodness" width=400px
+
+[1]: http://squarespace.com/
+[2]: http://hellofax.com
+[3]: http://www.officedepot.com/mb/skupage.do?skuid=401331
+[onSite]: http://neuropsychnow.com/2014/01/Backing_Up_Data
+[ultra]: http://www.wdc.com/en/products/products.aspx?id=1000
