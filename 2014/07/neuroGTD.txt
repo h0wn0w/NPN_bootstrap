@@ -1,0 +1,36 @@
+Title:		GTD and Neuropsychology
+Author: 		S. Marc Testa, Ph.D. & W. Howard Buddin, Jr., Ph.D.  
+Category:		Article
+Date:		07/03/2014
+Tags: 		Cognitive Rehabilitation, Executive Functioning, Intervention, Productivity
+
+
+## Overview of GTD ##
+
+*[Getting Things Done][gtd]* (GTD), a productivity system created by David Allen, has an almost cult-like following, and for good reason. GTD is a personal productivity and task management system that strives to narrow the divide between resources and demands. Achieving this balance benefits productivity.
+
+GTD can be a reliable system that allows you to know everything you need to do, at any given time. This, in turn, has the benefit of reducing the stress associated not knowing what you have to do at all times. The system strives to achieve "mind like water", a state of being in which unexpected "emergencies" are less likely to happen or, if they do, cause less of a disruption.
+
+Despite its popularity and reasoned approach, GTD, so far, has not been adapted widely to be used by patients with cognitive weakness or frank dysfunction. Just like anyone, individuals with developmental or acquired brain dysfunction may benefit from learning GTD in order to narrow the divide between resources and demands. The following is an attempt to "translate" the basic tenets of GTD, into neuropsychology speak as a first step toward creating a GTD-based approach to cognitive rehabilitation.
+
+## Neuropsychological Framework of GTD ##
+
+Because GTD is a system of organization, it inherently attempts to enhance, buttress, compensate, or remediate several aspects of executive functioning. Planning, organization, and prospective memory are involved directly. Improvements in stress reduction, self-regulation, task initiation, and complex aspects of attention are also possible.
+
+Important to the GTD system is the process of information capture. In order for us to recollect and act on a task, it must be registered, acquired, or encoded. Capture is the "front end" of the organizational system. Somehow that email, action item, or idea you think of while driving to work, needs to, in David Allen terms, get to "In".
+
+Once acquired captured, tasks in GTD are organized by *contexts* and *projects*. *Contexts* can include `@home, @work, @errands, @phone, or @connected device`. *Projects* may include things like "bake a cake", "write a report", "submit an IRB protocol". Combined, contexts and projects lend themselves quite nicely to cross tabulation, since a single task can be placed simultaneously in a context and a project (e.g., "I'm running errands and I need frosting" or "I'm at my desk, what is the next action for the IRB protocol?"). This organization structure becomes quite powerful when utilized by software based on GTD, like [OmniFocus](http://www.omnigroup.com/omnifocus/) or [Doit.im](https://play.google.com/store/apps/details?id=im.doit.pro.v4). 
+
+Aspects of prospective memory, planning, and task initiation are enhanced with due dates, start dates, task duration, and flags. Again, software can help make much of this automatic with alerting.
+
+To some degree, we can regulate our behavior using GTD. One can determine quite easily what they can accomplish if they have 15 minutes before a meeting starts, or find themselves inside Home Depot to get light bulbs ("what else do I need here? I know there is something!"). GTD can tell you wWhat is important and when, allowing the user to make appropriate action decisions. 
+
+A daily or weekly *Review* process is very important to the GTD methodology. It allows for an opportunity to determine what tasks and projects are lagging and why, which projects need to be put on hold, and what action items can move things forward. The Review process is also an opportunity to discover if the imementation of the overall GTD system is effective or if there are cracks in the system.
+
+## Initial Considerations ##
+
+To be sure, GTD can be a fairly complex system and individuals with or without brain dysfunction may struggle to learn and implement the entire system. However, not every aspect of GTD needs to be utilized for it to be effective. There are basic elements of GTD that, once learned, can serve as a good foundation upon which more advanced skills can be acquired. 
+
+Future posts will review software and apps that can be used with a GTD approach.
+
+[gtd]: http://gettingthingsdone.com
