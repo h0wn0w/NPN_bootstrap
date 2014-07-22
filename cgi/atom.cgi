@@ -44,11 +44,11 @@ local $/;
 my $max_count = 25;
 # my $max_count = "";
 
-# print "Content-type: application/atom+xml\n\n";
-print "Content-type: application/xml\n\n";
+print "Content-type: application/atom+xml\n\n";
+# print "Content-type: application/xml\n\n";
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 my %pages = ();
@@ -85,7 +85,7 @@ sub index_file {
 
 	if ($filepath =~ /$site_root\/(\d\d\d\d)\/(\d\d)\/.*\.html$/) {
 		my $date = "";
-		
+
 		open (FILE, "<$filepath");
 		my $data = <FILE>;
 		close FILE;
@@ -102,8 +102,8 @@ sub index_file {
 			my $body = $1;
 			$pages{$date}{$filepath}{'body'} = $body;
 		}
-		
+
 	}
-	
-	
+
+
 }
