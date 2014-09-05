@@ -1,7 +1,7 @@
 /*
 Welcome to the Neuropsych Now CSS!
-This work is licensed under a CC ND-NA 3.0 License. 
-This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it for a profit. 
+This work is licensed under a CC ND-NA 3.0 License.
+This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it for a profit.
 Support Open Source.
 Support Independent Developers.
 
@@ -44,10 +44,10 @@ body {
     $LANDING PAGE
 \*------------------------------------*/
 /**
-* 
+*
 */
 #landingPage {
-  background: url("http://nnimages.s3.amazonaws.com/bookshelf.png");
+  background: url("/img/bookshelf.png");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: 100% 100%;
@@ -140,7 +140,7 @@ body {
     $NAV
 \*------------------------------------*/
 /**
-* 
+*
 */
 /* navbar: main container and elements; overrides bootstrap, which, for me, was hard to do.
 ========================================== */
@@ -335,7 +335,7 @@ div.tags {
 \*------------------------------------*/
 /**
 * sur le table - minified and hard to read css
-courtesy of [Brett Terpstra](http://www.brettterpstra.com). 
+courtesy of [Brett Terpstra](http://www.brettterpstra.com).
 The other stuff is from DataTables and me.
 */
 table {
@@ -629,7 +629,7 @@ input[type="radio"] {
     $MEDIA QUERIES
 \*------------------------------------*/
 /**
-* 
+*
 */
 /*@media (max-width: 480px) {
   #hometitle h1 {
