@@ -1,0 +1,52 @@
+Title: A Primer on Capacity - Part 2
+Author: W. Howard Buddin Jr., Ph.D.
+Date: 09/05/2014
+Category:Article
+Tags: Assessment, Clinical, Practice 
+
+A few weeks ago, we wrote up a brief introduction on the [fundamentals of capacity][1]. For this article, we'll get a little more granular and "real world."  
+
+## Is an Assessment Warranted?
+
+Appropriately enough, the first topic to address is whether or not to even begin considering an evaluation of someone's capacity. Indeed, this is not always clear. The referral may make no mention of concerns in this area; your patient might present as totally pleasant and conversational; the latter of these might mask otherwise serious problems. Fortunately, there are often environmental or situational factors that can indicate the need for further investigation. 
+
+### Look for clues in the medical record 
+
+Progress notes, history and physical, etc. can provide some insight regarding the patient's "track record" with adherence to past recommendations and prescribed treatments. If there is some indication of low adherence, the next course might be to investigate your patient's *understanding of their healthcare needs.* 
+
+It is generally unreasonable or unrealistic to expect your patient to be able to name each of their medications and respective dosages; it is closer to the mark to ask them what kinds of things they need medicine for. There are many ways to craft such a question, and how you do so will be at least partly dependent on your patient's age, education, and cultural identification. 
+
+**Example:** Are they refusing medication or treatment because they have carefully weighed the risk/reward outcomes, or because they believe that the attending works for a government mind-control agency?
+
+## What Do They Know?
+
+Assessment of an individual's broad cognitive abilities should be considered when rendering a decision about capacity. The rationale is that their current cognitive functioning might speak to their ability to make sense of all available information regarding treatment options. *Caveat emptor:* while intellectual disability *can* have an impact on one's ability to successfully understand, integrate, and communicate the information needed to make a reasoned choice, impaired cognitive status alone is *neither sufficient nor is it a necessary component* for determining (lack of) capacity. 
+
+**Example:** A patient refuses chemotherapy and radiation for treatment of her recently diagnosed cancer. She refuses treatment based on the recollection of her mother's experience with the same treatment. She recounts that "it was horrible and it didn't work." This is verified by the patient's adult children, who were witnesses to their grandmother's unsuccessful cancer therapy.
+
+## What Do They Say?
+
+The ability to communicate a choice is another fundamental aspect of the assessment process. What are your patient's verbal expressive abilities like? Do they use regional colloquialisms that might confound *your* understanding? Are they unable to verbally express a choice, and if so is the inability reflective of (A) a physical limitation or (B) a cognitive limitation? Ultimately, you must consider that a patient may have the *cognitive* wherewithal to effectively communicate a choice, but is limited in their ability to *actually* do so.
+
+**Example:** The patient simply has laryngitis versus expressive limitations due to e.g., profound intellectual disability. 
+
+## The Aid to Capacity Evaluation (ACE)
+
+One tool to help with the evaluation of capacity for decision-making is the Aid to Capacity Evaluation (ACE). The ACE is a brief, semi-structured interview/assessment that covers the major areas from this article and more. You can download the ACE from our [assessment resources page][2]. 
+
+## More
+
+If you would like to know more about the ACE, visit the [joint centre for bioethics site][pub], or contact the publisher directly:
+
+Dr. E. Etchells   
+Sunnybrook Health Sciences Centre   
+2075 Bayview Avenue, Room C4 10  
+Toronto, ON M4N 3M5     
+Phone: (416) 480-5996  
+Fax: (416) 480-5951  
+Email: edward.etchells@sunnybrook.ca 
+
+
+[1]: http://neuropsychnow.com/2014/07/capacityPrimer.html
+[2]: http://neuropsychnow.com/downloads.html
+[pub]: http://jointcentreforbioethics.ca/tools/ace_download.shtml
