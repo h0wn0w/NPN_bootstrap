@@ -19,5 +19,7 @@
 *.sublime-workspace
 sphider/admin/*
 sphider/settings/database.php
+sphider/include/*
+nsearch.php
 .DS_Store
 sitemap.xml
