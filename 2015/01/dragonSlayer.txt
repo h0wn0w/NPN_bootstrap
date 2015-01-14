@@ -1,0 +1,24 @@
+Title:	Expand Dragon’s Functionality
+Author:	W. Howard Buddin Jr., Ph.D.
+Category:	article
+Date:	01/08/2015 
+Tags:	dictation, reports, tips
+
+
+[Dragon Dictate](http://www.nuance.com/for-individuals/by-product/dragon-for-mac/dragon-dictate/index.htm "Dragon Dictate for Mac - Dragon Dictate speech recognition for the ...") is well known as dictation software, and we have [written about its use as transcription software](http://neuropsychnow.com/2013/08/TranscriptionPeriod), as well. Possibly less well known/used are the myriad built–in commands for performing actions not only within a document, but also for performing various commands in other applications. These actions, while nice, can still leave one wanting for more. 
+
+Enter custom actions. Dragon affords the capability to add "User Defined" functions. These can be menu item actions or keyboard actions. For example, I have created several actions for navigating within a plain text file, including moving to the beginning of a line, moving to the leftmost side of the window (fundamentally different from moving to the beginning of a line in a plaintext file), or moving one word back. Fortunately, creating your own, custom commands is simple.
+
+For Mac OS X, switch to Dragon as the frontmost application, then click "Tools, Commands…". Alternatively, you can push the `Command` and `K` keys simultaneously. Either of these methods will invoke the Commands window, as shown in the screenshot below. 
+
+![Dragon's "Commands" window](../../img/Dragon/global-keyboard.png)
+
+Next, you will want to click on the "User Defined" tab near the top left of the Commands window. From here, creating your own commands involves merely filling in the fields to the right of the window. From here, you can tell Dragon exactly the key(s) that you want it to "press," including any of the modifier keys (e.g., option, space bar, return). In the screenshot below, you can see I have created a command called "Back One Word," which uses a combination of the `Option` and left arrow keys; the "Forward One Word" command uses nearly the same parameters, the only difference being a right, versus left, arrow press. 
+
+![Customizing commands](../../img/Dragon/global-keyboard-2.png)
+
+In these examples, all of my keystrokes have a "global" scope, meaning that I can issue them in any application. As you can see in the far left pane of the screenshot, one can assign user defined commands as global, or to only execute in one or more specific applications. This is useful for avoiding conflicts between commands or for eliminating odd, unintended behaviors that could be caused by accidentally issuing a global command that has a different behavior from context to context[^1]
+
+Love it or hate it, Dragon Dictate is the dominant player in the dictation software market. Like anything else, it has its pros and cons. For me, one of the cons was the sparse set of file navigation commands. Fortunately, I found that by taking a few minutes, you can increase your efficiency by making it work a little more according to *your style,* not the other way around. 
+
+[^1]:  For example, a space bar press in a text window will create a space as expected; however, in a modal window – such as a "Save" dialogue – the same command will possibly activate the "okay" button, saving the file before you wanted to.
