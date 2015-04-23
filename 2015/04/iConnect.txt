@@ -13,7 +13,7 @@ Slowly.
 <b>BUT</b>
 </div>
 
-Evolving, nonetheless. With increasing frequency, the traditional  methods of test administration are eschewed for a more convenient - and in some cases more cost–efficient -  model that involves the use of (gasp) computers and sometimes (oh, the humanity!) tablets. 
+Evolving, nonetheless. With increasing frequency, the traditional  methods of test administration are eschewed for a more convenient - and in some cases more cost–efficient -  model through use of Computerized Neuropsychological Assessment Devices, or CNAD (Bauer, Iverson, Cernich, Binder, Ruff, & Naugle, 2012). 
 
 Not to be left out[^in], [Psychological Assessment Resources](http://www4.parinc.com) (PAR) [pushed out a platform][i] for test administration, scoring and exporting: [PARiConnect][iconnect]. With PARiConnect, PAR seek to bring to the clinical masses easy administration of questionnaires and inventories of all types.[^type] 
 
@@ -50,6 +50,10 @@ The last, most obvious limitation also relates to administration. We all see pat
 ## The Fun Stuff
 
 If you have read this far and have a slight or better awareness of Federal Law, then you are probably wondering about compliance with the HIPAA [Privacy][privacy] and [Security][security] rules. It will come as no surprise to most that companies like PAR tend to have fairly robust legal and ethics teams/departments. These people are knee-deep in drafting privacy policies and compliance statements *way* before any PAR product ships. Sure enough, the folks at PAR posted their [Business Associates Agreement][baa] and [HIPAA Privacy Policy][pp] *right on their Web site.* Imagine that. 
+
+******
+
+Bauer, R. M., Iverson, G. L., Cernich, A. N., Binder, L. M., Ruff, R. M., & Naugle, R. I. (2012). Computerized Neuropsychological Assessment Devices: Joint Position Paper of the American Academy of Clinical Neuropsychology and the National Academy of Neuropsychology. The Clinical Neuropsychologist, 26(2), 177–196. http://doi.org/10.1080/13854046.2012.663001
 
 
 [^fn1]: Of course, for those instances where the administration *is* clearly invalid, it is a good bet that I will be glad to have not spent the report usage.
