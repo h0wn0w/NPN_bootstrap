@@ -1,0 +1,14 @@
+Title:	Get DiRT(y)
+Author:	W. Howard Buddin Jr., Ph.D.
+Category:	Article
+Date:	07/08/2015 
+Tags:	Applications, Research, Workflow
+
+Are you in the market for a new set of research tools to help you with your next great study, article, project, paper…whatever? Have you finally had enough of old, unsupported, bloated software packages? If so, then [DiRT][dt] might just be the place to start. From the web site: 
+
+>"The DiRT Directory is a registry of digital research tools for scholarly use."
+
+That basically says it all. As a side note, one of the listings I came across – the [Open Science Framework][of] – is ridiculously cool. 
+
+[dt]: http://dirtdirectory.org
+[of]: https://osf.io
