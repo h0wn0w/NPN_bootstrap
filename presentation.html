@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="humans.txt">
+
+<!--#include virtual="${Base_URL}/templates/mainhead.html" -->
+
+<style>
+    .tecks-lef { text-align: left; }
+    .tecks-cen { text-align: center; }
+</style>
+
+<!--#include virtual="${Base_URL}/templates/navbar.html" -->
+
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+    <h2 class="page-title">Presentations</h2>
+        </div>
+    </div>
+</div>
+
+<div id="wedo" class="container-narrow">
+<div class="row-fluid">
+    <div class="span12">
+      Use the "Search" field below to find a specific presentation, or browse by tags.  
+    </div>
+</div>
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+</colgroup>
+
+<thead>
+    <tr>
+        <th rowspan="1" colspan="1">Title</th>
+        <th rowspan="1" colspan="1">Tags</th>
+    </tr>
+</thead>
+<tbody class="list">
+<tr>
+    <td class="name">Presentation One</td>
+    <td class="tags">Nerds, Brain</td>
+</tr>
+<tr>
+    <td class="name">Presentation Two</td>
+    <td class="tags">Face, Boobs</td>
+</tr>
+</tbody>
+</table>
+
+<div id="hacker-list">
+
+    <input class="search" />
+    <span class="sort" data-sort="name">Sort by name</span>
+    <span class="sort" data-sort="tags">Sort by tags</span>
+
+    <ul class="list">
+       <li>
+           <h3 class="name">Presentation One</h3>
+           <p class="tags">Nerds, Brain</p>
+       </li>
+       <li>
+           <h3 class="name">Presentation Two</h3>
+           <p class="tags">Face, Boobs</p>
+       </li>
+    </ul>
+</div>
+
+</div>
+
+<div id="push"></div>
+    </div>
+
+<!--#include virtual="${Base_URL}/templates/mainfoot.html" -->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/twitter-bootstrap-hover-dropdown.min.js"></script>    
+
+<script src="">
+    var options = {
+    valueNames: [ 'name', 'city' ]
+};
+
+var hackerList = new List('hacker-list', options);
+</script>
+
+</body>
+</html>
