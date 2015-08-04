@@ -9,11 +9,12 @@
 
 <!--#include virtual="${Base_URL}/templates/mainhead.html" -->
 
+<script src="http://listjs.com/no-cdn/list.js"></script>
+<script src="http://listjs.com/no-cdn/list.fuzzysearch.js"></script>
 <style>
     .tecks-lef { text-align: left; }
     .tecks-cen { text-align: center; }
 </style>
-
 <!--#include virtual="${Base_URL}/templates/navbar.html" -->
 
 
@@ -32,7 +33,7 @@
     </div>
 </div>
 
-<div id="hacker-list">
+<!-- <div id="hacker-list">
 <table>
 <colgroup>
 <col style="text-align:left;">
@@ -59,7 +60,7 @@
 </tr>
 </tbody>
 </table>
-</div>
+</div> -->
 
 <div id="hacker-list">
 
@@ -69,12 +70,28 @@
 
     <ul class="list">
        <li>
-           <h3 class="name">Presentation One</h3>
+           <a href="#"><h3 class="name">Presentation One</h3></a>
            <p class="tags">Nerds, Brain</p>
        </li>
        <li>
-           <h3 class="name">Presentation Two</h3>
+           <a href="#"><h3 class="name">Presentation Two</h3></a>
            <p class="tags">Face, Boobs</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Three</h3></a>
+         <p class="tags">Boobs, MRI, Awesomesauce</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Four</h3></a>
+         <p class="tags">Study, MRI, TBI</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Five</h3></a>
+         <p class="tags">Hammer, Time, Brain</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Six</h3></a>
+         <p class="tags">Boobs, Gist</p>
        </li>
     </ul>
 </div>
@@ -86,17 +103,23 @@
 
 <!--#include virtual="${Base_URL}/templates/mainfoot.html" -->
 
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/twitter-bootstrap-hover-dropdown.min.js"></script>    
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/twitter-bootstrap-hover-dropdown.min.js"></script>    
+<!-- <script src="./js/list.min.js"></script> -->
 
-<script src="./js/list.min.js">
-    var options = {
-    valueNames: [ 'name', 'tags' ]
-};
 
-var hackerList = new List('hacker-list', options);
 </script>
+    
+  <script>
+    var options = {
+    
+};
+    var hackerList = new List('hacker-list', {
+      valueNames: [ 'name', 'tags' ],
+      plugins: [ ListFuzzySearch() ]
+    } );
+  </script>
 
 </body>
 </html>
