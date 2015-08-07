@@ -14,6 +14,9 @@
 <style>
     .tecks-lef { text-align: left; }
     .tecks-cen { text-align: center; }
+    span.sort { background-color: orange; padding: 2px; border-radius: 4px;}
+    span.sort:hover { background-color: #000c28; }
+    span.sort:hover
 </style>
 <!--#include virtual="${Base_URL}/templates/navbar.html" -->
 
@@ -65,13 +68,12 @@
 <div id="hacker-list">
 
     <input class="search" />
-    <span class="sort" data-sort="name">Sort by name</span>
-    <span class="sort" data-sort="tags">Sort by tags</span>
+    <span class="sort" id="force" data-sort="name">Sort by name</span>
+    <span class="sort" id="force" data-sort="tags">Sort by tags</span>
 
     <ul class="list">
       <li>
-        <a href="http://nnpresentation.s3.amazonaws.com/Seminar%20Presentation.pptx">
-          <h3 class="name">Uncommon Considerations</h3></a>
+        <a href="http://nnpresentation.s3.amazonaws.com/Seminar%20Presentation.pptx"><h3>Uncommon Considerations</h3></a>
         <p class="tags">Uncommon, Disorders, Pathology</p>
       </li>
        <li>

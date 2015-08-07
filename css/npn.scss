@@ -181,10 +181,9 @@ body {
 #container-accent a {
   font-size: 28px;
   color: #00E5FF;   /*from Kuler, as above*/
-}
-
-#container-accent a:hover {
-  color: #050A32;
+    &:hover {
+      color: #050A32;
+    }
 }
 
 #tab {
