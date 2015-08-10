@@ -1,8 +1,10 @@
-Title: Hydrocephalus in the Mainstream Media
-Author: S. Marc Testa, Ph.D.
-Web:	http://neuropsychnow.com
-Date: 08/10/15 
-Tags: 
+Title:	Hydrocephalus in the Mainstream Media
+Author:	S. Marc Testa, Ph.D.
+Date:	08/10/2015 
+Tags:	Imaging, News, Neuropathology
 Content:	Article
 
-The mainstream media has been reporting the case of a man who, "lost most of his brain and didn't even notice"! The case is reported recently as a Lancet [Clinical Picture](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2807%2961127-1/fulltext). At age 6 months, the man received a ventriculoatrial shunt, which was revised at age 14. His histroy thereafter was generally unremarkable until age 44, when he experienced only mild left leg weakness. Read more [here]((http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2807%2961127-1/fulltext).    
+The [mainstream media][2] has been reporting the case of a man who, "[lost most of his brain and didn't even notice!][1]" The case was reported recently as a Lancet [Clinical Picture](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2807%2961127-1/fulltext). At age 6 months, the man received a ventriculoatrial shunt, which was revised at age 14. His history thereafter was generally unremarkable until age 44, when he experienced only mild left leg weakness. Read more [here](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2807%2961127-1/fulltext).    
+
+[1]: http://www.newser.com/story/210858/one-man-lost-most-of-his-brain-and-didnt-even-notice.html
+[2]: http://www.955klos.com/news/one-man-lost-most-of-his-brain-and-didnt-even-notice/
