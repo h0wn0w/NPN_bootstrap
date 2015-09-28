@@ -2,9 +2,7 @@ Title:ICD-10 APPS
 Author:W. Howard Buddin Jr., Ph.D.
 Category:Article
 Date:09/27/2015
-Tags:Apps, Billing, Diagnostics
-
-# ICD-10 APPS
+Tags:Applications, Billing, Diagnostics, Practice
 
 As we scramble – now and for the forseeable future – towards/within the new ICD - 10 coding system, we could probably use a little help along the way. So, here is a list of a few iOS and Android applications to help ease the transition. Please note: by "ease the transition," what we mean is "attempt to continue to get paid."
 
