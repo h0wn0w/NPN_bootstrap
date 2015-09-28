@@ -68,6 +68,7 @@
 	<xsl:template match="meta[@charset != '']"/>
 
 	<xsl:template match="body">
+		<!-- need a <div id="wrap" > here -->
 		<xsl:copy>
 			<xsl:text disable-output-escaping="yes"><![CDATA[<!--#include virtual="${Base_URL}/templates/header.html" -->]]></xsl:text>
 			<xsl:if test="/html/head/title != ''">
