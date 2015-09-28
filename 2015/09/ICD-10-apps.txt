@@ -1,0 +1,43 @@
+Title:ICD-10 APPS
+Author:W. Howard Buddin Jr., Ph.D.
+Category:Article
+Date:09/27/2015
+Tags:Apps, Billing, Diagnostics
+
+# ICD-10 APPS
+
+As we scramble – now and for the forseeable future – towards/within the new ICD - 10 coding system, we could probably use a little help along the way. So, here is a list of a few iOS and Android applications to help ease the transition. Please note: by "ease the transition," what we mean is "attempt to continue to get paid."
+
+The idea of listing these apps within the context of an article was to make them more immediately accessible; however, you can also find them on our [mobile apps](http://neuropsychnow.com/neuroapps.html) page. Eventually.
+
+*P.S.* If at some point – today or at some other time – you have found something on our site that saved you time or money, then we can put a checkmark in the "W" column[^fn1], which is pretty great. If you feel like showing us some love, then please help us keep Neuropsych Now running [with a super-small donation](http://neuropsychnow.com/contribute.html). 
+
+## iOS Apps
+
+[ICD-10 HCPCS ICD-9](https://appsto.re/us/aL1U6.i) by drchrono Inc. seems to have lots of features. I did not try this one out, but I do know you have to register an account with Dr. Chrono to get full use (account is free). 
+
+Honestly, I could not tell the difference between the [ICD 10 On the Go Medical Codes](https://itunes.apple.com/us/app/icd-10-on-the-go-medical-codes/id377273816?mt=8) and [ICD 10 Free](https://itunes.apple.com/us/app/icd-10-free/id878887635?mt=8). They're by the same developer (VLR), have the same version number[^fn2], and even use the same screenshots in their respective descriptions. I guess it comes down to which icon you like more. The former runs $6.99, whereas the latter has an in-app purchase of $6.99 to unlock the "premium" features. Also, there is the [ICD 10 Codes Free](https://appsto.re/us/I39iR.i) app by SvmSoft, which looks exactly like the other two in all ways, screenshots included. It also will cost $6.99 to unlock the "premium" version. By the way, none of what I say should be considered indictments of this triumverate; these are merely observations that I make. 
+
+## Android apps
+
+*Note:* since there is no companion iOS app for the following few listings, and since I don't own an Android device (or emulator, through, e.g., [VirtualBox](https://www.virtualbox.org/)), I couldn't say anything meaningful about them. 
+
+[ICD-10 & ICD-9 Code Reference](https://play.google.com/store/apps/details?id=com.appsdna.intr.icd.activity)
+
+[ICD-10](https://play.google.com/store/apps/details?id=br.com.trofo.cid10)
+
+[ICD-10 Navigator](https://play.google.com/store/apps/details?id=com.cephlon.icd10)
+
+[ICD-10: Codes of Diseases](https://play.google.com/store/apps/details?id=org.icdcode)
+
+## iOS *and* Android ##
+
+*ICD-10 Virtual Code Book* by Precyse University. 
+[Here is the iOS link](https://appsto.re/us/Pp4AM.i), and [here's the Android link](https://play.google.com/store/apps/details?id=com.precyseuniversity.icd10vcodebookb2b). This app will set you back $7.99. It looks solid, with a wealth of information and ease of search. 
+
+The *MTBC ICD 9-10*/*ICD 9 to 10 converter* was also built for [iOS](https://appsto.re/us/H799W.i) and [Android](https://play.google.com/store/apps/details?id=com.mtbc.converter) devices. I tried this one out and, though app store reviews were positive, I was underwhelmed. It doesn't allow for code lookup by category. You can enter your specialty, and the app will pre-populate a list of common codes for that specialty. This would be kind of cool, but a notable absence among the few, pre-loaded specialties was some kind of psychiatry/mental/behavioral health listing. Ultimately, the only way I could access the "F" category of codes was to type in a given diagnosis. As such, I didn't see this as an improvement over a straight, textbook – style lookup.
+
+*ICD10Doc - Diagnosis, Procedures and Billing codes* by Adam Scarlat has received a lot of positive ratings from its users. This is less an app, though, and more of a portal to a subscription-based service. Don't let that be a dissuading factor, however, as the core service itself looks fairly robust. Check it out on [iOS](https://itunes.apple.com/us/app/icd10doc-diagnosis-procedures/id1022228475?mt=8) and [Android](https://play.google.com/store/apps/details?id=io.appery.project137897) for more information about pricing (available as monthly or yearly payments). 
+
+[^fn1]: Where the "W" stands for 'We aren't completely crazy. Probably'
+[^fn2]: 3.0.1, for those who are into that kind of thing.
