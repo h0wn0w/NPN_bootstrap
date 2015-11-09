@@ -21,5 +21,6 @@ sphider/admin/*
 sphider/settings/database.php
 sphider/include/*
 nsearch.php
+search.php
 .DS_Store
 sitemap.xml
