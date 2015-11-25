@@ -1,7 +1,8 @@
 <?php
 	$database="npnlook";
 	$mysql_user = "npnow";
-	$mysql_password = "park47&trunk";
+	$mysql_password = "park47&trunk"; 
+>>>>>>> edits to important files including robots, gitignore, and settings database admin auth:sphider/settings/database.php
 	$mysql_host = "serchin.db";
 	$mysql_table_prefix = "thx";
 
