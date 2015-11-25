@@ -1,2 +1,2 @@
 #!/bin/sh
-/PATH/TO/YOUR/WEB/DOWN/TO/converter/pdftotext.script $1 $2 $3 \-
+/Users/Howard/Sites/bootstrap/sphider-plus/converter/pdftotext.script $1 $2 $3 \-

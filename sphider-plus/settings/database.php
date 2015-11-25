@@ -41,19 +41,19 @@ Database 1 settings
 ***********************/
 
 // Name of database
-$database1 = 'dbsearch';
+$database1 = 'cool';
 
 // MySQL User
-$mysql_user1 = 'sphider';
+$mysql_user1 = 'npnow';
 
 // MySQL Password
-$mysql_password1 = 'private';
+$mysql_password1 = 'park47&trunk';
 
 // MySQL Host
-$mysql_host1 = 'localhost';
+$mysql_host1 = 'serchin.db';
 
 // Prefix for tables
-$mysql_table_prefix1 = 'search1_';
+$mysql_table_prefix1 = 'cool';
 
 // Status of database
 $db1_set = '0';
