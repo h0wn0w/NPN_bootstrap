@@ -1,169 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Neuropsych Now</title>
+    <head>
+        <meta charset="utf-8">
+    <title>Neuropsych Now | Resources for Neuropsychologists</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Neuropsych Now is a centralized source of information created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it easy to access, wherever you are.">
     <meta name="author" content="humans.txt">
-    
-    <!--#include virtual="${Base_URL}templates/mainhead.html" -->
-    
-<div class="navbar-wrapper">
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-inverse btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-hand-down" style="color: white;"></span>
-          <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/index.html"><img src="https://s3-us-west-2.amazonaws.com/nnimages/logotextmini.png" alt="Neuropsych Now Logo"></a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="dropdown">
-                <a id="drop1" href="#" class="dropdown-toggle" >Tools<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="/tools.html">Resources Guide</a></li>
-                  <li class="divider"></li>
-                  <li><a href="/neuroapps.html">Neuro Mobile Apps</a></li>
-                  <li><a href="/downloads.html">Assessment Resources</a></li>
-                  <li><a href="/extlinks.html">External Links</a></li>
-                  <li><a href="/underconstruction.html">Recommendations</a></li>
-                  <li><a href="/underconstruction.html">Presentations</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Articles</a></li>
-              <!-- "About" dropdown -->
-              <li class="dropdown">
-                <a id="drop1" href="#" class="dropdown-toggle">About<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Neuropsych Now</a></li>
-                  <!-- <li><a href="/aboutguides.html">Guides & Books</a></li> -->
-                  <li><a href="#">This Site</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contact<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                <li><a href="http://twitter.com/NeuropsychNow" target="_blank"><!-- <i class="icon-twitter"></i>  -->twitter </a></li>
-                <li><script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-"=110){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-"o.substr(0,ol);}f(\")2,\\\"V\\\\\\\\PCKV600\\\\IY010\\\\n\\\\300\\\\410\\\\" +
-"500\\\\a|100\\\\+4420\\\\y04/&$< $5100\\\\n!%*',j330\\\\{ (7+5`530\\\\bPSX4" +
-"20\\\\NWY^VM@B^BZKClECDLF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\\\771\\\\dle" +
-"rejg\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;" +
-"++y)2<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"  ;
-while(x=eval(x));
-//-->
-//]]>
-</script><!-- <i class="icon-envelope-alt"></i> --></li>
-                  
-                  <li><a href="http://www.facebook.com/pages/Neuropsych-Now/213658415438863" target="_blank">facebook</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Contribute</a></li>
-              <div id="nav-searchbutton" >
 
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- <link href="/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/nncssjs/css/bootstrap.min.css" type="text/css" media="screen" />
+    <!-- <link rel="stylesheet" href="/css/main.min.css" type="text/css" media="screen" /> -->
+
+    <link rel="stylesheet" href="/css/npn.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/nncssjs/css/jquery-ui.css" type="text/css" media="screen" />
+
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="img/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad-retina.png">
+
+    <style>
+    /* really the main stuff goes here
+    ============================================================ */
+
+    body {
+      padding-top: 40px;
+    }
+
+    #logo {
+      padding-top: 60px;
+    }
+
+    .nn {
+      font-size: 4.429em;
+      color: #fff;
+    }
+
+    .knowledge {
+      font-size: 2.0em;
+      color:#FF7400;
+    }
+
+    .ahead {
+      font-size: 4.286em;
+      color: #33CCCC;
+    }
+
+    #hello h1 {
+      font-size: 3.0em;
+    }
+
+    @media (max-width: 480px) {
+      .nn, .ahead {
+        font-size: 3.2em;
+      }
+    }
+
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      padding-bottom: 120px;
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+     @import url("./sphider/include/js_suggest/SuggestFramework.css");
+    </style>
+     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" />
+     <link href="/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42318799-1', 'neuropsychnow.com');
+    ga('send', 'pageview');
+
+    </script>
+  </head>
+
+<body>
+  <div id="wrap">
+  <!--#include virtual="${Base_URL}templates/navbar.html" -->
+    <!-- Main Body Content -->
+    <div id="landingPage">
+      <div class="container-fluid">
+        <div class="row-fluid" style="padding-bottom: 20px; background: url('../img/patterns/asfalt.png'); opacity:0.8;">
+          <div class="span8 offset1">
+            <div id="home-header" >
+              <div id="hometitle" class="introduction"> <!-- title distance from top -->
+                <h1 class="nn">NEUROPSYCH NOW</h1>
+                <!-- <h1 class="knowledge muted" >knowledge and tools to keep you</h1>
+                <h1 class="ahead">AHEAD OF THE CURVE</h1> -->
+                <h1 class="muted" >modern neuropsychology</h1>
+                <h1 class="ahead">FROM THE FUTURE</h1>
               </div>
-            </div><!--/.nav-collapse -->
-          </div><!-- /.navbar-inner -->
-        </div><!-- /.navbar -->
-      </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
-
-<div class="class container-fluid">
-  <div class="page-header">
-    <div class="row-fluid">
-      <h2 class="featurette-heading" style="text-align:center; font-size: 48px; line-height: 1.25em;">A Work In Progress<br>
-        <span class="muted" style="text-align:right;"> Worth Waiting For.</span></h2>
-    </div><!-- row fluid -->
-  </div> <!-- page header -->
-</div>
-
-<div id="wedo" class="container-narrow">
-<div class="row-fluid">
-    <div class="span12">
-      <p>Neuropsych Now is currently away at a didactic. Or using its Protected Research Time. Or something.</p> 
-      <br />
-      <p>Also, there are some behind-the-scenes, under-the-hood, ultra-hard-for-us changes that are being made to the site. Seriously. I mean, we're not exactly getting <em>paid</em> for this, so where's the incentive to malinger a non-functioning Web site?</p>
-      <br />
-      <p>Please, check back on or before 11.25.15. Probably things will be completed by then, or this date will get subtly, silently moved into the future.</p>
-      <br />
-      <p>You can still get a hold of us through any of the contacts links on this page. </p>
-    </div>
-</div>
-</div>
-<div id="push"></div>
-    </div>
-
-<!-- footer -->
-<div id="mainfoot" class="container-fluid">
-  <div class="row-fluid" >
-    <div class="span4">
-      <h4>Contact</h4>
-        <p><span><i class="icon-twitter"></i><a href="http://twitter.com/NeuropsychNow"> twitter</a></span>
-        <span><i class="icon-envelope-alt"></i> <script type="text/javascript">
-        //<![CDATA[
-        <!--
-        var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-        "=110){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-        "o.substr(0,ol);}f(\")2,\\\"V\\\\\\\\PCKV600\\\\IY010\\\\n\\\\300\\\\410\\\\" +
-        "500\\\\a|100\\\\+4420\\\\y04/&$< $5100\\\\n!%*',j330\\\\{ (7+5`530\\\\bPSX4" +
-        "20\\\\NWY^VM@B^BZKClECDLF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\\\771\\\\dle" +
-        "rejg\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;" +
-        "++y)2<i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"  ;
-        while(x=eval(x));
-        //-->
-        //]]>
-        </script>
-      </span>
-<span><i class="icon-facebook"></i><a href="www.facebook.com/pages/Neuropsych-Now/213658415438863"> facebook</a></span></p>
-<span><i class="icon-facebook"></i><a href="#"> facebook</a></span></p>
-    </div>
-    <div class="span4">
-      <h4>Get</h4>
-        <p>
-          <!-- <span><i class="icon-book"></i><a href="#" > Guides & Books</a></span> -->
-          <span><i class="icon-lightbulb"></i><a href="#"> Articles</a></span>
-          <span><i class="icon-wrench"></i><a href="#"> Tools</a></span>
-        </p>
+            </div>
+          </div>
+        </div>
       </div>
-    <div class="span4">
-      <h4>About</h4>
-        <p>
-          <span><i class="icon-group"></i><a href="#"> Us</a></span>
-          <!-- <span><i class="icon-download-alt"></i><a href="#"> Our Products</a></span> -->
-          <span><i class="icon-cloud"></i><a href="#"> This Site</a></span>
-        </p>
-    </div>
-  </div> <!-- end of footer top row -->
 
-  <div class="row-fluid" style="text-align: center; font-size: 14px;">
-    <div id="footlogo" class="span6" >
-      <a href="/">
-      <img alt="Neuropsych Now Small Footer Logo" src="/img/logo_inverse_mini.png" style="width: 50%;">
-      </a>
+<div class="container-fluid" style="background: url('/img/patterns/asfalt.png'); opacity: 0.8;" >
+    <div class="row-fluid" style="color: #fff;">
+      <div class="span8 offset1">
+          <h1 id="hello;" style="color: #33CCCC;">What We Do</h1><h2>Neuropsych Now is a centralized <span style="color: #FF7400">source of information</span> created for neuropsychology clinicians and students. We've compiled and created some of the best information available, and made it <span style="color: #FF7400">easy to access, wherever you are.</span>
+      </div>
     </div>
-    <div class="span6">
-      <p>&copy; 2012 - 2015 Neuropsych Now</p>
-      <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"></a><br />Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NC-ND 4.0 International License</a></p>
-      <p><a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </div>
-  </div> <!-- end of footer bottom row -->
-</div> <!-- end of footer container -->
-  
-  
+  </div>
+  <!-- </div> -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <div  class="container-narrow"> -->
+      <div id="container-accent" class="row-fluid contain">
+        <div id="tab1" class="span3" >
+          <h3>Get</h3><!--
+        --><h3><a href="neuroapps.html" >Apps</a></h3>
+        </div>
+        <div id="tab2" class="span3">
+          <h3>Browse</h3><!--
+        --><h3><a href="tools.html">Tools & Resources</a></h3>
+        </div>
+        <div id="tab3" class="span3"><h3>Read</h3><!--
+        --><h3><a href="articles.html" >Articles</a></h3>
+        </div>
+        <div id="tab4" class="span3" >
+          <h3>Contribute</h3><!--
+        --><h3><a href="contribute.html">To The Cause</a></h3>
+        </div>
+      </div>
+
+  <div class="clearfix"></div>
+
+  <!-- <div class="container-wide"> -->
+   <div class="container-fluid"> <!-- start featurettes container -->
+    <div id="feature1" class="featurette" >
+      <img alt="drawing of a briefcase, overflowing with papers" class="featurette-image pull-right" src="/img/case.png">
+      <h2 class="featurette-heading">Download Converters, Scoring Calculators, And More: <span class="muted"><a href="./downloads.html">Assessment Resources</a></span></h2>
+    </div>
+        <div id="feature2" class="featurette">
+          <img alt="iPhone mockup" class="featurette-image pull-left" src="/img/device.png">
+          <h2 class="featurette-heading">Find An App To Enhance Your Clinical Skill Set.<span class="muted"> Like A Boss.</span>
+          <br>
+          <span class="muted"><a href="./neuroapps.html">Neuro Mobile Apps</a></span></h2>
+        </div>
+        <div id="feature3" class="featurette">
+          <img alt="LaTeX logo" class="featurette-image pull-right" src="/img/LaTeX.png">
+          <h2 class="featurette-heading">Do More Than Just Power Up Your Computer.
+            <br>
+            Learn More With <span class="muted"> <a href="./articles.html">
+            <br>
+            Neuropsych Now Articles</a></span></h2>
+        </div>
+        <div id="feature4" class="featurette">
+          <img alt="Drawing of a Spyglass" class="featurette-image pull-left" src="/img/spiglass.png" style="padding-right: 8em;">
+          <h2 class="featurette-heading">Looking For More?
+            <br>
+            Find it. <span class="muted">Now. <a href="./nsearch.php">
+            <br>
+            Freakishly Advanced Search</a></span></h2>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+  <div id="push"></div>
+</div> <!-- end wrap -->
+
+        <!-- Neuropsych Now Footer for docs at root -->
+        <!--#include virtual="./templates/mainfoot.html" -->
+
+
+        <!-- add any page-specific javascript here
+     ==================================================== -->
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
-    <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>    
-    
-    </body>
+    <script type="text/javascript" src="//use.typekit.net/zlu6vfv.js"></script>
+    <script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <script type="text/javascript">
+    $('#tab1, #tab2, #tab3, #tab4').hover(function(){
+      $(this).toggleClass('magic-box');
+     });
+    </script>
+
+</body>
 </html>

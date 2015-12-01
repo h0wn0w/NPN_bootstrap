@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -25,10 +24,7 @@ nsearch.php
 search.php
 .DS_Store
 sitemap.xml
-=======
-.htaccess
 boot.*
 git-credential-helper/
 search/
 robots.txt
->>>>>>> edits to important files including robots, gitignore, and settings database admin auth
