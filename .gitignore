@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -18,17 +17,14 @@
 .htpasswd
 *.sublime-project
 *.sublime-workspace
-sphider/admin/*
-sphider/settings/database.php
-sphider/include/*
+sphider-plus/admin/*
+sphider-plus/settings/database.php
+sphider-plus/include/*
 nsearch.php
 search.php
 .DS_Store
 sitemap.xml
-=======
-.htaccess
 boot.*
 git-credential-helper/
 search/
 robots.txt
->>>>>>> edits to important files including robots, gitignore, and settings database admin auth
