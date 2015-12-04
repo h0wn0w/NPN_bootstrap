@@ -22,5 +22,5 @@ sphider-plus/*
 sitemap.xml
 boot.*
 git-credential-helper/
-search/
-robots.txt
+sphider/settings/*
+sphider/admin/*

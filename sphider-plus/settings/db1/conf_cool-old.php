@@ -45,37 +45,37 @@ $dispatch_email = 'postmaster@abc.de';
 $os = 'Darwin';
 
 //Address to localhost document root 
-$local = 'http://home/public/';
+$local = 'http://localhost/publizieren/';
 
 //Web URL of Sphider-plus installation (root)
-$install_url = 'http://neuropsychnow.com/sphider-plus';
+$install_url = 'http://neuronow.com/sphider-plus';
 
 //Installation root folder of Sphider-plus (absolute on computer)
-$inst_dir = '/home/public/sphider-plus';
+$inst_dir = '/Users/Howard/Sites/bootstrap/sphider-plus';
 
 //Installation root folder of Sphider-plus (folder in web server)
-$install_dir = '/home/public/';
+$install_dir = '/Users/Howard/Sites/bootstrap';
 
 //Web URL of Sphider-plus admin backend folder
-$admin_url = 'http://neuropsychnow.com/sphider-plus/admin/admin.php';
+$admin_url = 'http://neuronow.com/sphider-plus/admin/admin.php';
 
 //Admin folder of Sphider-plus installation 
-$admin_dir = '/home/public/sphider-plus/admin';
+$admin_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/admin';
 
 //Folder for thumbnails during index procedure 
-$thumb_folder = '/home/public/sphider-plus/admin/thumbs';
+$thumb_folder = '/Users/Howard/Sites/bootstrap/sphider-plus/admin/thumbs';
 
 //Folder for thumbnails during search procedure 
-$thumb_dir = '/home/public/sphider-plus/include/thumbs';
+$thumb_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/include/thumbs';
 
 //Folder for XML results 
-$xml_dir = '/home/public/sphider-plus/xml';
+$xml_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/xml';
 
 //Delimiter to separate real tile and transliterated part of media titles 
 $delim = '_-_-';
 
 //Folder for URL import / export 
-$url_path = '/home/public/sphider-plus/admin/urls/';
+$url_path = '/Users/Howard/Sites/bootstrap/sphider-plus/admin/urls/';
 
 //latest implemented field in db 
 $latest_field = 'webshot';
@@ -168,16 +168,16 @@ $del_related = 1;
 $admin_life = 300;
 
 // Template URL (new version for HTML5)
-$template_url = 'http://neuropsychnow.com/sphider-plus/templates';
+$template_url = 'http://neuronow.com/sphider-plus/templates';
 
 // Template directory(for old version relative addressing ../)
 $templ_dir = 'templates';
 
 // Template directory (old version, same as the new Template URL)
-$template_dir = '/home/public/sphider-plus/templates';
+$template_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/templates';
 
 // Temporary directory, this should be readable and writable
-$tmp_dir = '/home/public/sphider-plus/admin/tmp';
+$tmp_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/admin/tmp';
 
 // Name of search script
 $search_script = 'search.php';
@@ -212,7 +212,7 @@ $click_wait = 60;
 $keep_log = 1;
 
 //Log directory, this should be readable and writable
-$log_dir = '/home/public/sphider-plus/admin/log';
+$log_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/admin/log';
 
 // Log format
 $log_format = 'html';
@@ -229,7 +229,7 @@ Spider settings
 $case_sensitive   = 0;
 
 // Sitemap directory, this should be readable and writable 
-$smap_dir = '/home/public/sphider-plus/admin/sitemaps';
+$smap_dir = '/Users/Howard/Sites/bootstrap/sphider-plus/admin/sitemaps';
 
 // Count of threads for indexing 
 $multi_indexer = '1';
