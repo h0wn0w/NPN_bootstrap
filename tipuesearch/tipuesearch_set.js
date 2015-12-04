@@ -27,9 +27,9 @@ var tipuesearch_replace = {'words': [
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'http://www.tipue.com', 'score': 200},
-     {'url': 'http://www.tipue.com/search', 'score': 100},
-     {'url': 'http://www.tipue.com/about', 'score': 100}
+     {'url': 'http://www.neuropsychnow.com/index.html', 'score': 200},
+     {'url': 'http://www.neuropsychnow.com/aboutsite.html', 'score': 100},
+     {'url': 'http://www.neuropsychnow.com/articles.html', 'score': 100}
 ]};
 
 
@@ -57,3 +57,6 @@ var tipuesearch_string_10 = 'Search too short';
 var tipuesearch_string_11 = 'Should be one character or more';
 var tipuesearch_string_12 = 'Should be';
 var tipuesearch_string_13 = 'characters or more';
+
+
+// var tipuesearch_pages = ["http://neuropsychnow.com/index.html", "http://neuropsychnow.com/aboutsite.html", "http://neuropsychnow.com/articles.html"];
