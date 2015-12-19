@@ -17,10 +17,9 @@
 .htpasswd
 *.sublime-project
 *.sublime-workspace
-sphider-plus/*
+sphider-plus*
+search.php
 .DS_Store
 sitemap.xml
 boot.*
 git-credential-helper/
-sphider/settings/*
-sphider/admin/*
