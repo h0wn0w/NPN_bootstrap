@@ -44,9 +44,16 @@ body {
   /*min-width: 60em;*/
   text-align: center;
 }
+
 div {
   text-align: left;
 }
+
+/*#articlebody p {
+  font-family: 'Antic Slab', serif;
+  text-align: left;
+}*/
+
 .header {
   background-position: -10px 0px;
   position: relative;
@@ -86,7 +93,7 @@ div {
   margin: 0 2.5em 0 16.5em;
 }
 .sidebar {
-  width: 14em;
+  /*width: 14em;*/
   position: relative;
   /*padding-top: 40px;*/    /*added to lower this below the navbar*/
   /*padding-left: 40px;*/

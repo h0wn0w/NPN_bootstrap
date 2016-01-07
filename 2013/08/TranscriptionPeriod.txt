@@ -1,0 +1,21 @@
+Title:				Transcription Period
+Author:				S. Marc Testa, Ph.D.
+Web:				http://neuropsychnow.com
+Date:				08/27/2013
+Tags:	            Applications, Dictation, Practice, Productivity, Reports, Tech, Writing, Workflow
+
+![][dictamus]
+
+Many psychologists use dictation software. Dragon NaturallySpeaking (on the PC) or Dragon Dictate (for Mac OS) are probably the most popular. These dictation software packages transform speech to text, in real time. That is, as you speak into a microphone, words appear on a computer screen. There is, however, a somewhat neglected feature these packages offer called **transcription**. Transcription allows you to record an audio file of your own speech that can be converted to text at a later point in time. Currently, the accuracy of Dragon's transcription feature is quite high and should, therefore, be considered something to add to your report writing workflow.
+
+## "So do I need to buy an audio recorder?" ##
+
+No, because if you own a mobile phone, you probably already have what you need! 
+
+Nuance (the makers of Dragon products) offers a [free voice recording app](http://www.nuance.com/dragon/recorder-app/index.htm) for iPhone users (they also have an [app](http://www.nuance.com/dragon/remote-microphone/index.htm) that turns your iOS or Android phone into a dictation microphone). Though Nuance does not offer a voice recorder app for Android users, [there are free options available](http://www.attorneyatwork.com/dictation-apps-for-android-lawyers/). Though these apps allow you to share the file in various ways, most, however, do not have encryption capabilities. This is important due to [HIPAA HiTech rules](http://blogs.computerworld.com/cloud-security/22647/can-you-be-hipaa-compliant-cloud) that address PHI "in the cloud".  You could attach your phone to your computer, but that would be so 2005! 
+
+For iOS users, one very acceptable solution is [Dictamus](https://itunes.apple.com/app/dictamus-dictate-send/id305870342?mt=8), which allows you to send a an encrypted audio file using a number of methods (Android options are [here](http://androidapp.lisisoft.com/android-apps/voice-recorder-with-encryption.html)). For instance, you can have the file uploaded to DropBox, which (after decrypting) can be accessed using Dragon software on your main computer. (Note: Decryption is easiest with this [app](https://itunes.apple.com/us/app/dictamus-decrypter/id530174469?mt=12) but free options are also available).
+
+In sum, consider using the transcription feature that is built into Dragon. It provides an accurate way to produce content and, moreover, there are great solutions that allow you to use your mobile phone to record and send audio files **securely**. Future posts will include a workflow that combines the benefits of transcription with the magic of [text expansion](http://neuropsychnow.com/2013/08/gettingreportsdone_2).
+
+[dictamus]:../../img/dictamus.png width=200px

@@ -1,0 +1,20 @@
+Title:		Where Is Neuropsychology When It Comes to Brain/Technology Interface?
+Author: 	S. Marc Testa, Ph.D.
+Web:		http://neuropsychnow.com
+Date:		08/13/2013
+Tags:		Clinical, Cognitive Rehabilitation, Mobile, Practice, Singularity, Tech 
+
+**1993:**  
+![1993][allinone1]  
+
+**2013:**  
+![2013][allinone2]  
+
+ If [Raymond Kurzweil's](http://www.ted.com/talks/ray_kurzweil_on_how_technology_will_transform_us.html) predictions are accurate ([and they probably are](http://en.wikipedia.org/wiki/Ray_Kurzweil)), in about 10 years, individuals with brain dysfunction will have a number of options to help improve their everyday cognitive functioning. [Ramez Naam](http://singularityhub.com/2013/01/29/ramez-naam-discusses-brain-computer-interfaces-at-google/) provides a glimpse into what is already being done to intermingle computer technology and neurology. 
+
+In the meantime, we currently have excellent technology, in the form of apps and mobile devices. How can patients with cognitive impairment benefit from this ubiquitous technology? Surprisingly, there are not many well-designed studies to help answer this question. There is, however, an **excellent** systematic review of the assistive technologies for cognition ([ATC](http://www.guide-research.com/Publications/Gillespie%20et%20al_Assistive%20Technology%20for%20Cognition_Systematic%20Review.pdf)) literature. In this paper, Gillespie et al. propose a framework that will likely remain applicable even if technology changes drastically. Their framework does not emphasize specific technologies (like an alarm clock or pager). Rather, they highlight potential relationships between psychological domains and various types of *functions* that could be supported by various technologies. For instance, those with planning and organization deficits may benefit from technology that provides micro-prompting. The technology could be a mobile phone, a watch, or [Google Glass](http://www.google.com/glass/start/). The bottom line is *technology* will certainly be much different in 10 years, but the functions that require support will not likely change. 
+
+If you are planning research in this area or thinking about developing a clinical intervention using mobile technologies, this paper is a must read. 
+
+[allinone1]: ../../img/multidevices_1.png width=400px
+[allinone2]: ../../img/multidevices_2.png width=400px

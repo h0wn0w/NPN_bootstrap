@@ -1,0 +1,51 @@
+Title:			Principal Components Analysis with Python
+Author:			W. Howard Buddin Jr., Ph.D.
+Category:		Article
+Date:			04/18/2014
+Tags:			News, Statistics
+
+
+Python is a popular scripting language with myriad applications, including running statistical tests. Broadly, the benefit of using a scripting language [^1] to run your stats is that the script can be (re)used across multiple projects, assuming that you want to run, e.g., a T-Test over and over, but with cases unique to each individual project. In other words, it's a predefined code block that only requires you to input cases, variable types, etc. 
+
+You may or may not know that SPSS can utilize the power of Python's scripting capabilities to run any of its tests. As an example, I use the following to get descriptive statistics for scalar and nominal variables in just about every research project I've worked on for the past few years: 
+
+```
+*for scale variables. 
+
+BEGIN PROGRAM PYTHON. 
+import spss 
+string1="DESCRIPTIVES VARIABLES=" 
+N=spss.GetVariableCount() 
+scaleVarList=[]
+for i in xrange(N): 
+	if spss.GetVariableMeasurementLevel(i)=='scale':
+		scaleVarList.append(spss.GetVariableName(i)) 
+string2="."
+spss.Submit([string1, ' '.join(scaleVarList), string2]) 
+END PROGRAM.
+
+*Get frequencies for nominal variables. 
+
+BEGIN PROGRAM PYTHON. 
+import spss 
+string1="FREQUENCIES VARIABLES=" 
+N=spss.GetVariableCount() 
+nominalVarList=[]
+for i in xrange(N): 
+	if spss.GetVariableMeasurementLevel(i)=='nominal':
+		nominalVarList.append(spss.GetVariableName(i)) 
+string2="."
+spss.Submit([string1, ' '.join(nominalVarList), string2]) 
+END PROGRAM.
+```
+
+All I have to do is run this from an SPSS syntax window to immediately get the descriptive data for all variables of interest in a dataset.
+
+Python scripting can get a lot more powerful, though. [This article][1] offers a step-by-step tutorial for using Python to run a Principal Components Analysis (PCA). Although the article features standalone Python scripting, the syntax can be entered and called from within SPSS (which, in turn, makes use of the Python Programmability plugin). You can learn more about the power of Python and SPSS at the [IBM SPSS Developer Works forum][2].
+
+
+[^1]: To be sure, this means *any* scripting language, not just Python.
+
+[1]: http://sebastianraschka.com/Articles/2014_pca_step_by_step.html#sc_matrix
+
+[2]: https://www.ibm.com/developerworks/community/blogs/ab16c38e-2f7b-4912-a47e-85682d124d32/tags/python?lang=en

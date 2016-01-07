@@ -1,0 +1,13 @@
+Title:		The Brain, Emergent			
+Author: 	W. Howard Buddin Jr., Ph.D.
+Category: 	Article
+Date:		01/11/2014 
+Tags:		Imaging, News, Research
+
+
+## The Human Connectome Project ##
+
+
+[The Human Connectome Project](http://humanconnectome.org) is a relatively new endeavor designed to map the brain's neural connections. The researchers clearly put in a good bit of effort [on one of their recent studies][1], and it's a good read. There have been [some](http://www.nih.gov/science/brain/) nice [advances](http://spectrum.ieee.org/tech-talk/biomedical/imaging/bigbrain-project-makes-terabyte-map-of-a-human-brain) over the past year or so. It will be exciting to watch these projects evolve along with our understanding of functional anatomy. 
+
+[1]: http://www.nytimes.com/2014/01/07/science/the-brain-in-exquisite-detail.html

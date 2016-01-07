@@ -1,0 +1,177 @@
+/*------------------------------------*\
+    $CONTAINERS
+\*------------------------------------*/
+
+/**
+* This provides for creation of containers, wells, borders, etc.
+*/
+
+@import "colors";
+
+$style: solid;
+$size: 1px;
+$tp: top;
+$bm: bottom;
+$radius: 8px;
+$width: 70em;
+// $color: #000;
+
+%boxx {
+	height: auto;
+	// width: 25%;
+	padding: 1em;
+}
+
+%contain {
+	height: auto;
+	width: auto;
+	margin: 1em;
+	padding: 2em;
+	position: relative; 
+	list-style: none;
+}
+
+@mixin rounded($vert, $horz, $radius, $color) {
+	border: {
+		// style: solid;
+		width: $size;
+		color: $color;
+		radius: $radius;
+		#{$vert}#{$horz}-radius: $radius;
+	}
+	-moz-border-radius-#{$vert}#{$horz}: $radius;
+	-webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
+
+.boxx {
+	@extend %boxx;
+}
+
+.boxx-round {
+	@extend %boxx;
+	@include rounded(top, left, $radius, $grayblue);
+}
+
+.boxx-round-orange {
+	@extend %boxx;
+	@include rounded(top, left, $radius, $orange);
+	// @include rounded-orange(top, left, $radius);
+	// width: 25%;
+}
+
+.code {
+	@include rounded(bottom, left, $radius/2, $red);
+	border: {
+		style: $style;
+		width: 2px;
+	}
+}
+
+.contain {
+	@extend %contain;
+}
+
+.contain-dark {
+	@extend .boxx;
+	width: auto;
+	background-color: $black-translucent;
+}
+
+.contain-hide {
+	@extend %contain;
+	display: none;
+}
+
+.contain-menu {
+	@extend %contain;
+	width: 300px;
+	background-color: $white;
+	li {
+		list-style: none;
+	}
+}
+
+.contain-well {
+	@extend %contain;
+	background-color: $white-bright;
+	@include rounded(top, left, $radius, $grayblue);
+	a {
+		&:link {
+		  color: $grayblue;
+		  text-decoration: none;
+		}
+		&:visited {
+		  color: $orange;
+		  text-decoration: none;
+		}
+		&:hover {
+		  color: $cyan ;
+		  text-decoration: none;
+		}
+	}
+}
+
+.contain-well-orange {
+	@extend %contain;
+	@include rounded(top, left, $radius, $orange);
+	border: {
+		style: $style none none inset;
+		width: 8px;
+	}
+	background-color: $white;	
+}
+
+.contain-well-quarter-orange {
+	@extend .contain-well-orange;
+	width: 25%;
+}
+
+.rounds {
+	border: {
+		style: $style;
+		width: $size * 3;
+		color: $green-bright;
+		radius: $radius;
+	}
+}
+
+.rounds-#{$tp} {
+	border: {
+		style: $style none none none;
+		width: $size * 5;
+		color: $orange;
+		#{$tp}-right-radius: $radius;
+	}
+}
+
+.rounds-#{$bm} {
+	border: {
+		style: none none $style;
+		width: $size *5;
+		color: $grayblue;
+		#{$bm}-left-radius: $radius;
+	}
+
+.rounds-both {
+	border: {
+		style: $style none $style none;
+		width: $size *5;
+		top-color: $orange;
+		#{$tp}-right-radius: $radius;
+		#{$bm}-left-radius: $radius;
+	}
+}
+
+
+	/* attach this to any class */
+
+// @include arrow(bottom, center, $orange, $bluegray)
+}
+
+.sidebar {
+	max-width: 20em;
+}
+
+:focus {
+  outline: none;
+}

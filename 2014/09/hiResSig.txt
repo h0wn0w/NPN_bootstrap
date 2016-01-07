@@ -1,0 +1,29 @@
+Title:              Scan That Signature!
+Author:             W. Howard Buddin Jr., Ph.D.
+Category:           Article
+Date:                   09/05/2014 
+Tags: Reports, Tips, Workflow
+
+Do you have an image of your signature that you use to sign `.pdf` files before faxing or printing?[^1] Does it render well on a monitor, or does it look kind of thin and faded? Perhaps it is pixelated, and looks more like a [pointillism][1] version of your name? 
+
+
+![Gandhi did it - what about you?][] 
+
+[^2]
+
+Want a high-resolution scan of your signature to replace the lo-res piece of junk you've been using all these years? Then try this tip-of-the-day-of-the-week-of-the-year on for "size":
+
+1. Grab an 8.5" by 11" sheet of paper. 
+2. Get a good black magic marker. A sharpie with a good tip (not worn out, not low on ink) works best.
+3. Sign your name using as much of the sheet of paper as possible. It will possibly look a bit awkward at first, unless you are used to doing this sort of thing or get lucky. Get it right; try a couple of times if you need to. If you're going to go through this effort, you should at least make sure that it looks basically just like your normal signature.
+4. Scan said signature/paper using your favorite scanning tool/software.
+5. Optional: whatever scanning method you choose will all but surely save the scan as one particular, default file type. You might want to go ahead and save it in a couple of different file type formats, such as `.pdf`, `.jpeg`, and `.png`. There may be times when you want to attach your signature to various web services, forms, etc., and having it saved in various file types will help ensure that you have the necessary kind later down the road.
+6. Revel at the beauty that is your ridiculously high resolution, hi dpi signature. You can make that bad boy as big as you want, and it will always look great.
+
+[^1]: If you still use an ink stamp for this purpose, then stop it. Stop it right now.
+
+[^2]: "Gandhi signature" by derivative work: MissMJ (talk)Gandhi_sign.jpg: Original uploader was Sumanch at en.wikipedia - Gandhi_sign.jpg. Licensed under Public domain via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Gandhi_signature.svg#mediaviewer/File:Gandhi_signature.svg)
+
+[1]: http://en.wikipedia.org/wiki/Pointillism
+
+[Gandhi did it - what about you?]: http://upload.wikimedia.org/wikipedia/commons/2/27/Gandhi_signature.svg

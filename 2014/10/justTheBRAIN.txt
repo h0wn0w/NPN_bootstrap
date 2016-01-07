@@ -1,0 +1,19 @@
+Title:The BRAIN Initiative
+Author:W. Howard Buddin Jr., Ph.D.
+Category:Article
+Date:10/06/2014
+Tags:News, Policy, Research
+
+The BRAIN initiative is a federally funded project administered by the National Institutes of Health as a multi-year, multi-site endeavor. The goals of this project are to: 
+
+1. Identify and provide experimental access to the different brain cell types to determine their roles in health and disease.
+2. Generate circuit diagrams that vary in resolution from synapses to the whole brain.
+3. Produce a dynamic picture of the functioning brain by developing and applying improved methods for large-scale monitoring of neural activity.
+4. Link brain activity to behavior with precise interventional tools that change neural circuit dynamics.
+5. Produce conceptual foundations for understanding the biological basis of mental processes through development of new theoretical and data analysis tools.
+6. Develop innovative technologies to understand the human brain and treat its disorders; create and support integrated human brain research networks.
+7. Integrate new technological and conceptual approaches produced in Goals #1-6 to discover how dynamic patterns of neural activity are transformed into cognition, emotion, perception, and action in health and disease.
+
+The most current information is [available in the form of a report][1] prepared by the BRAIN working group. This is a fascinating project, and even if they don't hit all of their goals, it's a step in the right direction. 
+
+[1]: http://www.braininitiative.nih.gov/2025/index.htmP

@@ -1,0 +1,11 @@
+Title:		On the Reliability of fMRI
+Author: 	W. Howard Buddin Jr., Ph.D.
+Category: 	Article
+Date:		01/11/2014 
+Tags:		Clinical, News, Practice
+
+
+If one were to rely solely upon popular media stories (which many people do), they might believe that we could tell what kind of pizza you like based on an (f)MRI. The reality, of course, is far from such fortune-telling style results. 
+
+The findings from [this particular study](http://blogs.discovermagazine.com/neuroskeptic/2014/01/10/reliability-fmri-brain-activity-memory-encoding/#.UtBdW3i9Kc0) did not find a reliable association between performance on memory tasks and fMRI results. File this one under "Unsurprising Results." 
+

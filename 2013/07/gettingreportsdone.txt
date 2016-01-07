@@ -1,0 +1,37 @@
+Title:		Getting Reports Done
+Author:		S. Marc Testa, Ph.D.
+Date:               07/29/2013 
+Tags:              Dictation, Productivity, Reports, Workflow
+
+S. Marc Testa, Ph.D.
+
+Every once in a while, it's a good idea to consider if you are working as efficiently as possible. If you are prone to tinkering, however, this can be tricky business. *Trying to improve your productivity does not mean you are being more productive.* 
+
+When is it reasonable to spend time critiquing your own workflow to see how you can improve? For trainees, the perfect opportunity is between clinical placements. For practicing clinicians, consider using a an hour each night over a long weekend to examine your report writing process.
+
+There are various aspects to consider including:
+
+- Acceptable turnaround time
+- Protecting time to write
+- Actual process of writing
+- Content and report length
+- Implementation of new technology, e.g. dictation, spreadsheets or scoring software
+
+
+## Acceptable Turnaround & Protecting Writing Time ##
+
+This is a topic that almost every neuropsychologist I talk to struggles with to some degree. In my own process, I've realized I can complete an entire assessment in one day, even if I am administering the test battery. To do this, I organize my interview and interview paperwork, in the same order that they will appear in the final report. This allows me to read my interview sheet and dictate the history and behavioral observations fairly easily. Although dictation is fast and makes report writing much easier, it is best to dictate as soon as possible. When possible, I will have a patient complete a self-report inventory after the interview, so I can dictate the history immediately.
+
+Once testing is completed, I score the battery and create a table for the report. This can be time consuming, but doesn't have to be. I've been successful in using excel-based scoring sheets that "grabs" test data from a standardized scoring program (e.g., [the CNNS from PAR, Inc.](http://www4.parinc.com/Products/Product.aspx?ProductID=CNNS)) and creates a formatted report-ready table that can be pasted into an electronic medical record. The next step is to dictate the remaining sections including the Review of Findings (i.e. the "Results") and the Formulation and Recommendations. 
+
+When physicians have a clinic, they seem to get all their reports completed that day or the next. Neuropsychologists? Not so much. Why is this? It is likely that some academic and research oriented clinicians may perceive that they can interview a patient and then go to a meeting or focus on writing a paper and eventually get back to writing the report for that patient at some other time. Chances are, the so-called "other time" is not well-defined, and efficiency suffers as a result. In my own practice, whenever I make it a point to finish a report for the patient I see that day, my overall turnaround improves. Moreover, I am better able to attend to other, non-clinical tasks. 
+
+## Content and Report Length ##
+
+Do you know how referral sources read your report? My bet is that most skip to the Formulation and do not even read the history. It is more likely that a document of 3 or 4 pages will be read as compared to one that is 7, 8 or 20 pages long. It's also helpful to ask yourself if a lengthy report will be *clinically* useful or not.  
+
+## Implementation of New Technology ##
+
+Using new technology is fun. Some technology can help improve your work product drastically. Other technologies have that promise, but do not work out in the end. Start slowly and don't get too immersed in the tinkering that will potentially be a big waste of time.
+
+At the end of the day, our goal as neuropsychologists is to provide efficient patient care. Taking time once or twice a year to review and critique your workflow, and talk to others about theirs, could benefit you and your patients in the long run. 

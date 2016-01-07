@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="humans.txt">
+
+<!--#include virtual="${Base_URL}/templates/mainhead.html" -->
+
+<script src="http://listjs.com/no-cdn/list.js"></script>
+<script src="http://listjs.com/no-cdn/list.fuzzysearch.js"></script>
+<style>
+    .tecks-lef { text-align: left; }
+    .tecks-cen { text-align: center; }
+    span.sort { background-color: orange; padding: 2px; border-radius: 4px;}
+    span.sort:hover { background-color: red; color: #000; }
+    span.sort:hover
+</style>
+<!--#include virtual="${Base_URL}/templates/navbar.html" -->
+
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+    <h1 id="pageheader" class="page-title">Presentations</h1>
+        </div>
+    </div>
+</div>
+
+<div id="wedo" class="container-narrow">
+<div class="row-fluid">
+    <div class="span12">
+      Use the "Search" field below to find a specific presentation, or browse by tags.  
+    </div>
+</div>
+
+<!-- <div id="hacker-list">
+<table>
+<colgroup>
+<col style="text-align:left;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+<col style="text-align:center;">
+</colgroup>
+
+<thead>
+    <tr>
+        <th rowspan="1" colspan="1">Title</th>
+        <th rowspan="1" colspan="1">Tags</th>
+    </tr>
+</thead>
+<tbody class="list">
+<tr>
+    <td class="name">Presentation One</td>
+    <td class="tags">Nerds, Brain</td>
+</tr>
+<tr>
+    <td class="name">Presentation Two</td>
+    <td class="tags">Face, Boobs</td>
+</tr>
+</tbody>
+</table>
+</div> -->
+
+<div id="hacker-list">
+
+    <input class="search" />
+    <span class="sort" id="force" data-sort="name">Sort by name</span>
+    <span class="sort" id="force" data-sort="tags">Sort by tags</span>
+
+    <ul class="list">
+      <li>
+        <a href="http://nnpresentation.s3.amazonaws.com/Seminar%20Presentation.pptx"><h3>Uncommon Considerations</h3></a>
+        <p class="tags">Uncommon, Disorders, Pathology</p>
+      </li>
+       <li>
+           <a href="#"><h3 class="name">Presentation One</h3></a>
+           <p class="tags">Nerds, Brain</p>
+       </li>
+       <li>
+           <a href="#"><h3 class="name">Presentation Two</h3></a>
+           <p class="tags">Face, Pathology</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Three</h3></a>
+         <p class="tags">Pathology, MRI, Awesomesauce</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Four</h3></a>
+         <p class="tags">Study, MRI, TBI</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Five</h3></a>
+         <p class="tags">Hammer, Time, Brain</p>
+       </li>
+       <li>
+         <a href="#"><h3 class="name">Presentation Six</h3></a>
+         <p class="tags">Pathology, Gist</p>
+       </li>
+    </ul>
+</div>
+
+</div>
+
+<div id="push"></div>
+    </div>
+
+<!--#include virtual="${Base_URL}/templates/mainfoot.html" -->
+
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/twitter-bootstrap-hover-dropdown.min.js"></script>    
+<!-- <script src="./js/list.min.js"></script> -->
+
+
+</script>
+    
+  <script>
+    var options = {
+    
+};
+    var hackerList = new List('hacker-list', {
+      valueNames: [ 'name', 'tags' ],
+      plugins: [ ListFuzzySearch() ]
+    } );
+  </script>
+
+</body>
+</html>

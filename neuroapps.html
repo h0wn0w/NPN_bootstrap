@@ -2,215 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Neuropsych iOS Apps</title>
+    <title>Neuropsych Mobile Apps</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="W. Howard Buddin Jr., Ph.D. & S. Marc Testa, Ph.D.">
-
-    <!-- Les styles -->
-    <link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans+Narrow|Josefin+Sans:400,700,400italic|Oxygen:400,700|Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/npn.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="icon" href="./img/favicon.png" type="image/png" />
-    <style type="text/css">
-    
-    /* GLOBAL
-    -------------------------------------------------- */
-    /* Padding below the footer and lighter body text */
-
-    body {
-      padding-top: 80px;
-      padding-bottom: 60px;
-      color: #5a5a5a;
-      font-family: 'News Cycle', sans-serif;
-    }
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-   
-
-      /* CUSTOMIZE THE NAVBAR EVUN MOAR
-    -------------------------------------------------- */
-
-   /* Jumbotron - modified for Neuropsych Now */
-	  .jumbotron {
-	    margin: 80px 0;
-	    text-align: center;
-	  }
-	  .jumbotron h1 {
-	    font-size: 48px;
-	    line-height: 1;
-	  }
-	  .jumbotron .lead {
-	    font-size: 24px;
-	    line-height: 1.25;
-	  }
-	  .jumbotron .btn {
-	    font-size: 21px;
-	    padding: 14px 24px;
-	  }
-
-	/*TABLE STYLES
-	-------------------------------------------------- */
-
-	/*Added for Neuropsych Now to give style and stuff to DataTables*/
-	div.dataTables_length label {
-    width: 460px;
-    float: left;
-    text-align: left;
-	}
- 
-	div.dataTables_length select {
-	    /*width: 75px;*/
-	}
-	 
-	div.dataTables_filter label {
-	    float: right;
-	    /*width: 460px;*/
-	}
-	 
-	div.dataTables_info {
-	    padding-top: 8px;
-	}
-	 
-	div.dataTables_paginate {
-	    float: right;
-	    /*margin: 0;*/
-	    margin-bottom: 6px !important;
-	}
-	 
-	table {
-	    margin: 1em 0;
-	    clear: both;
-	}
-
-	table.table thead .sorting,
-	table.table thead .sorting_asc,
-	table.table thead .sorting_desc,
-	table.table thead .sorting_asc_disabled,
-	table.table thead .sorting_desc_disabled {
-	    cursor: pointer;
-	    *cursor: hand;
-	}
-	 
-	table.table thead .sorting { 
-		background: url('./datatables/media/images/sort_both.png') no-repeat center right; 
-	}
-	table.table thead .sorting_asc { 
-		background: url('./datatables/media/images/sort_asc.png') no-repeat center right; 
-	}
-	table.table thead .sorting_desc { 
-		background: url('./datatables/media/images/sort_desc.png') no-repeat center right; 
-	}
-	table.table thead .sorting_asc_disabled { 
-		background: url('./datatables/media/images/sort_asc_disabled.png') no-repeat center right; 
-	}
-	table.table thead .sorting_desc_disabled { 
-		background: url('./datatables/media/images/sort_desc_disabled.png') no-repeat center right; 
-	}
-
-	.th {
-		width: auto;
-	}
-
-	btn {
-
-	}
-
-	.btn-small {
-		color: #999999;
-		/*background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);*/
-		/*background-color: #da4f49;*/
-	}
-
-/*Responsive Navbar
-=========================================*/
-/*get the navbar to cooperate on hero class mobile versions: landscape and portrait*/
-  @media (max-width: 979px) {
-    .navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
-    /*.container-hero-unit { margin-top:70px;}*/
-  }
-
-/* Sticky footer styles
-      -------------------------------------------------- */
-
-      html,
-      body {
-        height: 100%;
-        /* The html and body elements cannot have any padding or margin. */
-      }
-
-      /* Wrapper for page content to push down footer */
-      #wrap {
-        min-height: 100%;
-        height: auto !important;
-        height: 100%;
-        /* Negative indent footer by it's height */
-        margin: 0 auto -60px;
-      }
-
-      /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        height: 60px;
-      }
-      #footer {
-        background-color: #f5f5f5;
-      }
-
-      /* Lastly, apply responsive CSS fixes as necessary */
-      @media (max-width: 767px) {
-        #footer {
-          margin-left: -20px;
-          margin-right: -20px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-      }
-
-    </style>
-     <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body>
-<div id="wrap">
+    <meta name="author" content="humans.txt">
+<!--#include virtual="${Base_URL}templates/mainhead.html" -->
 <!-- Call Neuropsych Now Navbar -->
 <!--#include virtual="./templates/navbar.html" -->
 
-    <div class="container">
-    	<div class="dataTables_length">
-    	<!-- <ul class="thumbnails">
-		  <li class="span12">
-		    <div class="thumbnail">
-      		<img data-src="holder.js/300x200" alt=""> -->
-
-      <!-- Main hero unit  -->
-      <!-- <div class="hero-unit"> -->
-      <!-- <div class="jumbotron"> -->
-        <h1 style="color: red; text-align: center;">iOS Apps For Neuropsychologists</h1>
-        <h3>Notes</h3>
-        <ul style="text-align:left;">
-        	<li>We have not tried all of these applications, nor do we intend to. Any particular app's inclusion does not equate to an endorsement by Neuropsych Now. This table is what it is: a quick reference list with links to each application's App Store page. Enjoy!</li>
-        	<li>Apps are marked as "iPhone" or "iPad" based on whether a platform-specific version has been developed.</li>
-        	<!-- <li>This table is sortable and searchable: 
-        		<ul>
-        		<li>Click the header for each column to sort by descending order; click again to sort by ascending order.</li> 
-    			<li>This table can be searched by any column's parameters.</li>
-    			</ul>
-    		</li> -->
-        	<li>App store reviews often have poor <b>sensitivity</b> as they're sometimes "reviewed" by the app's own developers using bogus accounts. <b>Specificity</b> can be reduced when people leave negative reviews that do not necessarily reflect an app's functionality (e.g., <em>"this app sux because it does not have a purple icon and purple iz the best colur"</em>). Occasionally, though, an app will have a clear trail of valid, negative reviews. Any such app was excluded.</li>
-        </ul>
-	<!-- 	</div>
-		</li>
-    </ul> -->
+    <div class="container-fluid">
+    	<!-- <div class="dataTables_length"> -->
+    	<div id="pageheader" class="page-header">
+    		<div class="row-fluid">
+    			<div class="span4">
+    				<h1>Mobile Apps</h1>
+    			</div>
+    			<div class="span8">
+    				<h3 style="text-align:center">Please Note:</h3>
+        	<p class="lead">We have not tried all of these applications, nor do we intend to. Any particular app's inclusion does not equate to an endorsement by Neuropsych Now. This table is what it is: a quick reference list with links to each application's App Store page.</p>
+        	<p class="lead">Reviews often have poor <b>sensitivity</b> as they're sometimes "reviewed" by the app's own developers using bogus accounts. <b>Specificity</b> can be reduced when people leave negative reviews that do not necessarily reflect an app's functionality (e.g., <em>"this app sux because it does not have a purple icon and purple iz the best colur"</em>). Occasionally, though, an app will have a clear trail of valid, negative reviews. Any such app was excluded.</p>
+    			</div>
+    		</div>
+    	</div>
+        
+	
 <!-- Button to trigger modal -->
 <a href="#myModal" role="button" class="btn btn-small" data-toggle="modal">Table Help</a>
  
@@ -233,15 +48,11 @@
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <!-- <button class="btn btn-primary">Save changes</button> -->
   </div>
-</div>            
-</div>
-<!-- </div> -->
-     
-<!--	</div> <!-- /container 
-<div class="jumbotron"> -->
-	<!-- <table class="table table-hover table-bordered table-condensed"> -->
+</div> <!-- end of modal -->           
+ <!-- end of dataTables length -->
+
+<div class="dataTables_length">
 <div id="neuroapps">
 
 <!-- Begin the table -->
@@ -257,216 +68,406 @@
 </colgroup>
 
 <thead>
-<!-- <tr>
-	<th style="text-align:left;"></th>
-	<th style="text-align:center;"></th>
-	<th style="text-align:center;"></th>
-	<th style="text-align:center;" colspan="2"></th>
-</tr> -->
 <tr>
 	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
 	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Keywords: activate to sort column ascending">Keywords</th>
-	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 60px;" aria-label="iPad: activate to sort column ascending">iPad</th>
-	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 76px;" aria-label="iPhone: activate to sort column ascending">iPhone</th>
+	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 60px;" aria-label="iOS: activate to sort column ascending">iOS</th>
+	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Android: activate to sort column ascending">Android</th>
 	<th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Price: activate to sort column ascending">Price</th>
-<!-- 
-	<th style="text-align:left;">Name</th>
-	<th style="text-align:center;">Keywords</th>
-	<th style="text-align:center;">iPad</th>
-	<th style="text-align:center;">iPhone</th>
-	<th style="text-align:center;">Price</th> -->
 </tr>
 </thead>
 
 <tbody>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/3d-brain/id331399332?mt=8">3D Brain</a></td>
-	<td style="text-align:center;">map, brain, images</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:left;">3D Brain</a></td>
+	<td style="text-align:center;">brain, map, imaging</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/3d-brain/id331399332?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=org.dnalc.threedbrain&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
 	<td style="text-align:center;" colspan="2">$0.00</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/auditory/id581717894?mt=8">Auditory</a></td>
+	<td style="text-align:left;">Auditory</td>
 	<td style="text-align:center;">assessment, diagnostics, testing</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/auditory/id581717894?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
 	<td style="text-align:center;"></td>
 	<td style="text-align:center;" colspan="2">$19.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/bellcurve-normal-distribution/id388371999?mt=8">Bell Curve: Normal Distribution</a></td>
+	<td style="text-align:left;">Bell Curve: Normal Distribution</td>
 	<td style="text-align:center;">calculator, stats</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/bellcurve-normal-distribution/id388371999?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
 	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
 	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a></td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/brain-tutor-hd/id392586830?mt=8">Brain Tutor HD</a></td>
-	<td style="text-align:center;">brain, images, map</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$1.99</td>
+	<td style="text-align:left;">Brain Tutor HD</td>
+	<td style="text-align:center;">brain, imaging, map</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/brain-tutor-hd/id392586830?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$2.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/brain-tutor-3d/id301362928?mt=8">Brain Tutor 3D</a></td>
-	<td style="text-align:center;">brain, images, map</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:left;">Brain Tutor 3D</td>
+	<td style="text-align:center;">brain, imaging, map</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/brain-tutor-3d/id301362928?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
 	<td style="text-align:center;" colspan="2">$0.00</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/brain-nervous-system-pro-iii/id451427448?mt=8">Brain and Nervous System Pro III</a></td>
-	<td style="text-align:center;">reference, images</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:left;">Brain and Nervous System Pro III</td>
+	<td style="text-align:center;">imaging, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/brain-nervous-system-pro-iii/id451427448?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
 	<td style="text-align:center;"></td>
 	<td style="text-align:center;" colspan="2">$19.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/concussion-assessment-response/id495161270?mt=8">Concussion Assessment and Response - Sport Version</a></td>
-	<td style="text-align:center;">assessment, diagnostics, reference</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:left;">BRIEF/BRIEF-SR Scoring Module</a></td>
+	<td style="text-align:center;">assessment, testing</td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.parinc.toolkit.brief&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
 	<td style="text-align:center;" colspan="2">$4.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/micromedex-drug-information/id390211464?mt=8">Drugs (Micromedex)</a></td>
-	<td style="text-align:center;">meds, reference</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/epocrates/id281935788?mt=8">ePocrates</a></td>
-	<td style="text-align:center;">meds, reference</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/finr-brain-atlas/id424850167?mt=8">FINR Brain Atlas</a></td>
-	<td style="text-align:center;">reference, images</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$1.99</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/icd10-codes/id413924956?mt=8">ICD-10 Codes</a></td>
-	<td style="text-align:center;">reference</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$4.99</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/isurf-brainview/id381072423?mt=8">iSurf BrainView</a></td>
-	<td style="text-align:center;">brain, images, map</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/mmse-mmse-2-administration/id521162601?mt=8">mindMender GMS</a></td>
-	<td style="text-align:center;">rehabilitation, tools</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;" colspan="2">$4.99</a></td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/mmse-mmse-2-administration/id521162601?mt=8">MMSE/MMSE2</a></td>
-	<td style="text-align:center;">assessment, diagnostics, testing</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a></td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/netters-neuroscience-flash/id407070980?mt=8">mTBI Pocket Guide</a></td>
-	<td style="text-align:center;">assessment, reference, testing, tools</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/netters-neuroscience-flash/id407070980?mt=8">Netter&#8217;s Neuroscience</a></td>
-	<td style="text-align:center;">flashcards, images, reference, teaching</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$39.99</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/neurology-ipocketcards/id515185910?mt=8">Neurology iPocketcards</a></td>
-	<td style="text-align:center;">reference, terms, tools</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/neuro-localizer/id590275694?mt=8">Neuro Localizer</a></td>
-	<td style="text-align:center;">diagnostics, map, tools</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/neuro-localizer-hd/id569914999?mt=8">Neuro localizer HD</a></td>
-	<td style="text-align:center;">diagnostics, tools, map</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;" colspan="2">$0.00</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/neuro-toolkit/id350656519?mt=8">Neuro Toolkit</a></td>
-	<td style="text-align:center;">reference, diagnostics, tools</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$2.99</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/par-assessment-toolkit/id356919305?mt=8">PAR Assessment Toolkit</a></td>
-	<td style="text-align:center;">testing, reference, statistics</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>
-</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="http://www.helloq.com/home/">Q-Interactive</a></td>
+	<td style="text-align:left;">The Concise Cognitive Screening Exam</td>
 	<td style="text-align:center;">diagnostics, testing</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/concise-cognitive-screening/id376802155?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
 	<td style="text-align:center;"></td>
-	<td style="text-align:center;" colspan="2">Varies<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a>
-</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/smmse/id517599997?mt=8">sMMSE</a></td>
-	<td style="text-align:center;">diagnostics, testing</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;" colspan="2">$9.99</td>
-</tr>
-<tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/concise-cognitive-screening/id376802155?mt=8">The Concise Cognitive Screening Exam</a></td>
-	<td style="text-align:center;">diagnostics, testing</td>
-	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
 	<td style="text-align:center;" colspan="2">$0.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/traumatic-brain-injury-tbi/id529817823?mt=8">Traumatic Brain Injury</a></td>
-	<td style="text-align:center;">diagnostics, reference</td>
-	<td style="text-align:center;">X</td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:left;">Concussion Assessment and Response - Sport Version</td>
+	<td style="text-align:center;">assessment, diagnostics, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/concussion-assessment-response/id495161270?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
 	<td style="text-align:center;" colspan="2">$4.99</td>
 </tr>
 <tr>
-	<td style="text-align:left;"><a href="https://itunes.apple.com/us/app/ucentral-medical-references/id301867156?mt=8">uCentral (Unbound)</a></td>
-	<td style="text-align:center;">research, terms</td>
+	<td style="text-align:left;">Co-Occuring Conditions Toolkit</td>
+	<td style="text-align:center;">assessment, diagnostics, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/co-occurring-conditions-toolkit/id487749126?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.t2.coct&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Dementia: Behavioral Symptoms</td>
+	<td style="text-align:center;">assessment, dementia, diagnostics, screener</td>
 	<td style="text-align:center;"></td>
-	<td style="text-align:center;">X</td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.behavioralsymptomsdementia.www&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Dementia Screener</td>
+	<td style="text-align:center;">assessment, diagnostics, screener</td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=appinventor.ai_lcchien86.DementiaScreener&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">Dictadroid</td>
+    <td style="text-align:center;">dictation, reports, transcription, writing</td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.softeight.android.dictadroid.full&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$2.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">Dictamus</td>
+    <td style="text-align:center;">dictation, reports, transcription, writing</td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.jotomi.dictation.full" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$9.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">Dictate + Connect</td>
+    <td style="text-align:center;">dictation, reports, transcription, writing</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/app/dictamus-dictate-send/id305870342?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;" colspan="2">$16.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Drugs (Micromedex)</td>
+	<td style="text-align:center;">meds, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/micromedex-drug-information/id390211464?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">ePocrates</td>
+	<td style="text-align:center;">meds, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/epocrates/id281935788?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.epocrates&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">EPPP Exam Prep</td>
+	<td style="text-align:center;">education, resource, student</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/eppp-exam-prep-psychology/id381983952?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.dblpartners.eppp&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$8.99<a href="#fn:6" id="fnref:6" title="see footnote" class="footnote">[6]</a></td>
+</tr>
+<tr>
+	<td style="text-align:left;">EPPP Flash Card Study System</td>
+	<td style="text-align:center;">education, resource, student</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/book/eppp-flashcard-study-system/id591104703?mt=11" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.pdf.secondepppflash&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$69.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">EPPP Flash Cards</td>
+	<td style="text-align:center;">education, resource, student</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/eppp-flash-cards/id382527514?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=net.studypsych.complete&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$29.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">EPPP Flash Cards Lite</td>
+	<td style="text-align:center;">education, resource, student</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/eppp-flash-cards-lite/id387637778?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=net.studypsych.lite" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">FINR Brain Atlas</td>
+	<td style="text-align:center;">imaging, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/finr-brain-atlas/id424850167?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$1.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Glasgow Calculator</td>
+	<td style="text-align:center;">assessment, brain, diagnostics, evaluation, TBI</td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.marcelopazzo.android.glasgow&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">GoodRx</td>
+	<td style="text-align:center;">medicine, treatment</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/goodrx/id485357017?mt=8" title="GoodRx App for iOS" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.goodrx&hl=en" title="GoodRx App for Android" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Human Nervous System Anatomy and Function Study Guide</td>
+	<td style="text-align:center;">reference, resource, student</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/book/human-nervous-system-anatomy/id370188055?mt=11"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.mobilereference.nervoussystem&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$9.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">ICD-10 Codes</td>
+	<td style="text-align:center;">reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/icd10-codes/id413924956?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$4.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">iSurf BrainView</td>
+	<td style="text-align:center;">brain, imaging, map</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/isurf-brainview/id381072423?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">MOST-96120 Memory Orientation Screening Test</td>
+	<td style="text-align:center;">assessment, screening, testing</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/most-96120-memory-orientation/id531744571?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$9.99<a href="#fn:9" id="fnref:9" title="see footnote" class="footnote">[9]</a></td>
+</tr>
+<tr>
+	<td style="text-align:left;">Memory Orientation Screening Test</td>
+	<td style="text-align:center;">assessment, screening, testing</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/memory-orientation-screening/id489970004?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$49.99<a href="#fn:10" id="fnref:10" title="see footnote" class="footnote">[10]</a></td>
+</tr>
+<tr>
+	<td style="text-align:left;">mindMender GMS</td>
+	<td style="text-align:center;">rehabilitation, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/mmse-mmse-2-administration/id521162601?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$4.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">MMSE/MMSE2</td>
+	<td style="text-align:center;">assessment, diagnostics, testing</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/mmse-mmse-2-administration/id521162601?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.parinc.mmse&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a></td>
+</tr>
+<tr>
+    <td style="text-align:left;">MS Diagnosis and Management</td>
+    <td style="text-align:center;">assessment, diagnostics, treatment</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/multiple-sclerosis-diagnosis/id480116542?mt=8"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.bbi.national_multiple_sclerosis_society&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">mTBI Pocket Guide</td>
+	<td style="text-align:center;">assessment, reference, testing, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/mtbi-pocket-guide/id479348842?mt=8" target="_blank"></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=org.t2health.mtbi&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+    <td style="text-align:left;">Nerve Whiz</td>
+    <td style="text-align:center;">reference, resource, student</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/nerve-whiz/id380714187?mt=8" target="_blank"><i class="icon-apple icon-large"></i> link</a></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.Nervewhiz&hl=en" target="_blank"><i class="icon-android icon-large"></i> link</a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Netter&#8217;s Neuroscience</td>
+	<td style="text-align:center;">flashcards, imaging, reference, teaching</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/netters-neuroscience-flash/id407070980?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$39.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Neurology iPocketcards</td>
+	<td style="text-align:center;">reference, terms, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/neurology-ipocketcards/id515185910?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Neuro Localizer</td>
+	<td style="text-align:center;">diagnostics, map, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/neuro-localizer/id590275694?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Neuro Localizer HD</td>
+	<td style="text-align:center;">diagnostics, map, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/neuro-localizer-hd/id569914999?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+    <td style="text-align:left;">NeuroMind</td>
+    <td style="text-align:center;">reference, resource</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/neuromind/id353386909?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=eu.dign.NeuroMind&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Neuro Toolkit</td>
+	<td style="text-align:center;">diagnostics, reference, tools</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/neuro-toolkit/id350656519?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$2.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">NIH Stroke Scales</td>
+    <td style="text-align:center;">assessment, brain, reference, stroke</td>
+    <td style="text-align:center;"</td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=astroke.com&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+    <td style="text-align:left;">NIH Stroke Scale</td>
+    <td style="text-align:center;">assessment, brain, reference, stroke</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/nih-stroke-scale/id295232729?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;" colspan="2">$2.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">NIHSS in Spanish</td>
+    <td style="text-align:center;">assessment, brain, reference, stroke</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/nihss-in-spanish/id305413781?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;" colspan="2">$2.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">PAR Assessment Toolkit</td>
+	<td style="text-align:center;">reference, statistics, testing</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/par-assessment-toolkit/id356919305?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.parinc.toolkit&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a></td>
+</tr>
+<tr>
+    <td style="text-align:left;">Psych Reference</td>
+    <td style="text-align:center;">diagnostics, reference</td>
+    <td style="text-align:center;"></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=air.com.kiddiecatpsych.dsmReference&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+	<td style="text-align:left;">Q-Interactive</td>
+	<td style="text-align:center;">diagnostics, testing</td>
+	<td style="text-align:center;"><a href="http://www.helloq.com/home/" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">Varies<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></td>
+</tr>
+<tr>
+  <td style="text-align:left;">Radiopedia</td>
+  <td style="text-align:center;">imaging, reference</td>
+  <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/radiopaedia/id473157176?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+  <td style="text-align:center;"></td>
+  <td style="text-align:center;" colspan="2">$0.00<a href="#fn:11" id="fnref:11" title="see footnote" class="footnote">[11]</a></td>
+</tr>
+<tr>
+  <td style="text-align:left;">Radiopedia Vol. 1: Brain Radiology</td>
+  <td style="text-align:center;">imaging, reference</td>
+  <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/radiopaedia-vol-1-brain-radiology/id327452636?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+  <td style="text-align:center;"></td>
+  <td style="text-align:center;" colspan="2">$4.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">sMMSE</a></td>
+	<td style="text-align:center;">diagnostics, testing</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/smmse/id517599997?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$9.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">SpeakWrite</td>
+    <td style="text-align:center;">dictation, reports, writing</td>
+    <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/speakwrite/id333300253?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.speakwrite.speakwrite&hl=en" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00<a href="#fn:7" id="fnref:7" title="see footnote" class="footnote">[7]</a></td>
+</tr>
+<tr>
+  <td style="text-align:left;">Stroke Pocektcards</td>
+  <td style="text-align:center;">diagnostics</td>
+  <td style="text-align:center;"><a href="https://itunes.apple.com/us/app/stroke-pocketcards/id364987119?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+  <td style="text-align:center;"></td>
+  <td style="text-align:center;" colspan="2">$4.99</td>
+</tr>
+<tr>
+    <td style="text-align:left;">TapToTalk Player</td>
+    <td style="text-align:center;">autism, intervention, speech</td>
+    <td style="text-align:center;"><a href="http://www.taptotalk.com/" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"><a href="http://www.taptotalk.com/" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">$0.00</td>
+</tr>
+<tr>
+    <td style="text-align:left;">TapToTalk Home/Pro/Agency</td>
+    <td style="text-align:center;">autism, intervention, professional, speech</td>
+    <td style="text-align:center;"><a href="http://www.taptotalk.com/proagency.aspx" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+    <td style="text-align:center;"><a href="http://www.taptotalk.com/proagency.aspx" target="_blank"><i class="icon-android icon-large"> link</i></a></td>
+    <td style="text-align:center;" colspan="2">Varies<a href="#fn:8" id="fnref:8" title="see footnote" class="footnote">[8]</a></td>
+</tr>
+<tr>
+	<td style="text-align:left;">Traumatic Brain Injury</td>
+	<td style="text-align:center;">diagnostics, reference</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/traumatic-brain-injury-tbi/id529817823?mt=8" target="_blank"><i class="icon-apple icon-large"></i> link</a></td>
+	<td style="text-align:center;"></td>
+	<td style="text-align:center;" colspan="2">$4.99</td>
+</tr>
+<tr>
+	<td style="text-align:left;">uCentral (Unbound)</td>
+	<td style="text-align:center;">research, terms</td>
+	<td style="text-align:center;"><a href="https://itunes.apple.com/us/app/ucentral-medical-references/id301867156?mt=8" target="_blank"><i class="icon-apple icon-large"> link</i></a></td>
+	<td style="text-align:center;"></td>
 	<td style="text-align:center;" colspan="2">$0.00<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a>
 </td>
 </tr>
 		</tbody>
 		</table>
-	</div>
+	</div> <!-- neuroapps id -->
+</div> <!-- end dataTables -->
 
 	</div> <!-- End table class -->
 </div> <!-- /jumbotron -->
@@ -478,25 +479,44 @@
 <ol>
 
 <li id="fn:1">
-	<p>$1.99 upgrade</p> <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+	<p>$1.99 upgrade</p> <a href="#fnref:1" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
 </li>
 
 <li id="fn:2">
-<p>App is free, but the user pays for administrations. Cost-per-administration varies depending on the quantity purchased, with discounts for greater numbers of administrations purchased. The minimum per-administration cost is $1.25 <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+<p>App is free, but the user pays for administrations. Cost-per-administration varies depending on the quantity purchased, with discounts for greater numbers of administrations purchased. The minimum per-administration cost is $1.25 <a href="#fnref:2" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
 </li>
 
 <li id="fn:3">
-<p>In-app purchases available <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+<p>In-app purchases available <a href="#fnref:3" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
 </li>
 
 <li id="fn:4">
-<p>Cost varies depending on quantity of tests and administrations purchased. See Pearson <a href="http://www.helloq.com/home/" target="_blank">Q-Interactive site</a> for complete information.  <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+<p>Cost varies depending on quantity of tests and administrations purchased. See Pearson <a href="http://www.helloq.com/home/" target="_blank">Q-Interactive site</a> for complete information.  <a href="#fnref:4" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
 </li>
 
 <li id="fn:5">
-<p>Requires institutional subscription.  <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+<p>Requires institutional subscription.  <a href="#fnref:5" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
 </li>
 
+<li id="fn:6">
+	<p>$6.99 for iOS <a href="#fnref:6" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:7">
+	<p>Subscription required for transcriptions<a href="#fnref:7" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+<li id="fn:8">
+	<p>$179.95 Home; $249.95 Pro; $429.95 Agency <a href="#fnref:8" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+<li id="fn:9">
+	<p>Cost-per-administration, which varies depending on the number of administrations purchased at point-of-sale, ranging from 1 ($9.99) to 50 ($249.99) administrations<a href="#fnref:9" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+<li id="fn:10">
+	<p>Cost-per-administration, which varies depending on the number of administrations purchased at point-of-sale, ranging from 1 ($9.99) to 50 ($399.99) administrations<a href="  #fnref:10" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>In-app purchases available <a href="#fnref:11" title="return to item" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
 </ol>
 </div>
 </div>
@@ -508,14 +528,30 @@
     </div> <!-- end wrap -->     
 <!--#include virtual="./templates/mainfoot.html" -->
 
-    <!-- Les javascripts 
+    <!-- Sooo many moving parts 
 ========================================================== -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/twitter-bootstrap-hover-dropdown.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="./datatables/media/js/jquery.dataTables.js"></script>
 	<script src="./datatables/media/js/jquery.dataTables.bootstrap.js"></script>
+<!-- Vendor -->
+    <!-- // <script src="./js/twitter-bootstrap-hover-dropdown.js"></script> -->
+	<script src="js/bootstrap-modalmanager.js"></script>
+ 	<script src="js/bootstrap-modal.js"></script>
+ 	<script type="text/javascript" language="Javascript" src="https://s3-us-west-2.amazonaws.com/nncssjs/js/bigfoot.min.js">
+	</script>
+	<script type="text/javascript">
+	    $.bigfoot();
+	</script>
     <script type="text/javascript" charset="utf-8">
+		/* Table initialisation */
+			$(document).ready(function() {
+				$('#example').dataTable( {
+					"sPaginationType": "bootstrap",
+					"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>"
+				} );
+			} );
+			
 		/* Default class modification */
 			$.extend( $.fn.dataTableExt.oStdClasses, {
 				"sWrapper": "dataTables_wrapper form-inline"
@@ -556,13 +592,7 @@
 		       }
 		     );
 
-		/* Table initialisation */
-			$(document).ready(function() {
-				$('#example').dataTable( {
-					"sPaginationType": "bootstrap",
-					"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>"
-				} );
-			} );
+		
 	</script>
   </body>
 </html>

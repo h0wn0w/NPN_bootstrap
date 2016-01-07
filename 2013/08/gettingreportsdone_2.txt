@@ -1,0 +1,36 @@
+Title:				More Getting Reports Done
+Author: 			W. Howard Buddin Jr., Ph.D.
+Date:				08/07/2013 
+Tags:				Dictation, Practice, Productivity, Reports, Screencast, Workflow
+
+
+## The Intake ##
+
+I like to try and dictate everything from an intake interview immediately after it's over. This is basically just what Dr. Testa described in the ["Getting Reports Done" article](../07/gettingreportsdone.html). Since the iPhone has dictation capability buiit in, I can use it to dictate straight to a blank document. Of course, when I dictate, I substitute any Protected Health Information with pseudonyms or placeholders. Personally, I use the names of famous people in place of the actual name, and substitute any personal information such as place of birth with placeholders like "City, State". Once I'm finished dictating, I save the file into a directory that is synchronized to my desk top computer with [Dropbox][7354-001], and it's now ready to be inserted into a separate file that is used specifically for that patient's report. 
+
+A couple of quick notes about dictation of this type: first, it is not pretty, nor is it intended to be. The important thing is that I am dictating from my notes immediately after finishing the intake. This way, the information is absolutely fresh in my mind. The other thing I've found is that things go much more smoothly if I dictate as kind of a stream of thought. So, although I try to follow through in my dictation in the same order that information will appear in the report, I don't stick to this hard and fast. My dictations are full of colloquialisms, misspoken words, and redundancies. This was really hard for me to do at first, since I wanted to dictate something that was going to nearly approximate a finished product; however, I found that if I just dictated in a more conversational manner that the information came out much more like a narrative, which is what I wanted.
+
+## Report Setup ##
+
+So, now that I have dictated all the information from the intake, whether it is in a pretty format or not, I need to do something with it. So, the next step is to get it into its own document. I can't just leave it in that synchronized file, since replacing my placeholders with PHI would be a violation of the [HIPAA Privacy Rule][7354-002] This is where I use my other favorite report writing tool: [TextExpander][7354-003].  
+
+For many years I used a Microsoft word document template to start each report. This is still a great way to work, but I replaced it with TextExpander and a blank plain text file, which is something that works much better for me. For a quick example of what text expander can do, take a quick look at our previous article about using it to create a mental status section. Briefly, text expander allows one to type a small set of characters, which are then "expanded" into a word, phrase, or even an entire report template. I started by taking words I often used and created snippets with them. Words like "neuropsychological," "neurocognitive," and "hypertension" were good first targets. I quickly moved on to longer phrases, like "Durable Power of Attorney" and "The patient's medical history is positive for". Here are the abbreviations for each of these, in order: 
+
+<code>
+`,nl` = neuropsychological  
+`,ng` = neurocognitive  
+`htn` = hypertension  
+`,dpa` = Durable Power of Attorney  
+`mdhx` = The patient's medical history is positive for  
+</code>
+
+The next step to all of this is creating a kind of dynamic system for generating the structure (and *some* of the content) for an entire neuropsychological report. For an outpatient report, I open a blank document (no template files required!) and I use Text Expander to start out each one of my reports by typing the following: 
+
+`,skelout`
+
+Watch the screencast below to see what happens next, and how I use this workflow to get my reports going with relative ease.  
+
+[7354-001]: http://www.dropbox.com/ "Dropbox"
+[7354-002]: http://www.hhs.gov/ocr/privacy/hipaa/administrative/privacyrule/index.html "The Privacy Rule - U.S. Department of Health and Human Services"
+[7354-003]: http://smilesoftware.com/TextExpander/index.html "TextExpander: Mac Typing Shortcut Utility Saves You Time - Smile"
+

@@ -1,0 +1,710 @@
+/*
+Welcome to the Neuropsych Now CSS!
+This work is licensed under a CC ND-NA 3.0 License. 
+This Cascading Style Sheet was developed for Neuropsych Now. Feel free to use it or any of its components in any way, as long as you don't try to sell it for a profit. 
+Support Open Source.
+Support Independent Developers.
+
+|      |   |**    |      |
+|\     |   |  **  |\     |
+| \    |   |    * | \    |
+|  \   |   |  **  |  \   |
+|   \  |   |**    |   \  |
+|    \ |   |      |    \ |
+|     \|   |      |     \|
+|      |   |      |      |
+
+howard make css
+*/
+
+/*------------------------------------*\
+    $ASSETS
+\*------------------------------------*/
+
+/**
+* Pre-load 'em here
+*/
+
+$style: solid;
+$size: 1px;
+$tp: top;
+$bm: bottom;
+$radius: 8px;
+// $width: 70em;
+
+@mixin rounded($vert, $horz, $radius) {
+	-webkit-border-#{$vert}-#{$horz}-radius: $radius;
+	   -moz-border-radius-#{$vert}#{$horz}: $radius;
+			 border: {
+				style: solid;
+				width: $size;
+				radius: $radius;
+				#{$vert}#{$horz}-radius: $radius;
+			}
+}
+
+/*------------------------------------*\
+    $GLOBAL
+\*------------------------------------*/
+
+/**
+* body and main styles
+*/
+
+body {
+  // font-family: 'News Cycle', sans-serif;
+  font-family: "proxima-nova", sans-serif;
+  padding: {
+    top: 80px;
+    left: 0;
+    right: 0;
+  }
+}
+
+#pageheader h1 {
+  color:red;
+  font-size: 50px;
+  text-align: center;
+  line-height: 1.25em
+}
+
+// .page-title {
+//   color: red;
+//   text-align: center;
+//   font-size: 60px;
+//   line-height: 1.25em
+// }
+
+/*------------------------------------*\
+    $LANDING PAGE
+\*------------------------------------*/
+
+/**
+* 
+*/
+
+#landingPage {
+  background: url('http://nnimages.s3.amazonaws.com/bookshelf.png');
+  background: {
+    repeat: no-repeat;
+    position: center;
+  }  
+  -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+#landingPage .introduction {
+  margin-top: 70px
+}
+
+#landingPage .introduction a.button {
+  margin-top: 25px;
+  display: inline-block;
+}
+
+#landingPage .introduction a.button:hover {
+  text-decoration: none;
+}
+
+#landingPage h1 {
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+#landingPage h2 {
+  font: {
+    weight: 300;
+    size: 18px;
+  }
+}
+
+.magic-box {
+  width: 250px;
+  height: 110px;
+  background-color: #eee;
+  opacity: 0.5;
+  border: {
+    style: solid;
+    width: 1px;
+    color: #eee;
+    radius: 15px;
+  } 
+}
+
+/* #hometitle {
+  margin-top: 80px;
+}
+
+#hometitle h1, #hometitle h3, #hometitle h4 {
+  font-family: "proxima-nova", sans-serif;
+}
+
+#hometitle h1 {
+  line-height: 1.5em;
+}
+
+#hometitle h3 {
+  color: #BF3030;
+  text-align: center;
+}
+
+#hometitle h4 {
+  margin-top: 210px;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #BF3030;
+}
+
+#hometitle a {
+  color: #FFD073;
+} */
+
+#container-accent {
+  background-color: #2C3340;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+#container-accent h1 {
+  // font-family: "proxima-nova", sans-serif;
+}
+
+#container-accent h3 {
+  font-size: 42px;
+  color: #CC2D14;   /*pulled this from NPN main on Kuler*/
+  text-align: center;
+}
+
+#container-accent a {
+  font-size: 28px;
+  color: #00E5FF;   /*from Kuler, as above*/
+    &:hover {
+      color: #050A32;
+    }
+}
+
+#tab {
+  opacity: 0.5;
+}
+
+.feature1 {
+}
+.feature2 {
+}
+.feature2 .featurette-image {
+}
+.feature3 {
+}
+.feature4 {
+}
+
+.accordion-inner li {
+  padding-bottom: 0.4em;
+}
+
+/*------------------------------------*\
+    $NAV
+\*------------------------------------*/
+
+/**
+* 
+*/
+
+/* navbar: main container and elements; overrides bootstrap, which, for me, was hard to do.
+========================================== */
+
+.navbar .nav {
+  float: none;
+}
+
+.navbar .brand {
+  font-size: 24px;
+  text-shadow: none;
+  margin-left: 0px;
+  /* padding: 13px 20px 17px;*/
+  padding: 8px;
+}     
+
+.navbar .container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 0px;
+  /* background-color: rgb(0,43,56);*/
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.navbar-inner {
+  border: none;
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #3c4657;            /*this is the main background color*/
+  background-image: none;
+  background-repeat: repeat-x;
+  border-color: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 18px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  /*i added this margin-right*/
+  margin: {
+    top: 10px;
+    right: 40px;
+  }
+}
+
+/*hovering over mobile menu items*/
+.navbar-inverse .btn-navbar {
+  color: #000000;
+}
+
+/*to help out with responsinveness on mobile devices*/
+@media (max-width: 979px) {
+.navbar-fixed-top, .navbar-fixed-bottom {position: fixed;}
+.container-hero-unit { margin-top:70px;}
+}   
+
+/*--------------------------------------*\
+    NAVBAR
+\*--------------------------------------*/
+
+/*
+** : menu items and their dropdowns
+*/
+
+.navbar-inverse .brand:hover {
+  text-shadow: none;
+}
+
+.navbar-inverse .nav > li > a:hover {
+  color: rgb(238,232,213);
+  background-color: transparent;
+  text-shadow: none;
+}
+
+.navbar-inverse .nav-collapse .nav > li > a:hover
+.navbar-inverse .nav-collapse .dropdown-menu a:hover {
+  color: rgb(238,232,213);
+  background-color: transparent;
+  padding-bottom: 20px;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  color: rgb(238,232,213);
+  background-color: transparent;
+}
+
+/* brand or logo on lefthand side of navbar */
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #999999;
+  text-shadow: none;
+}
+
+/*the search button that I added*/
+#nav-searchbutton {
+  padding: 10px 40px 0 0;
+}
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+
+/**
+* Sticky footer, mostly
+*/
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  /* these next two are just for IE 6 */
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+  clear: both;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* larger body font when needed
+============================================ */
+
+#wedo {
+  font-size: 18px;
+  line-height: 1.3em;
+  /*background-color: #fcffcc;*/
+}
+
+/* for the footer
+============================================ */
+
+#mainfoot {
+  background-color: #3c4657;
+  padding: 10px 0 10px 0;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  margin-top: 20px;
+  text-align: center;
+}
+
+#mainfoot div p a h4 {
+  text-align: center;
+}
+
+#mainfoot a {
+  color: #8E99AB;
+  font-size: 16px;
+}
+
+#mainfoot i {
+  color: #C1A48F;
+}
+
+#mainfoot h4, 
+#mainfoot p {
+  text-align: center;
+  color: #EAE6FF;
+}
+
+#footlogo {
+  text-align: center;
+}
+
+/*------------------------------------*\
+    $WIDTHS
+\*------------------------------------*/
+
+/**
+* narrow and wide page widths
+*/
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.container-wide {
+  margin: 0;
+  padding: 0;
+}
+
+.container-wide > .featurette {
+  padding: 120px 20px;
+}
+
+div.tags {
+  margin-bottom: 2em;
+}
+
+/*------------------------------------*\
+    $Lists
+\*------------------------------------*/
+
+/**
+* Override some of the defaults
+*/
+
+.indent {
+  list-style-position: inside;
+}
+
+/*------------------------------------*\
+    $TABLES
+\*------------------------------------*/
+
+/**
+* sur le table - minified and hard to read css
+courtesy of [Brett Terpstra](http://www.brettterpstra.com). 
+The other stuff is from DataTables and me.
+*/
+
+table{border-collapse:collapse;border-spacing:0}table{margin-bottom:2em;padding:0;font-size:14px;border-collapse:collapse;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.35);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.35);box-shadow:1px 1px 2px rgba(0,0,0,0.35);width:70%;margin:0 auto 2em auto;border:1px solid #ddd;border-collapse:separate;*border-collapse:collapse;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}table caption,table col,table colgroup,table table,table tbody,table td,table tfoot,table th,table thead,table tr{border-spacing:0;font-family:"proxima-nova", sans-serif;font-weight:400;font-size:24px}table caption{display:table-caption;font-weight:700;font-size:12px;text-transform:uppercase;font-family:"proxima-nova", sans-serif;background:rgba(22,22,22,0.75);color:#EEE;padding:8px 4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:4px 0;-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.35);-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.35);box-shadow:2px 2px 2px rgba(0,0,0,0.35)}table col{display:table-column}table colgroup{display:table-column-group}table tbody{display:table-row-group}table tfoot{display:table-footer-group}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left}table th{padding-top:9px;font-family:"proxima-nova", sans-serif;font-size:14px;font-weight:700!important;text-transform:uppercase;vertical-align:middle;text-align:center}table td{vertical-align:top;border-top:1px solid #ddd;font-family:"proxima-nova", sans-serif;font-size:14px!important}table tbody th{border-top:1px solid #ddd;vertical-align:top}table th+th,table td+td,table th+td{border-left:1px solid #ddd}table thead tr:first-child th:first-child,table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0}table thead tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd){background:rgba(255,255,255,0.06)}table tr:nth-child(even),table td:nth-child(even){background:rgba(0,0,0,0.06)}table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0}table tbody tr:nth-child(odd){background-color:rgba(0,0,0,0.03)}
+
+
+/*Added for Neuropsych Now to give style and stuff to DataTables*/
+
+  div.dataTables_length label {
+    float: left;
+    text-align: left;
+  }
+ 
+  div.dataTables_length select {
+      /*width: 75px;*/
+  }
+   
+  div.dataTables_filter label {
+      float: right;
+      /*width: 460px;*/
+  }
+   
+  div.dataTables_info {
+      padding-top: 8px;
+  }
+   
+  div.dataTables_paginate {
+      float: right;
+      /*margin: 0;*/
+      margin-bottom: 6px !important;
+  }
+   
+  table {
+      margin: 1em 0;
+      clear: both;
+  }
+
+  table.table thead .sorting,
+  table.table thead .sorting_asc,
+  table.table thead .sorting_desc,
+  table.table thead .sorting_asc_disabled,
+  table.table thead .sorting_desc_disabled {
+      cursor: pointer;
+      *cursor: hand;
+  }
+   
+  table.table thead .sorting { 
+    background: url('/datatables/media/images/sort_both.png') no-repeat center right; 
+  }
+  table.table thead .sorting_asc { 
+    background: url('./datatables/media/images/sort_asc.png') no-repeat center right; 
+  }
+  table.table thead .sorting_desc { 
+    background: url('./datatables/media/images/sort_desc.png') no-repeat center right; 
+  }
+  table.table thead .sorting_asc_disabled { 
+    background: url('./datatables/media/images/sort_asc_disabled.png') no-repeat center right; 
+  }
+  table.table thead .sorting_desc_disabled { 
+    background: url('./datatables/media/images/sort_desc_disabled.png') no-repeat center right; 
+  }
+
+  .th {
+    width: auto;
+  }
+
+  .btn-small {
+    color: #999999;
+    margin: 0 0 1.0em 0;
+    /*background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);*/
+    /*background-color: #da4f49;*/
+  }
+
+/*------------------------------------*\
+    $PAGE-SPECIFIC
+\*------------------------------------*/
+
+/**
+* Based on id
+Listed in alpha order - sort of (order is important!)
+*/
+
+/* articles - index page
+========================================= */
+
+#articlelist {
+  padding: 0 0 0 40px;
+  font-size: 18px;
+  /*line-height: 1.5em;*/
+}
+
+#articlelist li {
+  line-height: 24px;
+}
+
+input, textarea, .uneditable-input {
+  width: auto;
+}
+
+/* articles pages - head, header, foot
+========================================= */    
+
+#articlebody h1 h2 h3 {
+  font-family: "proxima-nova", sans-serif;
+  /*font-family: "proxima-nova";*/
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+#articlebody,
+#articlebody p {
+  /*font-family: 'Lora', serif;*/
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7em;
+  max-width: 58em;
+  margin: 0 auto 1.618em auto;
+  /*margin: 0 auto;*/
+}
+
+#articlebody li {
+  font-size: 16px;
+}
+
+#maintext {
+  /*font-size: 18px;
+  line-height: 1.3em;
+  max-width: 40em;*/
+}
+
+#maintext p, 
+#maintext ul, 
+#maintext li {
+/*font-size: 18px;
+  line-height: 1.3em;
+  max-width: 40em;*/
+}
+
+#searchresult {
+  padding: 60px 80px 80px 80px;
+  /*padding-right: 80px;*/
+  font-size: 16px;
+}
+
+/*About Us page
+============================================ */
+
+#aboutus {
+  font-size: 16px;
+  /*background-color: #fcffcc;*/
+}
+
+#aboutus ul>li {
+  text-align: center;
+}
+
+#aboutus ul>li>a {
+/*color: #2a687d;*/
+  color: #1a0f50;
+}
+
+#aboutus ul>li>a:hover {
+  color: #000c28A;
+}
+
+/* Downloads page
+========================================= */
+#npnaccordian {
+  text-align: center;
+  }
+
+#downloads {
+  font-size: 18px;
+  }
+
+/* External links page
+========================================= */
+
+#extlinks {
+  font-size: 18px;
+  }
+
+#extlinks a {
+  /*color: #3600FF;*/
+}
+
+/*dividers within accordians - both pages*/
+#dropdiv {
+  font-size: 20px;
+  color: #E43632;
+}
+
+/* search-form
+========================================= */
+
+#tabcent {
+  padding-top:40px;
+}
+
+#cat_table {
+  font-size: 16px;
+  text-align: center;
+}
+
+#cat_main {
+  font-size: 20px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+input[type="radio"] {
+  margin: 5px;
+}
+
+/*------------------------------------*\
+    $MEDIA QUERIES
+\*------------------------------------*/
+
+/**
+* 
+*/
+
+/*@media (max-width: 480px) {
+  #hometitle h1 {
+    font-size: 3.3em;
+    word-wrap: break-word;
+  }
+}*/
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .container-narrow {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+

@@ -1,0 +1,14 @@
+Title:		The WMS-IV Designs subtest and Chance responding
+Author:		W. Howard Buddin Jr., Ph.D.
+Category:		Article
+Date:		05/01/2014
+Tags:		Assessment, Clinical, Research
+
+The Wechsler Memory Scales – IV (WMS-IV) replaced the much-maligned *Family Pictures* subtest with the questionable *Designs* subtest. You may have noticed that, occasionally, examinees will earn points for partially correct responses on *Designs*, leading to an artificially inflated Scaled Score. What kind of scores could be obtained, then, through chance alone?
+
+Some of my colleagues from the University of Kansas – Wichita investigated that very idea, and their article was recently published in Archives of Clinical Neuropsychology. You owe it to yourself to give it a read if you use the WMS-IV. Read the abstract and/or download the full-text of *"Chance Performance and Floor Effects: Threats to the Validity of the Wechsler Memory Scale—Fourth Edition Designs Subtest"* [here]. If you do not have access to Archives of Clinical Neuropsychology, please feel free to contact the [corresponding author][pmartin] for a full-text copy.[^1] 
+
+[^1]: Please note that the authors have been granted permission to distribute their article in this manner.
+
+[here]: http://acn.oxfordjournals.org/content/early/2014/04/21/arclin.acu015.abstract
+[pmartin]: mailto:pmartin4@kumc.edu

@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * 
+ */
+
+ @mixin rounded($vert, $horz, $radius) {
+  -webkit-border-radius-#{$vert}-#{$horz}: $radius;
+  	 -moz-border-radius-#{$vert}#{$horz}: $radius;
+  border: {
+    style: solid;
+    width: $size;
+    radius: $radius;
+    #{$vert}#{$horz}-radius: $radius;
+  }
+}

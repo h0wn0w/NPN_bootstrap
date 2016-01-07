@@ -1,0 +1,79 @@
+Title:	PAR iConnect
+Author:	W. Howard Buddin Jr., Ph.D.
+Category:	Article
+Date:	04/22/2015
+Tags:	Assessment, Tech
+
+The landscape of neuropsychological and psychological testing is evolving. Slowly. 
+
+Very. 
+Slowly. 
+
+<div style="text-align:center">
+<b>BUT</b>
+</div>
+
+Evolving, nonetheless. With increasing frequency, the traditional  methods of test administration are eschewed for a more convenient - and in some cases more cost–efficient -  model through use of Computerized Neuropsychological Assessment Devices, or CNAD (Bauer, Iverson, Cernich, Binder, Ruff, & Naugle, 2012). 
+
+Not to be left out[^in], [Psychological Assessment Resources](http://www4.parinc.com) (PAR) [pushed out a platform][i] for test administration, scoring and exporting: [PARiConnect][iconnect]. With PARiConnect, PAR seek to bring to the clinical masses easy administration of questionnaires and inventories of all types.[^type] 
+
+## Testing, one...two
+
+As my practice grew over the past few months, I needed more depth and breadth in my assessment arsenal. PARiConnect offered a fantastic way to do just that, without having to commit to the bulk and financial costs of just one or two measures (more on that, coming up). So, I signed up, and to date, my opinion is that PAR have done quite well in their endeavor.
+
+The scope and number of tests currently available is impressive, with offerings for basically all age groups, across multiple contexts and referral questions. PAR's ability to make such a wide array of measures available so quickly raised some red flags for me, initially. After a bit of consideration, though, the swiftness with which they brought this platform to market made sense: porting a questionnaire over to the digital domain presents fundamentally fewer challenges than porting e.g., the WAIS–IV. 
+
+One of PARiConnect's major benefits is that using it requires no additional software installation (unlike Pearson's [Q-Interactive][q], which currently takes up the easy majority of space on my clinical iPad). Each administration is entirely web based, with the patient completing the questionnaire one item at a time (each item gets its own screen). I like this a lot. Why? Countless numbers of patients have had to take extra time to complete a questionnaire, especially longer ones like the PAI, because using a separate booklet and response form means that occasionally they will bubble in an answer for the incorrect question, continuing for some time before realizing their mistake. This, of course, means that they must go back, cross out the incorrect responses, and bubble in the desired ones. 
+
+## Convenience Store
+
+Like I mentioned earlier, purchasing tests through PARiConnect means that you do not have to order in bulk. Traditional packaging means purchasing tests in quantities of e.g., 75, 80, 100. With PARiConnect, you can [purchase as many or as few as you would like][b]. This is a similar purchasing model to Pearson's [Q-Interactive][q] and [Q-Global][g] platforms, which let you purchase test administrations more-or-less *a la carte*. Importantly, administrations are purchased separately from reports. This is actually a good thing as, for many of the tests, more than one report type can be generated (e.g., the PAI versions: Clinical, Scoring only, Adolescent, etc.). If you need a lot of one type of report, but only need a handful of another type, then this is welcome news.
+
+So how does the administration portion work? The first step is setting up a profile for each new patient. Each patient's data are entered and managed entirely through the online interface. Next, select the test(s) you would like to administer from any of the [assessments you have purchased][a]. After test selection, select the administration option from one of three choices (paraphrased): 
+
+1. Administer right then and there
+2. Email the administration link to your patient
+3. Defer the administration to a date and time of your choosing
+
+Additionally, you can choose to receive an email notification once the administration is complete. At that point, you'll probably want to score and download the results. Once you have selected your patient and their test, you are presented with a single screen overview of their raw responses. The onscreen instructions then prompt you to review the responses to insure that the test is overall valid. While there are definitely cases wherein patients might do a rush job, with multiple  items clearly unanswered, there is really no way to tell if an administration is invalid prior to actually scoring it, making this step of limited utility[^fn1]. Assuming you have a valid test with which to work, you can then move forward and download your shiny, new `.pdf` or `.rtf` file-type version of their report.
+
+## Limitations & Concerns
+
+Of course, nothing is perfect, and iConnect has its downsides.
+
+First, PARiConnect purchases do not include the test manuals, which must be purchased separately. So, don't count on this as an ultra-cheap in-roads to assessment Xanadu. Conveniently, they make each manual available as an "e-Manual," which is available immediately upon purchase. Inconveniently, this does not come with a cost savings, as they cost the same (retail) as their hard – copy brethren. Furthermore, you are required to use one of the [onerous DRM – enabled readers][r] to view the manuals.
+
+A second limiting factor relates to the in-office administration: you will need to have a computer or tablet on the ready. Sure, many people have and bring their own devices with them (incidentally, of course); however, this is unreliable and you must therefore have a device that is (a) always available and (b) configured in a manner that eliminates various problems that come along with granting any number of people relatively unsupervised access to an office machine.[^fn2] This is not an impossible task, to be sure,[^fn3] but it is one that requires rigorous attention.
+
+The last, most obvious limitation also relates to administration. We all see patients who have limited – or no – access to the Internet. Obviously, these administrations would have to be done in–house.
+
+## The Fun Stuff
+
+If you have read this far and have a slight or better awareness of Federal Law, then you are probably wondering about compliance with the HIPAA [Privacy][privacy] and [Security][security] rules. It will come as no surprise to most that companies like PAR tend to have fairly robust legal and ethics teams/departments. These people are knee-deep in drafting privacy policies and compliance statements *way* before any PAR product ships. Sure enough, the folks at PAR posted their [Business Associates Agreement][baa] and [HIPAA Privacy Policy][pp] *right on their Web site.* Imagine that. 
+
+******
+
+Bauer, R. M., Iverson, G. L., Cernich, A. N., Binder, L. M., Ruff, R. M., & Naugle, R. I. (2012). Computerized Neuropsychological Assessment Devices: Joint Position Paper of the American Academy of Clinical Neuropsychology and the National Academy of Neuropsychology. The Clinical Neuropsychologist, 26(2), 177–196. http://doi.org/10.1080/13854046.2012.663001
+
+
+[^fn1]: Of course, for those instances where the administration *is* clearly invalid, it is a good bet that I will be glad to have not spent the report usage.
+
+[^in]: Quite frankly, expected to be *in*.
+
+[^type]: *Their* types, at least.
+
+[^fn2]: This also means that you will have to update your practice/office HIPAA security documentation, in addition to configurating said device to prevent access to *anything* other than the questionnaire/inventory that you intend to administer to each patient.
+
+[^fn3]: Hey, I did it.
+
+[iconnect]: https://www.pariconnect.com
+[i]: http://www.prnewswire.com/news-releases/par-launches-innovative-online-assessment-platform-186051782.html
+[b]: https://www.pariconnect.com/purchasing.aspx
+[a]: http://www4.parinc.com/PARiConnect/default.aspx
+[q]: http://www.helloq.com/home.html
+[g]: https://qglobal.pearsonclinical.com/
+[r]: http://www.bluefirereader.com/ios-and-android-apps.html
+[privacy]: http://www.hhs.gov/ocr/privacy/index.html
+[security]: http://www.hhs.gov/ocr/privacy/hipaa/administrative/securityrule/index.html
+[baa]: http://www4.parinc.com/pariconnect/baa_agreement.aspx
+[pp]: http://www4.parinc.com/Company/pariconnect_hipaa_pp.aspx

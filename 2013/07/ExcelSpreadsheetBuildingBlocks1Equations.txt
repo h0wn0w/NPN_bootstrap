@@ -1,0 +1,47 @@
+Title:					Excel Spreadsheet Building Blocks I: Equations
+Author:					S. Marc Testa, Ph.D.
+Web:					http://neuropsychnow.com
+Date:                   07/09/2013
+Tags:                   Data, Multimarkdown, Reports, Statistics, Tables 
+Base Header Level:      1
+
+Using excel may be daunting for some, but there are a few basic and extremely useful, "functions" available for neuropsychologists who want to automate scoring and data tables. Ultimately, a data table can be pre-formatted for export to Microsoft Word or to a text editor to be converted to a MultiMarkdown or LaTeX table. This first of three posts covers how to use a regression-based equation in Excel. The 3-part series will help you create a very functional spreadsheet (like Figure 1) using the following important building blocks:
+
+1. An equation to estimate IQ
+2. Two excel functions that are extremely useful for neuropsychologists:
+	* One that converts a standardized score to a percentile
+	* Another that looks up values in a table automatically.
+3. MultiMarkdown syntax for tables
+
+![Figure 1. Excel Facesheet]
+
+##Equations
+Increasingly, regression-based normative (RBN) equations are being developed and utilized in neuropsychology to predict how a patient ought to perform. Excel and RBNs should be considered the "chocolate and peanut butter" of scoring workflows. RBN equations can be found in a number of journal publications and an **excellent** resource for a variety of RBN equations is Maura Mitrushina's [*Handbook of Normative Data for Neuropsychological Assessment*]. The equations embedded in the sample below, however, are used for estimating IQ using the [*Hopkins Adult Reading Test*] (HART)[^HART Forms].
+
+In brief, the HART is a test of reading recognition that is highly correlated with IQ. Using data from a sample of neurologically healthy individuals, the correlation between HART reading and IQ, when used in a mathematical equation, can estimate the IQ of individual patients and examinees. To improve the accuracy of the equation, demographic variables strongly associated with IQ are also included in the equation. Though there are 3 of these equations, the FSIQ equation (cell C12 in Figures 1 and 2) is used here for illustrative purposes.
+
+![Figure 2. IQ Equation]
+
+###Example
+The spreadsheet contains fictional data from a 75 year-old, Caucasian man with 15 years of education. The patient's age, sex, race, and education, as well as his reading score all need to be integrated into the HART FSIQ equation. Thus, to calculate the estimated FSIQ, the following should be typed in the cell (C12) that you want the estimated value to appear in:
+
+>            =83.936+(0.131*C1)-(5.34*C2)-(8.01*C3)+(0.611*C4)+(0.649*2)+(1.19*C9)
+ 
+Where: 
+
+* C1 references the examinee's age (blue)
+* C2 and C3 reference codes for sex and race (dark green and magenta)
+* C4 references years of education (brown)
+* C9 references the examinee's raw reading score on the HART (light green)
+
+The equation estimates the examinee's IQ to be 123 (cell C12, Figure 1). Once the standard score is computed, its easy to convert the resultant value to a percentile using NORMDIST or NORMSDIST, which will be covered in part 2.
+
+
+[Figure 1. Excel Facesheet]:../../img/facesheet1.png width=800px
+[Figure 2. IQ Equation]:../../img/functionequation1.png width=600px
+ [*Hopkins Adult Reading Test*]:https://jshare.johnshopkins.edu/dschret1/public_html/Schretlen_2009_Development_of_the_HART.pdf
+[*Handbook of Normative Data for Neuropsychological Assessment*]:http://www.amazon.com/Handbook-Normative-Data-Neuropsychological-Assessment/dp/0195169301
+[found here]:https://jshare.johnshopkins.edu/dschret1/public_html/
+
+[^HART Forms]: The scoring sheets and reading stimuli, as well as more details about methodology, can be [found here]
+	
