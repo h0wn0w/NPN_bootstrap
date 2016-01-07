@@ -18,8 +18,8 @@ require_once("$include_dir/searchfuncs.php");
 require_once("$include_dir/categoryfuncs.php");
 require_once "$settings_dir/conf.php";
 
-include "$template_dir/searchhead.html";
 include "$template_dir/navbar.html";
+include "$template_dir/searchhead.html";
 include "$template_dir/searchheader.html";
 
 if (isset($_POST['query']))
