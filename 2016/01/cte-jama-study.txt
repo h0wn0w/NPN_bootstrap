@@ -1,0 +1,26 @@
+Title: Neuropsychology Case Study of 25 year-old with CTE
+Author: S. Marc Testa, Ph.D.
+Category: Article
+Date: 01/05/16 
+Tags: CTE, concussion, news, research 
+
+A recent [case study](http://archneur.jamanetwork.com/article.aspx?doi=10.1001/jamaneurol.2015.3998) in JAMA Neurology is one of the first to demonstrate widespread neuropathology consistent with [chronic traumatic encephalopathy](https://en.wikipedia.org/wiki/Chronic_traumatic_encephalopathy) (CTE) in a young, 25 year-old, man. He died of cardiac arrest. He underwent neuropsychological testing at age 24. 
+
+He played American football for 16 years, starting at age 6. He sustained his first of 10 known concussions at age 8. He began to display cognitive and various neuropsychiatric symptoms toward the end of college, around the time he stopped playing football.
+
+The neuropsychological test results revealed lower than expected performances related to executive functioning and aspects of verbal learning memory. Consensus members from [Boston University Alzheimer’s Disease Center and CTE Program](http://www.bu.edu/alzresearch/ctecenter/) and the Bedford VA Hospital concluded that abnormal neuropsychological findings did not discriminate postconcussive syndrome (PCS) or major depression from CTE. The panel did, however, unanimously support postconcussive syndrome (PCS) as the primary diagnosis, with possible CTE and major depression as contributing diagnoses. The published report notes that several factors argued against CTE including the lack of delay in symptom onset, his young age, and his family history of depression. The neuropathological findings show CTE. 
+
+The authors suggest a possible relationship between the clinical syndrome and the CTE neuropathology. There are, however, some caveats to consider:
+
+* While a direct relationship between the neurocognitive test findings and the CTE neuropathology seems plausible, an equally plausible explanation is that this young man's depression, sleep disturbance, daily marijuana abuse, and headaches are the cause of his abnormal cognitive test findings. Well-designed prospective studies of CTE that control for such confounding factors are not available.
+* Though at least 2 measures of [performance validity](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwjyv5a0r5PKAhXELyYKHbGtDdgQFggxMAE&url=http%3A%2F%2Fwww.the-ins.org%2Fincludes%2Fckfinder%2Fuserfiles%2Ffiles%2FDialogue%2520Performance%2520Validity%2520and%2520Symptom%2520Validity%2520in%2520Neuropsychological%2520Assessment%2520by%2520Glenn%2520J_%2520Larrabee%2520and%2520Symptom%2520Validity%2520Te.pdf&usg=AFQjCNFfmMkolFmdqkYsLl1VmDZcRrvOrQ&sig2=R3TjMS4ioZgnVjN2O-nzWw) were probably administered,[^fn] the derived validity scores are not reported; therefore, it is difficult to know if the actual test scores are a valid indicator of this man's cognitive functioning.
+* As a defensive linebacker, this man was likely involved in thousands of repetitive and high impact collisions over his 16-year football career. This raises the likelihood that he sustained a number of subconcussive injuries. Such injuries would not cause obvious or acute neurologic symptoms, but could cause an accumulation of neuronal injury over time. For a number of reasons (e.g., measurement difficulty and reporting biases), the relationship between the neuropathological diagnosis of CTE and  frequency of concussions or, importantly, subconcussive injuries, is not yet known.
+
+Certainly, patients who have sustained multiple concussions will have concerns about their risk for CTE. This worry is, in part, exacerbated by how the [media](https://www.google.com/#safe=off&tbm=nws&q=concussion+CTE) portrays concussion and CTE. If you are someone who has had concussions and are concerned about your own health, consider the following:
+
+* Unless you have sustained uncountable repetitive head injuries, it is unlikely that you have CTE. 
+* If you have cognitive complaints, it is more likely that some other factor is the culprit (e.g., poor sleep, pain, depression, and anxiety). 
+* If you have sustained multiple concussions and worry that CTE is the cause of your cognitive struggles, the most important thing you can do is seek a [medical consultation](http://concussionfoundation.org/learning-center/concussion-clinics) to help identify and treat these more likely causes. 
+
+[^fn]: The test battery included cognitive tasks with embedded measures of performance validity. However, the performance validity scores do not appear in the brief report that was published.
+
