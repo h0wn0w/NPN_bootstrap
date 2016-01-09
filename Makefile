@@ -7,7 +7,7 @@
 # NOTE: MultiMarkdown 3.0 must be installed for this to work.
 #
 
-notouch=sphider*/admin/ext.txt sphider*/include/common.txt sphider*/include/js_suggest/README.txt
+notouch=sphider-pdo*/admin/ext.txt sphider*/include/common.txt sphider*/include/js_suggest/README.txt
 
 srcfiles := $(filter-out cgi/* templates/* css/* $(notouch) robots.txt humans.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
 
