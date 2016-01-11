@@ -8,8 +8,4 @@ We’ve all had the experience of proofreading reports on a monitor only to find
 
 Additionally, one can alter the modality of the report by using text-to-speech functions in order to listen to the report. Though one could read along while viewing the document on screen, following along using a printed version of the report alters the report’s modality even further. Use a pen and to track edits easily.
 
-Instructions for setting up text-to-speech can be found here: 
-
-Apple: http://support.apple.com/kb/PH14230
-
-Windows: http://windows.microsoft.com/en-us/windows/text-to-speech-faq#1TC=windows–7
+Here are links to instructions for setting up text-to-speech on [Apple](http://support.apple.com/kb/PH14230) and [Windows](http://windows.microsoft.com/en-us/windows/text-to-speech-faq#1TC=windows–7) operating systems. 
