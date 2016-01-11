@@ -1,0 +1,11 @@
+Title: Listen to Proofread
+Author: S. Marc Testa, Ph.D.
+Category:    Article
+Date: 01/10/2016
+Tags: Reports
+
+We’ve all had the experience of proofreading reports on a monitor only to find an error in the printed report. Among a number of factors, document fatigue may be responsible for this. The “flow” of a report can also suffer as a result. To break up the monotony, some strategies can be employed, including printing the document. 
+
+Additionally, one can alter the modality of the report by using text-to-speech functions in order to listen to the report. Though one could read along while viewing the document on screen, following along using a printed version of the report alters the report’s modality even further. Use a pen and to track edits easily.
+
+Here are links to instructions for setting up text-to-speech on [Apple](http://support.apple.com/kb/PH14230) and [Windows](http://windows.microsoft.com/en-us/windows/text-to-speech-faq#1TC=windows–7) operating systems. 

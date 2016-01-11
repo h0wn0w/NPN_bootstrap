@@ -1,0 +1,11 @@
+Title: OmniFocus and GTD Resources
+Author: S. Marc Testa, Ph.D.
+Web:	http://neuropsychnow.com
+Date: 01/10/2016
+Tags: app, intervention, productivity
+Content:	Article
+
+It's no secret, [we think GTD can be used as an effective executive functioning intervention](http://neuropsychnow.com/2014/07/neuroGTD). [OmniFocus](http://www.omnigroup.com/omnifocus/) or [Doit.im](https://play.google.com/store/apps/details?id=im.doit.pro.v4) are, respectively, apps for iPhone and Android that can be used to implement [GTD](http://gettingthingsdone.com). For those of you who can't get enough of GTD or for peeps who want a good set of resources, we recommend the following:
+
+- In 2013, The OmniGroup held a symposium of sorts and had several internet types talk about how they use OmniFocus and GTD. The collection of videos can be found [here](https://www.omnigroup.com/video/omnifocus/#the-omnifocus-setup-2013).
+- David Sparks is a business attorney, and a geek, and a podcaster, and a blogger, and an author. His website [MacSparky](http://macsparky.com) is an excellent productivity resource. He has created an OmniFocus Video Field Guide that can be found [up in here](http://macsparky.com/omnifocus). 
