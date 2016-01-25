@@ -1,0 +1,77 @@
+Title: 		iPad in the Clinic
+Author:		W. Howard Buddin Jr., Ph.D.
+Category:	Article
+Date:		01/25/2015
+Tags:		Clinical, Mobile, Practice, Productivity, Tech
+
+I use an iPad in my office every day. If you have read our [Q-Interactive article](http://neuropsychnow.com/2013/12/qinteractive), then you already know that I use it for administration of various test batteries. This, however, represents only part of its useful potential. After initially integrating the iPad into my clinical activities, I found more and more uses for it, which helped me move various activities along at a smoother clip. Of course, there were some things to consider a la [HIPAA and HITECH](http://neuropsychnow.com/tags/HIPAA/HITECH/PHI) [Security][secure] and [Privacy][private] Rules. 
+
+## Interview, Schminterview ##
+
+I used to race through pens and legal pads or myriad ready-made, pre-printed clinical interview forms. I was never satisfied with any of these tools, means and ways of the clinical interview. My lack of satisfaction mostly stemmed from the fact that they could neither help me compensate for some of the problems inherent in the dynamic nature of interview nor correct for some of my own shortcomings. Here is the breakdown of my (former) problems: 
+
+1. *Interview problems*: Ever notice that those darn interviews hardly *ever* move in the oh-so-linear fashion that you hope for? For example, you are interviewing a patient and way after you *think* you have collected all of their medical history, you hear "'oh, so you mean *surgery* counts as *medical*?'"[^fn1] Interviewing a-la legal pad means possibly having to jot down something like 'medical - cont.' with all of the “new” information. Not an unsurmountable problem, to be sure, but it certainly falls into the "pain in the neck" category. At least for me it did. 
+2. *(Some of) my shortcomings as an interviewer* In no particular order: I sometimes am not great at asking all the right questions, all the time; I'm lazy; I want my stuff everywhere, securely, automatically.  
+
+Paper and pencil could not fix these, or even really help me with them. Especially the synchronization stuff. 
+
+## Therapy Notes ##
+
+Not as headline-grabbing as the previous scenario (nor as mind-bending as the next one, below); nevertheless, using an iPad for taking therapy notes represents an important use-case for me. 
+
+I write 100% of my notes in [plain text][pt]. I use plain text for several reasons, and rather than delineate those reasons here, I'll point you to [Jeff Taekman's article about why he uses plain text][jeff]; our reasons are fairly consonant. Plain text can be created and opened with literally every word processor and/or text editor, on any operating system ever wrought by the hand of a human. 
+
+When it comes to the number of text editors available on the iOS platform, there is an embarrassment of riches. My iPad text editor of choice[^fneditor] is [Editorial](http://omz-software.com/editorial/). Editorial affords a few features that are unique amongst all iOS text editors. The most important feature for the way I use it is its programmability. Editorial includes a full-on [Python](https://docs.python.org/2/reference/) interpreter for iOS. This means that if you're Python-savvy, the extent to which you can program workflows, snippets of text, and fields for variables is deep. 
+
+One useful bit that I have programmed into Editorial is in the form of four questions that I pose to each therapy patient at the outset of every session. 
+
+![modal-1][] 
+
+The final question that I ask in this set involves recent suicidal/self-harm thinking. I have set a segmented "button," where if I tap "yes" (meaning that they endorsed suicidal thinking since our previous session) a modal window pops up telling me that I need to conduct a suicide risk assessment. This “warning” window remains on the screen for three seconds, making it unlikely that I will miss it, and will conduct the necessary assessment. 
+
+![modal-2][] 
+
+
+This ensures that I have (1) covered my end as a clinician, (2) conducted the necessary assessment, and (3) have documentation to the fact.
+
+## Interactive Experiences
+
+The interactive experience is the new level-up to my practice. I have been using the iPad as a hyper-mega-feedback tool for the past several weeks, and it has been nothing short of a success bomb. 
+
+I have a few iOS apps that I use during every feedback, and others that I use during *most* feedback sessions. These are: 
+
+* [Notability](http://www.gingerlabs.com/): one of my notes is a `PDF` of the normal curve. I use it for a “crash course” of the assessment scores, so that whoever is present isn't completely lost when I start talking about e.g., percentiles and such. Helpful, I think. I also use Notability to sketch out diagrams and the like, as appropriate.
+* [3D Brain](https://appsto.re/us/KcmWt.i) by Cold Spring Harbor Laboratory: 3D Brain is a great app for displaying non-complex views of a couple of dozen brain structures/regions. It's works well for brief, educational sections of either an interview, therapy session, or a feedback.
+* [Brain and Nervous System Pro III](http://applications.3d4medical.com/brain_nervous): this app, available only for iPad, is the supercharged version of 3-D Brain, if they were made by the same company, that is. This application affords amazing detail with views that allow one to strip back "layers" of the brain, as well as viewing sagittal, coronal, etc. slices. It also has really cool videos showing various processes like growth of a tumor or neurotransmission, to name a few. For the "wow" factor, I'm not sure this app can be beat.
+* [Keynote](https://itunes.apple.com/us/app/keynote/id361285480?mt=8) for iOS: presentation + preparation =  looking like the professional that you are. There are some issues that come up so frequently in clinic that I find it useful to have a brief slideshow. These help me go over with the patient and a quick and meaningful way.
+
+## Shortcomings ##
+
+No review is complete without a discussion of some of the pitfalls of '[Tool; Method] A vs. B.'
+
+When I'm staring at the iPad's screen, I'm not looking at the patient. Then again, this was maybe *more* true of paper-and-pen(cil), since I *can* touch-type, but I *cannot* write nearly as well if I'm not looking at what I'm writing. In fact, my handwriting has always been pretty abysmal, whether I am monitoring my writing or not. 
+
+## Final Thoughts ##
+
+So, should you rush out, grab an iPad (or any other tablet, for that matter), and start using it today? In short, no. Here are a couple of things to consider before you make a transition like this, which could be the *wrong* move for you:
+
+- You might work at an institution where BYOD (Bring Your Own Device) is prohibited. This is self-explanatory; on to the next item.
+- If you decide to use an iPad or tablet in your clinic/office, you *must* properly configure and use your device to optimize security and privacy, 24/7. This is neither a trivial nor insurmountable task; however, rigor and care must be taken in order to make sure it's done properly. Be aware that theft of personal devices (i.e., laptops, tablets, phones), accounts for approximately [46% of all data breaches in the US][breach]. [Encryption][encrypt] is the key.
+
+Ultimately, the use of a tablet can substantially increase your productivity by eliminating redundancy from your workflow and allowing automation of repetitive tasks.[^fn2] It also becomes a vector of attack and theft, though this can mostly be circumvented with care on your part.
+
+[^fn1]: before anyone asks 'wait, don't you ask explicitly about past surgeries?', the answer is yes, I always ask about surgical history. Suffice it to say, there are simply times when people think that certain surgeries don't count as such (e.g., adenoidectomy), they're not really paying attention, or possibly I'm asking the question in a way that is not optimal. But I always ask.
+
+[^fneditor]: Believe it or not, I prefer a *different* text editor for my iPhone: [1Writer](https://itunes.apple.com/us/app/1writer-note-taking-writing/id680469088?mt=8). My choices are my own.
+
+[^fn2]: an article on [automation][auto] might be nice, but I'll save that for another day
+
+[secure]: http://www.hhs.gov/hipaa/for-professionals/security/index.html
+[private]: http://www.hhs.gov/hipaa/for-professionals/privacy/index.html
+[pt]: http://https://en.m.wikipedia.org/wiki/Plain_text
+[jeff]: http://wippp.com/blog/why-i-use-plaintext/
+[modal-1]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/modal-1.PNG "Four questions that everyone gets" width=auto
+[modal-2]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/modal-2.PNG "Suicide risk assessment" width=auto
+[breach]: http://www.accellion.com/blog/lost-and-stolen-mobile-devices-are-leading-cause-healthcare-data-breaches
+[encrypt]: http://www.healthcareitnews.com/blog/protecting-patient-data-cloud-encryption-z-part-i
+[auto]: https://www.macstories.net/tag/automation+ios/
