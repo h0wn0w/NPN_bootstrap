@@ -1,7 +1,7 @@
 Title: 		iPad in the Clinic
 Author:		W. Howard Buddin Jr., Ph.D.
 Category:	Article
-Date:		01/25/2015
+Date:		01/25/2016
 Tags:		Clinical, Mobile, Practice, Productivity, Tech
 
 I use an iPad in my office every day. If you have read our [Q-Interactive article](http://neuropsychnow.com/2013/12/qinteractive), then you already know that I use it for administration of various test batteries. This, however, represents only part of its useful potential. After initially integrating the iPad into my clinical activities, I found more and more uses for it, which helped me move various activities along at a smoother clip. Of course, there were some things to consider a la [HIPAA and HITECH](http://neuropsychnow.com/tags/HIPAA/HITECH/PHI) [Security][secure] and [Privacy][private] Rules. 
