@@ -1,0 +1,28 @@
+Title:ICD-10 Apps, Updated
+Author:W. Howard Buddin Jr., Ph.D.
+Category:Article
+Date:02/04/2016
+Tags:Apps, Billing, Diagnostics
+
+Somehow, during my perusal of ICD–10 apps, these two slipped by. Well, really it's just one app, though it has a free version and a $9.99 version, which removes ads at the bottom. The paid app is [ICD10 Consult 2016 by Evan Schoenberg][consult]; its free counterpart is aptly titled [ICD10 Consult 2016 Free by Evan Schoenberg][consultf]. ICD10 Consult 2016 was, for me, the easy winner of the field of [ICD-10 apps previously reviewed][review]. 
+
+My previous "daily driver," for which I had initially written this article, was ICD–10 Sherpa. I discovered that ICD-10 Sherpa was [removed from the app store][norgayevl] sometime in the last two months or so. Fortunately, I stumbled across ICD10 Consult right at about the same time. 
+
+ICD 10 has a couple of key features that, in my opinion, separated from the pack. The first thing I like about it is the way that the app helps you to conduct a search for the most specific diagnosis possible. After any search, if you have not already landed on the highest level of specification, the app will present a list of choices with one of two icons immediately to the left of the name: either a red hexagon or a green circle. The latter of these indicates highest specificity; the former indicates that you can keep drilling down further if needed. (See screenshot)
+
+![search][]
+
+The second feature is the exclusionary and inclusionary criteria presented with a finalized diagnosis, along with a general chapter synopsis at the bottom. While this second feature is not necessarily uncommon, I do like the way that the app presents the information in a neat, unordered list, complete with further links to be inclusive and exclusive disorders.
+
+![criteria][]
+
+When reviewing or trying out each of the apps from our [previous article], I considered a few different variables. Among these was financial cost. The cost of any of these apps should be or could be considered from a couple of different angles. On the one hand, cost could/should be viewed as a trivial matter, since using ICD–10–CM is mandatory, and following procedural protocol (like it or not) helps you get paid. On the other side of the same coin, the cost is something to weigh considerably, since this information is easily, readily available from the [Centers for Medicare Services](https://#). In other words, why would one pay for such easily accessible information?
+
+
+[consult]: https://appsto.re/us/7CHE9.i
+[consultf]: https://appsto.re/us/KZ4yv.i
+[review]: http://neuropsychnow.com/2015/09/ICD-10-apps
+[search]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/ICD-10-search.png "An iPhone 6 screenshot showing the initial search window for the ICD – 10 app" width=auto
+[criteria]: https://s3-us-west-2.amazonaws.com/nnimages/Article+Images/ICD-10-criteria.png "An iPhone 6 screenshot showing inclusive and exclusive criteria for Alzheimer’s disease as shown in the ICD – 10 Consult for iOS" width=auto
+
+[norgayevl]: http://appshopper.com/medical/icd-sherpa
