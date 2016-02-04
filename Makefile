@@ -9,7 +9,7 @@
 
 # notouch=sphider-pdo/admin/*.txt sphider-pdo/include/*.txt sphider-pdo/include/js_suggest/*.txt
 
-nospider=sphider-pdo/.*
+nospider=sphider-pdo/.* sphider-pdo/.*.txt
 
 # srcfiles := $(filter-out cgi/* templates/* css/* $(sphider-pdo/*) sphider-pdo/*/* sphider-pdo/*/*/* robots.txt humans.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
 
