@@ -5,8 +5,7 @@
 * By Ando Saabas		  ando(a t)cs.ioc.ee
 ********************************************/
 
-	// $includes = array('./include', 'include', '../include');
-	$includes = array('./include', 'include', '../include', './sphider-pdo/include', 'sphider-pdo/include', '../sphider-pdo/include');
+	$includes = array('./include', 'include', '../include');
 	if( !in_array($include_dir, $includes) )  {
 	   die("Illegal include.");
 	}

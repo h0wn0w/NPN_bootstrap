@@ -2,8 +2,8 @@
 
 	/* ***** please adjust the user name and the ***** */
 
-	define("ADMIN", "homey");	/* user name and password for the site administrator */
-	define("PASSW", "dontplay");
+	define("ADMIN", "admin");	/* user name and password for the site administrator */
+	define("PASSW", "admin");
 	define('CONFIGSET', 1); 	/* if set to zero, changing the configuration via the web interface is disabled */
 
 	/* ***** no customizations below this point ***** */
