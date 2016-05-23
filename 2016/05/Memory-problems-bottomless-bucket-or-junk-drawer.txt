@@ -1,0 +1,69 @@
+Title: Clinical Concepts: Bottomless Bucket or Junk Drawer Memory Dysfunction?
+Author: S. Marc Testa, Ph.D.
+Content: Article
+Date: 05/23/2016 
+Tags: Pathology, Dementia, Diagnosis,  
+
+There are a number of medical, lifestyle, and health factors that can lead to memory struggles. There are two broad categories of memory disturbance that may provide clues about cause:
+
+1. The first kind of memory problem is typified by what neuropsychologists refer to as rapid forgetting. This type of memory dysfunction is much like a bucket without a bottom. If an anything gets into the bucket, it falls out and is lost. Because of this, the person with a bottomless bucket memory problem struggles to learn new information, doesn't track current events, and may ask questions repeatedly without any sense of familiarity.
+2. Difficulties with capturing and retrieving information exemplify the second type of memory disturbance. Much like a junk drawer, the contents of memory may be disorganized and completely misplaced. Possibly, the target of remembering may not be realized until a 3^rd or 4^th retrieval attempt.[^fn1]
+
+<img src=https://www.dropbox.com/s/himx7eh0it6ixtn/junkDrawer.jpg?raw=1 width="400">
+
+In order to appreciate how certain medical and lifestyle factors can lead to these two different types of memory problems, it is important to understand the basic concepts of the functional neuroanatomy of memory.
+
+## Learning and Memory Primer ##
+Learning and memory are cognitive functions that are related intimately to time. In fact, memory can be construed as one of the brain's primary time traveling mechanisms. In any given moment, information may need to be accessed from the past or captured for future use. 
+
+Memory processes can be divided into three basic, theoretical, and increasingly dependent, but overlapping, components:
+
+-  Initial acquisition
+-  Storage/Consolidation
+-  Retrieval
+
+**Initial acquisition** is the "front end" of memory and is sometimes referred to as "encoding". There are a number of processes involved in initial acquisition, including attention, planning, and organization. Information cannot be remembered in the future if it never enters the system in the first place. Well-organized or highly meaningful information has a higher likelihood of being recalled than data that is scattered or encoded superficially.
+
+**Storage or consolidation** seems to occur "behind the scenes" and is concerned with long-term archiving. In all likelihood, storage is most successful in the context of good initial acquisition. In some instances, despite good strategic encoding, a robust memory trace is *not* formed, information is *not* recorded, and future access is *not* possible.   
+
+**Retrieval** has to do with accessing acquired and consolidated information when needed. Obviously, if information does not get into the system and is not archived well, future retrieval cannot happen. Sometimes, information is acquired and stored, but retrieval is weak and requires hints or cues for successful remembering (e.g., the phenomenon of an odor conjuring up a distinct memory from long ago, for instance).
+
+## Functional Neuroanatomy of Memory Processes
+
+At a practical level, the functional neuroanatomy of learning and memory can be conceptualized in the following way:
+
+1. The frontal lobes help with initial acquisition and retrieval. Disruption to these memory processes lead to the "junk drawer" problem.
+2. The temporal lobes, including the limbic hippocampal-fornix system, are the seat of storage and consolidation.[^fn2] When the temporal lobes are impacted, the resultant memory problem is that of the "bottomless bucket". 
+
+So, one goal of a neuropsychological evaluation is to discern a pattern of memory dysfunction that can help signal a problem in a specific brain network. Because different brain networks are impacted by certain medical conditions and health factors, the pattern of memory dysfunction can help the neuropsychologist determine the potential causes. 
+
+## Causes: Bottomless Bucket vs. Junk Drawer ##
+The following table summarizes the above, and adds the medical and lifestyle factors that can contribute to each memory problem:
+
+|  | Bottomless Bucket | Junk Drawer |
+|:--- |:---|:---|
+| **Memory Process Impacted** | Storage/Consolidation | Acquisition and retrieval |
+| **Neuroanatomy** | Limbic Hippocampal Fornix | Frontal Lobes |
+| **Medical/Health Influences** | Alzheimer's | Cerebrovascular Disease |
+|  | Various focal strokes | Hypertension |
+|  | Anoxic injury | Sleep apnea |
+|  | --- | Insomnia |
+|  | --- | Brain injury |
+
+## Recommendations##
+So....what to do?
+
+### Junk Drawer Problem 
+Reminders and lists can be extremely helpful. There are a number of phone and computer applications that can help with the capture and retrieval of information. Fortunately, when someone has memory retrieval difficulties, there is a high likelihood that reminders will provide information that is familiar. Often the experience is, "Oh yeah, I remember that". With the wide availability of mobile technology, liberal use of calendars, digital assistants (e.g., Siri, Cortana, Alexa, Google), and other applications are highly recommended.
+
+Other ways to improve this type of memory problem is to address the health causes. Maintaining cerebral vascular health, ensuring proper sleep, getting regular exercise, and engaging in a healthy diet are all possible ways to improve the junk drawer problem. 
+
+### Bottomless Bucket
+
+When there is a problem storing new information, reminders do not necessarily provide familiarity. Unfortunately, it may also be the case that the person with a memory storage problem is limited in the number of activities that would be safe for them to engage in. Thus, the scope of need for reminders is probably less than what it is for individuals with retrieval memory problems. Alerting with frequent reminders and microprompting are probably the most useful. As wearable technology improves, this type of cognitive compensation may be more effective.
+
+As always, if you or someone you know expereince memory difficulties and require further evaluation, [contact a neuropsychologist in your area](https://theaacn.org/directory/).
+
+ [^fn1]: With retrieval difficulties patients often report a "tip-of-the-tongue" feeling in which there is a sense of knowing the target word without being able to retrieve it successfully. This retrieval failure often causes frustration, which, in turn, decreases the likelihood of retrieval. Frequently, directing efforts and attention *away* from retrieval increases the occurrence of spontaneous recollection of the target word. 
+ 
+[^fn2]: There are other other areas of the brain, such as the thalamus and regions of the basal forebrain, that are vital for storage.
