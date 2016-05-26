@@ -12,7 +12,6 @@ Tags: Calculator, Excel, Psychometrics, Statistics
 
 This simple, but [EXTREME][extreme] Excel calculator is meant to replace the lengthy [traditional look-up table](https://www.google.com/search?q=conversion+table+percentile&safe=off&client=safari&sa=X&rls=en&biw=1211&bih=916&tbm=isch&tbo=u&source=univ&ved=0ahUKEwjJkq_Ord7KAhUEHx4KHVWgBB4QsAQILg). An added benefit is that this spreadsheet allows the user to type or paste several raw scores at once and convert them into percentiles for eventual transfer or copying to a report. I have [this spread sheet][calc] either open on my desktop or in dual view on an iPad Pro while creating tables for a report.
 
-
-[calc]: https://s3-us-west-2.amazonaws.com/nndocs/CalcConverters/Psychometric Conversion Calculator.xlsx
+[calc]: http://nndocs.s3.amazonaws.com/CalcConverters/Psychometric%20Conversion%20Calculator.xlsx
 
 [extreme]: https://pbs.twimg.com/media/BpdXWICIcAEzzZc.jpg
