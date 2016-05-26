@@ -7,9 +7,11 @@
 # NOTE: MultiMarkdown 3.0 must be installed for this to work.
 #
 
-# notouch=sphider-pdo/admin/*.txt sphider-pdo/include/*.txt sphider-pdo/include/js_suggest/*.txt
+notouch := sphider-pdo/admin/*.txt sphider-pdo/include/*.txt sphider-pdo/include/js_suggest/*.txt
 
-srcfiles := $(filter-out cgi/* templates/* css/* sphider-pdo/* sphider-pdo/*/* sphider-pdo/*/*/* robots.txt humans.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
+# srcfiles := $(filter-out cgi/* templates/* css/* img/* sphider-pdo/* sphider-pdo/*/* sphider-pdo/*/*/* robots.txt humans.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt))
+
+srcfiles := $(filter-out cgi/* templates/* css/* img/* robots.txt humans.txt, $(wildcard *.txt */*.txt */*/*.txt */*/*/*.txt) $(notouch))
 
 htmlfiles := $(patsubst %.txt, %.html, $(srcfiles))
 

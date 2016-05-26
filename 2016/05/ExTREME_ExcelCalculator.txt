@@ -1,0 +1,18 @@
+Title: Excel Psychometric Statistics Calculator: Convert Normative Scores to Percentiles
+Author: S. Marc Testa, Ph.D.
+Date: 05/23/2016 
+Tags: Calculator, Excel, Psychometrics, Statistics
+
+[Here][calc] is a calculator that converts the following to percentiles: 
+
+- T (M=50, SD=10)
+- z (M=0, SD=1)
+- SS (M=100, SD=15)
+- ss (M=10, SD=3)
+
+This simple, but [EXTREME][extreme] Excel calculator is meant to replace the lengthy [traditional look-up table](https://www.google.com/search?q=conversion+table+percentile&safe=off&client=safari&sa=X&rls=en&biw=1211&bih=916&tbm=isch&tbo=u&source=univ&ved=0ahUKEwjJkq_Ord7KAhUEHx4KHVWgBB4QsAQILg). An added benefit is that this spreadsheet allows the user to type or paste several raw scores at once and convert them into percentiles for eventual transfer or copying to a report. I have [this spread sheet][calc] either open on my desktop or in dual view on an iPad Pro while creating tables for a report.
+
+
+[calc]: https://s3-us-west-2.amazonaws.com/nndocs/CalcConverters/Psychometric Conversion Calculator.xlsx
+
+[extreme]: https://pbs.twimg.com/media/BpdXWICIcAEzzZc.jpg
