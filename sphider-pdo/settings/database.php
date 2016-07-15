@@ -1,5 +1,8 @@
 <?php
-	define('TABLE_PREFIX', "PREFIX");		/* typically only needed for MySQL */
-	define('DATABASE_NAME', 'DBNAME');	/* only needed for MySQL */
-  $db = new PDO('mysql:host=localhost; dbname='.DATABASE_NAME, 'USER', 'PW');	
+	define('TABLE_PREFIX', "");		/* typically only needed for MySQL */
+	define('DATABASE_NAME', 'sphider');	/* only needed for MySQL */
+	define('AUTOINCREMENT', '');            /* only needed for SQLite (should be removed for MySQL) */
+	
+	$db = new PDO('sqlite:'.dirname(__FILE__).'/../sphider.sqlite');
+	// $db = new PDO('mysql:host=hostname;dbname='.DATABASE_NAME,'username','password');
 ?>
