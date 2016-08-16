@@ -1,0 +1,97 @@
+Title:	Tales From Encrypt - The Mythos of HIPAA-Compliant Services
+Author:	W. Howard Buddin Jr., Ph.D.
+Category:	Article
+Date:	08/16/2016 
+Tags:	HIPAA, HITECH, Tech
+
+Consider the following scenarios:
+
+>Alexander wants to start using the latest and greatest technology to send his patients their reports. So he uses Dropbox to email each patient a link, allowing them to download their report. Dropbox uses encryption, so it's safe to deliver reports this way.
+
+Or, 
+
+>Lauri has been operating her private practice for a few years now, and decided she wanted to streamline her operation and reduce overhead. She signed up for Google Business Apps, and signed their Business Associate Agreement Amendment as part of the deal. Google Business apps are, therefore, HIPAA compliant, and she can now email records and reports to patients and other providers. 
+
+These are reasonably believable, possible scenarios. You might have even found yourself in a similar situation. Sort of. 
+
+## I am the Law
+
+It should not surprise anyone to hear that, every year, millions of patient data files are compromised in some way. That's millions. Each year, every year[^repeat]. The largest breach of all came in early 2015, when [Anthem disclosed a data breach][anthem] that resulted in the compromise of approximately EIGHTY MILLION records. This breach was perpetrated with ease, as an administrator username and password were used to access the data in question. In cases where the perpetrator does not have such high-level information, this kind of breach can be thwarted – definitively – if the records in question are encrypted at the source.
+
+The Centers for Medicare Studies consider an official [data breach][breach] to have occurred if  any number or degree of patient data are compromised. If, however, greater than 500 records are compromised, then it's a more serious problem. A cascade of events and responsibilities are triggered at this point. One of the potential unfortunate, pejorative consequences is that you will end up on the CMS [Wall of Shame][wos]. Also, there will be audits, reviews, investigations, bloodletting, and fines. In short, stolen machine/device = bad news on more than one front. The good news? There *is* a way to avoid most — or all — of this pain and suffering, and it entails…wait for it…encryption.
+
+## HIPAA Ex Machina
+
+Before proceeding, there are two points to cover, in order of importance. 
+
+First, numerous services and applications/apps/software are advertised as being "HIPAA compliant." Whatever they mean by this is irrelevant, since there is no such thing as a "HIPAA compliant" anything. HIPAA compliance is a thing that is deep and wide, and is ultimately the responsibility of the [Covered Entity][covered] (read: you, the provider) and *not* a third-party vendor. Vendors/purveyors of backup or encryption software might sell goods or services that sufficiently address various points of the HIPAA Security Rule and Privacy Rule; however, the services themselves or use thereof *do not* indicate a mark of HIPAA compliance. 
+
+Such a thing can only be determined by an intense auditing process. Sure, the [National Institute of Standards and Technology][nist] released a program[^nits] that allows Covered Entities to perform a self-audit, but I can tell you from personal experience that it's something I would be able to complete only if my life absolutely depended on it.[^life] HIPAA guidelines deliver the false promise of hope, being incredibly vague and offering almost no specifics regarding the “how” and/or “what” of encryption. Exhibits A and B, for illustrative purposes:
+
+>Valid encryption processes for data at rest are consistent with NIST Special Publication 800-111, [Guide to Storage Encryption Technologies for End User Devices][guide].
+
+…and…
+
+>Valid encryption processes for data in motion are those which comply, as appropriate, with NIST Special Publications [800-52][tls], Guidelines for the Selection and Use of Transport Layer Security (TLS) Implementations; [800-77][ipsec], Guide to IPsec VPNs; or [800-113][ssl], Guide to SSL VPNs, or others which are [Federal Information Processing Standards (FIPS) 140-2][fips1402] validated.
+
+Have you ever seen the movie *Office Space*? Reading this guidance specification feels a bit like that scene where the main characters look up the definition for money laundering; their situation seems equally hopeless after reading it. Don't worry, here's the translation: any combination of method *and* means that you use for storing ("data at rest") and transmitting ("data in motion") patient data should be FIPS 140-2 validated and use AES-128 or better.
+
+Second, we mentioned [TrueCrypt][truecrypt] [in an earlier article][hc1] as a reliable, open-source, cross-platform application for encrypting some or all of the contents of a Hard Disk Drive. Not long after, [an audit of TrueCrypt's source code][notc], was completed, which found it to be fairly good at what it was supposed to do, though with some potential vulnerabilities. Oh, and it's developers made a [statement that TrueCrypt was not secure][ouch], and that they were stopping development of TrueCrypt altogether. So, we no longer recommend True Crypt as a viable means of encrypting  your data. All is not lost, however, as encryption functionality is now baked right in to most operating systems. 
+
+## So I am Totally Safe. Right?
+
+Nope. Though the ability to perform full disk encryption is a part of most operating systems, encryption is *not* necessarily turned on by default. Generally, the opposite is true, so you'll need to do a little bit of investigation to find out if your computer's disk is encrypted or not. additionally, you'll need to ensure that any backups are encrypted, as well. if you're using a redundant backup strategy, this might mean encrypting two or more external drives.[^ext] 
+
+A tutorial on encrypting each type of operating system is beyond the scope of this article, and there are plenty of resources already available out there on the topic. These resources were also written by people who are much smarter than us and who have already tackled the problem. No need to reinvent the wheel. 
+
+For instructions on encrypting data on Mac OS X, please [read this Apple knowledge base document][akb]
+For instructions on encrypting data on Windows, please [read this Windows knowledge base document][wkb]
+For instructions on encrypting data on Linux, please [read this Ubuntu knowledge base document][gnukb]
+
+## Data In Motion
+
+So, what about that "data in motion" thing? In short, it is what it says it is: information going from one place to another. Email is one example, and is — for most practitioners — the most relevant. Other examples include SMS (Short Message Service) and faxes. Of course, if you plan on using email to send anything containing Protected Health Information (PHI) and/or Personally Identifiable Information (PII), then the message has to be encrypted.[^exception] It is also worth mentioning that while email might be considered "data in motion," it is also "data at rest" when it is stored on a server and waiting for the recipient to access the message. Thus, email is in the category of *asynchronous communication*. This is fundamentally separate from something like text messaging, which is *synchronous communication*, meaning that it is delivered and downloaded to the recipient immediately, without waiting for some action on their end.
+
+Like most things mentioned thus far, getting email sufficiently encrypted all of the time is a challenge. I had a whole section about why encrypted email is such a pain in the neck, but it was getting a bit ponderous. The short version of it is this: if you don't know what a PGP key is, then you probably don't want to bother with encrypted email. Seriously. If you really do want to know more about the subject, however, then please do check out this article that I came across [this article][nobody-does-it]. It says everything I was going to say and more.    
+
+There are a few email hosting providers out there that come with out-of-the-box, end-to-end encryption baked right in. Some examples include [CryptoHeaven], [Hushmail], and [LuxSci]. [^disclaimer] If you want to have more of a roll-your-own solution and you're a Mac user, you can give [GPG Tools][gpg] a try. Services like [LuxSci] have come up with workarounds like getting recipients to access the email messages through a web portal, but this is hardly convenient. Of course, this goes back to the adage (one that we have mentioned before): you can have security or convenience, but you cannot have both. It's little wonder that basically no one uses encrypted email, given the work involved. 
+
+## Alexander & Lauri
+
+Did you forget about Alexander and Lauri? Way back at the beginning, they were attempting to flex their tech-savvy muscles. To wrap up that story, they both fell flat. Here's the deal. Whatever you have heard or read or whatever, know this: unless you're using end-to-end encryption with your own private/public key pair, it's not encrypted. 
+
+[^repeat]: I wonder how many patients have their data compromised more than once?
+
+[^life]: Okay, *life* is a little too hyperbolic. Maybe just if my *practice* depended on it.
+
+[^ext]: You *are* backing up your system, right? 
+
+[^nits]: The application - that's application as in "computer software" not "for employment" – is available as a download for any major operating system (e.g., Linux, Windows, Mac OS X)
+
+[^disclaimer]: We have neither vetted, nor do we endorse, these email hosting providers
+
+[^exception]: Unless you get a signed waiver with your patient's consent and express understanding of the risks inherent in using email for communication of PHI/PII. 
+
+[anthem]: https://www.scrypt.com/blog/anthem-breach-enforces-the-need-for-encryption-at-rest-as-well-as-in-transit/
+[breach]: http://www.hhs.gov/hipaa/for-professionals/breach-notification/breach-reporting/index.html
+[wos]: https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf
+[covered]: http://www.hhs.gov/hipaa/for-professionals/covered-entities/
+[nist]: http://www.nist.gov/
+[truecrypt]: http://truecrypt.sourceforge.net/
+[hc1]: http://neuropsychnow.com/2013/09/HIPAA_Cloud_1
+[notc]: http://arstechnica.com/security/2015/04/truecrypt-security-audit-is-good-news-so-why-all-the-glum-faces/
+[ouch]: http://truecrypt.sourceforge.net
+[guide]: http://csrc.nist.gov/
+[tls]: http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf
+[ipsec]: http://dx.doi.org/10.6028/NIST.SP.800-57pt3r1
+[ssl]: http://csrc.nist.gov/publications/nistpubs/800-113/SP800-113.pdf
+[fips1402]: http://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf
+[akb]: https://support.apple.com/en-us/HT204837
+[wkb]: http://www.winbeta.org/news/encrypt-hard-drives-windows-10-keeping-data-safe-secure
+[gnukb]: http://www.howtogeek.com/howto/33255/how-to-secure-your-linux-pc-by-encrypting-your-hard-drive/
+[nobody-does-it]: http://www.howtogeek.com/187961/why-no-one-uses-encrypted-email-messages/
+[CryptoHeaven]: http://www.cryptoheaven.com/
+[Hushmail]: https://www.hushmail.com
+[LuxSci]: https://luxsci.com/extranet/secure-email-encryption-methods.html
+[gpg]: https://gpgtools.org/
+[payuh]: https://tools.ietf.org/html/rfc3447
