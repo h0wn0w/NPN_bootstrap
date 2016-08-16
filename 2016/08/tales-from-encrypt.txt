@@ -4,16 +4,6 @@ Category:	Article
 Date:	08/16/2016 
 Tags:	HIPAA, HITECH, Tech
 
-Consider the following scenarios:
-
->Alexander wants to start using the latest and greatest technology to send his patients their reports. So he uses Dropbox to email each patient a link, allowing them to download their report. Dropbox uses encryption, so it's safe to deliver reports this way.
-
-Or, 
-
->Lauri has been operating her private practice for a few years now, and decided she wanted to streamline her operation and reduce overhead. She signed up for Google Business Apps, and signed their Business Associate Agreement Amendment as part of the deal. Google Business apps are, therefore, HIPAA compliant, and she can now email records and reports to patients and other providers. 
-
-These are reasonably believable, possible scenarios. You might have even found yourself in a similar situation. Sort of. 
-
 ## I am the Law
 
 It should not surprise anyone to hear that, every year, millions of patient data files are compromised in some way. That's millions. Each year, every year[^repeat]. The largest breach of all came in early 2015, when [Anthem disclosed a data breach][anthem] that resulted in the compromise of approximately EIGHTY MILLION records. This breach was perpetrated with ease, as an administrator username and password were used to access the data in question. In cases where the perpetrator does not have such high-level information, this kind of breach can be thwarted – definitively – if the records in question are encrypted at the source.
@@ -56,9 +46,10 @@ Like most things mentioned thus far, getting email sufficiently encrypted all of
 
 There are a few email hosting providers out there that come with out-of-the-box, end-to-end encryption baked right in. Some examples include [CryptoHeaven], [Hushmail], and [LuxSci]. [^disclaimer] If you want to have more of a roll-your-own solution and you're a Mac user, you can give [GPG Tools][gpg] a try. Services like [LuxSci] have come up with workarounds like getting recipients to access the email messages through a web portal, but this is hardly convenient. Of course, this goes back to the adage (one that we have mentioned before): you can have security or convenience, but you cannot have both. It's little wonder that basically no one uses encrypted email, given the work involved. 
 
-## Alexander & Lauri
+## You Can Do It ##
 
-Did you forget about Alexander and Lauri? Way back at the beginning, they were attempting to flex their tech-savvy muscles. To wrap up that story, they both fell flat. Here's the deal. Whatever you have heard or read or whatever, know this: unless you're using end-to-end encryption with your own private/public key pair, it's not encrypted. 
+Yes, despite all of the ins-and-outs of locking down your digital/electronic records, getting HIPAA and HITECH level encryption is a realistic goal. And, it's…um…mandatory. Just remember, regardless of their legitimacy and policies, encryption technologies don't make you "HIPAA compliant" any more than owning a first aid kit makes you an EMT. 
+
 
 [^repeat]: I wonder how many patients have their data compromised more than once?
 
