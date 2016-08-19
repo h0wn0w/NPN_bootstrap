@@ -1,4 +1,4 @@
-Title:	Tales From Encrypt - The Mythos of HIPAA-Compliant Services
+Title:	Tales From Encrypt (And The Mythos of HIPAA-Compliant Services)
 Author:	W. Howard Buddin Jr., Ph.D.
 Category:	Article
 Date:	08/16/2016 
