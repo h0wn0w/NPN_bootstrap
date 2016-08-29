@@ -1,7 +1,7 @@
 Title:	Tales From Encrypt (And The Mythos of HIPAA-Compliant Services)
 Author:	W. Howard Buddin Jr., Ph.D.
 Category:	Article
-Date:	08/16/2016 
+Date:	08/29/2016 
 Tags:	HIPAA, HITECH, Tech
 
 ## I am the Law
