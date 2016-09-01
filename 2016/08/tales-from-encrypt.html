@@ -1,0 +1,99 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+	
+	<title>Tales From Encrypt (And The Mythos of HIPAA-Compliant Services)</title>
+	<meta name="author" content="W. Howard Buddin Jr., Ph.D.">
+	<meta name="category" content="Article">
+	<meta name="date" content="08/29/2016">
+	<meta name="tags" content="HIPAA, HITECH, Tech">
+<!--#include virtual="${Base_URL}/templates/head.html" --></head>
+<body><!--#include virtual="${Base_URL}/templates/header.html" --><h1 class="page-title">Tales From Encrypt (And The Mythos of HIPAA-Compliant Services)</h1>
+<div class="author">Written By: W. Howard Buddin Jr., Ph.D.</div>
+<div class="date">Published On: 08/29/2016</div><!--#include virtual="${Base_URL}/cgi/tags.cgi" -->
+
+<h2 id="iamthelaw">I am the Law</h2>
+
+<p>It should not surprise anyone to hear that, every year, millions of patient data files are compromised in some way. That&#8217;s millions. Each year, every year<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>. The largest breach of all came in early 2015, when <a href="https://www.scrypt.com/blog/anthem-breach-enforces-the-need-for-encryption-at-rest-as-well-as-in-transit/" target="_blank">Anthem disclosed a data breach</a> that resulted in the compromise of approximately EIGHTY MILLION records. This breach was perpetrated with ease, as an administrator username and password were used to access the data in question. In cases where the perpetrator does not have such high-level information, this kind of breach can be thwarted &#8211; definitively &#8211; if the records in question are encrypted at the source.</p>
+
+<p>The Centers for Medicare Studies consider an official <a href="http://www.hhs.gov/hipaa/for-professionals/breach-notification/breach-reporting/index.html" target="_blank">data breach</a> to have occurred if any number or degree of patient data are compromised. If, however, greater than 500 records are compromised, then it&#8217;s a more serious problem. A cascade of events and responsibilities are triggered at this point. One of the potential unfortunate, pejorative consequences is that you will end up on the CMS <a href="https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf" target="_blank">Wall of Shame</a>. Also, there will be audits, reviews, investigations, bloodletting, and fines. In short, stolen machine/device = bad news on more than one front. The good news? There <em>is</em> a way to avoid most &#8212; or all &#8212; of this pain and suffering, and it entails&#8230;wait for it&#8230;encryption.</p>
+
+<h2 id="hipaaexmachina">HIPAA Ex Machina</h2>
+
+<p>Before proceeding, there are two points to cover, in order of importance. </p>
+
+<p>First, numerous services and applications/apps/software are advertised as being &#8220;HIPAA compliant.&#8221; Whatever they mean by this is irrelevant, since there is no such thing as a &#8220;HIPAA compliant&#8221; anything. HIPAA compliance is a thing that is deep and wide, and is ultimately the responsibility of the <a href="http://www.hhs.gov/hipaa/for-professionals/covered-entities/" target="_blank">Covered Entity</a> (read: you, the provider) and <em>not</em> a third-party vendor. Vendors/purveyors of backup or encryption software might sell goods or services that sufficiently address various points of the HIPAA Security Rule and Privacy Rule; however, the services themselves or use thereof <em>do not</em> indicate a mark of HIPAA compliance. </p>
+
+<p>Such a thing can only be determined by an intense auditing process. Sure, the <a href="http://www.nist.gov/" target="_blank">National Institute of Standards and Technology</a> released a program<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> that allows Covered Entities to perform a self-audit, but I can tell you from personal experience that it&#8217;s something I would be able to complete only if my life absolutely depended on it.<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a> HIPAA guidelines deliver the false promise of hope, being incredibly vague and offering almost no specifics regarding the &#8220;how&#8221; and/or &#8220;what&#8221; of encryption. Exhibits A and B, for illustrative purposes:</p>
+
+<blockquote>
+<p>Valid encryption processes for data at rest are consistent with NIST Special Publication 800&#8211;111, <a href="http://csrc.nist.gov/" target="_blank">Guide to Storage Encryption Technologies for End User Devices</a>.</p>
+</blockquote>
+
+<p>&#8230;and&#8230;</p>
+
+<blockquote>
+<p>Valid encryption processes for data in motion are those which comply, as appropriate, with NIST Special Publications <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf" target="_blank">800&#8211;52</a>, Guidelines for the Selection and Use of Transport Layer Security (TLS) Implementations; <a href="http://dx.doi.org/10.6028/NIST.SP.800-57pt3r1" target="_blank">800&#8211;77</a>, Guide to IPsec VPNs; or <a href="http://csrc.nist.gov/publications/nistpubs/800-113/SP800-113.pdf" target="_blank">800&#8211;113</a>, Guide to SSL VPNs, or others which are <a href="http://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf" target="_blank">Federal Information Processing Standards (FIPS) 140&#8211;2</a> validated.</p>
+</blockquote>
+
+<p>Have you ever seen the movie <em>Office Space</em>? Reading this guidance specification feels a bit like that scene where the main characters look up the definition for money laundering; their situation seems equally hopeless after reading it. Don&#8217;t worry, here&#8217;s the translation: any combination of method <em>and</em> means that you use for storing (&#8220;data at rest&#8221;) and transmitting (&#8220;data in motion&#8221;) patient data should be FIPS 140&#8211;2 validated and use AES&#8211;128 or better.</p>
+
+<p>Second, we mentioned <a href="http://truecrypt.sourceforge.net/">TrueCrypt</a> <a href="http://neuropsychnow.com/2013/09/HIPAA_Cloud_1" target="_blank">in an earlier article</a> as a reliable, open-source, cross-platform application for encrypting some or all of the contents of a Hard Disk Drive. Not long after, <a href="http://arstechnica.com/security/2015/04/truecrypt-security-audit-is-good-news-so-why-all-the-glum-faces/" target="_blank">an audit of TrueCrypt&#8217;s source code</a>, was completed, which found it to be fairly good at what it was supposed to do, though with some potential vulnerabilities. Oh, and it&#8217;s developers made a <a href="http://truecrypt.sourceforge.net" target="_blank">statement that TrueCrypt was not secure</a>, and that they were stopping development of TrueCrypt altogether. So, we no longer recommend True Crypt as a viable means of encrypting your data. All is not lost, however, as encryption functionality is now baked right in to most operating systems. </p>
+
+<h2 id="soiamtotallysafe.right">So I am Totally Safe. Right?</h2>
+
+<p>Nope. Though the ability to perform full disk encryption is a part of most operating systems, encryption is <em>not</em> necessarily turned on by default. Generally, the opposite is true, so you&#8217;ll need to do a little bit of investigation to find out if your computer&#8217;s disk is encrypted or not. additionally, you&#8217;ll need to ensure that any backups are encrypted, as well. if you&#8217;re using a redundant backup strategy, this might mean encrypting two or more external drives.<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a> </p>
+
+<p>A tutorial on encrypting each type of operating system is beyond the scope of this article, and there are plenty of resources already available out there on the topic. These resources were also written by people who are much smarter than us and who have already tackled the problem. No need to reinvent the wheel. </p>
+
+<p>For instructions on encrypting data on Mac OS X, please <a href="https://support.apple.com/en-us/HT204837" target="_blank">read this Apple knowledge base document.</a></p>
+<p>For instructions on encrypting data on Windows, please <a href="http://www.winbeta.org/news/encrypt-hard-drives-windows-10-keeping-data-safe-secure" target="_blank">read this Windows knowledge base document.</a></p>
+<p>For instructions on encrypting data on Linux, please <a href="http://www.howtogeek.com/howto/33255/how-to-secure-your-linux-pc-by-encrypting-your-hard-drive/" target="_blank">read this Ubuntu knowledge base document.</a></p>
+
+<h2 id="datainmotion">Data In Motion</h2>
+
+<p>So, what about that &#8220;data in motion&#8221; thing? In short, it is what it says it is: information going from one place to another. Email is one example, and is &#8212; for most practitioners &#8212; the most relevant. Other examples include SMS (Short Message Service) and faxes. Of course, if you plan on using email to send anything containing Protected Health Information (PHI) and/or Personally Identifiable Information (PII), then the message has to be encrypted.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a> It is also worth mentioning that while email might be considered &#8220;data in motion,&#8221; it is also &#8220;data at rest&#8221; when it is stored on a server and waiting for the recipient to access the message. Thus, email is in the category of <em>asynchronous communication</em>. This is fundamentally separate from something like text messaging, which is <em>synchronous communication</em>, meaning that it is delivered and downloaded to the recipient immediately, without waiting for some action on their end.</p>
+
+<p>Like most things mentioned thus far, getting email sufficiently encrypted all of the time is a challenge. I had a whole section about why encrypted email is such a pain in the neck, but it was getting a bit ponderous. The short version of it is this: if you don&#8217;t know what a PGP key is, then you probably don&#8217;t want to bother with encrypted email. Seriously. If you really do want to know more about the subject, however, then please do check out this article that I came across <a href="http://www.howtogeek.com/187961/why-no-one-uses-encrypted-email-messages/" target="_blank">this article</a>. It says everything I was going to say and more. </p>
+
+<p>There are a few email hosting providers out there that come with out-of-the-box, end-to-end encryption baked right in. Some examples include <a href="http://www.cryptoheaven.com/" target="_blank">CryptoHeaven</a>, <a href="https://www.hushmail.com" target="_blank">Hushmail</a>, and <a href="https://luxsci.com/extranet/secure-email-encryption-methods.html" target="_blank">LuxSci</a>. <a href="#fn:6" id="fnref:6" title="see footnote" class="footnote">[6]</a> If you want to have more of a roll-your-own solution and you&#8217;re a Mac user, you can give <a href="https://gpgtools.org/" target="_blank">GPG Tools</a> a try. Services like <a href="https://luxsci.com/extranet/secure-email-encryption-methods.html" target="_blank">LuxSci</a> have come up with workarounds like getting recipients to access the email messages through a web portal, but this is hardly convenient. Of course, this goes back to the adage (one that we have mentioned before): you can have security or convenience, but you cannot have both. It&#8217;s little wonder that basically no one uses encrypted email, given the work involved. </p>
+
+<h2 id="youcandoit">You Can Do It</h2>
+
+<p>Yes, despite all of the ins-and-outs of locking down your digital/electronic records, getting HIPAA and HITECH level encryption is a realistic goal. And, it&#8217;s&#8230;um&#8230;mandatory. Just remember, regardless of their legitimacy and policies, encryption technologies don&#8217;t make you &#8220;HIPAA compliant&#8221; any more than owning a first aid kit makes you an EMT. </p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn:1">
+<p>I wonder how many patients have their data compromised more than once? <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>The application - that&#8217;s application as in &#8220;computer software&#8221; not &#8220;for employment&#8221; &#8211; is available as a download for any major operating system (e.g., Linux, Windows, Mac OS X) <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:3">
+<p>Okay, <em>life</em> is a little too hyperbolic. Maybe just if my <em>practice</em> depended on it. <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:4">
+<p>You <em>are</em> backing up your system, right?  <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:5">
+<p>Unless you get a signed waiver with your patient&#8217;s consent and express understanding of the risks inherent in using email for communication of PHI/PII.  <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:6">
+<p>We have neither vetted, nor do we endorse, these email hosting providers <a href="#fnref:6" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+<!--#include virtual="${Base_URL}/templates/footer.html" --></body>
+</html>
