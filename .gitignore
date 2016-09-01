@@ -18,7 +18,7 @@
 *.sublime-project
 *.sublime-workspace
 sphider-pdo/settings/**
-sphider-pdo/sphider.sqlite
+sphider-pdo/*sphider.sqlite
 search.php
 .DS_Store
 sitemap.xml
