@@ -1,0 +1,19 @@
+Title:        Axelrod
+Author:       W. Howard Buddin Jr., Ph.D.
+Category:           Article
+Date:                   06/26/2017 
+Tags:                   Research
+
+Consider the following statements: 
+
+1. I enjoy reading about/doing/analyzing statistics. 
+2. I am in private practice. 
+
+These two things are at odds with one another. In private practice, one doesn't really get to engage in research as often as they would in a hospital or university setting. I am in private practice, and *withdrawal* is the best way to describe my plight. All that said, I was super excited and satiated last night as I read through "Use of Latent Class Analysis to define groups based on validity, cognition, and emotional functioning" by Ruth T. Morin and Bradley N. Axelrod. It was a solid article, and addresses one of those "we all know it's a thing but the primary-source material isn't really there" conundrums. 
+
+I *was* going to go on and on about how much we all understand the inherent strengths and weaknesses in using certain cutoff scores in certain ways (particularly across separately-normed batteries), etc., etc. A better idea, though, is for you to download one of only a few copies, right [here][1].
+
+Special thanks to Dr. Axelrod for sharing this with the neuropsychology community! Also, if *you* and your colleagues have a new article that you'd like to share with everyone, [drop us a line](mailto:admin@neuropsychnow.com).
+
+
+[1]: http://www.tandfonline.com/eprint/XPwtngZVMHsxz6DrurBs/full
