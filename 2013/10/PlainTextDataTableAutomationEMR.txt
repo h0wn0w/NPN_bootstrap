@@ -8,5 +8,5 @@ Electronic medical records (EMR) have been used at various institutions for quit
 
 This particular [spreadsheet] generates a plaintext file using the native Windows application "Notepad.exe." Over time, a Mac OS version will be developed. This spreadsheet captures data calculated by the Calibrated Neuropsychological Normative System's Software Portfolio ([CNNS-SP]) and also has the capability of incorporating clinician-entered PAI data. There are macros embedded into the spreadsheet that can be viewed by going to `Tools> Macros`.
 
-[spreadsheet]: LINK???
+[spreadsheet]: http://nndocs.s3.amazonaws.com/CNNS%20CPRS%20Template%20v2.xlsm
 [CNNS-SP]: http://www4.parinc.com/Products/Product.aspx?ProductID=CNNS
