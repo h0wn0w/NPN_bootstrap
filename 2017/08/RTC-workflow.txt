@@ -1,0 +1,44 @@
+Title:      Quickly Set Return-to-Clinic Visits
+Author:     W. Howard Buddin Jr., Ph.D.
+Category:   Article
+Date:       08/28/2017 
+Tags:       Apps, iOS, Productivity, Tips, Workflow
+
+Setting up follow-up visits is not exactly an unsolved problem. The way it typically happens (e.g., patient takes another trip to the front desk, or calls back later — hopefully — to set up a visit for some weeks or months into the future) works, for the most part, but that doesn't mean it is necessarily the most *efficient* way to do it. I have it set up for my private practice so that the aforementioned process is eliminated, freeing up my office manager's time — and taking only a fraction of mine — to do more improtant things. 
+
+I use the following workflow to add patients to my practice calendar, so that they get a call to scheule either a six- or 12-month return to clinic/follow up visit. I love it, because I can add their and it shows up in 23 weeks (for a six-month follow-up) or 50 weeks (for a 12-month follow-up), cueing my office manager to call the patient (or their caregiver, parent, etc.) and schedule the appointment.
+
+I built this workflow using two iOS apps: [Workflow] and [Launch Center Pro]. 
+
+Here is how it works:
+
+![First, longpress on LCP’s icon][longpress]
+
+[longpress]: http://nnimages.s3.amazonaws.com/Article%20Images/longpress.jpg
+
+![Next, type in their name, and tap "OK"  ][modal_confirm]
+
+[modal_confirm]: http://nnimages.s3.amazonaws.com/Article%20Images/modal_confirm.jpg 
+
+Done. Like magic.
+
+Behind-the-scenes is a relatively simple series of steps. 
+
+![workflow recipe step 1][step 1]
+
+[step 1]: http://nnimages.s3.amazonaws.com/Article%20Images/script_1_cropped.jpg
+
+![workflow recipe step 2][step 2]
+
+[step 2]: http://nnimages.s3.amazonaws.com/Article%20Images/script_2_cropped.jpg
+
+![workflow recipe step 3][step 3]
+
+[step 3]: http://nnimages.s3.amazonaws.com/Article%20Images/script_3_cropped.jpg
+
+That's all there is to it. Ridiculously efficient.
+
+Like most components of my workflows and organizational system, this helps me to both get more work done in a shorter period of time and it keeps me from dropping the ball a lot more often.
+
+[Workflow]: https://www.workflow.is
+[Launch Center Pro]: https://contrast.co/launch-center-pro/
