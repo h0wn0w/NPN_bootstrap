@@ -20,6 +20,8 @@
 
 use warnings;
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use File::Find;
 use MultiMarkdownCMS;
 
@@ -34,7 +36,7 @@ print "Content-type: text/html\n\n";
 
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -89,7 +91,7 @@ sub index_file {
 		open (FILE, "<$filepath");
 		my $data = <FILE>;
 		close FILE;
-		
+
 		if ($data =~ /<meta\s*name="Date"\s*content="(.*?)"\/?>/i) {
 			$date = $1;
 			$date =~ s/(\d?\d)\/(\d\d)\/(\d\d\d\d).*/$3.$1.$2/;
@@ -103,6 +105,6 @@ sub index_file {
 			$pages{$year}{$month}{$day}{$filepath} = $title;
 		}
 	}
-	
-	
+
+
 }

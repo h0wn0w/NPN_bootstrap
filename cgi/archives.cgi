@@ -18,6 +18,8 @@
 #    59 Temple Place, Suite 330
 #    Boston, MA 02111-1307 USA
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use MultiMarkdownCMS;
 
 my $debug = 0;			# Enables extra output for debugging
@@ -25,7 +27,7 @@ my $debug = 0;			# Enables extra output for debugging
 print "Content-type: text/html\n\n";
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -71,8 +73,8 @@ if ($requested_url =~ /^\/?(\d\d\d\d).*?(\d\d)/) {
 				print "<li>$date: <a href=\"/$pages{$date}{$title}\">$title</a></li>\n";""
 			}
 		}
-		print "</ul>\n";	
-	}	
+		print "</ul>\n";
+	}
 } elsif ($requested_url =~ /^\/?(\d\d\d\d)/) {
 	# Print months in current year that have entries
 	my $year = $1;
@@ -81,10 +83,10 @@ if ($requested_url =~ /^\/?(\d\d\d\d).*?(\d\d)/) {
 	my $content = "";
 
 	my %months_with_entries = ();
-	
+
 	foreach my $filepath (glob("$site_root/$year/*/*.html")) {
 		$filepath =~ /\d\d\d\d\/(\d\d)/;
-		
+
 		$months_with_entries{$1} = 1;
 	}
 
@@ -103,7 +105,7 @@ $content
 } elsif ($requested_url =~ /^\/?archives/) {
 	my %pages = ();
 	my $content = "";
-	
+
 	foreach my $filepath (glob("$site_root/*/*/*.html")) {
 		if ($filepath =~ /(\d\d\d\d)\/(\d\d)/){
 			$pages{$1}{$2} = 1;
