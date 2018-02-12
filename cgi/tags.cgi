@@ -18,6 +18,8 @@
 #    59 Temple Place, Suite 330
 #    Boston, MA 02111-1307 USA
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use CGI;
 use File::Find;
 use MultiMarkdownCMS;
@@ -32,7 +34,7 @@ my $content = "";
 print "Content-type: text/html\n\n";
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -45,15 +47,15 @@ print qq{
 
 if ($document_url eq "/templates/tags.html") {
 	# We are looking for pages that match given tag(s)
-	
+
 	# Convert path into list of tags to match
 	my $path = $cgi->param('query');
-	
+
 	# Clean up tag names
 	$path =~ s/_/ /g;
-	
+
 	# Allow multiple tags separated by '/'
-	@tag_query = split('\s*/\s*',$path);	
+	@tag_query = split('\s*/\s*',$path);
 
 	# Index all documents
 	find(\&find_pages, $site_root);
@@ -61,14 +63,14 @@ if ($document_url eq "/templates/tags.html") {
 	$query = join(', ',@tag_query);
 	print qq{<h2>Pages tagged $query</h2>
 };
-	
+
 	if ($content) {print qq{
 <ul>
 $content
 </ul>
 };
 	};
-	
+
 } else {
 	# We are processing tags on a given page
 
@@ -96,7 +98,7 @@ $content
 sub find_pages {
 	# We're looking for .html files
 	my $filepath = $File::Find::name;
-	
+
 	if ($filepath =~ /\.html$/) {
 		local $/;
 		if (open (FILE, "<$filepath")) {
@@ -114,6 +116,6 @@ sub find_pages {
 				$content .= "<li><a href=\"$filepath\">$1</a></li>\n" if $match;
 			}
 		}
-		
+
 	}
 }

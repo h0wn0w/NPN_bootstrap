@@ -18,7 +18,8 @@
 #    59 Temple Place, Suite 330
 #    Boston, MA 02111-1307 USA
 
-
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use CGI;
 use File::Find;
 use MultiMarkdownCMS;
@@ -53,7 +54,7 @@ my $content = "";
 print "Content-type: text/html\n\n";
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -81,7 +82,7 @@ close TagCat;
 sub find_pages {
 	# We're looking for .html files
 	my $filepath = $File::Find::name;
-	
+
 	if ($filepath =~ /\.html$/) {
 		local $/;
 		if (open (FILE, "<$filepath")) {
@@ -96,6 +97,6 @@ sub find_pages {
 			}
 			$content .=  "</object>\n";
 		}
-		
+
 	}
 }

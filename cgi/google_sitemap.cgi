@@ -21,6 +21,8 @@
 use strict;
 use warnings;
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use File::Find;
 use CGI;
 use MultiMarkdownCMS;
@@ -32,7 +34,7 @@ print "Content-type: text/html\n\n";
 
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -42,10 +44,10 @@ print qq{
 	Document: $document_url<br/>
 } if $debug;
 
-# Determine local directory of "root" of web site and generate a 
+# Determine local directory of "root" of web site and generate a
 # "relative" URL request to that root
 #
-# $ENV{Base_URL} is set by apache's .htaccess configuration file on a 
+# $ENV{Base_URL} is set by apache's .htaccess configuration file on a
 #	per host basis
 
 #(my $request = $ENV{REQUEST_URI}) =~ s/$ENV{Base_URL}//;
@@ -77,19 +79,19 @@ print "</urlset>\n";
 
 sub index_file {
 	my $filepath = $File::Find::name;
-	
+
 	if ($filepath =~ s/^$root_folder(.*?)(index)?\.html$/$1/i) {
 		# Ignore certain files
 		return if ($filepath =~ /^\/(cgi\/|templates\/|google......|notfound|mt\/|mt-static)/);
-		
+
 		my $priority = "0.8";
 	#	my @d = gmtime ((stat("$File::Find::name"))[9]);	# get file's modification time
 		my @d = gmtime();
-		
+
 		my $lastmod = sprintf "%4d-%02d-%02dT%02d:%02d:%02d-04:00", $d[5]+1900,$d[4]+1,$d[3],$d[2],$d[1],$d[0];
-		
+
 		my $change = "<changefreq>daily</changefreq>\n";
-		
+
 		if ($filepath =~ /^$/) {
 			# Site root
 			$priority = "1.0";
@@ -103,5 +105,5 @@ $change<lastmod>$lastmod</lastmod>
 }
 
 	}
-	
+
 }

@@ -18,6 +18,8 @@
 #    59 Temple Place, Suite 330
 #    Boston, MA 02111-1307 USA
 
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use MultiMarkdownCMS;
 
 
@@ -38,7 +40,7 @@ if ($ENV{DOCUMENT_URI} =~ /(\/index.html|\/?\d+\/\d+\/index|\/?archives|\/.*tagm
 
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid

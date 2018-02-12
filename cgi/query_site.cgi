@@ -20,6 +20,8 @@
 
 use strict;
 use warnings;
+use FindBin 1.51 qw( $RealBin );
+use lib $RealBin;
 use VectorMap;
 use File::Find;
 use MultiMarkdownCMS;
@@ -37,7 +39,7 @@ my $content = "";
 
 
 # Get commonly needed paths
-my ($site_root, $requested_url, $document_url) 
+my ($site_root, $requested_url, $document_url)
 	= MultiMarkdownCMS::getHostingPaths($0);
 
 # Debugging aid
@@ -65,7 +67,7 @@ foreach my $a (sort { $matrix{$b} <=> $matrix{$a}} keys %matrix) {
 		close FILE;
 		$data =~ /Title:\s*(.*?)\n/;
 		$title = $1;
-	}	
+	}
 	(my $a1 = $a) =~ s/(\A$site_root|(\/index)?\.txt$)//g;
 	$content .= "<li><a href=\"$ENV{Base_URL}$a1\">$title</a>: $matrix{$a}</li>\n";
 }
